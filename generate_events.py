@@ -45,7 +45,7 @@ def format_event(event):
         "title": title
     }
 
-def generate_js(events, key="CAL1"):
+def generate_js(events, key="ESGT"):
     lines = [f"const events = {{ '{key}': ["]
     for e in events:
         lines.append(
@@ -73,7 +73,7 @@ def main():
 
     print(f"✅ {len(events)} événements extraits.")
 
-    js_code = generate_js(events, key="CAL1")
+    js_code = generate_js(events, key="ESGT")
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(js_code)
