@@ -5,12 +5,11 @@ import requests
 from ics import Calendar
 from datetime import datetime
 
-# 🔗 Mets ici ton lien ICS (depuis l'ENT ou Hyperplanning UNIV par exemple)
 ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52"
 OUTPUT_FILE = "univ_events.js"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
-# 🌍 Définir la locale française pour les noms de jours
+# 🌍 Locale FR pour avoir Lundi/Vendredi et pas Monday/Friday
 try:
     locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 except locale.Error:
@@ -20,14 +19,18 @@ def clean_text(text):
     if not text:
         return ""
     text = unicodedata.normalize("NFC", text)
-    return text.replace("\n", " ").replace("\r", "").strip()
+    # ➕ Échappement des apostrophes pour JS
+    return (
+        text.replace("\\", "\\\\")  # d'abord les antislashs
+            .replace("'", "\\'")    # ensuite les apostrophes
+            .replace("\n", " ")
+            .replace("\r", "")
+            .strip()
+    )
 
 def format_event(event):
-    dtstart_utc = event.begin.datetime.replace(tzinfo=pytz.UTC)
-    dtend_utc = event.end.datetime.replace(tzinfo=pytz.UTC)
-
-    dtstart = dtstart_utc.astimezone(TIMEZONE)
-    dtend = dtend_utc.astimezone(TIMEZONE)
+    dtstart = event.begin.astimezone(TIMEZONE)
+    dtend = event.end.astimezone(TIMEZONE)
 
     day_name = dtstart.strftime("%A").capitalize()
     date_str = dtstart.strftime("%d/%m/%Y")
@@ -44,7 +47,8 @@ def format_event(event):
         "date": date_str,
         "start": start_str,
         "end": end_str,
-        "title": title
+        "title": title,
+        "sort_key": dtstart
     }
 
 def generate_js(events, key="UNIV"):
@@ -57,10 +61,10 @@ def generate_js(events, key="UNIV"):
     return "\n".join(lines)
 
 def main():
-    print("📡 Téléchargement du fichier ICS...")
+    print("📡 Téléchargement de l'emploi du temps...")
     response = requests.get(ICS_URL)
     if response.status_code != 200:
-        print(f"❌ Échec du téléchargement (code {response.status_code}).")
+        print(f"❌ Échec du téléchargement (code {response.status_code})")
         return
 
     calendar = Calendar(response.text)
@@ -72,9 +76,10 @@ def main():
             if evt["day"] in ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]:
                 events.append(evt)
 
-    print(f"✅ {len(events)} événements extraits.")
+    events.sort(key=lambda x: x["sort_key"])
+    print(f"✅ {len(events)} événements formatés.")
 
-    js_code = generate_js(events, key="UNIV")
+    js_code = generate_js(events)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(js_code)
