@@ -1,7 +1,7 @@
 name: Génération automatique de events.js
 
 on:
-  workflow_dispatch:  # Permet de déclencher manuellement depuis l'onglet Actions
+  workflow_dispatch:  # Lancement manuel depuis GitHub
 
 jobs:
   build:
@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: 📥 Cloner le dépôt (branche main)
         uses: actions/checkout@v3
-        with:
-          ref: main
 
       - name: 🐍 Installer Python
         uses: actions/setup-python@v4
@@ -28,13 +26,3 @@ jobs:
       - name: 🔐 Configurer le dépôt avec le token GitHub
         run: |
           git remote set-url origin https://x-access-token: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@github.com/dioufousmane/calendriermosae.git
-
-      - name: ✅ Commit et push si events.js a changé
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add events.js
-          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Mise à jour automatique de events.js"
-          git pull --rebase origin main
-          git push origin main
-
