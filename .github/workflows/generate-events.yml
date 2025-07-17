@@ -5,14 +5,17 @@ import requests
 from ics import Calendar
 from datetime import datetime
 
+# 🔗 Mets ici ton lien ICS (depuis l'ENT ou Hyperplanning ESGT par exemple)
 ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
 OUTPUT_FILE = "events.js"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
+# 🌍 Définir la locale française pour les noms de jours
 try:
     locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 except locale.Error:
     locale.setlocale(locale.LC_TIME, '')
+
 def clean_text(text):
     if not text:
         return ""
@@ -53,12 +56,11 @@ def generate_js(events, key="ESGT"):
     lines.append("  ] };")
     return "\n".join(lines)
 
-
 def main():
     print("📡 Téléchargement du fichier ICS...")
     response = requests.get(ICS_URL)
     if response.status_code != 200:
-        print("❌ Échec du téléchargement.")
+        print(f"❌ Échec du téléchargement (code {response.status_code}).")
         return
 
     calendar = Calendar(response.text)
