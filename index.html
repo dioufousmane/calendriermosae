@@ -11,11 +11,11 @@
 
     <div class="calendar-controls">
         <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
-
-        <br>
-
         <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
+        <!--<button id="generateBtn">🔁 Regénérer les événements</button>-->
     </div>
+
+    <div id="status" class="status-message"></div>
 
     <div class="calendar-grid" id="calendarGrid">
         <!-- Grille de calendrier injectée par JS -->
@@ -23,10 +23,25 @@
 
     <div class="week-navigation">
         <button onclick="prevWeek()">⬅️ Semaine précédente</button>
-     <!--   <button onclick="goToCurrentWeek()">📅 Semaine actuelle</button>-->
+        <!-- <button onclick="goToCurrentWeek()">📅 Semaine actuelle</button> -->
         <button onclick="nextWeek()">➡️ Semaine suivante</button>
     </div>
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("generateBtn").addEventListener("click", () => {
+            const status = document.getElementById("status");
+            status.textContent = "⏳ Génération en cours...";
+
+            fetch("/generate-json", { method: "POST" })
+                .then(res => res.json())
+                .then(data => {
+                    status.textContent = data.message || "✅ Mise à jour réussie.";
+                })
+                .catch(err => {
+                    status.textContent = "❌ Erreur : " + err;
+                });
+        });
+    </script>
 </body>
 </html>
