@@ -19,7 +19,7 @@ jobs:
 
       - name: ⚙️ Générer le fichier JSON ESGT
         run: |
-          python generate_esgt_json.py
+          python univ_generate_events.py
 
       - name: 📤 Commit et push du fichier
         run: |
