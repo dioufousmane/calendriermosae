@@ -1,0 +1,34 @@
+name: Génération automatique de events.js
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-generate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Cloner le dépôt
+      uses: actions/checkout@v3
+
+    - name: 🐍 Installer Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: 🛠 Installer les dépendances Python
+      run: pip install ics pytz requests
+
+    - name: ⚙️ Générer events.js depuis generate_events.py
+      run: python generate_events.py
+
+    - name: ✅ Commit & push events.js
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add events.js
+        git commit -m "🔄 Mise à jour automatique de events.js"
+        git push
