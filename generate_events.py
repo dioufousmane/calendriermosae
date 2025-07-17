@@ -13,7 +13,6 @@ try:
     locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 except locale.Error:
     locale.setlocale(locale.LC_TIME, '')
-
 def clean_text(text):
     if not text:
         return ""
