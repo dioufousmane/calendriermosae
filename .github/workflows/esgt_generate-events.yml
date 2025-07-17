@@ -1,4 +1,4 @@
-name: Génération automatique de l'EDT ESGT MOSAE 1.js
+name: Génération automatique de l'EDT ESGT MOSAE 1
 
 on:
   workflow_dispatch:  # Lancement manuel depuis GitHub
