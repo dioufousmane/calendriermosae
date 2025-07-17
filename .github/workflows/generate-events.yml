@@ -26,7 +26,7 @@ jobs:
 
       - name: 🔐 Configurer le dépôt avec le token GitHub
         run: |
-          git remote set-url origin https://x-access-token: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@github.com/dioufousmane/calendriermosae.git
+          git remote set-url origin https://x-access-token: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@github.com/dioufousmane/calendriermosae.git
 
 
       - name: ✅ Commit et push si events.js a changé
