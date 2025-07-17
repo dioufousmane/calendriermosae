@@ -1,12 +1,11 @@
-
-import os
 import unicodedata
 import pytz
 import locale
+import requests
 from ics import Calendar
 from datetime import datetime
 
-ICS_FOLDER = "ics"
+ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
 OUTPUT_FILE = "events.js"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
@@ -19,7 +18,7 @@ def clean_text(text):
     if not text:
         return ""
     text = unicodedata.normalize("NFC", text)
-    return text.replace("\n", "\n").replace("\r", "").replace("\n", " ").strip()
+    return text.replace("\n", " ").replace("\r", "").strip()
 
 def format_event(event):
     dtstart_utc = event.begin.datetime.replace(tzinfo=pytz.UTC)
@@ -35,7 +34,6 @@ def format_event(event):
 
     title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
-
     if description:
         title += "\\n" + description
 
@@ -47,46 +45,39 @@ def format_event(event):
         "title": title
     }
 
-def parse_ics_file(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
-        calendar = Calendar(f.read())
+def generate_js(events, key="CAL1"):
+    lines = [f"const events = {{ '{key}': ["]
+    for e in events:
+        lines.append(
+            f"    {{ day: '{e['day']}', date: '{e['date']}', start: '{e['start']}', end: '{e['end']}', title: '{e['title']}' }},"
+        )
+    lines.append("  ] };")
+    return "\n".join(lines)
+
+def main():
+    print("📡 Téléchargement du fichier ICS...")
+    response = requests.get(ICS_URL)
+    if response.status_code != 200:
+        print("❌ Échec du téléchargement.")
+        return
+
+    calendar = Calendar(response.text)
     events = []
+
     for event in calendar.events:
         if event.begin and event.end:
             evt = format_event(event)
             if evt["day"] in ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]:
                 events.append(evt)
-    return events
 
-def generate_js(event_dict):
-    lines = ["const events = {"]
-    for key, evts in event_dict.items():
-        lines.append(f"  '{key}': [")
-        for e in evts:
-            lines.append(
-                f"    {{ day: '{e['day']}', date: '{e['date']}', start: '{e['start']}', end: '{e['end']}', title: '{e['title']}' }},"
-            )
-        lines.append("  ],")
-    lines.append("};")
-    return "\n".join(lines)
+    print(f"✅ {len(events)} événements extraits.")
 
-def main():
-    print("📁 Lecture des fichiers ICS dans le dossier /ics/")
-    all_events = {}
-
-    for filename in os.listdir(ICS_FOLDER):
-        if filename.endswith(".ics"):
-            name = os.path.splitext(filename)[0].upper()
-            print(f"🔄 Traitement de {filename} → {name}")
-            full_path = os.path.join(ICS_FOLDER, filename)
-            all_events[name] = parse_ics_file(full_path)
-
-    js_code = generate_js(all_events)
+    js_code = generate_js(events, key="CAL1")
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(js_code)
 
-    print(f"✅ Fichier '{OUTPUT_FILE}' généré avec succès avec {len(all_events)} groupes.")
+    print(f"📄 Fichier {OUTPUT_FILE} généré avec succès.")
 
 if __name__ == "__main__":
     main()

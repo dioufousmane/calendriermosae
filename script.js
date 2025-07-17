@@ -6,31 +6,16 @@ const interval = 15;
 const baseDate = new Date(2025, 8, 1); // 1er septembre 2025 (mois = 8 car janvier = 0)
 let currentWeekOffset = 0;
 
-/*const events = {
-    'MOSAE1': [
-        { day: 'Lundi', date: '15/07/2025', start: '08:00', end: '09:45', title: 'RENTREE\nDIOUF, DURAND' },
-        { day: 'Mardi', date: '02/09/2025', start: '10:00', end: '11:15', title: 'SIG - DIOUF' },
-        { day: 'Mercredi', date: '03/09/2025', start: '10:00', end: '11:15', title: 'SIG - DIOUF' },
-        { day: 'Jeudi', date: '04/09/2025', start: '10:00', end: '11:15', title: 'SIG - DIOUF' },
-        { day: 'Vendredi', date: '05/09/2025', start: '10:00', end: '11:15', title: 'SIG - DIOUF' },
-        { day: 'Jeudi', date: '04/09/2025', start: '14:00', end: '15:15', title: 'Réf. Jur & Foncier - BOTREL' },
-        { day: 'Vendredi', date: '05/09/2025', start: '14:00', end: '15:15', title: 'Réf. Jur & Foncier - GOUSSOUTOU' },
-        { day: 'Vendredi', date: '05/09/2025', start: '15:30', end: '16:45', title: 'Géodésie - MOREL' }
-    ],
-    'CAL2': [],
-    'CAL3': [],
-    'CAL4': []
-};*/
 
-async function loadICSForCAL2() {
+async function loadICSForUNIV() {
     try {
-        const response = await fetch("https://dioufousmane.github.io/calendriermosae/mosae.ics"); // Ton vrai lien ici
+        const response = await fetch(""); // Ton vrai lien ici
         const icsText = await response.text();
         const parsedEvents = parseICS(icsText);
-        events['CAL2'] = parsedEvents;
+        events['UNIV'] = parsedEvents;
         createCalendarGrid();
     } catch (error) {
-        console.error("Erreur de chargement du fichier CAL2.ics :", error);
+        console.error("Erreur de chargement du fichier UNIV.ics :", error);
     }
 }
 
@@ -183,16 +168,16 @@ function updateWeekLabel() {
 }
 
 function toggleCalendar(name) {
-    if (name === "CAL2" && events["CAL2"].length === 0) {
-        loadICSForCAL2();
+    if (name === "UNIV" && events["UNIV"].length === 0) {
+        loadICSForUNIV();
     } else {
         createCalendarGrid();
     }
 }
 
 function refreshCalendar(name) {
-    if (name === "CAL2") {
-        loadICSForCAL2();
+    if (name === "UNIV") {
+        loadICSForUNIV();
     } else {
         createCalendarGrid();
     }
@@ -218,6 +203,6 @@ function downloadICS(name) {
 }
 
 window.onload = async () => {
-    await loadICSForCAL2();
+    await loadICSForUNIV();
     createCalendarGrid();
 };

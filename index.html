@@ -2,21 +2,21 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Calendrier MOSAE1 et CAL2</title>
+    <title>Calendrier ESGT et UNIV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calendrier Semaine – MOSAE1 et CAL2</h1>
+    <h1>Calendrier Semaine – ESGT et UNIV</h1>
     <h2 id="weekLabel"></h2>
 
     <div class="calendar-controls">
-        <label><input type="checkbox" checked onchange="toggleCalendar('MOSAE1')"> MOSAE1</label>
-        <button onclick="refreshCalendar('MOSAE1')">🔄 Rafraîchir</button>
+        <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
+        <button onclick="refreshCalendar('ESGT')">🔄 Rafraîchir</button>
 
         <br>
 
-        <label><input type="checkbox" checked onchange="toggleCalendar('CAL2')"> CAL2</label>
-        <button onclick="refreshCalendar('CAL2')">🔄 Rafraîchir</button>
+        <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
+        <button onclick="refreshCalendar('UNIV')">🔄 Rafraîchir</button>
     </div>
 
     <div class="calendar-grid" id="calendarGrid">
@@ -28,9 +28,9 @@
      <!--   <button onclick="goToCurrentWeek()">📅 Semaine actuelle</button>-->
         <button onclick="nextWeek()">➡️ Semaine suivante</button>
     </div>
+<script src="events.js"></script>
 
 <script src="script.js"></script>
-<script src="events.js"></script>
 
 </body>
 </html>
