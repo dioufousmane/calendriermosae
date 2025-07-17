@@ -1,0 +1,28 @@
+name: Génération automatique de l'EDT UNIV MOSAE 1
+
+on:
+  workflow_dispatch:  # Lancement manuel depuis GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Cloner le dépôt (branche main)
+        uses: actions/checkout@v3
+
+      - name: 🐍 Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Installer les dépendances
+        run: |
+          pip install ics pytz requests
+
+      - name: ⚙️ Exécuter le script Python
+        run: python generate_events.py
+
+      - name: 🔐 Configurer le dépôt avec le token GitHub
+        run: |
+          git remote set-url origin https://x-access-token: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@github.com/dioufousmane/calendriermosae.git
