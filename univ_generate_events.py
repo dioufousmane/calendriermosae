@@ -5,9 +5,9 @@ import requests
 from ics import Calendar
 from datetime import datetime
 
-# 🔗 Mets ici ton lien ICS (depuis l'ENT ou Hyperplanning ESGT par exemple)
-ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
-OUTPUT_FILE = "events.js"
+# 🔗 Mets ici ton lien ICS (depuis l'ENT ou Hyperplanning UNIV par exemple)
+ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=8&calType=ical&nbWeeks=4"
+OUTPUT_FILE = "univ_events.js"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
 # 🌍 Définir la locale française pour les noms de jours
@@ -47,7 +47,7 @@ def format_event(event):
         "title": title
     }
 
-def generate_js(events, key="ESGT"):
+def generate_js(events, key="UNIV"):
     lines = [f"const events = {{ '{key}': ["]
     for e in events:
         lines.append(
@@ -74,7 +74,7 @@ def main():
 
     print(f"✅ {len(events)} événements extraits.")
 
-    js_code = generate_js(events, key="ESGT")
+    js_code = generate_js(events, key="UNIV")
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(js_code)

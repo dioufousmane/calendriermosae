@@ -21,7 +21,7 @@ jobs:
           pip install ics pytz requests
 
       - name: ⚙️ Exécuter le script Python
-        run: python generate_events.py
+        run: python esgt_generate_events.py
 
       - name: 🔐 Configurer le dépôt avec le token GitHub
         run: |
