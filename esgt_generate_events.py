@@ -2,15 +2,16 @@ import unicodedata
 import pytz
 import locale
 import requests
+import json
 from ics import Calendar
 from datetime import datetime
 
-# 🔗 Mets ici ton lien ICS (depuis l'ENT ou Hyperplanning ESGT par exemple)
+# 🔗 Lien ICS à personnaliser
 ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
-OUTPUT_FILE = "esgt_events.js"
+OUTPUT_FILE = "esgt_events.json"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
-# 🌍 Définir la locale française pour les noms de jours
+# 🌍 Locale pour affichage des jours en français
 try:
     locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 except locale.Error:
@@ -37,7 +38,7 @@ def format_event(event):
     title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
     if description:
-        title += "\\n" + description
+        title += "\n" + description
 
     return {
         "day": day_name,
@@ -46,15 +47,6 @@ def format_event(event):
         "end": end_str,
         "title": title
     }
-
-def generate_js(events, key="ESGT"):
-    lines = [f"const events = {{ '{key}': ["]
-    for e in events:
-        lines.append(
-            f"    {{ day: '{e['day']}', date: '{e['date']}', start: '{e['start']}', end: '{e['end']}', title: '{e['title']}' }},"
-        )
-    lines.append("  ] };")
-    return "\n".join(lines)
 
 def main():
     print("📡 Téléchargement du fichier ICS...")
@@ -74,10 +66,8 @@ def main():
 
     print(f"✅ {len(events)} événements extraits.")
 
-    js_code = generate_js(events, key="ESGT")
-
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(js_code)
+        json.dump(events, f, indent=2, ensure_ascii=False)
 
     print(f"📄 Fichier {OUTPUT_FILE} généré avec succès.")
 

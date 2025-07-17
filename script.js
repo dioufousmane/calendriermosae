@@ -3,75 +3,20 @@ const startHour = 8;
 const endHour = 20;
 const interval = 15;
 
-const baseDate = new Date(2025, 8, 1); // 1er septembre 2025 (mois = 8 car janvier = 0)
+const baseDate = new Date(2025, 8, 1); // 1er septembre 2025
 let currentWeekOffset = 0;
 
+if (typeof events === 'undefined') var events = {};
 
-async function loadICSForUNIV() {
-    try {
-        const response = await fetch(""); // Ton vrai lien ici
-        const icsText = await response.text();
-        const parsedEvents = parseICS(icsText);
-        events['UNIV'] = parsedEvents;
-        createCalendarGrid();
-    } catch (error) {
-        console.error("Erreur de chargement du fichier UNIV.ics :", error);
-    }
-}
-
-function parseICS(icsText) {
-    const lines = icsText.split(/\r?\n/);
-    const result = [];
-    let current = {};
-
-    lines.forEach(line => {
-        if (line.startsWith("BEGIN:VEVENT")) {
-            current = {};
-        } else if (line.startsWith("DTSTART:")) {
-            const date = parseICSTime(line.slice(8));
-            current.date = formatDate(date);
-            current.start = formatTime(date);
-            current._jsDate = date; // pour récupérer le jour ensuite
-        } else if (line.startsWith("DTEND:")) {
-            const date = parseICSTime(line.slice(6));
-            current.end = formatTime(date);
-        } else if (line.startsWith("SUMMARY")) {
-            const value = line.split(":").slice(1).join(":").trim();
-            current.title = value;
-        } else if (line.startsWith("DESCRIPTION")) {
-            const value = line.split(":").slice(1).join(":").replace(/\\n/g, '\n').trim();
-            current.description = value;
-        } else if (line.startsWith("LOCATION")) {
-            const value = line.split(":").slice(1).join(":").trim();
-            current.location = value;
-        } else if (line.startsWith("END:VEVENT")) {
-            const weekdayIndex = current._jsDate.getDay(); // 0 = dimanche, 1 = lundi
-            if (weekdayIndex >= 1 && weekdayIndex <= 5) {
-                current.day = days[weekdayIndex - 1];
-                result.push(current);
-            }
-        }
-    });
-
-    return result;
-}
-
-function parseICSTime(value) {
-    const year = parseInt(value.slice(0, 4));
-    const month = parseInt(value.slice(4, 6)) - 1;
-    const day = parseInt(value.slice(6, 8));
-    const hour = parseInt(value.slice(9, 11));
-    const minute = parseInt(value.slice(11, 13));
-    return new Date(Date.UTC(year, month, day, hour, minute)); // UTC → converti local
-}
-
-function formatTime(date) {
-    return date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-}
-
-function formatDate(date) {
-    return date.toLocaleDateString('fr-FR');
-}
+Promise.all([
+  fetch('esgt_events.json').then(res => res.json()),
+  fetch('univ_events.json').then(res => res.json())
+])
+.then(([esgt, univ]) => {
+  events['ESGT'] = esgt;
+  events['UNIV'] = univ;
+  createCalendarGrid();
+});
 
 function createCalendarGrid() {
     const grid = document.getElementById("calendarGrid");
@@ -80,19 +25,24 @@ function createCalendarGrid() {
     const currentWeekStart = new Date(baseDate);
     currentWeekStart.setDate(currentWeekStart.getDate() + currentWeekOffset * 7);
 
-    grid.appendChild(document.createElement('div')); // coin vide
+    // Coin vide
+    const corner = document.createElement('div');
+    grid.appendChild(corner);
 
+    // Entêtes (deux par jour : ESGT et UNIV)
     days.forEach((day, index) => {
-        const dayDate = new Date(currentWeekStart);
-        dayDate.setDate(dayDate.getDate() + index);
-        const formattedDate = dayDate.toLocaleDateString('fr-FR', {
-            day: '2-digit',
-            month: '2-digit'
+        ['ESGT', 'UNIV'].forEach(cal => {
+            const dayDate = new Date(currentWeekStart);
+            dayDate.setDate(dayDate.getDate() + index);
+            const formattedDate = dayDate.toLocaleDateString('fr-FR', {
+                day: '2-digit',
+                month: '2-digit'
+            });
+            const div = document.createElement('div');
+            div.className = `header header-${cal.toLowerCase()}`;
+            div.innerText = `${day} (${cal})\n${formattedDate}`;
+            grid.appendChild(div);
         });
-        const div = document.createElement('div');
-        div.className = "header";
-        div.innerText = `${day} ${formattedDate}`;
-        grid.appendChild(div);
     });
 
     const intervalsPerHour = 60 / interval;
@@ -107,10 +57,14 @@ function createCalendarGrid() {
         grid.appendChild(timeLabel);
 
         for (let d = 0; d < days.length; d++) {
-            const cell = document.createElement('div');
-            cell.dataset.day = days[d];
-            cell.dataset.time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
-            grid.appendChild(cell);
+            ['ESGT', 'UNIV'].forEach(cal => {
+                const cell = document.createElement('div');
+                cell.dataset.day = days[d];
+                cell.dataset.calendar = cal;
+                cell.dataset.time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+                cell.classList.add(`col-${cal.toLowerCase()}`);
+                grid.appendChild(cell);
+            });
         }
     }
 
@@ -126,7 +80,7 @@ function renderEvents() {
     const currentWeekStart = new Date(baseDate);
     currentWeekStart.setDate(currentWeekStart.getDate() + currentWeekOffset * 7);
     const currentWeekEnd = new Date(currentWeekStart);
-    currentWeekEnd.setDate(currentWeekStart.getDate() + 6);
+    currentWeekEnd.setDate(currentWeekStart.getDate() + 4);
 
     Object.keys(events).forEach(cal => {
         const checkbox = document.querySelector(`input[type="checkbox"][onchange*="${cal}"]`);
@@ -144,7 +98,10 @@ function renderEvents() {
 
             const rowStart = Math.floor((startTotal - startHour * 60) / interval) + 1;
             const span = (endTotal - startTotal) / interval;
-            const colIndex = days.indexOf(evt.day) + 2;
+
+            const baseCol = days.indexOf(evt.day) + 2;
+            const calOffset = (cal === "ESGT") ? 0 : 1;
+            const colIndex = baseCol * 2 + calOffset - 2;
 
             const eventDiv = document.createElement('div');
             eventDiv.className = "event-block";
@@ -168,19 +125,11 @@ function updateWeekLabel() {
 }
 
 function toggleCalendar(name) {
-    if (name === "UNIV" && events["UNIV"].length === 0) {
-        loadICSForUNIV();
-    } else {
-        createCalendarGrid();
-    }
+    createCalendarGrid();
 }
 
 function refreshCalendar(name) {
-    if (name === "UNIV") {
-        loadICSForUNIV();
-    } else {
-        createCalendarGrid();
-    }
+    createCalendarGrid();
 }
 
 function nextWeek() {
@@ -198,11 +147,6 @@ function goToCurrentWeek() {
     createCalendarGrid();
 }
 
-function downloadICS(name) {
-    window.location.href = `${name}.ics`;
-}
-
-window.onload = async () => {
-    await loadICSForUNIV();
+window.onload = () => {
     createCalendarGrid();
 };
