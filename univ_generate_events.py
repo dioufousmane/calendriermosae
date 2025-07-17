@@ -6,7 +6,7 @@ from ics import Calendar
 from datetime import datetime
 
 # 🔗 Mets ici ton lien ICS (depuis l'ENT ou Hyperplanning UNIV par exemple)
-ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=8&calType=ical&nbWeeks=4"
+ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52"
 OUTPUT_FILE = "univ_events.js"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
