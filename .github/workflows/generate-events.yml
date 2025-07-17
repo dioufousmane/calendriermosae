@@ -1,4 +1,4 @@
-name: Génération automatique de events.js
+name: Génération automatique de pour MOSAE 1 ESGT.js
 
 on:
   push:
