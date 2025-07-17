@@ -54,6 +54,7 @@ def generate_js(events, key="CAL1"):
     lines.append("  ] };")
     return "\n".join(lines)
 
+
 def main():
     print("📡 Téléchargement du fichier ICS...")
     response = requests.get(ICS_URL)
