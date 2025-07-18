@@ -1,5 +1,4 @@
-
-/* === BASE === */
+/* === GENERAL === */
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 /* === TITLE === */
@@ -31,12 +31,6 @@ h1 i {
     color: #ecf0f1;
 }
 
-.badge-esgt, .badge-univ {
-    padding: 2px 6px;
-    border-radius: 6px;
-    font-weight: 600;
-}
-
 .badge-esgt {
     background-color: #4CAF50;
     color: white;
@@ -45,6 +39,14 @@ h1 i {
 .badge-univ {
     background-color: #2196F3;
     color: white;
+}
+
+.badge-esgt,
+.badge-univ {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.85rem;
 }
 
 h2#weekLabel {
@@ -73,6 +75,7 @@ h2#weekLabel {
     cursor: pointer;
     transition: background-color 0.3s;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+    user-select: none;
 }
 
 .calendar-controls label:hover {
@@ -132,12 +135,12 @@ h2#weekLabel {
     color: white;
 }
 
-.header-esgt {
-    background-color: #388e3c;
+.header-esgt2 {
+    background-color: #43a047;
 }
 
-.header-univ {
-    background-color: #1565c0;
+.header-univ2 {
+    background-color: #1e88e5;
 }
 
 /* === TIME LABEL === */
@@ -150,35 +153,50 @@ h2#weekLabel {
 }
 
 /* === COLUMN BACKGROUNDS === */
-.col-esgt {
-    background-color: #f1f8f2;
+.col-esgt2 {
+    background-color: #e8f5e9;
 }
 
-.col-univ {
-    background-color: #f0f6fd;
+.col-univ2 {
+    background-color: #e3f2fd;
 }
 
 /* === EVENT BLOCKS === */
 .event-block {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     padding: 6px 8px;
     border-radius: 6px;
     color: white;
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
-    white-space: pre-line;
-    line-height: 2;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    animation: fadeIn 0.3s ease-in;
+    cursor: help;
 }
 
-.event-esgt {
+.event-block:hover {
+    z-index: 2;
+    white-space: pre-line;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.event-esgt2 {
     background-color: #4CAF50;
     border: 1px solid #388E3C;
 }
 
-.event-univ {
+.event-univ2 {
     background-color: #2196F3;
     border: 1px solid #1976D2;
+}
+
+/* === ANIMATION === */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 /* === RESPONSIVE === */
@@ -212,5 +230,10 @@ h2#weekLabel {
 
     h2#weekLabel {
         font-size: 1rem;
+    }
+
+    .event-block {
+        font-size: 0.6rem;
+        padding: 4px 6px;
     }
 }
