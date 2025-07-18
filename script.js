@@ -142,15 +142,15 @@ function prevWeek() {
     createCalendarGrid();
 }
 
-function goToCurrentWeek() {
-    currentWeekOffset = 0;
-    createCalendarGrid();
-}
-
 window.onload = () => {
     createCalendarGrid();
 };
 
+function goToCurrentWeek() {
+    currentWeekOffset = 0;
+    createCalendarGrid();
+  }
+  
 
 document.getElementById("generateBtn").addEventListener("click", () => {
   fetch("/generate-json", { method: "POST" })
