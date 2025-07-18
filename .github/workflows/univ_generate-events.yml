@@ -1,12 +1,12 @@
-name: Générer les événements ESGT & UNIV
+name: 🔄 Générer les événements UNIV
 
 on:
   workflow_dispatch:  # Lancement manuel
   schedule:
-    - cron: "0 4 * * 1"  # Tous les lundis à 4h du matin
+    - cron: "30 4 * * 1"  # Chaque lundi à 4h30 (décalage pour éviter collision)
 
 jobs:
-  generate-events:
+  univ:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,21 +18,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install ics pytz requests
 
-      - name: ⚙️ Exécuter les scripts Python
+      - name: ⚙️ Exécuter le script UNIV
         run: |
-          python esgt_generate_events.py
           python univ_generate_events.py
 
-      - name: 📤 Commit et push des fichiers JSON
+      - name: 📤 Commit et push du fichier UNIV
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add esgt_events.json univ_events.json
+          git add static/univ_events.json
 
-          # S'il n'y a aucun changement, on évite le commit
           if git diff --cached --quiet; then
-            echo "✅ Aucun changement à committer."
+            echo "✅ Aucun changement à committer pour UNIV."
           else
-            git commit -m "🔄 Mise à jour automatique des événements JSON"
+            git commit -m "🔄 Mise à jour UNIV automatique"
             git push
           fi

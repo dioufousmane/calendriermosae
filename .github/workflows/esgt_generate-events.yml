@@ -1,0 +1,36 @@
+name: 🔄 Générer les événements ESGT
+
+on:
+  workflow_dispatch:  # Lancement manuel
+  schedule:
+    - cron: "0 4 * * 1"  # Chaque lundi à 4h
+
+jobs:
+  esgt:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Cloner le dépôt
+        uses: actions/checkout@v3
+
+      - name: 🐍 Installer Python et dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install ics pytz requests
+
+      - name: ⚙️ Exécuter le script ESGT
+        run: |
+          python esgt_generate_events.py
+
+      - name: 📤 Commit et push du fichier ESGT
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add static/esgt_events.json
+
+          if git diff --cached --quiet; then
+            echo "✅ Aucun changement à committer pour ESGT."
+          else
+            git commit -m "🔄 Mise à jour ESGT automatique"
+            git push
+          fi
