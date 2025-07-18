@@ -1,4 +1,4 @@
-name: Générer les événements M1 ESGT
+name: Générer les événements M2 ESGT 
 
 on:
   workflow_dispatch:
@@ -28,7 +28,7 @@ jobs:
 
       - name: ⚙️ Générer le fichier JSON ESGT
         run: |
-          python esgt_generate_events.py
+          python esgt_generate_events2.py
 
       - name: 📤 Commit & push si le fichier a changé
         run: |

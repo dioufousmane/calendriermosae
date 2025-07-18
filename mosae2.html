@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
+        <a href="mosae1.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+          <i class="fa-solid fa-calendar-check"></i> MOSAE 1
+        </a>
+        <a href="mosae2.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+          <i class="fa-solid fa-calendar"></i> MOSAE 2
+        </a>
+      </nav>
+      <head>
+        <meta charset="UTF-8">
+        <title>EDT MOSAE 2 - ESGT et UNIV</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 2  – <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span></h1>
+    <h2 id="weekLabel"></h2>
+
+  <div class="calendar-controls">
+    <label><input type="checkbox" checked onchange="toggleCalendar('ESGT2')"> ESGT</label>
+    <label><input type="checkbox" checked onchange="toggleCalendar('UNIV2')"> UNIV</label>
+    <button onclick="prevWeek()">⬅️ Semaine précédente</button>
+    <button onclick="nextWeek()">➡️ Semaine suivante</button>
+  </div>
+
+  <div id="status" class="status-message"></div>
+  <div class="calendar-grid" id="calendarGrid"></div>
+
+  <!-- Script de base partagé -->
+  <script src="script2.js"></script>
+
+  <!-- Spécifique à MOSAE2 -->
+  <script src="all_events2.js"></script>
+</body>
+</html>

@@ -16,9 +16,9 @@ function createCalendarGrid() {
     const corner = document.createElement('div');
     grid.appendChild(corner);
 
-    // Entêtes (deux par jour : ESGT et UNIV)
+    // Entêtes (deux par jour : ESGT2 et UNIV2)
     days.forEach((day, index) => {
-        ['ESGT', 'UNIV'].forEach(cal => {
+        ['ESGT2', 'UNIV2'].forEach(cal => {
             const dayDate = new Date(currentWeekStart);
             dayDate.setDate(dayDate.getDate() + index);
             const formattedDate = dayDate.toLocaleDateString('fr-FR', {
@@ -44,7 +44,7 @@ function createCalendarGrid() {
         grid.appendChild(timeLabel);
 
         for (let d = 0; d < days.length; d++) {
-            ['ESGT', 'UNIV'].forEach(cal => {
+            ['ESGT2', 'UNIV2'].forEach(cal => {
                 const cell = document.createElement('div');
                 cell.dataset.day = days[d];
                 cell.dataset.calendar = cal;
@@ -87,7 +87,7 @@ function renderEvents() {
             const span = (endTotal - startTotal) / interval;
 
             const baseCol = days.indexOf(evt.day) + 2;
-            const calOffset = (cal === "ESGT") ? 0 : 1;
+            const calOffset = (cal === "ESGT2") ? 0 : 1;
             const colIndex = baseCol * 2 + calOffset - 2;
 
             const eventDiv = document.createElement('div');

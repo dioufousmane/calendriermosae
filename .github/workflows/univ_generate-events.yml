@@ -1,4 +1,4 @@
-name: Générer les événements UNIV
+name: Générer les événements M1 UNIV
 
 on:
   workflow_dispatch:
