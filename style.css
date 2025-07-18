@@ -98,7 +98,7 @@ h2#weekLabel {
     background-color: #2980b9;
 }
 
-/* === GRID STRUCTURE === */
+/* === GRID STRUCTURE === */  
 .calendar-grid {
     display: grid;
     grid-template-columns: 60px repeat(10, 1fr);

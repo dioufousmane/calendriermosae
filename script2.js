@@ -5,6 +5,7 @@ const interval = 15;
 
 const baseDate = new Date(2025, 8, 1); // 1er septembre 2025
 let currentWeekOffset = 0;
+
 function createCalendarGrid() {
     const grid = document.getElementById("calendarGrid");
     grid.innerHTML = "";
@@ -31,17 +32,15 @@ function createCalendarGrid() {
             grid.appendChild(div);
         });
     });
-    
+
     const intervalsPerHour = 60 / interval;
     const totalRows = (endHour - startHour) * intervalsPerHour;
 
     for (let i = 0; i < totalRows; i++) {
         const hour = startHour + Math.floor(i * interval / 60);
         const minute = (i * interval) % 60;
-        const timeLabel = document.createElement('div');
-        timeLabel.className = "time-label";
-        timeLabel.innerText = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
-        grid.appendChild(timeLabel);
+
+        // Pas d'affichage d'heure (timeLabel)
 
         for (let d = 0; d < days.length; d++) {
             ['ESGT2', 'UNIV2'].forEach(cal => {
@@ -83,8 +82,8 @@ function renderEvents() {
             const startTotal = startParts[0] * 60 + startParts[1];
             const endTotal = endParts[0] * 60 + endParts[1];
 
-            const rowStart = Math.floor((startTotal - startHour * 60) / interval) + 1;
-            const span = (endTotal - startTotal) / interval;
+            const rowStart = Math.floor((startTotal - startHour * 60) / interval);
+            const span = Math.ceil((endTotal - startTotal) / interval);
 
             const baseCol = days.indexOf(evt.day) + 2;
             const calOffset = (cal === "ESGT2") ? 0 : 1;
@@ -94,7 +93,7 @@ function renderEvents() {
             eventDiv.className = "event-block";
             eventDiv.classList.add(`event-${cal.toLowerCase()}`);
             eventDiv.style.gridColumn = colIndex;
-            eventDiv.style.gridRow = `${rowStart + 1} / span ${span}`;
+            eventDiv.style.gridRow = `${rowStart + 2} / span ${span}`; // +2 = ligne d'entête + 1-based grid
             eventDiv.innerText = `${evt.title}\n${evt.date} ${evt.start} - ${evt.end}`;
             grid.appendChild(eventDiv);
         });
@@ -129,23 +128,22 @@ function prevWeek() {
     createCalendarGrid();
 }
 
+function goToCurrentWeek() {
+    currentWeekOffset = 0;
+    createCalendarGrid();
+}
+
 window.onload = () => {
     createCalendarGrid();
 };
 
-function goToCurrentWeek() {
-    currentWeekOffset = 0;
-    createCalendarGrid();
-  }
-  
-
 document.getElementById("generateBtn").addEventListener("click", () => {
-  fetch("/generate-json", { method: "POST" })
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById("status").innerText = data.message || "OK !";
-    })
-    .catch(err => {
-      document.getElementById("status").innerText = "Erreur : " + err;
-    });
+    fetch("/generate-json", { method: "POST" })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("status").innerText = data.message || "OK !";
+        })
+        .catch(err => {
+            document.getElementById("status").innerText = "Erreur : " + err;
+        });
 });
