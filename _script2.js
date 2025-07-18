@@ -1,6 +1,6 @@
 const days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi'];
 const startHour = 8;
-const endHour = 18.5;
+const endHour = 20;
 const interval = 15;
 
 const baseDate = new Date(2025, 8, 1); // 1er septembre 2025
@@ -16,9 +16,9 @@ function createCalendarGrid() {
     const corner = document.createElement('div');
     grid.appendChild(corner);
 
-    // Entêtes (deux par jour : ESGT et UNIV)
+    // Entêtes (deux par jour : ESGT2 et UNIV2)
     days.forEach((day, index) => {
-        ['ESGT', 'UNIV'].forEach(cal => {
+        ['ESGT2', 'UNIV2'].forEach(cal => {
             const dayDate = new Date(currentWeekStart);
             dayDate.setDate(dayDate.getDate() + index);
             const formattedDate = dayDate.toLocaleDateString('fr-FR', {
@@ -44,7 +44,7 @@ function createCalendarGrid() {
         grid.appendChild(timeLabel);
 
         for (let d = 0; d < days.length; d++) {
-            ['ESGT', 'UNIV'].forEach(cal => {
+            ['ESGT2', 'UNIV2'].forEach(cal => {
                 const cell = document.createElement('div');
                 cell.dataset.day = days[d];
                 cell.dataset.calendar = cal;
@@ -83,20 +83,21 @@ function renderEvents() {
             const startTotal = startParts[0] * 60 + startParts[1];
             const endTotal = endParts[0] * 60 + endParts[1];
 
-            const rowStart = Math.floor((startTotal - startHour * 60) / interval);
+            const rowStart = Math.floor((startTotal - startHour * 60) / interval) + 1;
             const span = (endTotal - startTotal) / interval;
 
-            const baseCol = days.indexOf(evt.day) + 2;
-            const calOffset = (cal === "ESGT") ? 0 : 1;
-            const colIndex = baseCol * 2 + calOffset - 2;
-
+            const dayIndex = days.indexOf(evt.day); // 0 à 4
+            const calOffset = (cal === "ESGT2") ? 0 : 1;
+            const colIndex = dayIndex * 2 + calOffset + 2; // +2 pour le coin vide + colonne heure
+            
             const eventDiv = document.createElement('div');
             eventDiv.className = "event-block";
             eventDiv.classList.add(`event-${cal.toLowerCase()}`);
             eventDiv.style.gridColumn = colIndex;
-            eventDiv.style.gridRow = `${rowStart + 2} / span ${span}`;
+            eventDiv.style.gridRow = `${rowStart + 1} / span ${span}`;
             eventDiv.innerText = `${evt.title}\n${evt.date} ${evt.start} - ${evt.end}`;
             grid.appendChild(eventDiv);
+            
         });
     });
 }

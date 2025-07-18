@@ -168,7 +168,7 @@ h2#weekLabel {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: pre-line;
-    line-height: 2;
+    line-height: 1;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
