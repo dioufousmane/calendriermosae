@@ -7,9 +7,10 @@ body {
     color: #2c3e50;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    scroll-behavior: smooth;
+    height: 100vh;          /* ← au lieu de min-height */
+    overflow: hidden;       /* ← empêche scroll vertical global */
 }
+
 
 /* === TITLE === */
 h1 {
