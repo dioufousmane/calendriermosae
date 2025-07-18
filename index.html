@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>EDT MOSAE 1 - ESGT et UNIV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 1  – <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span></h1>
+    <h2 id="weekLabel"></h2>
+
+    <div class="calendar-controls">
+        <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
+        <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
+        <!--<button id="generateBtn">🔁 Regénérer les événements</button>-->
+    </div>
+
+    <div id="status" class="status-message"></div>
+
+    <div class="calendar-grid" id="calendarGrid">
+        <!-- Grille de calendrier injectée par JS -->
+    </div>
+
+    <div class="week-navigation">
+        <div class="week-navigation">
+            <button onclick="prevWeek()">⬅️ Semaine précédente</button>
+            <button onclick="nextWeek()">➡️ Semaine suivante</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>"./all_events.js"</script>
+</body>
+</html>
