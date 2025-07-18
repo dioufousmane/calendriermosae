@@ -5,7 +5,7 @@ from ics import Calendar
 from datetime import datetime
 
 # 📡 Lien ICS (à adapter selon le fichier)
-ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
+ICS_URL = "https://dioufousmane.github.io/calendriermosae/MOSAE1.ics"
 OUTPUT_FILE = "esgt_events.json"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
