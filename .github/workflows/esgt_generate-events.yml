@@ -1,9 +1,9 @@
-name: 🔄 Générer les événements ESGT
+name: Générer les événements ESGT
 
 on:
-  workflow_dispatch:  # Lancement manuel
+  workflow_dispatch:
   schedule:
-    - cron: "0 4 * * 1"  # Tous les lundis à 4h (UTC)
+    - cron: "0 */2 * * *"  # Toutes les 2 heures
 
 jobs:
   generate-esgt:
@@ -13,35 +13,24 @@ jobs:
       - name: 📥 Cloner le dépôt
         uses: actions/checkout@v3
 
-      - name: 📁 Créer le dossier static si nécessaire
-        run: mkdir -p static
-
       - name: 🐍 Installer Python et les dépendances
         run: |
           python -m pip install --upgrade pip
           pip install ics pytz requests
 
-      - name: ⚙️ Exécuter le script ESGT
+      - name: ⚙️ Générer le fichier JSON ESGT
         run: |
-          echo "🧪 Lancement du script esgt_generate_events.py"
           python esgt_generate_events.py
 
-      - name: 📤 Commit & push du JSON généré (s'il existe)
+      - name: 📤 Commit & push si changement
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          git add esgt_events.json
 
-          if [ -f static/esgt_events.json ]; then
-            git add static/esgt_events.json
-
-            if git diff --cached --quiet; then
-              echo "✅ Aucun changement détecté à committer."
-            else
-              git commit -m "🔄 Mise à jour automatique des événements ESGT"
-              git push
-              echo "✅ Commit effectué."
-            fi
+          if git diff --cached --quiet; then
+            echo "✅ Aucun changement à committer pour ESGT."
           else
-            echo "❌ Le fichier static/esgt_events.json n'existe pas."
-            exit 1
+            git commit -m "🔄 Mise à jour ESGT automatique"
+            git push
           fi

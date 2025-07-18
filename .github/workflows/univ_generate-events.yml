@@ -1,32 +1,32 @@
-name: 🔄 Générer les événements UNIV
+name: Générer les événements UNIV
 
 on:
-  workflow_dispatch:  # Lancement manuel
+  workflow_dispatch:
   schedule:
-    - cron: "30 4 * * 1"  # Chaque lundi à 4h30 (décalage pour éviter collision)
+    - cron: "30 */2 * * *"  # Toutes les 2 heures, mais décalé de 30 min pour éviter les conflits
 
 jobs:
-  univ:
+  generate-univ:
     runs-on: ubuntu-latest
 
     steps:
       - name: 📥 Cloner le dépôt
         uses: actions/checkout@v3
 
-      - name: 🐍 Installer Python et dépendances
+      - name: 🐍 Installer Python et les dépendances
         run: |
           python -m pip install --upgrade pip
           pip install ics pytz requests
 
-      - name: ⚙️ Exécuter le script UNIV
+      - name: ⚙️ Générer le fichier JSON UNIV
         run: |
           python univ_generate_events.py
 
-      - name: 📤 Commit et push du fichier UNIV
+      - name: 📤 Commit & push si changement
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add static/univ_events.json
+          git add univ_events.json
 
           if git diff --cached --quiet; then
             echo "✅ Aucun changement à committer pour UNIV."
