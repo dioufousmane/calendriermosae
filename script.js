@@ -13,11 +13,12 @@ function createCalendarGrid() {
     const currentWeekStart = new Date(baseDate);
     currentWeekStart.setDate(currentWeekStart.getDate() + currentWeekOffset * 7);
 
-    // Coin vide
+    // Coin vide (coin haut-gauche)
     const corner = document.createElement('div');
+    corner.className = "corner";
     grid.appendChild(corner);
 
-    // Entêtes : ESGT et UNIV pour chaque jour
+    // Entêtes (deux colonnes par jour : ESGT et UNIV)
     days.forEach((day, index) => {
         ['ESGT', 'UNIV'].forEach(cal => {
             const dayDate = new Date(currentWeekStart);
@@ -39,16 +40,23 @@ function createCalendarGrid() {
     for (let i = 0; i < totalRows; i++) {
         const hour = startHour + Math.floor(i * interval / 60);
         const minute = (i * interval) % 60;
+        const timeString = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
 
-        // Pas d'affichage d'heure : on saute le timeLabel
+        // ⛔ Suppression de l'affichage de l'heure
+        const timeLabel = document.createElement('div');
+        timeLabel.className = "time-label";
+        timeLabel.innerText = ""; // ← pas d'heure affichée
+        grid.appendChild(timeLabel);
 
+        // Cellules du calendrier (10 colonnes : 5 jours × 2)
         for (let d = 0; d < days.length; d++) {
             ['ESGT', 'UNIV'].forEach(cal => {
                 const cell = document.createElement('div');
                 cell.dataset.day = days[d];
                 cell.dataset.calendar = cal;
-                cell.dataset.time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+                cell.dataset.time = timeString;
                 cell.classList.add(`col-${cal.toLowerCase()}`);
+                cell.textContent = ""; // pas d'heure ici non plus
                 grid.appendChild(cell);
             });
         }
@@ -57,49 +65,60 @@ function createCalendarGrid() {
     renderEvents();
     updateWeekLabel();
 }
-
+eventDiv.innerHTML = `
+  <div class="event-title">${evt.title}</div>
+  <div class="event-time"><strong>${evt.date} ${evt.start} - ${evt.end}</strong></div>`
+  
 function renderEvents() {
     const grid = document.getElementById("calendarGrid");
-    const oldEvents = grid.querySelectorAll(".event-block");
-    oldEvents.forEach(e => e.remove());
+    
+    // Supprimer les anciens événements
+    grid.querySelectorAll(".event-block").forEach(e => e.remove());
 
+    // Déterminer les bornes de la semaine actuelle
     const currentWeekStart = new Date(baseDate);
     currentWeekStart.setDate(currentWeekStart.getDate() + currentWeekOffset * 7);
+
     const currentWeekEnd = new Date(currentWeekStart);
-    currentWeekEnd.setDate(currentWeekStart.getDate() + 4);
+    currentWeekEnd.setDate(currentWeekStart.getDate() + 4); // du lundi au vendredi
 
     Object.keys(events).forEach(cal => {
         const checkbox = document.querySelector(`input[type="checkbox"][onchange*="${cal}"]`);
         if (checkbox && !checkbox.checked) return;
 
         events[cal].forEach(evt => {
+            // Conversion de la date de l'événement
             const [day, month, year] = evt.date.split("/").map(Number);
             const eventDate = new Date(year, month - 1, day);
             if (eventDate < currentWeekStart || eventDate > currentWeekEnd) return;
 
-            const startParts = evt.start.split(":").map(Number);
-            const endParts = evt.end.split(":").map(Number);
-            const startTotal = startParts[0] * 60 + startParts[1];
-            const endTotal = endParts[0] * 60 + endParts[1];
+            // Heure de début et de fin en minutes depuis minuit
+            const [startHourVal, startMinVal] = evt.start.split(":").map(Number);
+            const [endHourVal, endMinVal] = evt.end.split(":").map(Number);
+            const startTotal = startHourVal * 60 + startMinVal;
+            const endTotal = endHourVal * 60 + endMinVal;
 
-            const rowOffset = 1; // Pour sauter la ligne d'en-tête
-            const rowStart = Math.floor((startTotal - startHour * 60) / interval);
-            const span = Math.ceil((endTotal - startTotal) / interval);
+            // Ligne de départ + durée en "span"
+            const rowStart = Math.floor((startTotal - startHour * 60) / interval) + 2; // +2 car première ligne = coin + entêtes
+            const span = (endTotal - startTotal) / interval;
 
-            const baseCol = days.indexOf(evt.day) + 2;
+            // Colonne à cibler : 2 colonnes par jour (ESGT puis UNIV), après la colonne des heures
+            const dayIndex = days.indexOf(evt.day); // de 0 à 4
             const calOffset = (cal === "ESGT") ? 0 : 1;
-            const colIndex = baseCol * 2 + calOffset - 2;
+            const colIndex = dayIndex * 2 + calOffset + 2; // +1 pour les heures, +1 pour le coin vide
 
+            // Création de l’élément événement
             const eventDiv = document.createElement('div');
             eventDiv.className = "event-block";
             eventDiv.classList.add(`event-${cal.toLowerCase()}`);
             eventDiv.style.gridColumn = colIndex;
-            eventDiv.style.gridRow = `${rowStart + rowOffset + 1} / span ${span}`;
+            eventDiv.style.gridRow = `${rowStart} / span ${span}`;
             eventDiv.innerText = `${evt.title}\n${evt.date} ${evt.start} - ${evt.end}`;
             grid.appendChild(eventDiv);
         });
     });
 }
+
 
 function updateWeekLabel() {
     const weekLabel = document.getElementById("weekLabel");
