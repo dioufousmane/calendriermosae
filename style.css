@@ -1,0 +1,218 @@
+
+/* === BASE === */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* === TITLE === */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 10px 8px;          /* ↓ réduit le padding */
+    margin: 0;
+    font-size: 1.5rem;          /* ↓ taille de police un peu plus petite */
+    letter-spacing: 0.3px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 i {
+    font-size: 1.4em;
+    color: #ecf0f1;
+}
+
+.badge-esgt, .badge-univ {
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.badge-esgt {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.badge-univ {
+    background-color: #2196F3;
+    color: white;
+}
+
+h2#weekLabel {
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* === CONTROLS === */
+.calendar-controls,
+.week-navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.calendar-controls label {
+    background-color: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.calendar-controls label:hover {
+    background-color: #d0d7dc;
+}
+
+.calendar-controls button,
+.week-navigation button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-controls button:hover,
+.week-navigation button:hover {
+    background-color: #2980b9;
+}
+
+/* === GRID STRUCTURE === */  
+.calendar-grid {
+    display: grid;
+    grid-template-columns: 60px repeat(10, 1fr);
+    grid-auto-rows: minmax(24px, auto);
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100vw;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.calendar-grid div {
+    border: 1px solid #e0e0e0;
+    padding: 4px 6px;
+    font-size: 0.75rem;
+    overflow: hidden;
+    white-space: pre-line;
+    box-sizing: border-box;
+}
+
+/* === HEADERS === */
+.header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 6px 4px;
+    white-space: pre-line;
+    color: white;
+}
+
+.header-esgt {
+    background-color: #388e3c;
+}
+
+.header-univ {
+    background-color: #1565c0;
+}
+
+/* === TIME LABEL === */
+.time-label {
+    text-align: right;
+    padding-right: 6px;
+    background-color: #ecf0f1;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+/* === COLUMN BACKGROUNDS === */
+.col-esgt {
+    background-color: #f1f8f2;
+}
+
+.col-univ {
+    background-color: #f0f6fd;
+}
+
+/* === EVENT BLOCKS === */
+.event-block {
+    font-size: 0.75rem;
+    padding: 6px 8px;
+    border-radius: 6px;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+    line-height: 1;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-esgt {
+    background-color: #4CAF50;
+    border: 1px solid #388E3C;
+}
+
+.event-univ {
+    background-color: #2196F3;
+    border: 1px solid #1976D2;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .calendar-grid {
+        grid-template-columns: 50px repeat(10, 1fr);
+        grid-auto-rows: minmax(20px, auto);
+        font-size: 0.65rem;
+    }
+
+    .calendar-controls button,
+    .week-navigation button {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+
+    .calendar-controls label {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    h1 i {
+        font-size: 1.1rem;
+    }
+
+    h2#weekLabel {
+        font-size: 1rem;
+    }
+}
+
