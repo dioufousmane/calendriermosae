@@ -10,14 +10,40 @@ body {
     min-height: 100vh;
 }
 
+/* === TITLE === */
 h1 {
-    text-align: center;
-    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
-    padding: 20px;
+    padding: 20px 10px;
     margin: 0;
     font-size: 2rem;
     letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+h1 i {
+    font-size: 1.4em;
+    color: #ecf0f1;
+}
+
+.badge-esgt, .badge-univ {
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.badge-esgt {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.badge-univ {
+    background-color: #2196F3;
+    color: white;
 }
 
 h2#weekLabel {
@@ -45,6 +71,7 @@ h2#weekLabel {
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
 }
 
 .calendar-controls label:hover {
@@ -61,7 +88,7 @@ h2#weekLabel {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .calendar-controls button:hover,
@@ -72,7 +99,7 @@ h2#weekLabel {
 /* === GRID STRUCTURE === */
 .calendar-grid {
     display: grid;
-    grid-template-columns: 60px repeat(10, 1fr); /* 1 time column + 2 per day × 5 days */
+    grid-template-columns: 60px repeat(10, 1fr);
     grid-auto-rows: minmax(24px, auto);
     border: 1px solid #ccc;
     margin: 0 auto;
@@ -80,6 +107,9 @@ h2#weekLabel {
     max-width: 100vw;
     flex-grow: 1;
     box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
 }
 
 .calendar-grid div {
@@ -101,13 +131,12 @@ h2#weekLabel {
     color: white;
 }
 
-/* === Custom header backgrounds === */
 .header-esgt {
-    background-color: #388e3c; /* Vert foncé */
+    background-color: #388e3c;
 }
 
 .header-univ {
-    background-color: #1565c0; /* Bleu foncé */
+    background-color: #1565c0;
 }
 
 /* === TIME LABEL === */
@@ -119,16 +148,16 @@ h2#weekLabel {
     font-size: 0.75rem;
 }
 
-/* === BACKGROUND COLORS FOR CELLS === */
+/* === COLUMN BACKGROUNDS === */
 .col-esgt {
-    background-color: #f1f8f2; /* Vert très pâle */
+    background-color: #f1f8f2;
 }
 
 .col-univ {
-    background-color: #f0f6fd; /* Bleu très pâle */
+    background-color: #f0f6fd;
 }
 
-/* === EVENTS === */
+/* === EVENT BLOCKS === */
 .event-block {
     font-size: 0.75rem;
     padding: 6px 8px;
@@ -151,7 +180,7 @@ h2#weekLabel {
     border: 1px solid #1976D2;
 }
 
-/* === RESPONSIVE DESIGN === */
+/* === RESPONSIVE === */
 @media (max-width: 768px) {
     .calendar-grid {
         grid-template-columns: 50px repeat(10, 1fr);
@@ -171,7 +200,13 @@ h2#weekLabel {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    h1 i {
+        font-size: 1.1rem;
     }
 
     h2#weekLabel {
