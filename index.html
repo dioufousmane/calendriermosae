@@ -31,21 +31,7 @@
     </div>
 
     <script src="script.js"></script>
-    <script>
-        document.getElementById("generateBtn").addEventListener("click", () => {
-            const status = document.getElementById("status");
-            status.textContent = "⏳ Génération en cours...";
 
-            fetch("/generate-json", { method: "POST" })
-                .then(res => res.json())
-                .then(data => {
-                    status.textContent = data.message || "✅ Mise à jour réussie.";
-                })
-                .catch(err => {
-                    status.textContent = "❌ Erreur : " + err;
-                });
-        });
-    </script>
     <script>"./all_events.js"</script>
 </body>
 </html>
