@@ -1,21 +1,16 @@
 import unicodedata
 import pytz
-import locale
 import requests
-import json
 from ics import Calendar
 from datetime import datetime
 
-# Lien ICS Université du Mans
-ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52"
-OUTPUT_FILE = "univ_events.json"
+# 📡 Lien ICS (à adapter selon le fichier)
+ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
+OUTPUT_FILE = "esgt_events.json"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
-# Locale en français
-try:
-    locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
-except locale.Error:
-    locale.setlocale(locale.LC_TIME, '')
+# 📅 Traduction manuelle des jours
+jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 def clean_text(text):
     if not text:
@@ -24,10 +19,13 @@ def clean_text(text):
     return text.replace("\n", " ").replace("\r", "").strip()
 
 def format_event(event):
-    dtstart = event.begin.astimezone(TIMEZONE)
-    dtend = event.end.astimezone(TIMEZONE)
+    dtstart_utc = event.begin.datetime.replace(tzinfo=pytz.UTC)
+    dtend_utc = event.end.datetime.replace(tzinfo=pytz.UTC)
 
-    day_name = dtstart.strftime("%A").capitalize()
+    dtstart = dtstart_utc.astimezone(TIMEZONE)
+    dtend = dtend_utc.astimezone(TIMEZONE)
+
+    day = jours_fr[dtstart.weekday()]  # nom du jour en français
     date_str = dtstart.strftime("%d/%m/%Y")
     start_str = dtstart.strftime("%H:%M")
     end_str = dtend.strftime("%H:%M")
@@ -35,22 +33,21 @@ def format_event(event):
     title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
     if description:
-        title += "\n" + description
+        title += "\\n" + description
 
     return {
-        "day": day_name,
+        "day": day,
         "date": date_str,
         "start": start_str,
         "end": end_str,
-        "title": title,
-        "sort_key": dtstart  # pour trier
+        "title": title
     }
 
 def main():
-    print("📡 Téléchargement du calendrier UNIV...")
+    print("📡 Téléchargement du calendrier...")
     response = requests.get(ICS_URL)
     if response.status_code != 200:
-        print(f"❌ Erreur HTTP {response.status_code}")
+        print(f"❌ Erreur de téléchargement : {response.status_code}")
         return
 
     calendar = Calendar(response.text)
@@ -59,19 +56,20 @@ def main():
     for event in calendar.events:
         if event.begin and event.end:
             evt = format_event(event)
-            if evt["day"] in ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]:
+            dtstart = event.begin.datetime.astimezone(TIMEZONE)
+            if dtstart.weekday() < 5:  # Lundi à vendredi
                 events.append(evt)
+                print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
+            else:
+                print(f"⏭️ Ignoré (weekend) : {evt['title']}")
 
-    # Tri par date
-    events.sort(key=lambda x: x["sort_key"])
-    for e in events:
-        del e["sort_key"]
+    print(f"✅ {len(events)} événements extraits.")
 
-    # Export JSON
+    import json
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ {len(events)} événements enregistrés dans {OUTPUT_FILE}")
+    print(f"📄 Fichier JSON généré : {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
