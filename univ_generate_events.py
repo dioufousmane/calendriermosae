@@ -4,9 +4,9 @@ import requests
 from ics import Calendar
 from datetime import datetime
 
-# 📡 Lien ICS (à adapter selon le fichier)
-ICS_URL = "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_DIOUF.ics?version=2022.0.5.0&idICal=5D5AA505E9E5736EE4D7FF2AB864E3FC&param=643d5b312e2e36325d2666683d3126663d31"
-OUTPUT_FILE = "esgt_events.json"
+# 📡 Lien ICS pour UNIV (à remplacer par le vrai lien si besoin)
+ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52"
+OUTPUT_FILE = "univ_events.json"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
 # 📅 Traduction manuelle des jours
@@ -25,7 +25,7 @@ def format_event(event):
     dtstart = dtstart_utc.astimezone(TIMEZONE)
     dtend = dtend_utc.astimezone(TIMEZONE)
 
-    day = jours_fr[dtstart.weekday()]  # nom du jour en français
+    day = jours_fr[dtstart.weekday()]  # Jour en français
     date_str = dtstart.strftime("%d/%m/%Y")
     start_str = dtstart.strftime("%H:%M")
     end_str = dtend.strftime("%H:%M")
@@ -44,7 +44,7 @@ def format_event(event):
     }
 
 def main():
-    print("📡 Téléchargement du calendrier...")
+    print("📡 Téléchargement du calendrier UNIV...")
     response = requests.get(ICS_URL)
     if response.status_code != 200:
         print(f"❌ Erreur de téléchargement : {response.status_code}")
@@ -57,7 +57,7 @@ def main():
         if event.begin and event.end:
             evt = format_event(event)
             dtstart = event.begin.datetime.astimezone(TIMEZONE)
-            if dtstart.weekday() < 5:  # Lundi à vendredi
+            if dtstart.weekday() < 5:  # Lundi à Vendredi
                 events.append(evt)
                 print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
             else:
