@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
+        <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+          <i class="fa-solid fa-calendar-check"></i> MOSAE 1
+        </a>
+        <a href="mosae2.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+          <i class="fa-solid fa-calendar"></i> MOSAE 2
+        </a>
+      </nav>
+      
 <head>
-  <meta charset="UTF-8">
-  <title>EDT MOSAE 1 - ESGT et UNIV</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>EDT MOSAE 1 - ESGT et UNIV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 1  – <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span></h1>
+    <h2 id="weekLabel"></h2>
 
-  <!-- 🎨 Nouveau menu tout beau -->
-  <nav class="menu-top">
-    <a href="index.html"><i class="fa-solid fa-calendar-check"></i> MOSAE 1</a>
-    <a href="mosae2.html"><i class="fa-solid fa-calendar"></i> MOSAE 2</a>
-  </nav>
+    <div class="calendar-controls">
+        <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
+        <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
+        <button onclick="prevWeek()">⬅️ Semaine précédente</button>
+        <button onclick="nextWeek()">➡️ Semaine suivante</button>
+      </div>
 
-  <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 1 – <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span></h1>
-  <h2 id="weekLabel"></h2>
+    <div id="status" class="status-message"></div>
 
-  <div class="calendar-controls">
-    <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
-    <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
-    <button onclick="prevWeek()">⬅️ Semaine précédente</button>
-    <button onclick="nextWeek()">➡️ Semaine suivante</button>
-  </div>
+    <div class="calendar-grid" id="calendarGrid">
+        <!-- Grille de calendrier injectée par JS -->
+    </div>
 
-  <div id="status" class="status-message"></div>
 
-  <div class="calendar-grid" id="calendarGrid">
-    <!-- Grille de calendrier injectée par JS -->
-  </div>
-
-  <script src="all_events.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+    <script src="all_events.js"></script>
+  </body>
 </html>
