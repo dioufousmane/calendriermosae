@@ -2,28 +2,28 @@ import unicodedata
 import pytz
 import requests
 from ics import Calendar
-from datetime import datetime
 import json
 
-# 📡 Lien ICS
+# 📡 Lien ICS à adapter
 ICS_URL = "https://dioufousmane.github.io/calendriermosae/MOSAE1.ics"
 OUTPUT_FILE = "esgt_events.json"
 TIMEZONE = pytz.timezone("Europe/Paris")
 
+# 📅 Traduction manuelle des jours
 jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 def clean_text(text):
     if not text:
         return ""
-    # Normalisation Unicode
+    # Normalisation Unicode (pour bien gérer les accents)
     text = unicodedata.normalize("NFKC", text)
     return text.replace("\n", " ").replace("\r", "").strip()
 
 def format_event(event):
-    dtstart = event.begin.astimezone(TIMEZONE).datetime
-    dtend = event.end.astimezone(TIMEZONE).datetime
+    dtstart = event.begin.astimezone(TIMEZONE)
+    dtend = event.end.astimezone(TIMEZONE)
 
-    day = jours_fr[dtstart.weekday()]
+    day = jours_fr[dtstart.weekday()]  # Jour en français
     date_str = dtstart.strftime("%d/%m/%Y")
     start_str = dtstart.strftime("%H:%M")
     end_str = dtend.strftime("%H:%M")
@@ -44,7 +44,8 @@ def format_event(event):
 def main():
     print("📡 Téléchargement du calendrier...")
     response = requests.get(ICS_URL)
-    response.encoding = 'utf-8'  # 💡 forcé ici
+    response.encoding = 'utf-8'  # 👈 Forcer l'encodage
+
     if response.status_code != 200:
         print(f"❌ Erreur de téléchargement : {response.status_code}")
         return
@@ -54,12 +55,13 @@ def main():
 
     for event in calendar.events:
         if event.begin and event.end:
-            evt = format_event(event)
-            if event.begin.weekday < 5:
+            dtstart = event.begin.astimezone(TIMEZONE)
+            if dtstart.weekday() < 5:  # 0 = Lundi, 4 = Vendredi
+                evt = format_event(event)
                 events.append(evt)
                 print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
             else:
-                print(f"⏭️ Ignoré (weekend) : {evt['title']}")
+                print(f"⏭️ Ignoré (weekend) : {event.name}")
 
     print(f"✅ {len(events)} événements extraits.")
 
