@@ -96,8 +96,8 @@ function renderEvents() {
             eventDiv.style.gridRow = `${rowStart + 2} / span ${span}`; // +2 = ligne d'entête + 1-based grid
             eventDiv.innerHTML = `
   ${evt.title}<br><br>
-  ${evt.enseignant}<br><br>
-  ${evt.salle}<br><br>
+  Enseignant : ${evt.enseignant}<br><br>
+  Salle : ${evt.salle}<br><br>
   <h3><strong>${evt.start} - ${evt.end}</strong></h3>
 `;
 
