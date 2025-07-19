@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
-
 jobs:
   generate-esgt:
     runs-on: ubuntu-latest

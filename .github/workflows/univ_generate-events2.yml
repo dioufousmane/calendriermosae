@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 */2 * * *"  # Toutes les 2h, mais décalé de 30 min
-
 jobs:
   generate-univ:
     runs-on: ubuntu-latest
