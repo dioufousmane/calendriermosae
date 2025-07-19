@@ -45,6 +45,13 @@ h1 i {
     font-size: 1.4em;
     color: #ecf0f1;
 }
+.event-block:hover {
+    z-index: 2;
+    white-space: pre-line;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
 
 .badge-esgt, .badge-univ {
     padding: 2px 6px;
