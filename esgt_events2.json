@@ -4,146 +4,167 @@
     "date": "17/11/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Vendredi",
     "date": "01/05/2026",
     "start": "02:00",
     "end": "02:00",
-    "title": "Férié"
+    "title": "Férié",
+    "salle": ""
   },
   {
     "day": "Lundi",
     "date": "24/11/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Mardi",
     "date": "11/11/2025",
     "start": "01:00",
     "end": "01:00",
-    "title": "Férié"
+    "title": "Férié",
+    "salle": ""
   },
   {
     "day": "Mardi",
     "date": "16/09/2025",
     "start": "08:30",
     "end": "09:00",
-    "title": "RENTREE - BAILLY, DIOUF, DURAND - MOSAE2\nMatière : RENTREE Enseignants : BAILLY, DIOUF, DURAND Promotion : MOSAE2 Salle : Salle C04"
+    "title": "RENTREE - BAILLY, DIOUF, DURAND - MOSAE2",
+    "salle": "Salle C04"
   },
   {
     "day": "Lundi",
     "date": "08/09/2025",
     "start": "09:00",
     "end": "18:15",
-    "title": "SOUTENANCES - MOSAE2\nMatière : SOUTENANCES Promotion : MOSAE2 Salle : Salle C05"
+    "title": "SOUTENANCES - MOSAE2",
+    "salle": "Salle C05"
   },
   {
     "day": "Lundi",
     "date": "27/10/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Vendredi",
     "date": "26/09/2025",
     "start": "08:30",
     "end": "12:45",
-    "title": "GéoBIM - ROBERT - MOSAE2\nMatière : GéoBIM Enseignant : ROBERT Promotion : MOSAE2 Salle : Salle 102"
+    "title": "GéoBIM - Enseignant : ROBERT",
+    "salle": "Salle 102"
   },
   {
     "day": "Lundi",
     "date": "06/04/2026",
     "start": "02:00",
     "end": "02:00",
-    "title": "Férié"
+    "title": "Férié",
+    "salle": ""
   },
   {
     "day": "Mardi",
     "date": "16/09/2025",
     "start": "09:00",
     "end": "17:30",
-    "title": "SOUTENANCES - DIOUF - ESGT, MOSAE1, MOSAE2\nMatière : SOUTENANCES Enseignant : DIOUF Promotions : ESGT, MOSAE1, MOSAE2 Salle : Salle C04"
+    "title": "SOUTENANCES - Enseignant : DIOUF",
+    "salle": "Salle C04"
   },
   {
     "day": "Lundi",
     "date": "25/05/2026",
     "start": "02:00",
     "end": "02:00",
-    "title": "Férié"
+    "title": "Férié",
+    "salle": ""
   },
   {
     "day": "Vendredi",
     "date": "17/10/2025",
     "start": "08:30",
     "end": "12:45",
-    "title": "GéoBIM - ROBERT - MOSAE2\nMatière : GéoBIM Enseignant : ROBERT Promotion : MOSAE2"
+    "title": "GéoBIM - Enseignant : ROBERT",
+    "salle": ""
   },
   {
     "day": "Vendredi",
     "date": "03/10/2025",
     "start": "08:30",
     "end": "12:45",
-    "title": "GéoBIM - ROBERT - MOSAE2\nMatière : GéoBIM Enseignant : ROBERT Promotion : MOSAE2 Salle : Salle 102"
+    "title": "GéoBIM - Enseignant : ROBERT",
+    "salle": "Salle 102"
   },
   {
     "day": "Lundi",
     "date": "15/12/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Lundi",
     "date": "22/12/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Lundi",
     "date": "20/10/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Lundi",
     "date": "29/12/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   },
   {
     "day": "Jeudi",
     "date": "14/05/2026",
     "start": "02:00",
     "end": "02:00",
-    "title": "Férié"
+    "title": "Férié",
+    "salle": ""
   },
   {
     "day": "Vendredi",
     "date": "08/05/2026",
     "start": "02:00",
     "end": "02:00",
-    "title": "Férié"
+    "title": "Férié",
+    "salle": ""
   },
   {
     "day": "Mercredi",
     "date": "17/09/2025",
     "start": "08:30",
     "end": "11:00",
-    "title": "SOUTENANCES - DIOUF - ESGT, MOSAE1, MOSAE2\nMatière : SOUTENANCES Enseignant : DIOUF Promotions : ESGT, MOSAE1, MOSAE2 Salle : Amphi 2"
+    "title": "SOUTENANCES - Enseignant : DIOUF",
+    "salle": "Amphi 2"
   },
   {
     "day": "Lundi",
     "date": "29/09/2025",
     "start": "08:30",
     "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE - MOSAE2\nMatière : SEMAINE en ENTREPRISE Promotion : MOSAE2"
+    "title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "salle": ""
   }
 ]
