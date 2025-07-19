@@ -2,8 +2,8 @@ name: Générer les événements M1 ESGT
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
+ # schedule:
+  #  - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
 
 jobs:
   generate-esgt:
