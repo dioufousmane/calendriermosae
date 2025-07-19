@@ -100,8 +100,13 @@ function renderEvents() {
             eventDiv.classList.add(`event-${cal.toLowerCase()}`);
             eventDiv.style.gridColumn = baseCol + 2; // +1 pour coin vide, +1 pour index 0-based
             eventDiv.style.gridRow = `${rowStart + 2} / span ${span}`;
-            eventDiv.innerText = `${evt.title}\n${evt.date} ${evt.start} - ${evt.end}`;
-            grid.appendChild(eventDiv);
+            eventDiv.innerHTML = `
+  ${evt.title}<br><br>
+  ${evt.enseignant}<br><br>
+  ${evt.salle}<br><br>
+  <h3><strong>${evt.start} - ${evt.end}</strong></h3>
+`;
+           grid.appendChild(eventDiv);
         });
     });
 }

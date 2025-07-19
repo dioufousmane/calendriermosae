@@ -21,9 +21,23 @@ h1 {
     color: white;
     padding: 10px 8px;          /* ↓ réduit le padding */
     margin: 0;
-    font-size: 1.5rem;          /* ↓ taille de police un peu plus petite */
+    font-size: 1rem;          /* ↓ taille de police un peu plus petite */
     letter-spacing: 0.3px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #e79696, #f7ab47); /* nouveau dégradé violet/bleu */
+    color: #fdfdfd;
+    padding: 8px 6px;
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
 }
 
 
