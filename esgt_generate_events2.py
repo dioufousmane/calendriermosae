@@ -36,16 +36,17 @@ def format_event(event):
     raw_title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
 
-    # 🔍 Extraction des champs utiles
     matiere = extract_with_regex("Matière", description)
-    enseignant = extract_with_regex("Enseignant", description)
+    enseignant_nom = extract_with_regex("Enseignant", description)
     salle = extract_with_regex("Salle", description)
 
-    # 🧠 Construction du titre lisible
-    if matiere and enseignant:
-        title = f"{matiere} - Enseignant : {enseignant}"
+    # 🧠 Construction du titre
+    if matiere and enseignant_nom:
+        title = f"{matiere} - Enseignant : {enseignant_nom}"
     else:
         title = raw_title
+
+    enseignant = f"Enseignant : {enseignant_nom}" if enseignant_nom else ""
 
     return {
         "day": day,
@@ -53,6 +54,7 @@ def format_event(event):
         "start": start_str,
         "end": end_str,
         "title": title,
+        "enseignant": enseignant,
         "salle": salle
     }
 
@@ -71,7 +73,7 @@ def main():
     for event in calendar.events:
         if event.begin and event.end:
             dtstart = event.begin.astimezone(TIMEZONE)
-            if dtstart.weekday() < 5:  # Lundi à Vendredi
+            if dtstart.weekday() < 5:
                 evt = format_event(event)
                 events.append(evt)
                 print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")

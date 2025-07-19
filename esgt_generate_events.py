@@ -38,13 +38,16 @@ def format_event(event):
 
     # 🔍 Extraction robuste
     matiere = extract_with_regex("Matière", description)
-    enseignant = extract_with_regex("Enseignant", description)
+    enseignant_nom = extract_with_regex("Enseignant", description)
     salle = extract_with_regex("Salle", description)
 
-    if matiere and enseignant:
-        title = f"{matiere} - Enseignant : {enseignant}"
+    # 🧠 Construction du title
+    if matiere and enseignant_nom:
+        title = f"{matiere} - Enseignant : {enseignant_nom}"
     else:
         title = raw_title
+
+    enseignant = f"Enseignant : {enseignant_nom}" if enseignant_nom else ""
 
     return {
         "day": day,
@@ -52,6 +55,7 @@ def format_event(event):
         "start": start_str,
         "end": end_str,
         "title": title,
+        "enseignant": enseignant,
         "salle": salle
     }
 
