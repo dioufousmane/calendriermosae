@@ -129,17 +129,10 @@ function refreshCalendar(name) {
     createCalendarGrid();
 }
 
-function hardRefresh() {
-  const status = document.getElementById("status");
-  if (status) {
-    status.textContent = "🔄 Rafraîchissement en cours...";
-  }
-
-  // On attend un petit peu pour que le message s'affiche
-  setTimeout(() => {
-    const baseUrl = window.location.href.split('?')[0];
-    window.location.href = `${baseUrl}?refresh=${Date.now()}`;
-  }, 1000);
+function forceNoCacheReload() {
+  const url = new URL(window.location.href);
+  url.searchParams.set('_', Date.now()); // Ajoute un timestamp pour forcer le rafraîchissement
+  window.location.href = url.toString();
 }
 
  
