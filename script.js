@@ -128,7 +128,27 @@ function toggleCalendar(name) {
 function refreshCalendar(name) {
     createCalendarGrid();
 }
-
+function refreshEvents() {
+    // Optionnel : afficher un message temporaire
+    const status = document.getElementById('status');
+    if (status) {
+      status.textContent = '🔄 Chargement des événements...';
+      setTimeout(() => status.textContent = '', 1500);
+    }
+  
+    // Recréer la grille si nécessaire
+    if (typeof createCalendarGrid === 'function') {
+      createCalendarGrid();
+    }
+  
+    // Recharger les événements
+    if (typeof renderEvents === 'function') {
+      renderEvents();
+    } else {
+      console.warn("La fonction renderEvents() est manquante.");
+    }
+  }
+  
 function nextWeek() {
     currentWeekOffset++;
     createCalendarGrid();
