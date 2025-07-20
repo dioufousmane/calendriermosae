@@ -128,24 +128,23 @@ function toggleCalendar(name) {
 function refreshCalendar(name) {
     createCalendarGrid();
 }
+
 function hardRefresh() {
-  // Ajouter un paramètre unique à l'URL pour forcer le rechargement complet (bypass cache)
+  const status = document.getElementById("status");
+  if (status) {
+    status.textContent = "🔄 Rafraîchissement en cours...";
+    
+    // Supprime le message après 2 secondes
+    setTimeout(() => {
+      status.textContent = "";
+    }, 2000);
+  }
+
+  // Recharge complète avec contournement du cache
   const url = window.location.href.split('?')[0];
   window.location.href = `${url}?refresh=${Date.now()}`;
 }
- 
-    // Recréer la grille si nécessaire
-    if (typeof createCalendarGrid === 'function') {
-      createCalendarGrid();
-    }
-  
-    // Recharger les événements
-    if (typeof renderEvents === 'function') {
-      renderEvents();
-    } else {
-      console.warn("La fonction renderEvents() est manquante.");
-    }
-  }
+
   
 function nextWeek() {
     currentWeekOffset++;
