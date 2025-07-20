@@ -133,19 +133,14 @@ function hardRefresh() {
   const status = document.getElementById("status");
   if (status) {
     status.textContent = "🔄 Rafraîchissement en cours...";
-    
-    // Supprime le message après 2 secondes
-    setTimeout(() => {
-      status.textContent = "";
-    }, 2000);
   }
 
-  // Recharge complète avec contournement du cache
-  const url = window.location.href.split('?')[0];
-  window.location.href = `${url}?refresh=${Date.now()}`;
+  // Petit délai pour que l’utilisateur voie le message
+  setTimeout(() => {
+    window.location.reload(true); // Note : true est ignoré dans la plupart des navigateurs modernes
+  }, 1000);
 }
-
-  
+ 
 function nextWeek() {
     currentWeekOffset++;
     createCalendarGrid();
