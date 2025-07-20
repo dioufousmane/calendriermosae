@@ -107,27 +107,28 @@ function renderEvents() {
     });
 }
 function forceNoCacheReload() {
-      showTemporaryMessage("Chargement en cours… sans cache 🧹");
+    showTemporaryMessage("Chargement en cours… sans cache 🧹");
 
-      const url = new URL(window.location.href);
-      url.searchParams.set('_', Date.now());
+    const url = new URL(window.location.href);
+    url.searchParams.set('_', Date.now());
 
-      setTimeout(() => {
-        window.location.href = url.toString();
-      }, 1500);
-    }
+    setTimeout(() => {
+      window.location.href = url.toString();
+    }, 1500);
+  }
 
-    function showTemporaryMessage(text) {
-      const message = document.createElement('div');
-      message.className = 'temp-message';
-      message.textContent = text;
+  function showTemporaryMessage(text) {
+    const message = document.createElement('div');
+    message.className = 'temp-message';
+    message.textContent = text;
 
-      document.body.appendChild(message);
+    document.body.appendChild(message);
 
-      setTimeout(() => {
-        message.remove();
-      }, 1400);
-    }
+    setTimeout(() => {
+      message.remove();
+    }, 1400);
+  }
+
 function updateWeekLabel() {
     const weekLabel = document.getElementById("weekLabel");
     const start = new Date(baseDate);
