@@ -135,11 +135,13 @@ function hardRefresh() {
     status.textContent = "🔄 Rafraîchissement en cours...";
   }
 
-  // Petit délai pour que l’utilisateur voie le message
+  // On attend un petit peu pour que le message s'affiche
   setTimeout(() => {
-    window.location.reload(true); // Note : true est ignoré dans la plupart des navigateurs modernes
+    const baseUrl = window.location.href.split('?')[0];
+    window.location.href = `${baseUrl}?refresh=${Date.now()}`;
   }, 1000);
 }
+
  
 function nextWeek() {
     currentWeekOffset++;
