@@ -128,14 +128,12 @@ function toggleCalendar(name) {
 function refreshCalendar(name) {
     createCalendarGrid();
 }
-function refreshEvents() {
-    // Optionnel : afficher un message temporaire
-    const status = document.getElementById('status');
-    if (status) {
-      status.textContent = '🔄 Chargement des événements...';
-      setTimeout(() => status.textContent = '', 1500);
-    }
-  
+function hardRefresh() {
+  // Ajouter un paramètre unique à l'URL pour forcer le rechargement complet (bypass cache)
+  const url = window.location.href.split('?')[0];
+  window.location.href = `${url}?refresh=${Date.now()}`;
+}
+ 
     // Recréer la grille si nécessaire
     if (typeof createCalendarGrid === 'function') {
       createCalendarGrid();
