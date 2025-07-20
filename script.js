@@ -130,39 +130,27 @@ function refreshCalendar(name) {
 }
 
 function forceNoCacheReload() {
-  showTemporaryMessage("Rechargement de la page sans cache…");
+      showTemporaryMessage("Chargement en cours… sans cache 🧹");
 
-  const url = new URL(window.location.href);
-  url.searchParams.set('_', Date.now());
-  
-  // On attend un court instant pour laisser le message s'afficher
-  setTimeout(() => {
-    window.location.href = url.toString();
-  }, 1500); // 1.5 secondes d'affichage
-}
+      const url = new URL(window.location.href);
+      url.searchParams.set('_', Date.now());
 
-function showTemporaryMessage(text) {
-  const message = document.createElement('div');
-  message.textContent = text;
-  message.style.position = 'fixed';
-  message.style.top = '20px';
-  message.style.left = '50%';
-  message.style.transform = 'translateX(-50%)';
-  message.style.padding = '12px 24px';
-  message.style.backgroundColor = '#333';
-  message.style.color = '#fff';
-  message.style.borderRadius = '8px';
-  message.style.fontFamily = 'sans-serif';
-  message.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
-  message.style.zIndex = '9999';
+      setTimeout(() => {
+        window.location.href = url.toString();
+      }, 1500);
+    }
 
-  document.body.appendChild(message);
+    function showTemporaryMessage(text) {
+      const message = document.createElement('div');
+      message.className = 'temp-message';
+      message.textContent = text;
 
-  setTimeout(() => {
-    message.remove();
-  }, 1400); // On le retire un peu avant le rechargement
-}
+      document.body.appendChild(message);
 
+      setTimeout(() => {
+        message.remove();
+      }, 1400);
+    }
  
 function nextWeek() {
     currentWeekOffset++;
