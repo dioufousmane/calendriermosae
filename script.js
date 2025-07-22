@@ -165,14 +165,3 @@ function showTemporaryMessage(text) {
 window.onload = () => {
     createCalendarGrid();
 };
-
-document.getElementById("generateBtn").addEventListener("click", () => {
-    fetch("/generate-json", { method: "POST" })
-        .then(res => res.json())
-        .then(data => {
-            document.getElementById("status").innerText = data.message || "OK !";
-        })
-        .catch(err => {
-            document.getElementById("status").innerText = "Erreur : " + err;
-        });
-});
