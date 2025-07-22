@@ -63,26 +63,43 @@ function createCalendarGrid() {
     renderEvents();
     updateWeekLabel();
 }
+<button onclick="forceNoCacheReload()">🔄 Rafraîchir les événements</button>
 
-function triggerWorkflow() {
-    fetch("https://api.github.com/repos/dioufousmane/calendriermosae/dispatches", {
-      method: "POST",
-      headers: {
-        "Authorization": "Bearer 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",
-        "Accept": "application/vnd.github+json"
-      },
-      body: JSON.stringify({
-        event_type: "refresh-events"
-      })
-    })
-    .then(res => {
-      if (res.status === 204) {
-        alert("✅ Workflow déclenché !");
-      } else {
-        alert("❌ Erreur : " + res.status);
-      }
-    });
-  }
+function forceNoCacheReload() {
+  // Affiche un message temporaire
+  showTemporaryMessage("🔄 Rechargement en cours… (sans cache)");
+
+  // Recharge la page en forçant le non-cache via un paramètre unique
+  const url = new URL(window.location.href);
+  url.searchParams.set('_', Date.now()); // Bypass cache
+
+  setTimeout(() => {
+    window.location.href = url.toString(); // Recharge avec nouvelle URL
+  }, 1200); // Petite pause pour affichage UX
+}
+
+// Optionnel : fonction pour message temporaire
+function showTemporaryMessage(message) {
+  const msg = document.createElement('div');
+  msg.className = 'temp-message';
+  msg.textContent = message;
+  Object.assign(msg.style, {
+    position: 'fixed',
+    top: '20px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    background: '#333',
+    color: '#fff',
+    padding: '10px 20px',
+    borderRadius: '8px',
+    zIndex: 1000,
+    boxShadow: '0 4px 8px rgba(0,0,0,0.3)'
+  });
+
+  document.body.appendChild(msg);
+  setTimeout(() => msg.remove(), 2000);
+}
+
 function renderEvents() {
     const grid = document.getElementById("calendarGrid");
     const oldEvents = grid.querySelectorAll(".event-block");
