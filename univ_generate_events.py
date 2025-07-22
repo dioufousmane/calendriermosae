@@ -6,14 +6,23 @@ from datetime import datetime
 import json
 import re
 
-# 📡 Lien ICS pour UNIV
-ICS_URL = "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52"
-OUTPUT_FILE = "univ_events.json"
-TIMEZONE = pytz.timezone("Europe/Paris")
+# 🔗 Liens ICS et fichiers de sortie
+CALENDARS = [
+    {
+        "name": "UNIV",
+        "url": "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52",
+        "output": "univ_events.json"
+    },
+    {
+        "name": "UNIV2",
+        "url": "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=809&projectId=08&calType=ical&nbWeeks=52",
+        "output": "univ_events2.json"
+    }
+]
 
+TIMEZONE = pytz.timezone("Europe/Paris")
 jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
-# 🎓 Expression régulière pour supprimer les noms de formation
 formations_regex = r"""
     (?:M\d?\s+)?                  
     (MOSAE|URBANISTIC|MATTERRE|MIDEC|
@@ -21,8 +30,7 @@ formations_regex = r"""
      GEOGRAPHIE.*?DEVELOPPEMENT|
      HISTOIRE.*?PATRIMOINE|
      DDL.*?|LEA.*?|MEEF.*?|
-     LP.*?|UEO.*?
-    )
+     LP.*?|UEO.*?)
 """
 
 def clean_text(text):
@@ -37,7 +45,6 @@ def extract_title(raw_title):
     return line
 
 def extract_enseignant(text, title):
-    # Si le titre indique un événement sans enseignant identifiable
     keywords = ["campus en fête", "soutenance", "alternance"]
     if any(k in title.lower() for k in keywords):
         return "non renseigné"
@@ -82,34 +89,36 @@ def format_event(event, maj_str):
         "maj": maj_str
     }
 
-def main():
-    print("📡 Téléchargement du calendrier UNIV...")
-    response = requests.get(ICS_URL)
+def process_calendar(name, url, output_file):
+    print(f"📡 Téléchargement du calendrier {name}...")
+    response = requests.get(url)
     if response.status_code != 200:
-        print(f"❌ Erreur de téléchargement : {response.status_code}")
+        print(f"❌ Erreur {response.status_code} pour {name}")
         return
 
     calendar = Calendar(response.text)
     events = []
-
     maj_str = datetime.now(TIMEZONE).strftime("%d-%m-%Y %H:%M:%S")
 
     for event in calendar.events:
         if event.begin and event.end:
             dtstart = event.begin.datetime.astimezone(TIMEZONE)
-            if dtstart.weekday() < 5:
+            if dtstart.weekday() < 5:  # Ignore samedi/dimanche
                 evt = format_event(event, maj_str)
                 events.append(evt)
-                print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
+                print(f"✔️ {name} : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
             else:
-                print(f"⏭️ Ignoré (weekend) : {event.name}")
+                print(f"⏭️ {name} : Ignoré (weekend) : {event.name}")
 
-    print(f"✅ {len(events)} événements extraits.")
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
 
-    print(f"📄 Fichier JSON généré : {OUTPUT_FILE}")
+    print(f"✅ {len(events)} événements extraits pour {name}.")
+    print(f"📄 Fichier généré : {output_file}\n")
+
+def main():
+    for cal in CALENDARS:
+        process_calendar(cal["name"], cal["url"], cal["output"])
 
 if __name__ == "__main__":
     main()
