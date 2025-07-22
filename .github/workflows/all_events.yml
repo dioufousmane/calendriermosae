@@ -2,11 +2,11 @@ name: Générer tous les événements M1 et M2
 
 on:
   workflow_dispatch:
- # schedule:
-  #  - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
+# schedule:
+#   - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
 
 jobs:
-  generate-esgt:
+  generate-events:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,28 +26,33 @@ jobs:
           python -m pip install --upgrade pip
           pip install ics pytz requests
 
-      - name: ⚙️ Générer le fichier JSON ESGT
+      - name: ⚙️ Générer tous les fichiers JSON
         run: |
           python esgt_generate_events.py
           python esgt_generate_events2.py
           python univ_generate_events.py
           python univ_generate_events2.py
 
-      - name: 📤 Commit & push si le fichier a changé
+      - name: 📤 Commit & push si des fichiers ont changé
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
 
-          if [ -f esgt_events.json ]; then
-            git add esgt_events.json
+          CHANGED=0
 
-            if git diff --cached --quiet; then
-              echo "✅ Aucun changement détecté."
+          for f in esgt_events.json esgt_events2.json univ_events.json univ_events2.json; do
+            if [ -f "$f" ]; then
+              git add "$f"
+              CHANGED=1
             else
-              git commit -m "🔄 Mise à jour automatique ESGT"
-              git push
+              echo "❌ Fichier $f non généré."
+              exit 1
             fi
+          done
+
+          if git diff --cached --quiet; then
+            echo "✅ Aucun changement détecté dans les fichiers JSON."
           else
-            echo "❌ Fichier esgt_events.json non généré."
-            exit 1
+            git commit -m "🔄 Mise à jour automatique des fichiers événements"
+            git push
           fi
