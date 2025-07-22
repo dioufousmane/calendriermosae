@@ -29,10 +29,7 @@ jobs:
       - name: ⚙️ Générer tous les fichiers JSON
         run: |
           python esgt_generate_events.py
-          python esgt_generate_events2.py
           python univ_generate_events.py
-          python univ_generate_events2.py
-
       - name: 📤 Commit & push si des fichiers ont changé
         run: |
           git config --global user.name "GitHub Action"
