@@ -104,8 +104,16 @@ function renderEvents() {
         });
     });
 }
+function forceNoCacheReload() {
+    showTemporaryMessage("Chargement en cours… sans cache 🧹");
 
+    const url = new URL(window.location.href);
+    url.searchParams.set('_', Date.now());
 
+    setTimeout(() => {
+      window.location.href = url.toString();
+    }, 1500);
+  }
 
   function showTemporaryMessage(text) {
     const message = document.createElement('div');

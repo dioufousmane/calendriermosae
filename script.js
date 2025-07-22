@@ -142,68 +142,14 @@ function goToCurrentWeek() {
     currentWeekOffset = 0;
     createCalendarGrid();
 }
-const GITHUB_TOKEN = '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'; // ⚠️ À NE PAS laisser ici en prod
-const OWNER = 'dioufousmane';
-const REPO = 'calendriermosae';
-const WORKFLOW_FILE = 'all_events.yml'; // ✅ nom du fichier, pas le chemin complet
-const BRANCH = 'main';
-
-document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("runWorkflowBtn");
-  const logContainer = document.getElementById("executionLog");
-
-  if (button) {
-    button.addEventListener("click", () => {
-      afficherLog("⏳ Envoi de la requête à GitHub Actions...");
-
-      fetch(`https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`, {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${GITHUB_TOKEN}`,
-          "Accept": "application/vnd.github+json",
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ ref: BRANCH })
-      })
-      .then(response => {
-        if (response.ok) {
-          afficherLog("🚀 Génération lancée avec succès !");
-          setTimeout(forceNoCacheReload, 3000);
-        } else {
-          return response.json().then(data => {
-            afficherLog(`❌ Échec du déclenchement : ${data.message || response.statusText}`);
-          });
-        }
-      })
-      .catch(error => {
-        afficherLog(`💥 Erreur réseau ou système : ${error.message}`);
-      });
-    });
-  }
-
-  function afficherLog(message) {
-    if (logContainer) {
-      const line = document.createElement("div");
-      line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
-      logContainer.appendChild(line);
-    } else {
-      console.log(message);
-    }
-  }
-});
-
-function showTemporaryMessage(text) {
-  const msg = document.createElement("div");
-  msg.className = "temp-message";
-  msg.textContent = text;
-  document.body.appendChild(msg);
-  setTimeout(() => msg.remove(), 2000);
-}
 
 function forceNoCacheReload() {
-  const url = new URL(window.location.href);
-  url.searchParams.set('_', Date.now());
-  window.location.href = url.toString();
+    showTemporaryMessage("Chargement en cours… sans cache 🧹");
+    const url = new URL(window.location.href);
+    url.searchParams.set('_', Date.now());
+    setTimeout(() => {
+        window.location.href = url.toString();
+    }, 1500);
 }
 
 function showTemporaryMessage(text) {
