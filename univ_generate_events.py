@@ -45,7 +45,7 @@ def extract_title(raw_title):
     return line
 
 def extract_enseignant(text, title):
-    keywords = ["campus en fête", "soutenance", "alternance"]
+    keywords = ["CAMPUS EN FETE", "soutenance", "alternance"]
     if any(k in title.lower() for k in keywords):
         return "non renseigné"
 
