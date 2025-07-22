@@ -19,4 +19,35 @@ Bienvenue dans le projet **Calendrier MOSAE** — une application web interactiv
 ---
 
 ## 📁 Structure du projet
+.github/
+workflows/
+all_events.yml # Script GitHub Actions pour générer les fichiers JSON
+data/
+esgt_generate-events.yml
+esgt_generate-events2.yml
+univ_generate-events.yml
+univ_generate-events2.yml
+public/
+index.html # Interface utilisateur principale
+script.js # JS séparé (génération + affichage)
+style.css # Feuille de style
+scripts/
+esgt_generate_events.py # Scripts Python de génération des emplois du temps
 
+---
+
+## ⚙️ Génération des événements
+
+Les événements sont générés automatiquement via **GitHub Actions** toutes les X heures (ou à la demande via un bouton dans l’interface).  
+Les scripts Python lisent des fichiers YAML et produisent des fichiers `.json` utilisés par l’interface.
+
+---
+
+## 🔧 Lancer en local
+
+```bash
+# Installer les dépendances Python (dans un venv de préférence)
+pip install -r requirements.txt
+
+# Exécuter manuellement la génération
+python scripts/esgt_generate_events.py
