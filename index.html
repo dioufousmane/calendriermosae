@@ -53,6 +53,19 @@
 
   <!-- ✅ Scripts à la fin -->
   <script src="script.js"></script>
-  <script src="all_events.js"></script>
+  <script>
+    if (typeof events === 'undefined') var events = {};
+
+Promise.all([
+  fetch('esgt_events.json').then(res => res.json()),
+  fetch('univ_events.json').then(res => res.json())
+])
+.then(([esgt, univ]) => {
+  events['ESGT'] = esgt;
+  events['UNIV'] = univ;
+  createCalendarGrid();
+});
+
+  </script>
 </body>
 </html>
