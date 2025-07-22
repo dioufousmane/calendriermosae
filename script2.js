@@ -94,15 +94,13 @@ function renderEvents() {
             eventDiv.classList.add(`event-${cal.toLowerCase()}`);
             eventDiv.style.gridColumn = colIndex;
             eventDiv.style.gridRow = `${rowStart + 2} / span ${span}`; // +2 = ligne d'entête + 1-based grid
-            eventDiv.innerHTML = `
-  ${evt.title}<br><br>
-  Enseignant : ${evt.enseignant}<br><br>
-  Salle : ${evt.salle}<br><br>
-  <h3><strong>${evt.start} - ${evt.end}</strong></h3>
+            eventDiv.innerHTML = `<i class="fas fa-book"></i> ${evt.title}<br><br>
+            <i class="fas fa-chalkboard-teacher"></i> Enseignant : ${evt.enseignant}<br><br>
+            <i class="fas fa-door-open"></i> Salle : ${evt.salle}<br><br>
+            <h3><strong><i class="fas fa-clock"></i> ${evt.start} - ${evt.end}</strong></h3><br><br>
+            <i class="fas fa-sync-alt"></i> Dernière mise à jour : ${evt.maj}
 `;
-
-
-            grid.appendChild(eventDiv);
+           grid.appendChild(eventDiv);
         });
     });
 }

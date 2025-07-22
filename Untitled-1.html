@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test FontAwesome</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+  </style>
+</head>
+<body>
+
+<div id="grid"></div>
+
+<script>
+  const evt = {
+    title: "Topographie 1",
+    enseignant: "FERRE",
+    salle: "Salle 107",
+    start: "10:00",
+    end: "12:45",
+    maj: "22-07-2025 12:53:25"
+  };
+
+  const eventDiv = document.createElement("div");
+
+  eventDiv.innerHTML = `
+    <i class="fa-solid fa-book"></i> ${evt.title}<br><br>
+    <i class="fa-solid fa-chalkboard-user"></i> Enseignant : ${evt.enseignant}<br><br>
+    <i class="fa-solid fa-location-dot"></i> Salle : ${evt.salle}<br><br>
+    <h3><strong><i class="fa-solid fa-clock"></i> ${evt.start} - ${evt.end}</strong></h3><br><br>
+    <i class="fa-solid fa-rotate"></i> Dernière mise à jour : ${evt.maj}
+  `;
+
+  document.getElementById("grid").appendChild(eventDiv);
+</script>
+
+</body>
+</html>

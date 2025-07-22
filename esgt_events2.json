@@ -5,8 +5,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Vendredi",
@@ -14,8 +15,9 @@
     "start": "02:00",
     "end": "02:00",
     "title": "Férié",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -23,8 +25,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Mardi",
@@ -32,8 +35,9 @@
     "start": "01:00",
     "end": "01:00",
     "title": "Férié",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Mardi",
@@ -41,8 +45,9 @@
     "start": "08:30",
     "end": "09:00",
     "title": "RENTREE",
-    "enseignant": "",
-    "salle": "Salle C04"
+    "salle": "Salle C04",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -50,8 +55,9 @@
     "start": "09:00",
     "end": "18:15",
     "title": "SOUTENANCES",
-    "enseignant": "",
-    "salle": "Salle C05"
+    "salle": "Salle C05",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -59,8 +65,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Vendredi",
@@ -68,8 +75,9 @@
     "start": "08:30",
     "end": "12:45",
     "title": "GéoBIM",
+    "salle": "Salle 102",
     "enseignant": "ROBERT",
-    "salle": "Salle 102"
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -77,8 +85,9 @@
     "start": "02:00",
     "end": "02:00",
     "title": "Férié",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Mardi",
@@ -86,8 +95,9 @@
     "start": "09:00",
     "end": "17:30",
     "title": "SOUTENANCES",
+    "salle": "Salle C04",
     "enseignant": "DIOUF",
-    "salle": "Salle C04"
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -95,8 +105,9 @@
     "start": "02:00",
     "end": "02:00",
     "title": "Férié",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Vendredi",
@@ -104,8 +115,9 @@
     "start": "08:30",
     "end": "12:45",
     "title": "GéoBIM",
+    "salle": "non renseignée",
     "enseignant": "ROBERT",
-    "salle": ""
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Vendredi",
@@ -113,8 +125,9 @@
     "start": "08:30",
     "end": "12:45",
     "title": "GéoBIM",
+    "salle": "Salle 102",
     "enseignant": "ROBERT",
-    "salle": "Salle 102"
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -122,8 +135,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -131,8 +145,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -140,8 +155,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -149,8 +165,9 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Jeudi",
@@ -158,8 +175,9 @@
     "start": "02:00",
     "end": "02:00",
     "title": "Férié",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Vendredi",
@@ -167,8 +185,9 @@
     "start": "02:00",
     "end": "02:00",
     "title": "Férié",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Mercredi",
@@ -176,8 +195,9 @@
     "start": "08:30",
     "end": "11:00",
     "title": "SOUTENANCES",
+    "salle": "Amphi 2",
     "enseignant": "DIOUF",
-    "salle": "Amphi 2"
+    "maj": "22-07-2025 12:53:53"
   },
   {
     "day": "Lundi",
@@ -185,7 +205,8 @@
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
-    "enseignant": "",
-    "salle": ""
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 12:53:53"
   }
 ]

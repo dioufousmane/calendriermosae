@@ -4,8 +4,9 @@ import requests
 import re
 from ics import Calendar
 import json
+from datetime import datetime
 
-# 📡 Lien ICS à adapter
+# 📡 Lien ICS MOSAE1
 ICS_URL = "https://dioufousmane.github.io/calendriermosae/MOSAE1.ics"
 OUTPUT_FILE = "esgt_events.json"
 TIMEZONE = pytz.timezone("Europe/Paris")
@@ -24,7 +25,7 @@ def extract_with_regex(label, text):
     match = re.search(pattern, text)
     return match.group(1).strip() if match else ""
 
-def format_event(event):
+def format_event(event, maj_str):
     dtstart = event.begin.astimezone(TIMEZONE)
     dtend = event.end.astimezone(TIMEZONE)
 
@@ -36,14 +37,13 @@ def format_event(event):
     raw_title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
 
-    # 🔍 Extraction robuste
+    # 🔍 Extraction des infos
     matiere = extract_with_regex("Matière", description)
-    enseignant_nom = extract_with_regex("Enseignant", description)
-    salle = extract_with_regex("Salle", description)
+    enseignant_nom = extract_with_regex("Enseignant", description) or "non renseigné"
+    salle = extract_with_regex("Salle", description) or "non renseignée"
 
     # 🧠 Title = uniquement la matière
     title = matiere if matiere else raw_title
-    enseignant = f"Enseignant : {enseignant_nom}" if enseignant_nom else ""
 
     return {
         "day": day,
@@ -51,12 +51,13 @@ def format_event(event):
         "start": start_str,
         "end": end_str,
         "title": title,
-        "enseignant": enseignant,
-        "salle": salle
+        "salle": salle,
+        "enseignant": enseignant_nom,
+        "maj": maj_str
     }
 
 def main():
-    print("📡 Téléchargement du calendrier...")
+    print("📡 Téléchargement du calendrier MOSAE1...")
     response = requests.get(ICS_URL)
     response.encoding = 'utf-8'
 
@@ -67,11 +68,14 @@ def main():
     calendar = Calendar(response.text)
     events = []
 
+    # 🕒 Date de mise à jour commune
+    maj_str = datetime.now(TIMEZONE).strftime("%d-%m-%Y %H:%M:%S")
+
     for event in calendar.events:
         if event.begin and event.end:
             dtstart = event.begin.astimezone(TIMEZONE)
-            if dtstart.weekday() < 5:  # Lundi à Vendredi
-                evt = format_event(event)
+            if dtstart.weekday() < 5:  # Lundi à Vendredi uniquement
+                evt = format_event(event, maj_str)
                 events.append(evt)
                 print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
             else:

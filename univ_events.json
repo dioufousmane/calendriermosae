@@ -6,7 +6,8 @@
     "end": "11:00",
     "title": "1Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Vendredi",
@@ -15,7 +16,8 @@
     "end": "12:30",
     "title": "1TD SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -24,7 +26,8 @@
     "end": "11:30",
     "title": "1CM SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -33,7 +36,28 @@
     "end": "16:00",
     "title": "1TD SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mercredi",
+    "date": "22/10/2025",
+    "start": "08:30",
+    "end": "12:30",
+    "title": "1CM SIG et Base de données",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Jeudi",
+    "date": "09/10/2025",
+    "start": "13:30",
+    "end": "17:30",
+    "title": "1CM SIG et Base de données",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -42,25 +66,8 @@
     "end": "12:00",
     "title": "1CM SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mercredi",
-    "date": "22/10/2025",
-    "start": "08:30",
-    "end": "12:30",
-    "title": "1CM SIG et Base de données",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Jeudi",
-    "date": "09/10/2025",
-    "start": "13:30",
-    "end": "17:30",
-    "title": "1CM SIG et Base de données",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mercredi",
@@ -69,16 +76,8 @@
     "end": "12:00",
     "title": "1TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Lundi",
-    "date": "22/09/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "1TD  ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -87,7 +86,18 @@
     "end": "11:30",
     "title": "1TD  ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "DUCHEMIN STEPHANIE",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Lundi",
+    "date": "22/09/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "DUCHEMIN STEPHANIE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -96,7 +106,18 @@
     "end": "17:30",
     "title": "Soutenances",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "1TD SIG et Base de données",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -105,16 +126,8 @@
     "end": "12:00",
     "title": "1TD SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "1TD SIG et Base de données",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -123,7 +136,8 @@
     "end": "13:00",
     "title": "1Insertion professionelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -132,7 +146,8 @@
     "end": "15:30",
     "title": "1CM SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -141,7 +156,8 @@
     "end": "15:00",
     "title": "CM Ville durable et changements climatiques",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -150,7 +166,8 @@
     "end": "12:00",
     "title": "1CM Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mercredi",
@@ -159,7 +176,8 @@
     "end": "16:00",
     "title": "1TD Diagnostic Territorial",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PESLIER MARINE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -168,7 +186,8 @@
     "end": "18:00",
     "title": "1TD  LANGUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -177,7 +196,8 @@
     "end": "16:30",
     "title": "1TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -186,16 +206,18 @@
     "end": "11:30",
     "title": "1CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
     "date": "01/09/2025",
     "start": "08:30",
     "end": "10:30",
-    "title": "Réunion de rentrée MOSAE",
+    "title": "Réunion de rentrée",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -204,7 +226,8 @@
     "end": "18:30",
     "title": "1CM Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -213,16 +236,8 @@
     "end": "15:30",
     "title": "1CM Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mercredi",
-    "date": "17/09/2025",
-    "start": "09:00",
-    "end": "18:00",
-    "title": "Soutenances",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -231,7 +246,18 @@
     "end": "18:00",
     "title": "Soutenances",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mercredi",
+    "date": "17/09/2025",
+    "start": "09:00",
+    "end": "18:00",
+    "title": "Soutenances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -240,7 +266,8 @@
     "end": "19:30",
     "title": "1TD Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -249,7 +276,8 @@
     "end": "12:00",
     "title": "TD Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -258,7 +286,8 @@
     "end": "13:00",
     "title": "1Insertion professionelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -267,7 +296,8 @@
     "end": "16:30",
     "title": "1CM Diagnostic Territorial",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PESLIER MARINE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -276,7 +306,8 @@
     "end": "12:30",
     "title": "1TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -285,7 +316,8 @@
     "end": "16:30",
     "title": "1CM Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -294,7 +326,8 @@
     "end": "17:30",
     "title": "1CM ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "DUCHEMIN STEPHANIE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -303,7 +336,8 @@
     "end": "18:30",
     "title": "1CM Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -312,7 +346,8 @@
     "end": "16:00",
     "title": "1TD SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -321,7 +356,8 @@
     "end": "17:00",
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BERTRAND LIONEL",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -330,7 +366,8 @@
     "end": "15:30",
     "title": "1TD Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -339,16 +376,8 @@
     "end": "15:00",
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mardi",
-    "date": "09/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "1CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BERTRAND LIONEL",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -357,7 +386,8 @@
     "end": "15:30",
     "title": "1CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -366,7 +396,18 @@
     "end": "16:00",
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Vendredi",
@@ -375,7 +416,8 @@
     "end": "15:30",
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -384,7 +426,8 @@
     "end": "19:30",
     "title": "1TD Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -393,7 +436,18 @@
     "end": "12:00",
     "title": "CM Ville durable et changements climatiques",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/12/2025",
+    "start": "15:30",
+    "end": "17:00",
+    "title": "1TD Concevoir un observatoire de Territoires S.C.",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -402,16 +456,8 @@
     "end": "17:00",
     "title": "1TD Concevoir un observatoire de Territoires S.C.",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mardi",
-    "date": "02/12/2025",
-    "start": "15:30",
-    "end": "17:00",
-    "title": "1TD Concevoir un observatoire de Territoires S.C.",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -420,7 +466,8 @@
     "end": "12:00",
     "title": "1TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -429,7 +476,8 @@
     "end": "12:30",
     "title": "1CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -438,7 +486,8 @@
     "end": "16:30",
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -447,7 +496,8 @@
     "end": "16:30",
     "title": "1TD Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -456,7 +506,8 @@
     "end": "17:30",
     "title": "CM Ville durable et changements climatiques",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -465,7 +516,8 @@
     "end": "17:00",
     "title": "1TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BERTRAND LIONEL",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -474,7 +526,8 @@
     "end": "17:00",
     "title": "1CAMPUS EN FETE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -483,7 +536,8 @@
     "end": "17:00",
     "title": "1Insertion professionnelle Asso EGEE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -492,7 +546,8 @@
     "end": "15:30",
     "title": "1CM Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -501,7 +556,28 @@
     "end": "12:00",
     "title": "1CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mercredi",
+    "date": "08/10/2025",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "1TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mercredi",
+    "date": "19/11/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -510,16 +586,8 @@
     "end": "15:30",
     "title": "1TD LANGUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mercredi",
-    "date": "19/11/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "1TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -528,16 +596,8 @@
     "end": "15:30",
     "title": "1TD LANGUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mercredi",
-    "date": "08/10/2025",
-    "start": "15:30",
-    "end": "17:30",
-    "title": "1TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -546,16 +606,8 @@
     "end": "16:30",
     "title": "1TD Diagnostic Territorial",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mardi",
-    "date": "23/09/2025",
-    "start": "13:00",
-    "end": "22:30",
-    "title": "CAMPUS EN FETE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PESLIER MARINE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mardi",
@@ -564,7 +616,18 @@
     "end": "17:00",
     "title": "1Insertion professionnelle Asso EGEE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mardi",
+    "date": "23/09/2025",
+    "start": "13:00",
+    "end": "22:30",
+    "title": "CAMPUS EN FETE",
+    "salle": "non renseignée",
+    "enseignant": "ET LA GÉOGRAPHIE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mercredi",
@@ -573,7 +636,8 @@
     "end": "11:30",
     "title": "1CM SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -582,7 +646,8 @@
     "end": "17:30",
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mercredi",
@@ -591,16 +656,8 @@
     "end": "15:30",
     "title": "EXAMEN- Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Jeudi",
-    "date": "20/11/2025",
-    "start": "08:30",
-    "end": "12:30",
-    "title": "1TD SIG et Base de données",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -609,7 +666,8 @@
     "end": "12:30",
     "title": "1TD SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -618,7 +676,18 @@
     "end": "12:00",
     "title": "1TD SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Jeudi",
+    "date": "20/11/2025",
+    "start": "08:30",
+    "end": "12:30",
+    "title": "1TD SIG et Base de données",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -627,7 +696,8 @@
     "end": "11:00",
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -636,7 +706,8 @@
     "end": "16:30",
     "title": "1CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -645,7 +716,8 @@
     "end": "15:30",
     "title": "1CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -654,7 +726,8 @@
     "end": "15:30",
     "title": "1TD Diagnostic Territorial",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "PESLIER MARINE",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Lundi",
@@ -663,16 +736,8 @@
     "end": "11:00",
     "title": "1TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Jeudi",
-    "date": "02/10/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "1CM SIG et Base de données",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Jeudi",
@@ -681,34 +746,18 @@
     "end": "16:30",
     "title": "1CM SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
-    "day": "Lundi",
-    "date": "13/10/2025",
-    "start": "10:30",
-    "end": "12:30",
-    "title": "1TD  LANGUE",
+    "day": "Jeudi",
+    "date": "02/10/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "1CM SIG et Base de données",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mercredi",
-    "date": "22/10/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "1TD  LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
-  },
-  {
-    "day": "Mercredi",
-    "date": "08/10/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "1TD  LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "non renseigné",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mercredi",
@@ -717,7 +766,28 @@
     "end": "15:30",
     "title": "1TD  LANGUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mercredi",
+    "date": "08/10/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Lundi",
+    "date": "13/10/2025",
+    "start": "10:30",
+    "end": "12:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
   },
   {
     "day": "Mercredi",
@@ -726,6 +796,17 @@
     "end": "15:30",
     "title": "1TD  LANGUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
+  },
+  {
+    "day": "Mercredi",
+    "date": "22/10/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "22-07-2025 13:29:07"
   }
 ]

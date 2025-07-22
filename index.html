@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
-        <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
-          <i class="fa-solid fa-calendar-check"></i> MOSAE 1
-        </a>
-        <a href="mosae2.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
-          <i class="fa-solid fa-calendar"></i> MOSAE 2
-        </a>
-      </nav>
-      
-      <head>
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/png" href="./icon.png">
-        <title>EDT MOSAE 1 - ESGT et UNIV</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="./icon.png">
+  <title>EDT MOSAE 1 - ESGT et UNIV</title>
+
+  <!-- Font Awesome (une seule fois !) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Ton style CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-    <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 1  – <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span></h1>
-    <h2 id="weekLabel"></h2>
+  <!-- ✅ NAV bien placée dans le body -->
+  <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
+    <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+      <i class="fa-solid fa-calendar-check"></i> MOSAE 1
+    </a>
+    <a href="mosae2.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+      <i class="fa-solid fa-calendar"></i> MOSAE 2
+    </a>
+  </nav>
 
-    <div class="calendar-controls">
-        <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
-        <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
-        <button onclick="prevWeek()">⬅️ Semaine précédente</button>
-        <button onclick="forceNoCacheReload()">🔄 Rafraîchir les événements</button>
-        <button onclick="nextWeek()">➡️ Semaine suivante</button>
-      </div>
+  <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 1 – 
+    <span class="badge-esgt">ESGT</span> & 
+    <span class="badge-univ">UNIV</span>
+  </h1>
 
-    <div id="status" class="status-message"></div>
+  <h2 id="weekLabel"></h2>
 
-    <div class="calendar-grid" id="calendarGrid">
-    <div id="calendarGrid" class="calendar-grid"></div>
+  <div class="calendar-controls">
+    <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
+    <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
+    <button onclick="prevWeek()">⬅️ Semaine précédente</button>
+    <button onclick="forceNoCacheReload()">🔄 Rafraîchir les événements</button>
+    <button onclick="nextWeek()">➡️ Semaine suivante</button>
+  </div>
 
-        <!-- Grille de calendrier injectée par JS -->
-    </div>
-    <div id="status" class="status-message"></div>
+  <div id="status" class="status-message"></div>
 
-<style>
-  .status-message {
-    text-align: center;
-    font-weight: bold;
-    color: #2c3e50;
-    margin: 1rem 0;
-  }
-</style>
+  <div id="calendarGrid" class="calendar-grid"></div>
 
+  <style>
+    .status-message {
+      text-align: center;
+      font-weight: bold;
+      color: #2c3e50;
+      margin: 1rem 0;
+    }
+  </style>
 
-    <script src="script.js"></script>
-    <script src="all_events.js"></script>
-  </body>
-
+  <!-- ✅ Scripts à la fin -->
+  <script src="script.js"></script>
+  <script src="all_events.js"></script>
+</body>
 </html>
