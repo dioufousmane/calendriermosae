@@ -63,7 +63,6 @@ function createCalendarGrid() {
     renderEvents();
     updateWeekLabel();
 }
-<button onclick="forceNoCacheReload()">🔄 Rafraîchir les événements</button>
 
 function forceNoCacheReload() {
   // Affiche un message temporaire
