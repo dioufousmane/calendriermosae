@@ -76,29 +76,6 @@ function forceNoCacheReload() {
     window.location.href = url.toString(); // Recharge avec nouvelle URL
   }, 1200); // Petite pause pour affichage UX
 }
-
-// Optionnel : fonction pour message temporaire
-function showTemporaryMessage(message) {
-  const msg = document.createElement('div');
-  msg.className = 'temp-message';
-  msg.textContent = message;
-  Object.assign(msg.style, {
-    position: 'fixed',
-    top: '20px',
-    left: '50%',
-    transform: 'translateX(-50%)',
-    background: '#333',
-    color: '#fff',
-    padding: '10px 20px',
-    borderRadius: '8px',
-    zIndex: 1000,
-    boxShadow: '0 4px 8px rgba(0,0,0,0.3)'
-  });
-
-  document.body.appendChild(msg);
-  setTimeout(() => msg.remove(), 2000);
-}
-
 function renderEvents() {
     const grid = document.getElementById("calendarGrid");
     const oldEvents = grid.querySelectorAll(".event-block");
@@ -200,3 +177,57 @@ function showTemporaryMessage(text) {
 window.onload = () => {
     createCalendarGrid();
 };
+
+
+const baseWeekNumber = 35;
+const weekSelector = document.getElementById("weekSelector");
+
+function generateWeekSelector() {
+  const weeks = [];
+
+  // Semaines de fin août à juillet suivant
+  for (let i = 0; i < 52; i++) {
+    const weekNumber = (baseWeekNumber + i - 1) % 52 + 1;
+    weeks.push(weekNumber);
+  }
+
+  weeks.forEach((week, index) => {
+    const cell = document.createElement("div");
+    cell.classList.add("week-cell");
+    cell.innerText = week;
+    cell.dataset.index = index;
+
+    cell.onclick = () => {
+      document.querySelectorAll(".week-cell").forEach(c => c.classList.remove("selected"));
+      cell.classList.add("selected");
+
+      currentWeekOffset = index;
+      createCalendarGrid(); // ← ta fonction existante
+    };
+
+    weekSelector.appendChild(cell);
+  });
+
+  // Sélection initiale
+  const currentCell = weekSelector.querySelector(`[data-index="0"]`);
+  if (currentCell) currentCell.classList.add("selected");
+}
+
+window.onload = () => {
+  generateWeekSelector();
+  createCalendarGrid(); // existant
+};
+
+function goToToday() {
+    const today = new Date();
+    const base = new Date(baseDate); // baseDate = 1er septembre 2025
+    const diffDays = Math.floor((today - base) / (1000 * 60 * 60 * 24));
+    const newOffset = Math.floor(diffDays / 7);
+
+    currentWeekOffset = newOffset;
+    createCalendarGrid();
+
+    // Optionnel : scroll semaine dans le sélecteur si présent
+    highlightSelectedWeek();
+}
+

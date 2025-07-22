@@ -24,11 +24,11 @@
     <label><input type="checkbox" checked onchange="toggleCalendar('ESGT')"> ESGT</label>
     <label><input type="checkbox" checked onchange="toggleCalendar('UNIV')"> UNIV</label>
     <button onclick="prevWeek()">⬅️ Semaine précédente</button>
+    <button onclick="goToToday()">📅 Aujourd’hui</button>
     <button onclick="forceNoCacheReload()">🔄 Rafraîchir les événements</button>
     <button onclick="nextWeek()">➡️ Semaine suivante</button>
   </div>
-
-  <div id="status" class="status-message"></div>
+  <div id="weekSelector" class="week-selector"></div>
   <div class="calendar-grid" id="calendarGrid"></div>
 
   <!-- Script de base partagé -->

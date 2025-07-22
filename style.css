@@ -237,3 +237,35 @@ h2#weekLabel {
     }
 }
 
+.week-selector {
+    display: grid;
+    grid-template-columns: repeat(52, 1fr); /* 52 semaines */
+    background: #ddd;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    border: 1px solid #aaa;
+    width: 100%;
+  }
+  
+  .week-cell {
+    padding: 6px 4px;
+    border-right: 1px solid #aaa;
+    text-align: center;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .week-cell:last-child {
+    border-right: none;
+  }
+  
+  .week-cell:hover {
+    background-color: #cfd8dc;
+  }
+  
+  .week-cell.selected {
+    background-color: #80cbc4;
+    font-weight: bold;
+  }
+  
