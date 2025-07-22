@@ -64,6 +64,25 @@ function createCalendarGrid() {
     updateWeekLabel();
 }
 
+function triggerWorkflow() {
+    fetch("https://api.github.com/repos/dioufousmane/calendriermosae/dispatches", {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer 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",
+        "Accept": "application/vnd.github+json"
+      },
+      body: JSON.stringify({
+        event_type: "refresh-events"
+      })
+    })
+    .then(res => {
+      if (res.status === 204) {
+        alert("✅ Workflow déclenché !");
+      } else {
+        alert("❌ Erreur : " + res.status);
+      }
+    });
+  }
 function renderEvents() {
     const grid = document.getElementById("calendarGrid");
     const oldEvents = grid.querySelectorAll(".event-block");
