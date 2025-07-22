@@ -1,6 +1,6 @@
 const days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi'];
 const startHour = 8;
-const endHour = 18;
+const endHour = 18.5;
 const interval = 15;
 
 const baseDate = new Date(2025, 8, 1); // 1er septembre 2025
@@ -42,13 +42,12 @@ function createCalendarGrid() {
         const minute = (i * interval) % 60;
         const timeString = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
 
-        // ⛔ Suppression de l'affichage de l'heure
+        // Pas d'affichage d'heure
         const timeLabel = document.createElement('div');
         timeLabel.className = "time-label";
-        timeLabel.innerText = ""; // ← pas d'heure affichée
+        timeLabel.innerText = "";
         grid.appendChild(timeLabel);
 
-        // Cellules du calendrier (10 colonnes : 5 jours × 2)
         for (let d = 0; d < days.length; d++) {
             ['ESGT', 'UNIV'].forEach(cal => {
                 const cell = document.createElement('div');
@@ -56,7 +55,6 @@ function createCalendarGrid() {
                 cell.dataset.calendar = cal;
                 cell.dataset.time = timeString;
                 cell.classList.add(`col-${cal.toLowerCase()}`);
-                cell.textContent = ""; // pas d'heure ici non plus
                 grid.appendChild(cell);
             });
         }
@@ -65,7 +63,6 @@ function createCalendarGrid() {
     renderEvents();
     updateWeekLabel();
 }
-
 
 function renderEvents() {
     const grid = document.getElementById("calendarGrid");
@@ -91,22 +88,24 @@ function renderEvents() {
             const startTotal = startParts[0] * 60 + startParts[1];
             const endTotal = endParts[0] * 60 + endParts[1];
 
-            const rowStart = Math.round((startTotal - startHour * 60) / interval);
+            const rowStart = Math.floor((startTotal - startHour * 60) / interval);
             const span = Math.ceil((endTotal - startTotal) / interval);
 
             const baseCol = days.indexOf(evt.day) * 2 + (cal === "ESGT" ? 0 : 1);
+
             const eventDiv = document.createElement('div');
             eventDiv.className = "event-block";
             eventDiv.classList.add(`event-${cal.toLowerCase()}`);
-            eventDiv.style.gridColumn = baseCol + 2; // +1 pour coin vide, +1 pour index 0-based
+            eventDiv.style.gridColumn = baseCol + 2;
             eventDiv.style.gridRow = `${rowStart + 2} / span ${span}`;
-            eventDiv.innerHTML = `<i class="fas fa-book"></i> ${evt.title}<br><br>
-            <i class="fas fa-chalkboard-teacher"></i> Enseignant : ${evt.enseignant}<br><br>
-            <i class="fas fa-door-open"></i> Salle : ${evt.salle}<br><br>
-            <h3><strong><i class="fas fa-clock"></i> ${evt.start} - ${evt.end}</strong></h3><br><br>
-            <i class="fas fa-sync-alt"></i> Dernière mise à jour : ${evt.maj}
-`;
-           grid.appendChild(eventDiv);
+            eventDiv.innerHTML = `
+                <i class="fas fa-book"></i> ${evt.title}<br><br>
+                <i class="fas fa-chalkboard-teacher"></i> Enseignant : ${evt.enseignant}<br><br>
+                <i class="fas fa-door-open"></i> Salle : ${evt.salle}<br><br>
+                <h3><strong><i class="fas fa-clock"></i> ${evt.start} - ${evt.end}</strong></h3><br><br>
+                <i class="fas fa-sync-alt"></i> Dernière mise à jour : ${evt.maj}
+            `;
+            grid.appendChild(eventDiv);
         });
     });
 }
@@ -129,29 +128,6 @@ function refreshCalendar(name) {
     createCalendarGrid();
 }
 
-function forceNoCacheReload() {
-      showTemporaryMessage("Chargement en cours… sans cache 🧹");
-
-      const url = new URL(window.location.href);
-      url.searchParams.set('_', Date.now());
-
-      setTimeout(() => {
-        window.location.href = url.toString();
-      }, 1500);
-    }
-
-    function showTemporaryMessage(text) {
-      const message = document.createElement('div');
-      message.className = 'temp-message';
-      message.textContent = text;
-
-      document.body.appendChild(message);
-
-      setTimeout(() => {
-        message.remove();
-      }, 1400);
-    }
- 
 function nextWeek() {
     currentWeekOffset++;
     createCalendarGrid();
@@ -165,6 +141,25 @@ function prevWeek() {
 function goToCurrentWeek() {
     currentWeekOffset = 0;
     createCalendarGrid();
+}
+
+function forceNoCacheReload() {
+    showTemporaryMessage("Chargement en cours… sans cache 🧹");
+    const url = new URL(window.location.href);
+    url.searchParams.set('_', Date.now());
+    setTimeout(() => {
+        window.location.href = url.toString();
+    }, 1500);
+}
+
+function showTemporaryMessage(text) {
+    const message = document.createElement('div');
+    message.className = 'temp-message';
+    message.textContent = text;
+    document.body.appendChild(message);
+    setTimeout(() => {
+        message.remove();
+    }, 1400);
 }
 
 window.onload = () => {
