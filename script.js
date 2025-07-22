@@ -1,6 +1,6 @@
 const days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi'];
 const startHour = 8;
-const endHour = 20;
+const endHour = 18.5;
 const interval = 15;
 
 const baseDate = new Date(2025, 8, 1); // 1er septembre 2025
