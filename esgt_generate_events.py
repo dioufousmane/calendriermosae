@@ -6,12 +6,21 @@ from ics import Calendar
 import json
 from datetime import datetime
 
-# 📡 Lien ICS MOSAE1
-ICS_URL = "https://dioufousmane.github.io/calendriermosae/MOSAE1.ics"
-OUTPUT_FILE = "esgt_events.json"
-TIMEZONE = pytz.timezone("Europe/Paris")
+# 🗂️ Configurations des calendriers ESGT
+CALENDARS = [
+    {
+        "name": "MOSAE1",
+        "url": "https://dioufousmane.github.io/calendriermosae/MOSAE1.ics",
+        "output": "esgt_events.json"
+    },
+    {
+        "name": "MOSAE2",
+        "url": "https://dioufousmane.github.io/calendriermosae/MOSAE2.ics",
+        "output": "esgt_events2.json"
+    }
+]
 
-# 📅 Traduction manuelle des jours
+TIMEZONE = pytz.timezone("Europe/Paris")
 jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 def clean_text(text):
@@ -37,12 +46,9 @@ def format_event(event, maj_str):
     raw_title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
 
-    # 🔍 Extraction des infos
     matiere = extract_with_regex("Matière", description)
     enseignant_nom = extract_with_regex("Enseignant", description) or "non renseigné"
     salle = extract_with_regex("Salle", description) or "non renseignée"
-
-    # 🧠 Title = uniquement la matière
     title = matiere if matiere else raw_title
 
     return {
@@ -56,37 +62,41 @@ def format_event(event, maj_str):
         "maj": maj_str
     }
 
-def main():
-    print("📡 Téléchargement du calendrier MOSAE1...")
-    response = requests.get(ICS_URL)
-    response.encoding = 'utf-8'
-
-    if response.status_code != 200:
-        print(f"❌ Erreur de téléchargement : {response.status_code}")
+def process_calendar(name, url, output_file):
+    print(f"\n📡 Téléchargement du calendrier {name}...")
+    try:
+        response = requests.get(url)
+        response.encoding = 'utf-8'
+        if response.status_code != 200:
+            print(f"❌ Erreur HTTP {response.status_code} pour {name}")
+            return
+    except Exception as e:
+        print(f"❌ Erreur lors de la requête pour {name} : {e}")
         return
 
     calendar = Calendar(response.text)
     events = []
-
-    # 🕒 Date de mise à jour commune
     maj_str = datetime.now(TIMEZONE).strftime("%d-%m-%Y %H:%M:%S")
 
     for event in calendar.events:
         if event.begin and event.end:
             dtstart = event.begin.astimezone(TIMEZONE)
-            if dtstart.weekday() < 5:  # Lundi à Vendredi uniquement
+            if dtstart.weekday() < 5:
                 evt = format_event(event, maj_str)
                 events.append(evt)
-                print(f"✔️ Ajouté : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
+                print(f"✔️ {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
             else:
                 print(f"⏭️ Ignoré (weekend) : {event.name}")
 
-    print(f"✅ {len(events)} événements extraits.")
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
 
-    print(f"📄 Fichier JSON généré : {OUTPUT_FILE}")
+    print(f"✅ {len(events)} événements extraits pour {name}.")
+    print(f"📄 Fichier JSON généré : {output_file}")
+
+def main():
+    for cal in CALENDARS:
+        process_calendar(cal["name"], cal["url"], cal["output"])
 
 if __name__ == "__main__":
     main()
