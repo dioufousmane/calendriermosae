@@ -139,16 +139,31 @@ function toggleCalendar(name) {
 function refreshCalendar(name) {
     createCalendarGrid();
 }
-
-function nextWeek() {
+function prevWeek() {
+    if (currentWeekOffset > 0) {
+      currentWeekOffset--;
+      createCalendarGrid();
+      highlightSelectedWeek();
+    }
+  }
+  
+  function nextWeek() {
     currentWeekOffset++;
     createCalendarGrid();
-}
-
-function prevWeek() {
-    currentWeekOffset--;
-    createCalendarGrid();
-}
+    highlightSelectedWeek();
+  }
+  function highlightSelectedWeek() {
+    const allCells = document.querySelectorAll(".week-cell");
+    allCells.forEach(cell => cell.classList.remove("selected"));
+  
+    const currentCell = document.querySelector(`.week-cell[data-index="${currentWeekOffset}"]`);
+    if (currentCell) {
+      currentCell.classList.add("selected");
+      // Scroll auto si weekSelector overflow-x
+      currentCell.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }
+  }
+  
 
 function goToCurrentWeek() {
     currentWeekOffset = 0;
