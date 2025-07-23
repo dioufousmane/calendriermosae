@@ -25,6 +25,16 @@ h1 {
   gap: 10px;
   flex-wrap: wrap;
 }
+h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 20px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
 
 h1 i {
   font-size: 1.5rem;
