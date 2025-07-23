@@ -40,15 +40,13 @@ function getISOWeekNumber(date) {
 }
 
 function getDateOfISOWeek(week, year) {
-  const simple = new Date(year, 0, 1 + (week - 1) * 7);
-  const dow = simple.getDay();
-  if (dow <= 4) {
-    simple.setDate(simple.getDate() - simple.getDay() + 1);
-  } else {
-    simple.setDate(simple.getDate() + 8 - simple.getDay());
-  }
-  return simple;
+  const simple = new Date(Date.UTC(year, 0, 4)); // 4 janvier = toujours dans la semaine 1 ISO
+  const dayOfWeek = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() - dayOfWeek + 1 + (week - 1) * 7);
+  return monday;
 }
+
 
 function generateWeekOptions() {
   const select = document.getElementById("weekSelect");
