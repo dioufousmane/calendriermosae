@@ -41,7 +41,16 @@ def clean_text(text):
 
 def extract_title(raw_title):
     line = raw_title.split("\\n")[0].strip()
+
+    # Supprimer un chiffre suivi de TD/TP/CM au début
+    line = re.sub(r"^\s*\d+(?=\s*(TD|TP|CM)\b)", "", line, flags=re.IGNORECASE)
+
+    # Supprimer aussi les groupes (G1, G2...) au début si présents
+    line = re.sub(r"^\s*G\d+\s+", "", line, flags=re.IGNORECASE)
+
+    # Supprimer les noms de formations
     line = re.sub(formations_regex, "", line, flags=re.IGNORECASE | re.VERBOSE).strip()
+
     return line
 
 def extract_enseignant(text, title):

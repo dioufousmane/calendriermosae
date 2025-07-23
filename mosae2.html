@@ -7,6 +7,8 @@
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
 
   <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="icon.png" type="image/png">
+
 </head>
 
 <body>
@@ -24,13 +26,14 @@
   <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 2 – 
     <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span>
   </h1>
-  <label for="weekSelect">📅 Semaine :</label>
-<select id="weekSelect"></select>
 
   <!-- ✅ Filtres ESGT / UNIV -->
   <div class="calendar-controls" style="text-align: center; margin: 1rem 0;">
     <label><input type="checkbox" id="toggle-esgt" checked onchange="toggleCalendar('esgt')"> ESGT</label>
     <label><input type="checkbox" id="toggle-univ" checked onchange="toggleCalendar('univ')"> UNIV</label>
+    <br> ||
+    <label for="weekSelect">📅 Semaine :</label>
+      <select id="weekSelect"></select>
   </div>
 
   <div id="calendar"></div>
