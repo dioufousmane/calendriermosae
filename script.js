@@ -103,6 +103,7 @@ async function initCalendar() {
       locale: "fr",
       timeZone: "Europe/Paris",
       initialView: "timeGridWeek",
+      firstDay: 1, // 👈 démarre le calendrier par un lundi
       nowIndicator: true,
       height: "100%",
       expandRows: true,
