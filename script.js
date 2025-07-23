@@ -16,7 +16,9 @@ function transformEvent(evt, source) {
     extendedProps: {
       enseignant: evt.enseignant,
       salle: evt.salle,
-      maj: evt.maj
+      maj: evt.maj,
+      startRaw: evt.start, // heure brute du JSON
+      endRaw: evt.end      // heure brute du JSON
     },
     classNames: [`event-${source}`]
   };
@@ -92,13 +94,14 @@ function toggleCalendar(source) {
   }
 }
 
-// Ouvre le modal avec les infos de l'événement
+// Ouvre le modal avec les infos de l'événement (heures EXACTES du JSON)
 function openModal(event) {
   const modal = document.getElementById("eventModal");
   document.getElementById("modalTitle").textContent = event.title;
 
-  const start = event.start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-  const end = event.end ? event.end.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) : "";
+  // Affiche les heures brutes telles que dans le JSON, pas de conversion
+  const start = event.extendedProps.startRaw;
+  const end = event.extendedProps.endRaw;
 
   document.getElementById("modalTime").textContent = `🕒 De ${start} à ${end}`;
   document.getElementById("modalEnseignant").textContent = `👨‍🏫 Enseignant : ${event.extendedProps.enseignant}`;
