@@ -65,6 +65,9 @@ async function initCalendar() {
           "title",
           `${info.event.title}\nEnseignant : ${enseignant}\nSalle : ${salle}\nMAJ : ${maj}`
         );
+      },
+      eventClick: function(info) {
+        openModal(info.event);
       }
     });
 
@@ -89,4 +92,39 @@ function toggleCalendar(source) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", initCalendar);
+// Ouvre le modal avec les infos de l'événement
+function openModal(event) {
+  const modal = document.getElementById("eventModal");
+  document.getElementById("modalTitle").textContent = event.title;
+
+  const start = event.start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  const end = event.end ? event.end.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) : "";
+
+  document.getElementById("modalTime").textContent = `🕒 De ${start} à ${end}`;
+  document.getElementById("modalEnseignant").textContent = `👨‍🏫 Enseignant : ${event.extendedProps.enseignant}`;
+  document.getElementById("modalSalle").textContent = `🏫 Salle : ${event.extendedProps.salle}`;
+  document.getElementById("modalMaj").textContent = `⚡ Mise à jour : ${event.extendedProps.maj}`;
+
+  modal.style.display = "flex";
+}
+
+// Ferme le modal
+function closeModal() {
+  const modal = document.getElementById("eventModal");
+  modal.style.display = "none";
+}
+
+// Attache gestionnaires de fermeture du modal après chargement DOM
+document.addEventListener("DOMContentLoaded", () => {
+  initCalendar();
+
+  const closeBtn = document.getElementById("modalClose");
+  if (closeBtn) closeBtn.addEventListener("click", closeModal);
+
+  const modal = document.getElementById("eventModal");
+  if (modal) {
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) closeModal();
+    });
+  }
+});
