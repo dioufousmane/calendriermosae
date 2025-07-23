@@ -7,40 +7,47 @@
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
 
   <link href="style.css" rel="stylesheet" />
-  
 </head>
 
 <body>
+  <!-- ✅ NAVIGATION EN PREMIER -->
+  <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
+    <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+      <i class="fa-solid fa-calendar-check"></i> MOSAE 1
+    </a>
+    <a href="mosae2.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
+      <i class="fa-solid fa-calendar"></i> MOSAE 2
+    </a>
+  </nav>
 
-  
-    <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
-        <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
-          <i class="fa-solid fa-calendar-check"></i> MOSAE 1
-        </a>
-        <a href="mosae2.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
-          <i class="fa-solid fa-calendar"></i> MOSAE 2
-        </a>
-      </nav>
-        <!-- ✅ Filtres ESGT / UNIV -->
+  <!-- ✅ TITRE -->
+  <h1><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 2 – 
+    <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span>
+  </h1>
+  <label for="weekSelect">📅 Semaine :</label>
+<select id="weekSelect"></select>
+
+  <!-- ✅ Filtres ESGT / UNIV -->
   <div class="calendar-controls" style="text-align: center; margin: 1rem 0;">
     <label><input type="checkbox" id="toggle-esgt" checked onchange="toggleCalendar('esgt')"> ESGT</label>
     <label><input type="checkbox" id="toggle-univ" checked onchange="toggleCalendar('univ')"> UNIV</label>
   </div>
+
   <div id="calendar"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
   <script src="script.js"></script>
-    <!-- Modal popup -->
-<div id="eventModal" class="modal" style="display:none;">
-  <div class="modal-content">
-    <span id="modalClose" class="modal-close">&times;</span>
-    <h2 id="modalTitle"></h2>
-    <p id="modalTime"></p>
-    <p id="modalEnseignant"></p>
-    <p id="modalSalle"></p>
-    <p id="modalMaj"></p>
-  </div>
-</div>
 
+  <!-- ✅ Modal popup -->
+  <div id="eventModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span id="modalClose" class="modal-close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalTime"></p>
+      <p id="modalEnseignant"></p>
+      <p id="modalSalle"></p>
+      <p id="modalMaj"></p>
+    </div>
+  </div>
 </body>
 </html>

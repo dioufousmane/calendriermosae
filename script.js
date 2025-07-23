@@ -4,7 +4,6 @@ let allEvents = {
   univ: []
 };
 
-// Transforme un événement brut JSON vers FullCalendar
 function transformEvent(evt, source) {
   const [d, m, y] = evt.date.split("/").map(Number);
   const date = `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
@@ -17,24 +16,69 @@ function transformEvent(evt, source) {
       enseignant: evt.enseignant,
       salle: evt.salle,
       maj: evt.maj,
-      startRaw: evt.start, // heure brute du JSON
-      endRaw: evt.end      // heure brute du JSON
+      startRaw: evt.start,
+      endRaw: evt.end
     },
     classNames: [`event-${source}`]
   };
 }
 
-// Détermine les bons fichiers JSON selon la page
 function getEventFileNames() {
   const filename = window.location.pathname.split("/").pop();
   if (filename === "mosae2.html") {
     return ["esgt_events2.json", "univ_events2.json"];
   }
-  // Par défaut (index.html ou autre)
   return ["esgt_events.json", "univ_events.json"];
 }
 
-// Initialise le calendrier
+function getISOWeekNumber(date) {
+  const tmp = new Date(date.getTime());
+  tmp.setHours(0, 0, 0, 0);
+  tmp.setDate(tmp.getDate() + 4 - (tmp.getDay() || 7));
+  const yearStart = new Date(tmp.getFullYear(), 0, 1);
+  return Math.ceil((((tmp - yearStart) / 86400000) + 1) / 7);
+}
+
+function getDateOfISOWeek(week, year) {
+  const simple = new Date(year, 0, 1 + (week - 1) * 7);
+  const dow = simple.getDay();
+  if (dow <= 4) {
+    simple.setDate(simple.getDate() - simple.getDay() + 1);
+  } else {
+    simple.setDate(simple.getDate() + 8 - simple.getDay());
+  }
+  return simple;
+}
+
+function generateWeekOptions() {
+  const select = document.getElementById("weekSelect");
+  if (!select) return;
+
+  let currentDate = new Date(2025, 8, 1); // 1 sept 2025 (mois=8)
+  for (let i = 0; i < 52; i++) {
+    const week = getISOWeekNumber(currentDate);
+    const year = currentDate.getFullYear();
+
+    const option = document.createElement("option");
+    option.value = `${year}-${String(week).padStart(2, "0")}`;
+    option.textContent = `Semaine ${week} (${year})`;
+    select.appendChild(option);
+
+    currentDate.setDate(currentDate.getDate() + 7);
+  }
+
+  // Sélection automatique
+  const today = new Date();
+  const currWeek = getISOWeekNumber(today);
+  const currYear = today.getFullYear();
+  const val = `${currYear}-${String(currWeek).padStart(2, "0")}`;
+  if ([...select.options].some(o => o.value === val)) {
+    select.value = val;
+  } else {
+    select.value = "2025-36";
+  }
+}
+
 async function initCalendar() {
   try {
     const [esgtFile, univFile] = getEventFileNames();
@@ -48,6 +92,13 @@ async function initCalendar() {
     allEvents.univ = univData.map(evt => transformEvent(evt, "univ"));
 
     const calendarEl = document.getElementById("calendar");
+
+    generateWeekOptions();
+
+    const weekSelect = document.getElementById("weekSelect");
+    let [defaultYear, defaultWeek] = weekSelect.value.split("-").map(Number);
+    let initialDate = getDateOfISOWeek(defaultWeek, defaultYear);
+
     calendar = new FullCalendar.Calendar(calendarEl, {
       locale: "fr",
       timeZone: "Europe/Paris",
@@ -60,32 +111,60 @@ async function initCalendar() {
         center: "title",
         right: "dayGridMonth,timeGridWeek,timeGridDay"
       },
+      initialDate: initialDate,
       events: [...allEvents.esgt, ...allEvents.univ],
-      eventDidMount: function (info) {
+      eventDidMount: info => {
         const { enseignant, salle, maj } = info.event.extendedProps;
-        info.el.setAttribute(
-          "title",
-          `${info.event.title}\nEnseignant : ${enseignant}\nSalle : ${salle}\nMAJ : ${maj}`
-        );
+        info.el.setAttribute("title",
+          `${info.event.title}\nEnseignant : ${enseignant}\nSalle : ${salle}\nMAJ : ${maj}`);
       },
-      eventClick: function(info) {
-        openModal(info.event);
+      eventClick: info => openModal(info.event),
+      datesSet: info => {
+        const date = info.start;
+        const week = getISOWeekNumber(date);
+        const year = date.getFullYear();
+        const val = `${year}-${String(week).padStart(2, "0")}`;
+        if (weekSelect.value !== val) {
+          if ([...weekSelect.options].some(o => o.value === val)) {
+            weekSelect.value = val;
+          }
+        }
       }
     });
 
     calendar.render();
+
+    weekSelect.addEventListener("change", () => {
+      const [y, w] = weekSelect.value.split("-").map(Number);
+      const date = getDateOfISOWeek(w, y);
+      calendar.gotoDate(date);
+    });
+
   } catch (error) {
     console.error("Erreur de chargement des événements :", error);
   }
 }
 
-// Gère l’affichage dynamique des événements
+function openModal(event) {
+  const modal = document.getElementById("eventModal");
+  document.getElementById("modalTitle").textContent = event.title;
+  document.getElementById("modalTime").textContent = `🕒 De ${event.extendedProps.startRaw} à ${event.extendedProps.endRaw}`;
+  document.getElementById("modalEnseignant").textContent = `👨‍🏫 Enseignant : ${event.extendedProps.enseignant}`;
+  document.getElementById("modalSalle").textContent = `🏫 Salle : ${event.extendedProps.salle}`;
+  document.getElementById("modalMaj").textContent = `⚡ Mise à jour : ${event.extendedProps.maj}`;
+  modal.style.display = "flex";
+}
+
+function closeModal() {
+  const modal = document.getElementById("eventModal");
+  modal.style.display = "none";
+}
+
 function toggleCalendar(source) {
   const checkbox = document.getElementById(`toggle-${source}`);
   if (!checkbox || !calendar) return;
 
-  const isChecked = checkbox.checked;
-  if (isChecked) {
+  if (checkbox.checked) {
     allEvents[source].forEach(evt => calendar.addEvent(evt));
   } else {
     calendar.getEvents().forEach(e => {
@@ -94,30 +173,6 @@ function toggleCalendar(source) {
   }
 }
 
-// Ouvre le modal avec les infos de l'événement (heures EXACTES du JSON)
-function openModal(event) {
-  const modal = document.getElementById("eventModal");
-  document.getElementById("modalTitle").textContent = event.title;
-
-  // Affiche les heures brutes telles que dans le JSON, pas de conversion
-  const start = event.extendedProps.startRaw;
-  const end = event.extendedProps.endRaw;
-
-  document.getElementById("modalTime").textContent = `🕒 De ${start} à ${end}`;
-  document.getElementById("modalEnseignant").textContent = `👨‍🏫 Enseignant : ${event.extendedProps.enseignant}`;
-  document.getElementById("modalSalle").textContent = `🏫 Salle : ${event.extendedProps.salle}`;
-  document.getElementById("modalMaj").textContent = `⚡ Mise à jour : ${event.extendedProps.maj}`;
-
-  modal.style.display = "flex";
-}
-
-// Ferme le modal
-function closeModal() {
-  const modal = document.getElementById("eventModal");
-  modal.style.display = "none";
-}
-
-// Attache gestionnaires de fermeture du modal après chargement DOM
 document.addEventListener("DOMContentLoaded", () => {
   initCalendar();
 
@@ -126,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const modal = document.getElementById("eventModal");
   if (modal) {
-    modal.addEventListener("click", (e) => {
+    modal.addEventListener("click", e => {
       if (e.target === modal) closeModal();
     });
   }
