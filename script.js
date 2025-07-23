@@ -147,11 +147,30 @@ async function initCalendar() {
 
 function openModal(event) {
   const modal = document.getElementById("eventModal");
-  document.getElementById("modalTitle").textContent = event.title;
+  const titleEl = document.getElementById("modalTitle");
+  
+  titleEl.textContent = event.title;
+  
+  // Définir la couleur de fond selon le groupe
+  let bgColor = "";
+  if (event.groupId === "esgt") {
+    bgColor = "#28a745";  // vert ESGT
+  } else if (event.groupId === "univ") {
+    bgColor = "#007bff";  // bleu UNIV
+  }
+  
+  // Appliquer la couleur de fond + un peu de style
+  titleEl.style.backgroundColor = bgColor;
+  titleEl.style.color = "white";
+  titleEl.style.padding = "8px 12px";
+  titleEl.style.borderRadius = "4px";
+  titleEl.style.display = "inline-block";
+  
   document.getElementById("modalTime").textContent = `🕒 De ${event.extendedProps.startRaw} à ${event.extendedProps.endRaw}`;
   document.getElementById("modalEnseignant").textContent = `👨‍🏫 Enseignant : ${event.extendedProps.enseignant}`;
   document.getElementById("modalSalle").textContent = `🏫 Salle : ${event.extendedProps.salle}`;
   document.getElementById("modalMaj").textContent = `⚡ Mise à jour : ${event.extendedProps.maj}`;
+  
   modal.style.display = "flex";
 }
 
