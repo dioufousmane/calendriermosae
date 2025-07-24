@@ -205,3 +205,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+function triggerWorkflow() {
+  fetch("/trigger-workflow", {
+    method: "POST"
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.success) {
+      alert("✅ " + data.message);
+    } else {
+      alert("❌ Échec : " + data.message);
+      console.error(data.details);
+    }
+  })
+  .catch(err => {
+    alert("❌ Erreur réseau");
+    console.error(err);
+  });
+}
