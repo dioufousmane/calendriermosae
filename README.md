@@ -31,30 +31,29 @@ Ces scripts sont exécutés via un workflow GitHub Actions :
 ## 🗂️ Structure du projet
 
 📁 racine/
-├── .git/                     # Répertoire de configuration Git
+├── .git/                      # Répertoire de configuration Git
 ├── .github/                  # Workflows GitHub Actions
 │
 ├── .env                      # Variables d'environnement (non versionné)
+├── favicon.ico              # Icône du site
+├── icon.png                 # Icône personnalisée
 │
-├── favicon.ico               # Icône du site
-├── icon.png                  # Icône personnalisée
+├── index.html               # Page principale (MOSAE1)
+├── mosae2.html              # Page secondaire (MOSAE2)
 │
-├── index.html                # Page principale (MOSAE1)
-├── mosae2.html               # Page secondaire (MOSAE2)
+├── script.js                # Logique JavaScript pour les pages
+├── style.css                # Feuille de style CSS
 │
-├── script.js                 # Logique JavaScript pour les pages
-├── style.css                 # Feuille de style CSS
+├── MOSAE1.ics               # Fichier ICS source pour MOSAE1
+├── MOSAE2.ics               # Fichier ICS source pour MOSAE2
 │
-├── MOSAE1.ics                # Fichier ICS source pour MOSAE1
-├── MOSAE2.ics                # Fichier ICS source pour MOSAE2
+├── esgt_events.json         # Événements ESGT pour MOSAE1
+├── esgt_events2.json        # Événements ESGT pour MOSAE2
+├── univ_events.json         # Événements UNIV pour MOSAE1
+├── univ_events2.json        # Événements UNIV pour MOSAE2
 │
-├── esgt_events.json          # Événements ESGT pour MOSAE1
-├── esgt_events2.json         # Événements ESGT pour MOSAE2
-├── univ_events.json          # Événements UNIV pour MOSAE1
-├── univ_events2.json         # Événements UNIV pour MOSAE2
-│
-├── esgt_generate_events.py   # Script de génération JSON à partir d'ICS (ESGT)
-└── univ_generate_events.py   # Script de génération JSON à partir d'ICS (UNIV)
+├── esgt_generate_events.py  # Script de génération JSON à partir d'ICS (ESGT)
+└── univ_generate_events.py  # Script de génération JSON à partir d'ICS (UNIV)
 
 ## 🚀 Déploiement
 
