@@ -41,16 +41,9 @@ def clean_text(text):
 
 def extract_title(raw_title):
     line = raw_title.split("\\n")[0].strip()
-
-    # Supprimer un chiffre suivi de TD/TP/CM au début
     line = re.sub(r"^\s*\d+(?=\s*(TD|TP|CM)\b)", "", line, flags=re.IGNORECASE)
-
-    # Supprimer aussi les groupes (G1, G2...) au début si présents
     line = re.sub(r"^\s*G\d+\s+", "", line, flags=re.IGNORECASE)
-
-    # Supprimer les noms de formations
     line = re.sub(formations_regex, "", line, flags=re.IGNORECASE | re.VERBOSE).strip()
-
     return line
 
 def extract_enseignant(text, title):
@@ -60,7 +53,6 @@ def extract_enseignant(text, title):
 
     text = re.sub(r"\(Exported.*?\)", "", text)
     text = re.sub(formations_regex, "", text, flags=re.IGNORECASE | re.VERBOSE)
-
     match = re.search(r"([A-ZÉÈÊÛÎ\-]{2,}(?:\s+[A-ZÉÈÊÛÎ\-]{2,}){1,2})\s*$", text.strip())
     return match.group(1).strip() if match else "non renseigné"
 
@@ -82,10 +74,15 @@ def format_event(event, maj_str):
 
     raw_title = clean_text(event.name or "Sans titre")
     description = clean_text(event.description or "")
+    location = clean_text(event.location or "")
 
     title = extract_title(raw_title)
     enseignant = extract_enseignant(description or raw_title, title)
+
+    # Salle depuis description, sinon vérifier si LOCATION contient "Salle ESGT"
     salle = extract_salle(description)
+    if salle == "non renseignée" and "salle esgt" in location.lower():
+        salle = "Salle ESGT"
 
     return {
         "day": day,
