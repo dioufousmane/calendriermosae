@@ -32,8 +32,8 @@ Ces scripts sont exécutés via un workflow GitHub Actions :
 
 📁 racine/
 
-├── 📁 .git/                      # Répertoire de configuration Git  
-├── 📁 .github/                   # Workflows GitHub Actions  
+  ├── 📁 .git/                      # Répertoire de configuration Git  
+  ├── 📁 .github/                   # Workflows GitHub Actions  
 
 ├── .env                       # Variables d'environnement (non versionné)  
 ├── favicon.ico                # Icône du site  
