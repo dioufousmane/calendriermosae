@@ -255,7 +255,7 @@ button.addEventListener("click", async () => {
 
     // ⏳ Compte à rebours de 5 minutes avant rechargement
     status.className = "success";
-    let remaining = 300;
+    let remaining = 600;
     const interval = setInterval(() => {
       remaining--;
       const min = Math.floor(remaining / 60);
