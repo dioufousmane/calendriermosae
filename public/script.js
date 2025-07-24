@@ -205,16 +205,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-const token = "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"; // 👉 Ton token GitHub personnel ici
-const owner = "dioufousmane";
-const repo = "calendriermosae";
-const workflowId = "all_events.yml";
-const ref = "master";
-
 const button = document.getElementById("triggerWorkflowBtn");
 const status = document.getElementById("workflowStatus");
 
-// 🔒 Vérifier s’il faut désactiver le bouton
+// 🔒 Cooldown : évite le spam du bouton
 function checkCooldown() {
   const nextAllowedTime = localStorage.getItem("nextWorkflowTrigger");
   if (nextAllowedTime && Date.now() < parseInt(nextAllowedTime)) {
@@ -224,7 +218,6 @@ function checkCooldown() {
   return false;
 }
 
-// 🟢 Au chargement
 checkCooldown();
 
 button.addEventListener("click", async () => {
@@ -234,26 +227,20 @@ button.addEventListener("click", async () => {
   status.textContent = "⏳ Déclenchement du workflow...";
 
   try {
-    const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`, {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${token}`,
-        "Accept": "application/vnd.github+json",
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ ref })
+    const resp = await fetch("http://localhost:3000/trigger", {
+      method: "POST"
     });
 
     if (!resp.ok) {
       const errText = await resp.text();
-      throw new Error(`Échec GitHub API : ${resp.status} ${errText}`);
+      throw new Error(`Erreur API : ${resp.status} ${errText}`);
     }
 
-    // ✅ Enregistre le prochain déclenchement autorisé dans 2h
+    // ⏱ Cooldown de 2h
     const next = Date.now() + 2 * 60 * 60 * 1000;
     localStorage.setItem("nextWorkflowTrigger", next.toString());
 
-    // ⏳ Compte à rebours de 5 minutes avant rechargement
+    // ✅ Compte à rebours de 5 minutes
     status.className = "success";
     let remaining = 300;
     const interval = setInterval(() => {
@@ -261,7 +248,6 @@ button.addEventListener("click", async () => {
       const min = Math.floor(remaining / 60);
       const sec = remaining % 60;
       const pad = (n) => n.toString().padStart(2, "0");
-
       status.textContent = `✅ Déclenchement réussi. Rechargement dans ${pad(min)}:${pad(sec)}...`;
 
       if (remaining <= 0) {
@@ -276,7 +262,7 @@ button.addEventListener("click", async () => {
     button.disabled = false;
   }
 });
+
 document.getElementById("forceReloadBtn").addEventListener("click", () => {
-  // Recharge la page sans utiliser le cache (équivalent Ctrl+F5)
   window.location.reload(true);
 });
