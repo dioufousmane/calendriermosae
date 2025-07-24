@@ -115,7 +115,7 @@ async function initCalendar() {
       eventDidMount: info => {
         const { enseignant, salle, maj } = info.event.extendedProps;
         info.el.setAttribute("title",
-          `${info.event.title}\nEnseignant : ${enseignant}\nSalle : ${salle}\nMAJ : ${maj}`);
+          `${info.event.title}\n 👨‍🏫 Enseignant : ${enseignant}\n 🏫 Salle : ${salle}\n ⚡MAJ : ${maj}`);
       },
       eventClick: info => openModal(info.event),
       datesSet: info => {
