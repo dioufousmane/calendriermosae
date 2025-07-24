@@ -41,9 +41,13 @@ def clean_text(text):
 
 def extract_title(raw_title):
     line = raw_title.split("\\n")[0].strip()
-    line = re.sub(r"^\s*\d+(?=\s*(TD|TP|CM)\b)", "", line, flags=re.IGNORECASE)
-    line = re.sub(r"^\s*G\d+\s+", "", line, flags=re.IGNORECASE)
+
+    # 🔻 Supprime les identifiants au début : G12, 3A, 42, etc.
+    line = re.sub(r"^\s*(G\d+[A-Z]*|\d+[A-Z]*|\d+)\s*", "", line, flags=re.IGNORECASE)
+
+    # 🔻 Supprime les formations
     line = re.sub(formations_regex, "", line, flags=re.IGNORECASE | re.VERBOSE).strip()
+
     return line
 
 def extract_enseignant(text, title):
