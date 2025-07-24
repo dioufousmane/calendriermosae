@@ -318,7 +318,7 @@ h2#weekLabel {
   font-weight: bold;
 }
 #weekSelect {
-  width: 150px; /* Ajuste la largeur à ta convenance */
+  width: 2000px; /* Ajuste la largeur à ta convenance */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
