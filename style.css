@@ -323,3 +323,50 @@ h2#weekLabel {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+#workflow-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#triggerWorkflowBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#triggerWorkflowBtn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#workflowStatus {
+  margin-top: 12px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+#workflowStatus.running {
+  background: #fff3cd;
+  color: #856404;
+}
+
+#workflowStatus.success {
+  background: #d4edda;
+  color: #155724;
+}
+
+#workflowStatus.error {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.hidden {
+  display: none;
+}

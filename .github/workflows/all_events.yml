@@ -1,7 +1,11 @@
 name: Générer tous les événements M1 et M2
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Déclenchement manuel depuis GitHub Actions UI
+  repository_dispatch:  # Déclenchement distant via API
+    types: [refresh-events]
+
+# ⏰ Optionnel : active si tu veux aussi un déclenchement automatique
 # schedule:
 #   - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
 
@@ -30,6 +34,7 @@ jobs:
         run: |
           python esgt_generate_events.py
           python univ_generate_events.py
+
       - name: 📤 Commit & push si des fichiers ont changé
         run: |
           git config --global user.name "GitHub Action"
