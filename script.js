@@ -205,21 +205,69 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-function triggerWorkflow() {
-  fetch("/trigger-workflow", {
-    method: "POST"
-  })
-  .then(res => res.json())
-  .then(data => {
-    if (data.success) {
-      alert("✅ " + data.message);
-    } else {
-      alert("❌ Échec : " + data.message);
-      console.error(data.details);
+const button = document.getElementById("triggerWorkflowBtn");
+const status = document.getElementById("status");
+
+button.addEventListener("click", async () => {
+  button.disabled = true;
+  status.textContent = "⏳ Génération en cours...";
+
+  try {
+    const owner = "dioufousmane";
+    const repo = "calendriermosae";
+    const workflowId = "all_events.yml"; // ou l'ID numérique
+    const token = "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"; // ⚠️ à ne pas exposer dans du JS ! Utiliser un serveur sécurisé
+
+    // Étape 1 : Lancer le workflow
+    const dispatchResp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${token}`,
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        ref: "main" // ou "master"
+      })
+    });
+
+    if (!dispatchResp.ok) throw new Error("Échec du lancement du workflow");
+
+    status.textContent = "🚀 Workflow lancé...";
+
+    // Étape 2 : Attendre que le workflow soit terminé
+    let success = false;
+    for (let i = 0; i < 30; i++) {
+      await new Promise(r => setTimeout(r, 10000)); // attend 10s
+
+      const runsResp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/runs`, {
+        headers: {
+          "Authorization": `Bearer ${token}`,
+          "Accept": "application/vnd.github.v3+json"
+        }
+      });
+
+      const data = await runsResp.json();
+      const latest = data.workflow_runs?.[0];
+      if (latest && latest.status === "completed") {
+        success = latest.conclusion === "success";
+        break;
+      }
     }
-  })
-  .catch(err => {
-    alert("❌ Erreur réseau");
+
+    if (success) {
+      status.textContent = "✅ Événements mis à jour, rechargement...";
+      // Supprimer le cache et recharger
+      setTimeout(() => {
+        location.reload(true); // force un reload complet
+      }, 1500);
+    } else {
+      status.textContent = "⚠️ Échec ou délai dépassé.";
+    }
+  } catch (err) {
     console.error(err);
-  });
-}
+    status.textContent = "❌ Erreur lors du déclenchement.";
+  } finally {
+    button.disabled = false;
+  }
+});
