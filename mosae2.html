@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  
   <!-- ✅ NAVIGATION EN PREMIER -->
   <nav style="background-color: #2c3e50; padding: 10px; text-align: center;">
     <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none; font-weight: bold;">
@@ -31,13 +32,31 @@
   </h2>
 
   <!-- ✅ Filtres ESGT / UNIV -->
-  <div class="calendar-controls" style="text-align: center; margin: 1rem 0;">
-    <label><input type="checkbox" id="toggle-esgt" checked onchange="toggleCalendar('esgt')"> ESGT</label>
-    <label><input type="checkbox" id="toggle-univ" checked onchange="toggleCalendar('univ')"> UNIV</label>
-    <br> ||
-    <label for="weekSelect">📅 Semaine :</label>
-      <select id="weekSelect"></select>
+  
+  <div class="calendar-controls" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; padding: 1rem 0;">
+  
+    <!-- 🔄 Génération des événements -->
+    <div style="text-align: center; margin-top: 2rem;">
+      <button id="triggerWorkflowBtn">🔄 Générer les événements</button>
+      <div id="workflowStatus" class="hidden"></div>
+    </div>
+  
+    <!-- ✅ Filtres -->
+    <label>
+      <input type="checkbox" id="toggle-esgt" checked onchange="toggleCalendar('esgt')"> ESGT
+    </label>
+    <label>
+      <input type="checkbox" id="toggle-univ" checked onchange="toggleCalendar('univ')"> UNIV
+    </label>
+  
+    <!-- 📅 Semaine -->
+    <label for="weekSelect" style="display: flex; align-items: center;">
+      📅 Semaine :
+      <select id="weekSelect" style="margin-left: 0.5rem; max-width: 130px; padding: 0.3rem;"></select>
+    </label>
+  
   </div>
+  
 
   <div id="calendar"></div>
 

@@ -370,3 +370,13 @@ h2#weekLabel {
 .hidden {
   display: none;
 }
+
+#workflowStatus {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+}
+.running { color: orange; }
+.success { color: green; }
+.error { color: red; }

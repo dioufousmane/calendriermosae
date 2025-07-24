@@ -205,69 +205,58 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+const token = "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"; // 👉 Ton token GitHub personnel ici
+const owner = "dioufousmane";
+const repo = "calendriermosae";
+const workflowId = "all_events.yml"; // ou l'ID numérique
+const ref = "master";
+
 const button = document.getElementById("triggerWorkflowBtn");
-const status = document.getElementById("status");
+const status = document.getElementById("workflowStatus");
 
 button.addEventListener("click", async () => {
   button.disabled = true;
-  status.textContent = "⏳ Génération en cours...";
+  status.classList.remove("success", "error");
+  status.className = "running";
+  status.textContent = "⏳ Déclenchement du workflow...";
 
   try {
-    const owner = "dioufousmane";
-    const repo = "calendriermosae";
-    const workflowId = "all_events.yml"; // ou l'ID numérique
-    const token = "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"; // ⚠️ à ne pas exposer dans du JS ! Utiliser un serveur sécurisé
-
-    // Étape 1 : Lancer le workflow
-    const dispatchResp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`, {
+    const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`, {
       method: "POST",
       headers: {
         "Authorization": `Bearer ${token}`,
-        "Accept": "application/vnd.github.v3+json",
+        "Accept": "application/vnd.github+json",
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({
-        ref: "main" // ou "master"
-      })
+      body: JSON.stringify({ ref })
     });
 
-    if (!dispatchResp.ok) throw new Error("Échec du lancement du workflow");
+    if (!resp.ok) {
+      const errText = await resp.text();
+      throw new Error(`Échec GitHub API : ${resp.status} ${errText}`);
+    }
 
-    status.textContent = "🚀 Workflow lancé...";
+    // ✅ Déclenchement réussi : démarrer le chrono de 5 minutes
+    status.className = "success";
+    let remaining = 300; // secondes
+    const interval = setInterval(() => {
+      remaining--;
+      const min = Math.floor(remaining / 60);
+      const sec = remaining % 60;
+      const pad = (n) => n.toString().padStart(2, "0");
 
-    // Étape 2 : Attendre que le workflow soit terminé
-    let success = false;
-    for (let i = 0; i < 30; i++) {
-      await new Promise(r => setTimeout(r, 10000)); // attend 10s
+      status.textContent = `✅ Déclenchement réussi. Rechargement dans ${pad(min)}:${pad(sec)}...`;
 
-      const runsResp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/runs`, {
-        headers: {
-          "Authorization": `Bearer ${token}`,
-          "Accept": "application/vnd.github.v3+json"
-        }
-      });
-
-      const data = await runsResp.json();
-      const latest = data.workflow_runs?.[0];
-      if (latest && latest.status === "completed") {
-        success = latest.conclusion === "success";
-        break;
+      if (remaining <= 0) {
+        clearInterval(interval);
+        // 🔄 Recharger sans cache
+        window.location.href = window.location.href;
       }
-    }
-
-    if (success) {
-      status.textContent = "✅ Événements mis à jour, rechargement...";
-      // Supprimer le cache et recharger
-      setTimeout(() => {
-        location.reload(true); // force un reload complet
-      }, 1500);
-    } else {
-      status.textContent = "⚠️ Échec ou délai dépassé.";
-    }
+    }, 1000);
   } catch (err) {
     console.error(err);
-    status.textContent = "❌ Erreur lors du déclenchement.";
-  } finally {
+    status.className = "error";
+    status.textContent = `❌ Erreur : ${err.message}`;
     button.disabled = false;
   }
 });
