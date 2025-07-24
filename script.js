@@ -208,11 +208,24 @@ document.addEventListener("DOMContentLoaded", () => {
 const token = "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"; // 👉 Ton token GitHub personnel ici
 const owner = "dioufousmane";
 const repo = "calendriermosae";
-const workflowId = "all_events.yml"; // ou l'ID numérique
+const workflowId = "all_events.yml";
 const ref = "master";
 
 const button = document.getElementById("triggerWorkflowBtn");
 const status = document.getElementById("workflowStatus");
+
+// 🔒 Vérifier s’il faut désactiver le bouton
+function checkCooldown() {
+  const nextAllowedTime = localStorage.getItem("nextWorkflowTrigger");
+  if (nextAllowedTime && Date.now() < parseInt(nextAllowedTime)) {
+    button.disabled = true;
+    return true;
+  }
+  return false;
+}
+
+// 🟢 Au chargement
+checkCooldown();
 
 button.addEventListener("click", async () => {
   button.disabled = true;
@@ -236,9 +249,13 @@ button.addEventListener("click", async () => {
       throw new Error(`Échec GitHub API : ${resp.status} ${errText}`);
     }
 
-    // ✅ Déclenchement réussi : démarrer le chrono de 5 minutes
+    // ✅ Enregistre le prochain déclenchement autorisé dans 2h
+    const next = Date.now() + 2 * 60 * 60 * 1000;
+    localStorage.setItem("nextWorkflowTrigger", next.toString());
+
+    // ⏳ Compte à rebours de 5 minutes avant rechargement
     status.className = "success";
-    let remaining = 300; // secondes
+    let remaining = 300;
     const interval = setInterval(() => {
       remaining--;
       const min = Math.floor(remaining / 60);
@@ -249,7 +266,6 @@ button.addEventListener("click", async () => {
 
       if (remaining <= 0) {
         clearInterval(interval);
-        // 🔄 Recharger sans cache
         window.location.href = window.location.href;
       }
     }, 1000);

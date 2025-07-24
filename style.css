@@ -318,7 +318,7 @@ h2#weekLabel {
   font-weight: bold;
 }
 #weekSelect {
-  width: 2000px; /* Ajuste la largeur à ta convenance */
+  width: 120px; /* Ajuste la largeur à ta convenance */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -380,3 +380,7 @@ h2#weekLabel {
 .running { color: orange; }
 .success { color: green; }
 .error { color: red; }
+#triggerWorkflowBtn:disabled {
+  cursor: not-allowed; /* ou 'default' si tu veux un curseur normal */
+  opacity: 0.6;         /* facultatif, pour montrer qu’il est désactivé */
+}
