@@ -31,6 +31,7 @@ Ces scripts sont exécutés via un workflow GitHub Actions :
 ## 🗂️ Structure du projet
 
 📁 racine/
+
 ├── 📁 .git/                      # Répertoire de configuration Git  
 ├── 📁 .github/                   # Workflows GitHub Actions  
 
