@@ -398,3 +398,10 @@ h2#weekLabel {
 #forceReloadBtn:hover {
   background-color: #2980b9;
 }
+#triggerWorkflowBtn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+}

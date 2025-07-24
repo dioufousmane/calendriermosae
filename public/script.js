@@ -212,14 +212,38 @@ const workflowId = "all_events.yml";
 const ref = "master";
 
 const button = document.getElementById("triggerWorkflowBtn");
+const progressBar = document.getElementById("progressBar");
 const status = document.getElementById("workflowStatus");
+
+const COOLDOWN_DURATION = 2 * 60 * 60 * 1000; // 2 heures
+
+function startProgressAnimation(startTime, endTime) {
+  const total = endTime - startTime;
+  function update() {
+    const now = Date.now();
+    const elapsed = now - startTime;
+    const percent = Math.min((elapsed / total) * 100, 100);
+    progressBar.style.width = `${percent}%`;
+
+    if (percent < 100) {
+      requestAnimationFrame(update);
+    }
+  }
+  update();
+}
 
 // 🔒 Vérifier s’il faut désactiver le bouton
 function checkCooldown() {
   const nextAllowedTime = localStorage.getItem("nextWorkflowTrigger");
-  if (nextAllowedTime && Date.now() < parseInt(nextAllowedTime)) {
+  const now = Date.now();
+  if (nextAllowedTime && now < parseInt(nextAllowedTime)) {
     button.disabled = true;
+
+    // ⏳ Animer la barre de progression
+    startProgressAnimation(now, parseInt(nextAllowedTime));
     return true;
+  } else {
+    progressBar.style.width = "0%";
   }
   return false;
 }
@@ -250,10 +274,13 @@ button.addEventListener("click", async () => {
     }
 
     // ✅ Enregistre le prochain déclenchement autorisé dans 2h
-    const next = Date.now() + 2 * 60 * 60 * 1000;
+    const next = Date.now() + COOLDOWN_DURATION;
     localStorage.setItem("nextWorkflowTrigger", next.toString());
 
-    // ⏳ Compte à rebours de 5 minutes avant rechargement
+    // ▶️ Démarre l’animation de la progress bar
+    startProgressAnimation(Date.now(), next);
+
+    // ⏳ Compte à rebours de 10 minutes avant rechargement
     status.className = "success";
     let remaining = 600;
     const interval = setInterval(() => {
@@ -274,9 +301,10 @@ button.addEventListener("click", async () => {
     status.className = "error";
     status.textContent = `❌ Erreur : ${err.message}`;
     button.disabled = false;
+    progressBar.style.width = "0%";
   }
 });
+
 document.getElementById("forceReloadBtn").addEventListener("click", () => {
-  // Recharge la page sans utiliser le cache (équivalent Ctrl+F5)
   window.location.reload(true);
 });
