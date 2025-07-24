@@ -384,3 +384,17 @@ h2#weekLabel {
   cursor: not-allowed; /* ou 'default' si tu veux un curseur normal */
   opacity: 0.6;         /* facultatif, pour montrer qu’il est désactivé */
 }
+#forceReloadBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#forceReloadBtn:hover {
+  background-color: #2980b9;
+}

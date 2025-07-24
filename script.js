@@ -276,3 +276,7 @@ button.addEventListener("click", async () => {
     button.disabled = false;
   }
 });
+document.getElementById("forceReloadBtn").addEventListener("click", () => {
+  // Recharge la page sans utiliser le cache (équivalent Ctrl+F5)
+  window.location.reload(true);
+});

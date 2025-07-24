@@ -34,7 +34,7 @@
   <!-- ✅ Filtres ESGT / UNIV -->
   
   <div class="calendar-controls" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; padding: 1rem 0;">
-  
+
     <!-- 🔄 Génération des événements -->
     <div style="text-align: center; margin-top: 0rem;">
       <button id="triggerWorkflowBtn">🔄 Générer les événements</button>
@@ -54,8 +54,13 @@
       📅 Semaine :
       <select id="weekSelect" style="margin-left: 0.5rem; max-width: 130px; padding: 0.3rem;"></select>
     </label>
-  
+   <!-- ♻️ Rechargement sans cache -->
+   <div style="text-align: center;">
+    <button id="forceReloadBtn">♻️ Recharger sans cache</button>
   </div>
+
+  </div>
+  
   
 
   <div id="calendar"></div>
