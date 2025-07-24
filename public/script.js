@@ -215,7 +215,8 @@ const button = document.getElementById("triggerWorkflowBtn");
 const status = document.getElementById("workflowStatus");
 const progressBar = document.getElementById("progressBar");
 
-const COOLDOWN_DURATION = 2 * 60 * 60 * 1000; // 2 heures en ms
+const COOLDOWN_DURATION = 2 * 60 * 60 * 1000;       // 2 heures
+const PROGRESS_BAR_DURATION = 2 * 60 * 1000;       // 2 minutes
 
 function startProgressAnimation(startTime, endTime) {
   const total = endTime - startTime;
@@ -241,13 +242,13 @@ function checkCooldown() {
     button.disabled = true;
 
     const next = parseInt(nextAllowedTime);
-    const start = next - COOLDOWN_DURATION;
+    const barStart = next - COOLDOWN_DURATION;
+    const barEnd = Math.min(barStart + PROGRESS_BAR_DURATION, next);
 
-    startProgressAnimation(start, next);
+    startProgressAnimation(barStart, barEnd);
     return true;
   }
 
-  // Sinon, réinitialise la barre
   progressBar.style.width = "0%";
   return false;
 }
@@ -265,7 +266,7 @@ button.addEventListener("click", async () => {
     const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`, {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${token}`,  // Assure-toi que `token` est bien défini ailleurs
+        "Authorization": `Bearer ${token}`, // 👈 Assurez-vous que `token` est défini
         "Accept": "application/vnd.github+json",
         "Content-Type": "application/json"
       },
@@ -277,36 +278,42 @@ button.addEventListener("click", async () => {
       throw new Error(`Échec GitHub API : ${resp.status} ${errText}`);
     }
 
-    // ✅ Enregistre l’heure du prochain déclenchement possible
-    const next = Date.now() + COOLDOWN_DURATION;
+    // ✅ Sauvegarde du cooldown
+    const now = Date.now();
+    const next = now + COOLDOWN_DURATION;
     localStorage.setItem("nextWorkflowTrigger", next.toString());
 
-    startProgressAnimation(Date.now(), next);
+    // ⏳ Démarre la barre de 10 min
+    startProgressAnimation(now, now + PROGRESS_BAR_DURATION);
 
-    // ⏳ Compte à rebours de 10 min avant rechargement automatique
-    status.className = "success";
-    let remaining = 600;
-    const interval = setInterval(() => {
-      remaining--;
-      const min = Math.floor(remaining / 60);
-      const sec = remaining % 60;
-      const pad = (n) => n.toString().padStart(2, "0");
+    // 🔄 Rechargement automatique dans 2 minutes
+status.className = "success";
+let remaining = 120; // ⏱️ 2 minutes (au lieu de 600)
 
-      status.textContent = `✅ Déclenchement réussi. Rechargement dans ${pad(min)}:${pad(sec)}...`;
+// 💬 Compte à rebours visuel
+const interval = setInterval(() => {
+  remaining--;
+  const min = Math.floor(remaining / 60);
+  const sec = remaining % 60;
+  const pad = (n) => n.toString().padStart(2, "0");
 
-      if (remaining <= 0) {
-        clearInterval(interval);
-        window.location.href = window.location.href;
-      }
-    }, 1000);
+  status.textContent = `✅ Déclenchement réussi. Rechargement dans ${pad(min)}:${pad(sec)}...`;
+
+  if (remaining <= 0) {
+    clearInterval(interval);
+    window.location.href = window.location.href;
+  }
+}, 1000);
+
   } catch (err) {
     console.error(err);
     status.className = "error";
     status.textContent = `❌ Erreur : ${err.message}`;
     button.disabled = false;
+    progressBar.style.width = "0%";
   }
 });
 
 document.getElementById("forceReloadBtn").addEventListener("click", () => {
-  window.location.reload(true); // Rechargement complet sans cache
+  window.location.reload(true);
 });
