@@ -405,3 +405,70 @@ h2#weekLabel {
   position: relative;
   z-index: 2;
 }
+:root {
+  --bg: #f9f9f9;
+  --fg: #111;
+  --btn-bg: #fff;
+  --btn-fg: #000;
+  --border: #ccc;
+}
+
+.dark-mode {
+  --bg: #1f1f1f;
+  --fg: #e0e0e0;
+  --btn-bg: #cacaca;
+  --btn-fg: #0e0d0d;
+  --border: #555;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+.calendar-controls {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+.calendar-controls button,
+.calendar-controls select {
+  background-color: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid var(--border);
+}
+
+.calendar-controls label {
+  color: var(--fg);
+}
+
+#workflowStatus {
+  color: var(--fg);
+}
+.calendar-controls select,
+.calendar-controls input[type="checkbox"],
+.calendar-controls label {
+  background-color: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid var(--border);
+  transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+.dark-mode .calendar-controls label:hover {
+  background-color: #333; /* ou une nuance de --btn-bg plus foncée */
+}
+
+.dark-mode .calendar-grid {
+  background-color: #2b2b2b;
+  border-color: var(--border);
+}
+
+.dark-mode .calendar-grid div {
+  border-color: var(--border);
+  color: var(--fg);
+  background-color: #2b2b2b;
+}

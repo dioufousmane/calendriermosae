@@ -321,3 +321,17 @@ const interval = setInterval(() => {
 document.getElementById("forceReloadBtn").addEventListener("click", () => {
   window.location.reload(true);
 });
+const toggleBtn = document.getElementById("themeToggleBtn");
+
+// Appliquer le thème au chargement si déjà stocké
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark-mode");
+  toggleBtn.textContent = "☀️ Mode clair";
+}
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  const isDark = document.body.classList.contains("dark-mode");
+  toggleBtn.textContent = isDark ? "☀️ Mode clair" : "🌙 Mode sombre";
+  localStorage.setItem("theme", isDark ? "dark" : "light");
+});
