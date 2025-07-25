@@ -110,6 +110,14 @@ async function initCalendar() {
         center: "title",
         right: "dayGridMonth,timeGridWeek,timeGridDay"
       },
+      dayCellDidMount: function(info) {
+        const date = info.date;
+        const day = date.getDay(); // 0 = dimanche, 6 = samedi
+        if (day === 0 || day === 6) {
+          info.el.style.backgroundColor = "#ffefef"; // gris clair
+        }
+      },
+      
       initialDate: initialDate,
       events: [...allEvents.esgt, ...allEvents.univ],
       eventDidMount: info => {
@@ -252,6 +260,8 @@ function checkCooldown() {
   progressBar.style.width = "0%";
   return false;
 }
+
+
 
 // 🟢 Au chargement
 checkCooldown();
