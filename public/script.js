@@ -264,7 +264,7 @@ button.addEventListener("click", async () => {
   button.disabled = true;
   status.classList.remove("success", "error");
   status.className = "running";
-  status.textContent = "⏳ Déclenchement du workflow...";
+  status.textContent = "⏳ En cours...";
 
   try {
     const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/${workflowId}/dispatches`, {
@@ -301,7 +301,7 @@ const interval = setInterval(() => {
   const sec = remaining % 60;
   const pad = (n) => n.toString().padStart(2, "0");
 
-  status.textContent = `✅ Déclenchement réussi. Rechargement dans ${pad(min)}:${pad(sec)}...`;
+  status.textContent = `✅ Effectué. Rechargement de la page dans ${pad(min)}:${pad(sec)}...`;
 
   if (remaining <= 0) {
     clearInterval(interval);
