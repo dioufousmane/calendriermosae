@@ -103,19 +103,13 @@ async function initCalendar() {
       initialView: "timeGridWeek",
       firstDay: 1, // 👈 démarre le calendrier par un lundi
       nowIndicator: true,
+      hiddenDays: [0, 6], // 0 = dimanche, 6 = samedi
       height: "100%",
       expandRows: true,
       headerToolbar: {
         left: "prev,next today",
         center: "title",
         right: "dayGridMonth,timeGridWeek,timeGridDay"
-      },
-      dayCellDidMount: function(info) {
-        const date = info.date;
-        const day = date.getDay(); // 0 = dimanche, 6 = samedi
-        if (day === 0 || day === 6) {
-          info.el.style.backgroundColor = "#ffefef"; // gris clair
-        }
       },
       
       initialDate: initialDate,
