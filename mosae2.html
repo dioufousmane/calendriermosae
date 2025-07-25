@@ -9,6 +9,7 @@
   <!-- Pour Font Awesome 6 (version gratuite) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
+
   <link href="style.css" rel="stylesheet" />
   <link rel="icon" href="icon.png" type="image/png">
 
@@ -40,21 +41,22 @@
     <div id="workflowWrapper" style="position: relative; width: 300px;">
       <button id="triggerWorkflowBtn">🔄 Re-générer les EDT</button>
       <div id="progressBar" style="
-            position: absolute;
-            top: 100%;
-            left: 0;
-            height: 12px;
-            width: 0%;
-            background: linear-gradient(to right, #005fa3, #2e7d32); /* 🔵➡️🟢 */
-            border-radius: 4px;
-            margin-top: 4px;
-            z-index: 2;
-            transition: width 1s linear;
-            "></div>
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 12px;
+  width: 0%;
+  background: linear-gradient(to right, #005fa3, #2e7d32); /* 🔵➡️🟢 */
+  border-radius: 4px;
+  margin-top: 4px;
+  z-index: 2;
+  transition: width 1s linear;
+"></div>
 
     </div>
 
     <p id="workflowStatus"></p>
+
 
     <!-- ✅ Filtres -->
     <label>
@@ -73,8 +75,15 @@
     <div style="text-align: center;">
       <button id="forceReloadBtn">♻️ Recharger la page</button>
     </div>
+    <!-- 🌗 Thème -->
+    <div>
+      <button id="themeToggleBtn">🌙 Mode sombre</button>
+    </div>
+
 
   </div>
+
+
 
   <div id="calendar"></div>
 
