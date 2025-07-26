@@ -115,7 +115,7 @@ async function initCalendar() {
       right: "dayGridMonth,timeGridWeek,timeGridDay"
     },
       buttonText: {
-        today: "Ajourd''hui",
+        today: "Ajourd'hui",
         day: 'Jour',
         week:'Semaine',
         month:'Mois'
