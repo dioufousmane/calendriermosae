@@ -596,3 +596,16 @@ body.dark-mode #weekSelectionList {
 #weekSelectionModal button:hover {
   opacity: 0.9;
 }
+/* Exemple à adapter selon ton thème */
+#calendar.force-light-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Ajuste les éléments du calendrier, ex : */
+#calendar.force-light-mode .fc-daygrid-day-number,
+#calendar.force-light-mode .fc-event-title {
+  color: black !important;
+}
+
+/* Tu peux rajouter plus de règles selon ta structure */

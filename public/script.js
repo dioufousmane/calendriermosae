@@ -438,11 +438,27 @@ function getPageTitleForDisplay() {
 const logoESGT = "/img/esgt.png";
 const logoUNIV = "/img/lemans.png";
 
+// ⚙️ Fonction pour forcer mode clair avant capture et remettre après
+function forceLightModeOnCalendar(enable) {
+  const calendarEl = document.getElementById("calendar");
+  if (!calendarEl) return;
+  if (enable) {
+    // On ajoute une classe pour forcer clair
+    calendarEl.classList.add("force-light-mode");
+  } else {
+    // On enlève la classe après capture
+    calendarEl.classList.remove("force-light-mode");
+  }
+}
+
 // 📥 Fonction principale de génération PDF
 async function downloadPdfForWeeks(selectedWeeks) {
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF("landscape", "mm", "a4");
   const originalScroll = window.scrollY;
+
+  // Detecte si on est en dark mode globalement (exemple: body a la classe dark-mode)
+  const isDarkMode = document.body.classList.contains("dark-mode");
 
   for (let i = 0; i < selectedWeeks.length; i++) {
     const [year, week] = selectedWeeks[i].split("-").map(Number);
@@ -451,6 +467,9 @@ async function downloadPdfForWeeks(selectedWeeks) {
     calendar.setOption("slotMinTime", "08:00:00");
     calendar.setOption("slotMaxTime", "18:30:00");
     calendar.gotoDate(date);
+
+    // Si on est en mode sombre, on force mode clair juste avant capture
+    if (isDarkMode) forceLightModeOnCalendar(true);
 
     await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -462,6 +481,9 @@ async function downloadPdfForWeeks(selectedWeeks) {
       scale: 2,
       useCORS: true
     });
+
+    // Après capture on remet le mode d'origine
+    if (isDarkMode) forceLightModeOnCalendar(false);
 
     const imgData = canvas.toDataURL("image/png");
     const pdfWidth = pdf.internal.pageSize.getWidth();
@@ -527,5 +549,4 @@ async function downloadPdfForWeeks(selectedWeeks) {
   const baseTitle = getPageTitleForPdf();
   pdf.save(`${baseTitle}_${selectedWeeks.join("_")}.pdf`);
 }
-
 
