@@ -99,7 +99,9 @@ async function initCalendar() {
 
     calendar = new FullCalendar.Calendar(calendarEl, {
       locale: "fr",
+      allDaySlot: false, // 👈 Empêche l’affichage du slot "toute la journée"
       timeZone: "Europe/Paris",
+      slotMinTime: "07:30:00", // 👈 Commence la journée à 8h
       initialView: "timeGridWeek",
       firstDay: 1, // 👈 démarre le calendrier par un lundi
       nowIndicator: true,
@@ -421,6 +423,7 @@ function showPopupMessage(message) {
   document.body.appendChild(overlay);
 }
 
+
 function openWeekSelectionModal() {
   const modal = document.createElement("div");
   modal.id = "weekSelectionOverlay";
@@ -437,17 +440,41 @@ function openWeekSelectionModal() {
 
   const currentWeek = getCurrentISOWeek();
 
+  // 🧭 Orientation du PDF
+  const orientationLabel = document.createElement("label");
+  orientationLabel.textContent = "Orientation du PDF : ";
+  orientationLabel.style.display = "block";
+  orientationLabel.style.margin = "10px 0 4px";
+
+  const orientationSelect = document.createElement("select");
+  orientationSelect.id = "pdfOrientation";
+
+  const portraitOption = document.createElement("option");
+  portraitOption.value = "portrait";
+  portraitOption.textContent = "Portrait";
+
+  const paysageOption = document.createElement("option");
+  paysageOption.value = "paysage";
+  paysageOption.textContent = "Paysage";
+
+  const isMobile = window.innerWidth < 768;
+  orientationSelect.appendChild(portraitOption);
+  orientationSelect.appendChild(paysageOption);
+  orientationSelect.value = isMobile ? "portrait" : "paysage";
+
+  box.appendChild(orientationLabel);
+  box.appendChild(orientationSelect);
+
+  // 🗓️ Liste des semaines
   const list = document.createElement("div");
   list.id = "weekSelectionList";
 
-  // Label "Semaine en cours"
   const currentWeekLabel = document.createElement("div");
   currentWeekLabel.textContent = "Semaine en cours";
   currentWeekLabel.style.fontWeight = "bold";
   currentWeekLabel.style.marginBottom = "6px";
   list.appendChild(currentWeekLabel);
 
-  // Checkbox semaine en cours, cochée, grisée
   const currentLabel = document.createElement("label");
   currentLabel.style.color = "#999";
 
@@ -460,12 +487,10 @@ function openWeekSelectionModal() {
   currentLabel.appendChild(document.createTextNode(` Semaine ${currentWeek.split("-")[1]} (${currentWeek})`));
   list.appendChild(currentLabel);
 
-  // Séparateur
   const separator = document.createElement("hr");
   separator.style.margin = "8px 0";
   list.appendChild(separator);
 
-  // Ajout des autres semaines, sans la semaine en cours
   options.forEach(opt => {
     if (opt.value === currentWeek) return;
 
@@ -504,8 +529,9 @@ function openWeekSelectionModal() {
     const checked = box.querySelectorAll("input[type='checkbox']:checked");
     if (checked.length === 0) return alert("Veuillez choisir au moins une semaine.");
     const selectedWeeks = [...checked].map(cb => cb.value);
+    const orientation = document.getElementById("pdfOrientation").value;
     modal.remove();
-    await downloadPdfForWeeks(selectedWeeks);
+    await downloadPdfForWeeks(selectedWeeks, orientation);
   };
 }
 
@@ -547,9 +573,9 @@ const logoESGT = "https://dioufousmane.github.io/calendriermosae/img/esgt.png";
 const logoUNIV = "https://dioufousmane.github.io/calendriermosae/img/lemans.png";
 
 // 📥 Fonction principale de génération PDF
-async function downloadPdfForWeeks(selectedWeeks) {
+async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
   const { jsPDF } = window.jspdf;
-  const pdf = new jsPDF("landscape", "mm", "a4");
+  const pdf = new jsPDF(orientation === "portrait" ? "portrait" : "landscape", "mm", "a4");
   const originalScroll = window.scrollY;
 
   for (let i = 0; i < selectedWeeks.length; i++) {

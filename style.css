@@ -614,3 +614,28 @@ body.dark-mode #weekSelectionList {
   user-select: none;
   cursor: default;
 }
+
+#pdfOrientation {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="12" height="12" viewBox="0 0 20 20" fill="gray" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 20,0 10,12"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+  transition: border-color 0.3s ease;
+  margin-bottom: 12px;
+}
+
+#pdfOrientation:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
+
