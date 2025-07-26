@@ -609,3 +609,8 @@ body.dark-mode #weekSelectionList {
 }
 
 /* Tu peux rajouter plus de règles selon ta structure */
+#weekSelectionList label.current-week {
+  color: #999;
+  user-select: none;
+  cursor: default;
+}

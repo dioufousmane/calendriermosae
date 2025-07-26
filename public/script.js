@@ -336,6 +336,15 @@ toggleBtn.addEventListener("click", () => {
   localStorage.setItem("theme", isDark ? "dark" : "light");
 });
 
+// Récupère la semaine ISO actuelle au format "YYYY-WW"
+function getCurrentISOWeek() {
+  const now = new Date();
+  const oneJan = new Date(now.getFullYear(), 0, 1);
+  const numberOfDays = Math.floor((now - oneJan) / (24 * 60 * 60 * 1000));
+  const week = Math.ceil((numberOfDays + oneJan.getDay() + 1) / 7);
+  return `${now.getFullYear()}-${week.toString().padStart(2, '0')}`;
+}
+
 // Ajout du bouton "Télécharger"
 const dlBtn = document.createElement("button");
 dlBtn.textContent = "📥 Télécharger le / les EDT";
@@ -358,14 +367,45 @@ function openWeekSelectionModal() {
   const select = document.getElementById("weekSelect");
   const options = [...select.options];
 
+  const currentWeek = getCurrentISOWeek();
+
   const list = document.createElement("div");
   list.id = "weekSelectionList";
 
+  // Label "Semaine en cours"
+  const currentWeekLabel = document.createElement("div");
+  currentWeekLabel.textContent = "Semaine en cours";
+  currentWeekLabel.style.fontWeight = "bold";
+  currentWeekLabel.style.marginBottom = "6px";
+  list.appendChild(currentWeekLabel);
+
+  // Checkbox semaine en cours, cochée, grisée
+  const currentLabel = document.createElement("label");
+  currentLabel.style.color = "#999";
+
+  const currentCheckbox = document.createElement("input");
+  currentCheckbox.type = "checkbox";
+  currentCheckbox.value = currentWeek;
+  currentCheckbox.checked = true;
+  currentLabel.appendChild(currentCheckbox);
+
+  currentLabel.appendChild(document.createTextNode(` Semaine ${currentWeek.split("-")[1]} (${currentWeek})`));
+  list.appendChild(currentLabel);
+
+  // Séparateur
+  const separator = document.createElement("hr");
+  separator.style.margin = "8px 0";
+  list.appendChild(separator);
+
+  // Ajout des autres semaines, sans la semaine en cours
   options.forEach(opt => {
+    if (opt.value === currentWeek) return;
+
     const label = document.createElement("label");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.value = opt.value;
+    checkbox.checked = false;
     label.appendChild(checkbox);
     label.append(` ${opt.textContent}`);
     list.appendChild(label);
@@ -438,27 +478,11 @@ function getPageTitleForDisplay() {
 const logoESGT = "/img/esgt.png";
 const logoUNIV = "/img/lemans.png";
 
-// ⚙️ Fonction pour forcer mode clair avant capture et remettre après
-function forceLightModeOnCalendar(enable) {
-  const calendarEl = document.getElementById("calendar");
-  if (!calendarEl) return;
-  if (enable) {
-    // On ajoute une classe pour forcer clair
-    calendarEl.classList.add("force-light-mode");
-  } else {
-    // On enlève la classe après capture
-    calendarEl.classList.remove("force-light-mode");
-  }
-}
-
 // 📥 Fonction principale de génération PDF
 async function downloadPdfForWeeks(selectedWeeks) {
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF("landscape", "mm", "a4");
   const originalScroll = window.scrollY;
-
-  // Detecte si on est en dark mode globalement (exemple: body a la classe dark-mode)
-  const isDarkMode = document.body.classList.contains("dark-mode");
 
   for (let i = 0; i < selectedWeeks.length; i++) {
     const [year, week] = selectedWeeks[i].split("-").map(Number);
@@ -467,9 +491,6 @@ async function downloadPdfForWeeks(selectedWeeks) {
     calendar.setOption("slotMinTime", "08:00:00");
     calendar.setOption("slotMaxTime", "18:30:00");
     calendar.gotoDate(date);
-
-    // Si on est en mode sombre, on force mode clair juste avant capture
-    if (isDarkMode) forceLightModeOnCalendar(true);
 
     await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -481,9 +502,6 @@ async function downloadPdfForWeeks(selectedWeeks) {
       scale: 2,
       useCORS: true
     });
-
-    // Après capture on remet le mode d'origine
-    if (isDarkMode) forceLightModeOnCalendar(false);
 
     const imgData = canvas.toDataURL("image/png");
     const pdfWidth = pdf.internal.pageSize.getWidth();
@@ -549,4 +567,3 @@ async function downloadPdfForWeeks(selectedWeeks) {
   const baseTitle = getPageTitleForPdf();
   pdf.save(`${baseTitle}_${selectedWeeks.join("_")}.pdf`);
 }
-
