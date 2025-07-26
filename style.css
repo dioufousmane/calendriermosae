@@ -639,3 +639,23 @@ body.dark-mode #weekSelectionList {
   background-color: #fff;
 }
 
+/* Conteneur principal des éléments center */
+.fc-header-toolbar .fc-toolbar-chunk {
+  display: flex;
+  flex-direction: row; /* Force l'alignement horizontal */
+  align-items: center;
+  justify-content: center; /* Centrage horizontal dans le bloc */
+  gap: 10px; /* Petit espace entre les éléments */
+}
+
+/* Groupe des boutons (prev / next) sur une ligne */
+.fc-header-toolbar .fc-button-group {
+  display: flex;
+  flex-direction: row; /* Important si un thème override en column */
+}
+
+/* Empêche les éléments de passer à la ligne */
+.fc-header-toolbar .fc-button,
+.fc-header-toolbar .fc-toolbar-title {
+  white-space: nowrap;
+}

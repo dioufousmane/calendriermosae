@@ -110,17 +110,19 @@ async function initCalendar() {
       height: "100%",
       expandRows: true,
       headerToolbar: {
-      left: "prev,next today",
-      center: "title",
-      right: "dayGridMonth,timeGridWeek,timeGridDay"
-    },
+        left: "listMonth,listWeek,listDay",
+        center: "prev title next today",
+        right: "dayGridMonth,timeGridWeek,timeGridDay"
+      },      
       buttonText: {
-        today: "Ajourd'hui",
-        day: 'Jour',
-        week:'Semaine',
-        month:'Mois'
+        today: "Aujourd'hui",   
+        day: "Vue journée",
+        week: "Vue semaine",
+        month: "Vue mois",
+        listWeek: "Liste semaine",
+        listDay: "Liste jour",
+        listMonth: "Liste mois"
       },
-      
       initialDate: initialDate,
       events: [...allEvents.esgt, ...allEvents.univ],
       eventDidMount: info => {
@@ -368,7 +370,7 @@ dlBtn.addEventListener("click", () => {
   const validWeekViews = ["timeGridWeek", "dayGridWeek", "week"];
 
   if (!validWeekViews.includes(currentView)) {
-    showPopupMessage('Veuillez sélectionner la vue "week" svp.');
+    showPopupMessage('Veuillez sélectionner la Vue semaine svp.');
     return; // On stoppe la suite
   }
 
