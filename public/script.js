@@ -345,130 +345,97 @@ function getCurrentISOWeek() {
   return `${now.getFullYear()}-${week.toString().padStart(2, '0')}`;
 }
 
-// Ajout du bouton "Télécharger"
+
+
+// ✅ Création du bouton "Télécharger"
 const dlBtn = document.createElement("button");
-dlBtn.textContent = "📥 Télécharger le / les EDT";
+dlBtn.textContent = "📅 Télécharger le / les EDT";
 dlBtn.id = "downloadEdtBtn";
 document.querySelector(".calendar-controls").appendChild(dlBtn);
 
 dlBtn.addEventListener("click", () => {
-  // Vérification de la vue
   const currentView = calendar.view.type;
-
-  // Les vues "semaine" valides selon FullCalendar
   const validWeekViews = ["timeGridWeek", "dayGridWeek", "week"];
-
   if (!validWeekViews.includes(currentView)) {
     showPopupMessage('Veuillez sélectionner la vue "week" svp.');
-    return; // On stoppe la suite
+    return;
   }
-
   openWeekSelectionModal();
 });
 
 function showPopupMessage(message) {
-  // Si popup déjà présent, on sort
   if (document.getElementById("customPopupMessage")) return;
-
   const overlay = document.createElement("div");
   overlay.id = "customPopupMessage";
   Object.assign(overlay.style, {
     position: "fixed",
-    top: 0, left: 0,
-    width: "100%", height: "100%",
+    top: 0, left: 0, width: "100%", height: "100%",
     backgroundColor: "rgba(0,0,0,0.5)",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    display: "flex", justifyContent: "center", alignItems: "center",
     zIndex: 9999
   });
-
   const box = document.createElement("div");
   Object.assign(box.style, {
     backgroundColor: "#fff",
     padding: "20px 30px",
     borderRadius: "8px",
     boxShadow: "0 0 10px rgba(0,0,0,0.3)",
-    maxWidth: "300px",
-    textAlign: "center",
-    fontFamily: "Arial, sans-serif",
-    fontSize: "16px",
-    color: "#333"
+    maxWidth: "300px", textAlign: "center",
+    fontFamily: "Arial, sans-serif", fontSize: "16px", color: "#333"
   });
-
   const text = document.createElement("p");
   text.textContent = message;
-
   const btn = document.createElement("button");
   btn.textContent = "OK";
   Object.assign(btn.style, {
-    marginTop: "15px",
-    padding: "8px 16px",
-    border: "none",
-    backgroundColor: "#007bff",
-    color: "white",
-    borderRadius: "4px",
-    cursor: "pointer"
+    marginTop: "15px", padding: "8px 16px",
+    border: "none", backgroundColor: "#007bff", color: "white",
+    borderRadius: "4px", cursor: "pointer"
   });
-
-  btn.onclick = () => {
-    document.body.removeChild(overlay);
-  };
-
-  box.appendChild(text);
-  box.appendChild(btn);
-  overlay.appendChild(box);
+  btn.onclick = () => document.body.removeChild(overlay);
+  box.appendChild(text); box.appendChild(btn); overlay.appendChild(box);
   document.body.appendChild(overlay);
 }
 
 function openWeekSelectionModal() {
   const modal = document.createElement("div");
   modal.id = "weekSelectionOverlay";
-
   const box = document.createElement("div");
   box.id = "weekSelectionModal";
 
   const title = document.createElement("h3");
-  title.textContent = "📅 Sélectionnez les semaines à inclure";
+  title.textContent = "🗓️ Sélectionnez les semaines à inclure";
   box.appendChild(title);
 
   const select = document.getElementById("weekSelect");
   const options = [...select.options];
-
   const currentWeek = getCurrentISOWeek();
 
   const list = document.createElement("div");
   list.id = "weekSelectionList";
 
-  // Label "Semaine en cours"
   const currentWeekLabel = document.createElement("div");
   currentWeekLabel.textContent = "Semaine en cours";
   currentWeekLabel.style.fontWeight = "bold";
   currentWeekLabel.style.marginBottom = "6px";
   list.appendChild(currentWeekLabel);
 
-  // Checkbox semaine en cours, cochée, grisée
   const currentLabel = document.createElement("label");
   currentLabel.style.color = "#999";
-
   const currentCheckbox = document.createElement("input");
   currentCheckbox.type = "checkbox";
   currentCheckbox.value = currentWeek;
   currentCheckbox.checked = true;
   currentLabel.appendChild(currentCheckbox);
-
   currentLabel.appendChild(document.createTextNode(` Semaine ${currentWeek.split("-")[1]} (${currentWeek})`));
   list.appendChild(currentLabel);
 
-  // Séparateur
   const separator = document.createElement("hr");
   separator.style.margin = "8px 0";
   list.appendChild(separator);
 
-  // Ajout des autres semaines, sans la semaine en cours
   options.forEach(opt => {
     if (opt.value === currentWeek) return;
-
     const label = document.createElement("label");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -483,15 +450,12 @@ function openWeekSelectionModal() {
 
   const actions = document.createElement("div");
   actions.className = "modal-actions";
-
   const confirmBtn = document.createElement("button");
   confirmBtn.className = "confirm";
   confirmBtn.textContent = "📄 Générer PDF";
-
   const cancelBtn = document.createElement("button");
   cancelBtn.className = "cancel";
   cancelBtn.textContent = "Annuler";
-
   actions.appendChild(cancelBtn);
   actions.appendChild(confirmBtn);
   box.appendChild(actions);
@@ -509,116 +473,89 @@ function openWeekSelectionModal() {
   };
 }
 
-// 🔎 Récupère la légende en fonction des filtres actifs
 function getActiveCalendarsLegend() {
   const legend = [];
   const isESGT = document.getElementById("toggle-esgt")?.checked ?? true;
   const isUNIV = document.getElementById("toggle-univ")?.checked ?? true;
-
   if (isESGT) legend.push({ label: "Cours ESGT", color: "#007bff" });
   if (isUNIV) legend.push({ label: "Cours UNIV", color: "#2e7d32" });
-
   return legend;
 }
 
-// 🔎 Récupère le titre visible dans le <h2> (ex: "Calendrier du MOSAE 1 – …")
 function getPageTitleForPdf() {
   const h2 = document.querySelector("h2");
   if (!h2) return "edt";
-
   const rawText = h2.childNodes[1]?.textContent || h2.textContent || "";
   const match = rawText.match(/MOSAE\s+\d+/i);
   const mosTitle = match ? match[0].replace(/\s+/g, "_").toLowerCase() : "edt";
-
   return `calendrier_${mosTitle}`;
 }
 
 function getPageTitleForDisplay() {
   const h2 = document.querySelector("h2");
   if (!h2) return "MOSAE";
-
   const rawText = h2.childNodes[1]?.textContent || h2.textContent || "";
   const match = rawText.match(/MOSAE\s+\d+/i);
   return match ? match[0].trim() : "MOSAE";
 }
 
-// 📸 Chemins des logos
 const logoESGT = "/img/esgt.png";
 const logoUNIV = "/img/lemans.png";
 
-// 📥 Fonction principale de génération PDF
 async function downloadPdfForWeeks(selectedWeeks) {
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF("landscape", "mm", "a4");
   const originalScroll = window.scrollY;
-
   for (let i = 0; i < selectedWeeks.length; i++) {
     const [year, week] = selectedWeeks[i].split("-").map(Number);
     const date = getDateOfISOWeek(week, year);
-
     calendar.setOption("slotMinTime", "08:00:00");
     calendar.setOption("slotMaxTime", "18:30:00");
     calendar.gotoDate(date);
-
     await new Promise(resolve => setTimeout(resolve, 1000));
-
     const calendarEl = document.getElementById("calendar");
     calendarEl.style.minHeight = "900px";
-
     const canvas = await html2canvas(calendarEl, {
-      backgroundColor: null,
-      scale: 2,
-      useCORS: true
+      backgroundColor: null, scale: 2, useCORS: true
     });
-
     const imgData = canvas.toDataURL("image/png");
     const pdfWidth = pdf.internal.pageSize.getWidth();
     const imgHeight = canvas.height * (pdfWidth / canvas.width);
-
     if (i !== 0) pdf.addPage();
-
-    // 🧾 Titre en haut du PDF
     const title = getPageTitleForDisplay();
     pdf.setFontSize(22);
     pdf.setTextColor(0, 0, 0);
     pdf.setFont("helvetica", "bold");
     pdf.text(title, pdfWidth / 2, 15, { align: "center" });
-
-    // 🖼️ Logos
     const logoWidth = 30;
     const logoHeight = 15;
-
-    await new Promise(resolve => {
-      const imgESGT = new Image();
-      imgESGT.crossOrigin = "anonymous";
-      imgESGT.src = logoESGT;
-      imgESGT.onload = () => {
-        pdf.addImage(imgESGT, "PNG", 15, 5, logoWidth, logoHeight);
-        resolve();
-      };
-      imgESGT.onerror = () => resolve();
-    });
-
-    await new Promise(resolve => {
-      const imgUNIV = new Image();
-      imgUNIV.crossOrigin = "anonymous";
-      imgUNIV.src = logoUNIV;
-      imgUNIV.onload = () => {
-        pdf.addImage(imgUNIV, "PNG", pdfWidth - 15 - logoWidth, 5, logoWidth, logoHeight);
-        resolve();
-      };
-      imgUNIV.onerror = () => resolve();
-    });
-
-    // 📆 Image du calendrier
+    await Promise.all([
+      new Promise(resolve => {
+        const imgESGT = new Image();
+        imgESGT.crossOrigin = "anonymous";
+        imgESGT.src = logoESGT;
+        imgESGT.onload = () => {
+          pdf.addImage(imgESGT, "PNG", 15, 5, logoWidth, logoHeight);
+          resolve();
+        };
+        imgESGT.onerror = () => resolve();
+      }),
+      new Promise(resolve => {
+        const imgUNIV = new Image();
+        imgUNIV.crossOrigin = "anonymous";
+        imgUNIV.src = logoUNIV;
+        imgUNIV.onload = () => {
+          pdf.addImage(imgUNIV, "PNG", pdfWidth - 15 - logoWidth, 5, logoWidth, logoHeight);
+          resolve();
+        };
+        imgUNIV.onerror = () => resolve();
+      })
+    ]);
     pdf.addImage(imgData, "PNG", 0, 25, pdfWidth, imgHeight);
-
-    // 📌 Légende dynamique
     const legend = getActiveCalendarsLegend();
     const startY = imgHeight + 28;
     const iconSize = 6;
     const spacing = 65;
-
     legend.forEach((item, index) => {
       const x = 15 + index * spacing;
       pdf.setFillColor(item.color);
@@ -629,9 +566,24 @@ async function downloadPdfForWeeks(selectedWeeks) {
       pdf.text(item.label, x + iconSize + 4, startY + iconSize - 1);
     });
   }
-
   window.scrollTo(0, originalScroll);
-
   const baseTitle = getPageTitleForPdf();
   pdf.save(`${baseTitle}_${selectedWeeks.join("_")}.pdf`);
+}
+
+function getCurrentISOWeek() {
+  const date = new Date();
+  date.setHours(0, 0, 0, 0);
+  date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);
+  const week1 = new Date(date.getFullYear(), 0, 4);
+  const weekNumber = Math.ceil((((date - week1) / 86400000) + ((week1.getDay() + 6) % 7) + 1) / 7);
+  return `${date.getFullYear()}-${weekNumber.toString().padStart(2, "0")}`;
+}
+
+function getDateOfISOWeek(week, year) {
+  const simple = new Date(Date.UTC(year, 0, 4));
+  const dayOfWeek = simple.getUTCDay() || 7;
+  const monday = new Date(simple);
+  monday.setUTCDate(simple.getUTCDate() - dayOfWeek + 1 + (week - 1) * 7);
+  return monday;
 }
