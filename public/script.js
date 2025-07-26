@@ -446,8 +446,7 @@ function openWeekSelectionModal() {
 
   const select = document.getElementById("weekSelect");
   const options = [...select.options];
-
-  const currentWeek = getCurrentISOWeek();
+  const currentWeek = getDisplayedWeek();
 
   // 🧭 Orientation du PDF
   const orientationLabel = document.createElement("label");
@@ -669,4 +668,19 @@ async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
 
   const baseTitle = getPageTitleForPdf();
   pdf.save(`${baseTitle}_${selectedWeeks.join("_")}.pdf`);
+}
+function getDisplayedWeek() {
+  const displayedDate = calendar.getDate(); // Date affichée dans le calendrier
+  const year = displayedDate.getFullYear();
+  const week = getISOWeekNumber(displayedDate);
+  return `${year}-${week.toString().padStart(2, '0')}`;
+}
+
+function getISOWeekNumber(date) {
+  const tempDate = new Date(date.getTime());
+  tempDate.setHours(0, 0, 0, 0);
+  // Jeudi de la semaine pour ISO (la semaine commence lundi)
+  tempDate.setDate(tempDate.getDate() + 3 - ((tempDate.getDay() + 6) % 7));
+  const week1 = new Date(tempDate.getFullYear(), 0, 4);
+  return 1 + Math.round(((tempDate.getTime() - week1.getTime()) / 86400000 - 3 + ((week1.getDay() + 6) % 7)) / 7);
 }
