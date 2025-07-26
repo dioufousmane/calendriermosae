@@ -608,6 +608,16 @@ async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
   body.classList.remove("dark-mode");
 
   for (let i = 0; i < selectedWeeks.length; i++) {
+    // 🖋️ Copyright en bas de page
+const footerText = "© https://dioufousmane.github.io/calendriermosae";
+const pageWidth = pdf.internal.pageSize.getWidth();
+const pageHeight = pdf.internal.pageSize.getHeight();
+
+pdf.setFontSize(9);
+pdf.setTextColor(120); // gris doux
+pdf.setFont("helvetica", "italic");
+pdf.text(footerText, pageWidth / 2, pageHeight - 7, { align: "center" });
+
     const [year, week] = selectedWeeks[i].split("-").map(Number);
     const date = getDateOfISOWeek(week, year);
 
