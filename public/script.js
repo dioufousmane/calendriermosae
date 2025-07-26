@@ -359,7 +359,7 @@ dlBtn.addEventListener("click", () => {
   const validWeekViews = ["timeGridWeek", "dayGridWeek", "week"];
 
   if (!validWeekViews.includes(currentView)) {
-    showPopupMessage('Veuillez sélectionner la vue "Week" svp.');
+    showPopupMessage('Veuillez sélectionner la vue "week" svp.');
     return; // On stoppe la suite
   }
 
