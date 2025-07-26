@@ -351,7 +351,75 @@ dlBtn.textContent = "📥 Télécharger le / les EDT";
 dlBtn.id = "downloadEdtBtn";
 document.querySelector(".calendar-controls").appendChild(dlBtn);
 
-dlBtn.addEventListener("click", openWeekSelectionModal);
+dlBtn.addEventListener("click", () => {
+  // Vérification de la vue
+  const currentView = calendar.view.type;
+
+  // Les vues "semaine" valides selon FullCalendar
+  const validWeekViews = ["timeGridWeek", "dayGridWeek", "week"];
+
+  if (!validWeekViews.includes(currentView)) {
+    showPopupMessage('Veuillez sélectionner la vue "Week" svp.');
+    return; // On stoppe la suite
+  }
+
+  openWeekSelectionModal();
+});
+
+function showPopupMessage(message) {
+  // Si popup déjà présent, on sort
+  if (document.getElementById("customPopupMessage")) return;
+
+  const overlay = document.createElement("div");
+  overlay.id = "customPopupMessage";
+  Object.assign(overlay.style, {
+    position: "fixed",
+    top: 0, left: 0,
+    width: "100%", height: "100%",
+    backgroundColor: "rgba(0,0,0,0.5)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    zIndex: 9999
+  });
+
+  const box = document.createElement("div");
+  Object.assign(box.style, {
+    backgroundColor: "#fff",
+    padding: "20px 30px",
+    borderRadius: "8px",
+    boxShadow: "0 0 10px rgba(0,0,0,0.3)",
+    maxWidth: "300px",
+    textAlign: "center",
+    fontFamily: "Arial, sans-serif",
+    fontSize: "16px",
+    color: "#333"
+  });
+
+  const text = document.createElement("p");
+  text.textContent = message;
+
+  const btn = document.createElement("button");
+  btn.textContent = "OK";
+  Object.assign(btn.style, {
+    marginTop: "15px",
+    padding: "8px 16px",
+    border: "none",
+    backgroundColor: "#007bff",
+    color: "white",
+    borderRadius: "4px",
+    cursor: "pointer"
+  });
+
+  btn.onclick = () => {
+    document.body.removeChild(overlay);
+  };
+
+  box.appendChild(text);
+  box.appendChild(btn);
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+}
 
 function openWeekSelectionModal() {
   const modal = document.createElement("div");
