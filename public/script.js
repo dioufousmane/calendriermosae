@@ -564,8 +564,8 @@ function getActiveCalendarsLegend() {
   const isESGT = document.getElementById("toggle-esgt")?.checked ?? true;
   const isUNIV = document.getElementById("toggle-univ")?.checked ?? true;
 
-  if (isESGT) legend.push({ label: "UNIV", color: "#007bff" });
-  if (isUNIV) legend.push({ label: "ESGT", color: "#2e7d32" });
+  if (isESGT) legend.push({ label: "ESGT", color: "#2e7d32" });
+  if (isUNIV) legend.push({ label: "UNIV", color: "#007bff" });
 
   return legend;
 }
@@ -598,6 +598,7 @@ const logoUNIV = "https://dioufousmane.github.io/calendriermosae/img/lemans.png"
 // 📥 Fonction principale de génération PDF
 async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
   const { jsPDF } = window.jspdf;
+  const margin = 15; // marge de 15mm de chaque côté
   const pdf = new jsPDF(orientation === "portrait" ? "portrait" : "landscape", "mm", "a4");
   const originalScroll = window.scrollY;
   const body = document.body;
@@ -664,8 +665,17 @@ async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
       imgUNIV.onerror = () => resolve();
     });
 
-    // 📆 Image du calendrier
-    pdf.addImage(imgData, "PNG", 0, 25, pdfWidth, imgHeight);
+    const zoom = 1.1; // 5% plus grand
+
+    const usableWidth = (pdf.internal.pageSize.getWidth() - margin * 2) * zoom;
+    const scaledHeight = canvas.height * (usableWidth / canvas.width);
+    
+    // Centrer horizontalement si l'image dépasse un peu
+    const x = (pdf.internal.pageSize.getWidth() - usableWidth) / 2;
+    
+    pdf.addImage(imgData, "PNG", x, 25, usableWidth, scaledHeight);
+    
+
 
     // 📌 Légende dynamique
     const legend = getActiveCalendarsLegend();
