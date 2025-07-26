@@ -110,15 +110,15 @@ async function initCalendar() {
       height: "100%",
       expandRows: true,
       headerToolbar: {
-        left: "prev,next today",
-        center: "title",
-        right: "dayGridMonth,timeGridWeek,timeGridDay"
-      },
+      left: "prev,next today",
+      center: "title",
+      right: "dayGridMonth,timeGridWeek,timeGridDay"
+    },
       buttonText: {
-        today: 'hellow',
-        day: 'world',
-        week:'welcome',
-        month:'hmmm'
+        today: "Ajourd''hui",
+        day: 'Jour',
+        week:'Semaine',
+        month:'Mois'
       },
       
       initialDate: initialDate,
