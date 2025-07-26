@@ -543,8 +543,8 @@ function getPageTitleForDisplay() {
 }
 
 // 📸 Chemins des logos
-const logoESGT = "/img/esgt.png";
-const logoUNIV = "/img/lemans.png";
+const logoESGT = "https://dioufousmane.github.io/calendriermosae/img/esgt.png";
+const logoUNIV = "https://dioufousmane.github.io/calendriermosae/img/lemans.png";
 
 // 📥 Fonction principale de génération PDF
 async function downloadPdfForWeeks(selectedWeeks) {
