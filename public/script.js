@@ -101,8 +101,8 @@ async function initCalendar() {
       locale: "fr",
       allDaySlot: false, // 👈 Empêche l’affichage du slot "toute la journée"
       timeZone: "Europe/Paris",
-      slotMinTime: "07:30:00", // 👈 Commence la journée à 8h
-      slotMaxTime: "18:30:00", // 👈 Commence la journée à 8h
+      slotMinTime: "06:00:00", // 👈 Commence la journée à 8h
+      slotMaxTime: "19:00:00", // 👈 Commence la journée à 8h
       initialView: "timeGridWeek",
       firstDay: 1, // 👈 démarre le calendrier par un lundi
       nowIndicator: true,
@@ -113,6 +113,12 @@ async function initCalendar() {
         left: "prev,next today",
         center: "title",
         right: "dayGridMonth,timeGridWeek,timeGridDay"
+      },
+      buttonText: {
+        today: 'hellow',
+        day: 'world',
+        week:'welcome',
+        month:'hmmm'
       },
       
       initialDate: initialDate,
