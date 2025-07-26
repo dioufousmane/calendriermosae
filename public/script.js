@@ -564,8 +564,8 @@ function getActiveCalendarsLegend() {
   const isESGT = document.getElementById("toggle-esgt")?.checked ?? true;
   const isUNIV = document.getElementById("toggle-univ")?.checked ?? true;
 
-  if (isESGT) legend.push({ label: "Cours ESGT", color: "#007bff" });
-  if (isUNIV) legend.push({ label: "Cours UNIV", color: "#2e7d32" });
+  if (isESGT) legend.push({ label: "UNIV", color: "#007bff" });
+  if (isUNIV) legend.push({ label: "ESGT", color: "#2e7d32" });
 
   return legend;
 }
@@ -600,6 +600,11 @@ async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF(orientation === "portrait" ? "portrait" : "landscape", "mm", "a4");
   const originalScroll = window.scrollY;
+  const body = document.body;
+  const hadDarkMode = body.classList.contains("dark-mode");
+
+  // Forcer le mode clair
+  body.classList.remove("dark-mode");
 
   for (let i = 0; i < selectedWeeks.length; i++) {
     const [year, week] = selectedWeeks[i].split("-").map(Number);
@@ -678,12 +683,17 @@ async function downloadPdfForWeeks(selectedWeeks, orientation = "paysage") {
       pdf.text(item.label, x + iconSize + 4, startY + iconSize - 1);
     });
   }
+  if (hadDarkMode) {
+    body.classList.add("dark-mode");
+  }
+
 
   window.scrollTo(0, originalScroll);
 
   const baseTitle = getPageTitleForPdf();
   pdf.save(`${baseTitle}_${selectedWeeks.join("_")}.pdf`);
-}
+  
+};
 function getDisplayedWeek() {
   const displayedDate = calendar.getDate(); // Date affichée dans le calendrier
   const year = displayedDate.getFullYear();
