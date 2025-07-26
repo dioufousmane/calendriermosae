@@ -102,6 +102,7 @@ async function initCalendar() {
       allDaySlot: false, // 👈 Empêche l’affichage du slot "toute la journée"
       timeZone: "Europe/Paris",
       slotMinTime: "07:30:00", // 👈 Commence la journée à 8h
+      slotMaxTime: "18:30:00", // 👈 Commence la journée à 8h
       initialView: "timeGridWeek",
       firstDay: 1, // 👈 démarre le calendrier par un lundi
       nowIndicator: true,
