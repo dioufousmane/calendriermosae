@@ -533,14 +533,29 @@ function openWeekSelectionModal() {
 
   cancelBtn.onclick = () => modal.remove();
 
+  function sortWeeksChronologically(weeks) {
+    return weeks.sort((a, b) => {
+      const [yearA, weekA] = a.split("-").map(Number);
+      const [yearB, weekB] = b.split("-").map(Number);
+  
+      if (yearA !== yearB) return yearA - yearB;
+      return weekA - weekB;
+    });
+  }
+  
   confirmBtn.onclick = async () => {
     const checked = box.querySelectorAll("input[type='checkbox']:checked");
     if (checked.length === 0) return alert("Veuillez choisir au moins une semaine.");
+  
     const selectedWeeks = [...checked].map(cb => cb.value);
+    const sortedWeeks = sortWeeksChronologically(selectedWeeks);
+  
     const orientation = document.getElementById("pdfOrientation").value;
     modal.remove();
-    await downloadPdfForWeeks(selectedWeeks, orientation);
+  
+    await downloadPdfForWeeks(sortedWeeks, orientation);
   };
+  
 }
 
 // 🔎 Récupère la légende en fonction des filtres actifs
@@ -684,3 +699,4 @@ function getISOWeekNumber(date) {
   const week1 = new Date(tempDate.getFullYear(), 0, 4);
   return 1 + Math.round(((tempDate.getTime() - week1.getTime()) / 86400000 - 3 + ((week1.getDay() + 6) % 7)) / 7);
 }
+
