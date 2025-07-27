@@ -120,7 +120,7 @@ async function initCalendar() {
         week: "Vue semaine",
         month: "Vue mois",
         listWeek: "Liste semaine",
-        listDay: "Liste jour",
+        listDay: "Liste journée",
         listMonth: "Liste mois"
       },
       initialDate: initialDate,
