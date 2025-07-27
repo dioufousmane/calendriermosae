@@ -1050,89 +1050,89 @@ tabUNIV.style.backgroundColor = "#007bff";
   }
 
   function renderChart(groupId, data, container) {
-    container.innerHTML = "";
-  
-    // 🧱 Conteneur flex pour le graphique + légende
-    const chartWrapper = document.createElement("div");
-    chartWrapper.style.display = "flex";
-    chartWrapper.style.alignItems = "center";
-    chartWrapper.style.justifyContent = "center";
-    chartWrapper.style.gap = "20px"; // espace entre le graphe et la légende
-    chartWrapper.style.flexWrap = "wrap"; // permet le passage en colonne sur petits écrans
-  
-    // 📊 Canvas pour le camembert
-    const canvas = document.createElement("canvas");
-    canvas.id = `chart-${groupId}`;
-    canvas.style.width = "350px";
-    canvas.style.height = "350px";
-  
-    chartWrapper.appendChild(canvas);
-    container.appendChild(chartWrapper);
-  
-    const ctx = canvas.getContext("2d");
-  
-    const chart = new Chart(ctx, {
-      type: "pie",
-      data: {
-        labels: data.map(e => e.title),
-        datasets: [{
-          label: "Heures",
-          data: data.map(e => e.total.toFixed(2)),
-          backgroundColor: data.map((_, i) =>
-            `hsl(${(i * 50) % 360}, 70%, 60%)`
-          )
-        }]
-      },
-      options: {
-        responsive: false,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false // On cache la légende native
-          },
-          title: {
-            display: true,
-            text: `Répartition – ${groupId.toUpperCase()}`,
-            font: {
-              size: 16
-            }
+  container.innerHTML = "";
+
+  // 🧱 Conteneur flex pour le graphique + légende
+  const chartWrapper = document.createElement("div");
+  chartWrapper.style.display = "flex";
+  chartWrapper.style.alignItems = "center";
+  chartWrapper.style.justifyContent = "center";
+  chartWrapper.style.gap = "20px"; // espace entre le graphe et la légende
+  chartWrapper.style.flexWrap = "wrap"; // permet le passage en colonne sur petits écrans
+
+  // 📊 Canvas pour le camembert
+  const canvas = document.createElement("canvas");
+  canvas.id = `chart-${groupId}`;
+  canvas.style.width = "350px";
+  canvas.style.height = "350px";
+
+  chartWrapper.appendChild(canvas);
+  container.appendChild(chartWrapper);
+
+  const ctx = canvas.getContext("2d");
+
+  const chart = new Chart(ctx, {
+    type: "pie",
+    data: {
+      labels: data.map(e => e.title),
+      datasets: [{
+        label: "Heures",
+        data: data.map(e => e.total.toFixed(2)),
+        backgroundColor: data.map((_, i) =>
+          `hsl(${(i * 50) % 360}, 70%, 60%)`
+        )
+      }]
+    },
+    options: {
+      responsive: false,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false // On cache la légende native
+        },
+        title: {
+          display: true,
+          text: `Répartition – ${groupId.toUpperCase()}`,
+          font: {
+            size: 16
           }
         }
       }
-    });
-  
-    // 📋 Légende personnalisée à droite
-    const legendContainer = document.createElement("div");
-    legendContainer.style.display = "flex";
-    legendContainer.style.flexDirection = "column";
-    legendContainer.style.fontSize = "0.9em";
-    legendContainer.style.maxWidth = "250px";
-  
-    data.forEach((e, i) => {
-      const legendItem = document.createElement("div");
-      legendItem.style.display = "flex";
-      legendItem.style.alignItems = "center";
-      legendItem.style.marginBottom = "5px";
-  
-      const colorBox = document.createElement("span");
-      colorBox.style.display = "inline-block";
-      colorBox.style.width = "12px";
-      colorBox.style.height = "12px";
-      colorBox.style.backgroundColor = chart.data.datasets[0].backgroundColor[i];
-      colorBox.style.marginRight = "8px";
-      colorBox.style.borderRadius = "2px";
-  
-      const labelText = document.createElement("span");
-      labelText.textContent = `${e.title} (${e.total.toFixed(2)}h)`;
-  
-      legendItem.appendChild(colorBox);
-      legendItem.appendChild(labelText);
-      legendContainer.appendChild(legendItem);
-    });
-  
-    chartWrapper.appendChild(legendContainer);
-  }
-  
+    }
+  });
+
+  // 📋 Légende personnalisée à droite
+  const legendContainer = document.createElement("div");
+  legendContainer.style.display = "flex";
+  legendContainer.style.flexDirection = "column";
+  legendContainer.style.fontSize = "0.9em";
+  legendContainer.style.maxWidth = "250px";
+
+  data.forEach((e, i) => {
+    const legendItem = document.createElement("div");
+    legendItem.style.display = "flex";
+    legendItem.style.alignItems = "center";
+    legendItem.style.marginBottom = "5px";
+
+    const colorBox = document.createElement("span");
+    colorBox.style.display = "inline-block";
+    colorBox.style.width = "12px";
+    colorBox.style.height = "12px";
+    colorBox.style.backgroundColor = chart.data.datasets[0].backgroundColor[i];
+    colorBox.style.marginRight = "8px";
+    colorBox.style.borderRadius = "2px";
+
+    const labelText = document.createElement("span");
+    labelText.textContent = `${e.title} (${e.total.toFixed(2)}h)`;
+
+    legendItem.appendChild(colorBox);
+    legendItem.appendChild(labelText);
+    legendContainer.appendChild(legendItem);
+  });
+
+  chartWrapper.appendChild(legendContainer);
+}
+
 
   renderTable("esgt");
 
