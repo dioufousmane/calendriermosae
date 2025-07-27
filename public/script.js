@@ -358,7 +358,7 @@ function getCurrentISOWeek() {
 
 // Ajout du bouton "Télécharger"
 const dlBtn = document.createElement("button");
-dlBtn.textContent = "📥 Télécharger le / les EDT";
+dlBtn.textContent = "📥 Télécharger les EDT";
 dlBtn.id = "downloadEdtBtn";
 document.querySelector(".calendar-controls").appendChild(dlBtn);
 
