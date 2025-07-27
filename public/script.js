@@ -871,6 +871,10 @@ function getISOWeekNumber(date) {
 }
 
 function showRecapModal(summaryData, mode) {
+    const body = document.body;
+  const hadDarkMode = body.classList.contains("dark-mode");
+  body.classList.remove("dark-mode"); // On force le mode clair pour la modale
+
   
   const existing = document.getElementById("recapModal");
   if (existing) existing.remove();
@@ -987,15 +991,26 @@ tabUNIV.style.backgroundColor = "#007bff";
   box.appendChild(content);
 
   const closeBtn = document.createElement("button");
-  closeBtn.textContent = "Fermer";
-  closeBtn.style.marginTop = "20px";
-  closeBtn.style.padding = "8px 16px";
-  closeBtn.style.background = "#6c757d";
-  closeBtn.style.color = "white";
-  closeBtn.style.border = "none";
-  closeBtn.style.borderRadius = "5px";
-  closeBtn.style.cursor = "pointer";
-  closeBtn.onclick = () => overlay.remove();
+closeBtn.textContent = "Fermer";
+closeBtn.style.marginTop = "20px";
+closeBtn.style.padding = "8px 16px";
+closeBtn.style.background = "#6c757d";
+closeBtn.style.color = "white";
+closeBtn.style.border = "none";
+closeBtn.style.borderRadius = "5px";
+closeBtn.style.cursor = "pointer";
+
+closeBtn.onclick = () => {
+  overlay.remove();
+
+  // 🌓 Remettre le dark mode après un petit délai
+  setTimeout(() => {
+    if (hadDarkMode) {
+      body.classList.add("dark-mode");
+    }
+  }, 100);
+};
+
 
   box.appendChild(closeBtn);
   overlay.appendChild(box);
