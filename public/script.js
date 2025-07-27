@@ -145,6 +145,75 @@ async function initCalendar() {
     });
 
     calendar.render();
+    // 📊 Bouton de récapitulatif
+// 📊 Bouton de récapitulatif (à gauche du bouton "prev")
+const recapButton = document.createElement("button");
+recapButton.textContent = "📊 Récapitulatif";
+recapButton.classList.add("fc-button", "fc-button-primary");
+
+setTimeout(() => {
+  const centerChunk = document.querySelector(".fc-toolbar-chunk:nth-child(2)");
+  const prevBtn = centerChunk?.querySelector(".fc-prev-button");
+
+  if (centerChunk && prevBtn) {
+    centerChunk.insertBefore(recapButton, prevBtn);
+  }
+}, 0);
+
+
+// Ouvrir le récapitulatif
+recapButton.addEventListener("click", () => {
+  const visibleEvents = calendar.getEvents();
+  const mode = calendar.view.type;
+
+  let startDate = new Date(calendar.view.currentStart);
+  let endDate = new Date(calendar.view.currentEnd);
+
+  // Ajustement si vue "jour"
+  if (mode.includes("Day")) {
+    endDate = new Date(startDate);
+    endDate.setDate(startDate.getDate() + 1);
+  }
+
+  const summary = {};
+
+  visibleEvents.forEach(evt => {
+    const eventStart = new Date(evt.start);
+    const eventEnd = new Date(evt.end);
+  
+    if (eventEnd <= startDate || eventStart >= endDate) return;
+  
+    const durationHours = (eventEnd - eventStart) / (1000 * 60 * 60);
+  
+    // 🧼 Nettoyage du nom
+    const rawTitle = evt.title;
+    let cleanTitle = rawTitle.toLowerCase()
+      .replace(/^(cm|td)\s+/i, "")                // supprime préfixes
+      .replace(/(cm|td)/gi, "")                   // supprime suffixes
+      .replace(/insertion pro(fes+ion+)?nelle?/i, "insertion professionnelle")
+      .replace(/asso\s+egee/i, "")                // optionnel
+      .replace(/\s+/g, " ")                       // espaces multiples
+      .trim();                                    // trim
+  
+    // Capitalisation
+    cleanTitle = cleanTitle.charAt(0).toUpperCase() + cleanTitle.slice(1);
+  
+    const key = `${cleanTitle}__${evt.groupId}`;
+  
+    if (!summary[key]) {
+      summary[key] = {
+        title: cleanTitle,
+        group: evt.groupId,
+        total: 0
+      };
+    }
+  
+    summary[key].total += durationHours;
+  });
+  
+  showRecapModal(summary, mode);
+});
+
 
     weekSelect.addEventListener("change", () => {
       const [y, w] = weekSelect.value.split("-").map(Number);
@@ -206,6 +275,77 @@ function toggleCalendar(source) {
 
 document.addEventListener("DOMContentLoaded", () => {
   initCalendar();
+  const recapStyles = document.createElement("style");
+recapStyles.innerHTML = `
+  #recapModal h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  #recapModal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95em;
+    background: #f9f9f9;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  #recapModal th, #recapModal td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  #recapModal th {
+    background-color: #e0e0e0;
+    font-weight: 600;
+    color: #333;
+  }
+
+  #recapModal tr:nth-child(even) td {
+    background-color: #f1f1f1;
+  }
+
+  #recapModal button {
+    transition: background-color 0.3s ease;
+  }
+
+  #recapModal button:hover {
+    filter: brightness(1.1);
+  }
+
+  #recapModal .chart-container canvas {
+    margin: 20px auto 10px auto;
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  #recapModal .tab-button {
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #dcdcdc;
+    color: #333;
+  }
+
+  #recapModal .tab-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  #recapModal .date-range {
+    font-style: italic;
+    margin-bottom: 12px;
+    color: #555;
+  }
+`;
+document.head.appendChild(recapStyles);
 
   const closeBtn = document.getElementById("modalClose");
   if (closeBtn) closeBtn.addEventListener("click", closeModal);
@@ -730,3 +870,230 @@ function getISOWeekNumber(date) {
   return 1 + Math.round(((tempDate.getTime() - week1.getTime()) / 86400000 - 3 + ((week1.getDay() + 6) % 7)) / 7);
 }
 
+function showRecapModal(summaryData, mode) {
+  
+  const existing = document.getElementById("recapModal");
+  if (existing) existing.remove();
+
+  const overlay = document.createElement("div");
+  overlay.id = "recapModal";
+  Object.assign(overlay.style, {
+    position: "fixed",
+    top: 0, left: 0,
+    width: "100%", height: "100%",
+    backgroundColor: "rgba(0,0,0,0.6)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    zIndex: 9999
+  });
+
+  const box = document.createElement("div");
+  Object.assign(box.style, {
+    background: "white",
+    padding: "20px",
+    borderRadius: "10px",
+    maxWidth: "700px",
+    width: "95%",
+    maxHeight: "90%",
+    overflowY: "auto",
+    fontFamily: "Arial, sans-serif"
+  });
+
+  const title = document.createElement("h3");
+  title.textContent = `⏱️ Récapitulatif des heures (${mode.includes("Month") ? "mois" : mode.includes("Day") ? "jour" : "semaine"})`;
+  title.style.marginBottom = "10px";
+  box.appendChild(title);
+  // 📆 Affichage de la période visible
+const dateRange = document.createElement("div");
+dateRange.style.marginBottom = "15px";
+dateRange.style.fontStyle = "italic";
+dateRange.style.color = "#555";
+
+const view = calendar.view;
+const start = view.currentStart;
+const end = new Date(view.currentEnd.getTime() - 1); // Pour inclure le dernier jour
+
+function formatDate(d) {
+  return d.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+}
+
+function formatShort(d) {
+  return d.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+}
+
+let rangeText = "";
+
+if (mode.includes("Month")) {
+  rangeText = `${start.toLocaleDateString("fr-FR", { month: "long", year: "numeric" })}`;
+} else if (mode.includes("Day")) {
+  rangeText = `${formatDate(start)}`;
+} else {
+  rangeText = `Semaine du ${formatShort(start)} au ${formatShort(end)}`;
+}
+
+dateRange.textContent = `📅 ${rangeText}`;
+box.appendChild(dateRange);
+
+
+  // Onglets
+  const tabContainer = document.createElement("div");
+  tabContainer.style.display = "flex";
+  tabContainer.style.marginBottom = "15px";
+
+  const tabESGT = document.createElement("button");
+  const tabUNIV = document.createElement("button");
+
+  [tabESGT, tabUNIV].forEach(btn => {
+    Object.assign(btn.style, {
+      flex: 1,
+      padding: "10px",
+      border: "none",
+      cursor: "pointer",
+      fontWeight: "bold",
+      color: "white"
+    });
+  });
+  tabESGT.classList.add("tab-button");
+tabUNIV.classList.add("tab-button");
+
+tabESGT.classList.add("active"); // par défaut
+
+tabESGT.innerHTML = `<i class="fa-solid fa-graduation-cap"></i> ESGT`;
+tabESGT.style.backgroundColor = "#28a745";
+
+tabUNIV.innerHTML = `<i class="fa-solid fa-graduation-cap"></i> UNIV`;
+tabUNIV.style.backgroundColor = "#007bff";
+
+
+  tabContainer.appendChild(tabESGT);
+  tabContainer.appendChild(tabUNIV);
+  tabESGT.onclick = () => {
+    tabESGT.classList.add("active");
+    tabUNIV.classList.remove("active");
+    renderTable("esgt");
+  };
+  
+  tabUNIV.onclick = () => {
+    tabUNIV.classList.add("active");
+    tabESGT.classList.remove("active");
+    renderTable("univ");
+  };
+  
+  box.appendChild(tabContainer);
+
+  const content = document.createElement("div");
+  content.id = "recapContent";
+  box.appendChild(content);
+
+  const closeBtn = document.createElement("button");
+  closeBtn.textContent = "Fermer";
+  closeBtn.style.marginTop = "20px";
+  closeBtn.style.padding = "8px 16px";
+  closeBtn.style.background = "#6c757d";
+  closeBtn.style.color = "white";
+  closeBtn.style.border = "none";
+  closeBtn.style.borderRadius = "5px";
+  closeBtn.style.cursor = "pointer";
+  closeBtn.onclick = () => overlay.remove();
+
+  box.appendChild(closeBtn);
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+
+  function renderTable(groupId) {
+    const filtered = Object.values(summaryData).filter(item => item.group === groupId);
+    if (filtered.length === 0) {
+      content.innerHTML = `<p style="color:#666;">Aucune donnée à afficher pour ${groupId.toUpperCase()}.</p>`;
+      return;
+    }
+
+    const table = document.createElement("table");
+    table.style.width = "100%";
+    table.style.borderCollapse = "collapse";
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th style="border-bottom: 1px solid #ccc; text-align: left;">Matière</th>
+          <th style="border-bottom: 1px solid #ccc; text-align: center;">Heures</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${filtered.map(item => `
+          <tr>
+            <td style="padding: 6px 0;">${item.title}</td>
+            <td style="text-align: center;">${item.total.toFixed(2)}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    `;
+
+    const chartBtn = document.createElement("button");
+    chartBtn.textContent = "📈 Diagramme";
+    chartBtn.style.marginTop = "15px";
+    chartBtn.style.padding = "6px 12px";
+    chartBtn.style.background = groupId === "esgt" ? "#28a745" : "#007bff";
+    chartBtn.style.color = "white";
+    chartBtn.style.border = "none";
+    chartBtn.style.borderRadius = "5px";
+    chartBtn.style.cursor = "pointer";
+
+    const chartContainer = document.createElement("div");
+    chartContainer.style.marginTop = "10px";
+
+    chartBtn.onclick = () => renderChart(groupId, filtered, chartContainer);
+    
+    content.innerHTML = "";
+    content.appendChild(table);
+    content.appendChild(chartBtn);
+    content.appendChild(chartContainer);
+  }
+
+  function renderChart(groupId, data, container) {
+    container.innerHTML = "";
+  
+    const canvas = document.createElement("canvas");
+    canvas.id = `chart-${groupId}`;
+  
+    // Taille réduite ici 👇
+    canvas.style.maxWidth = "300px";
+    canvas.style.maxHeight = "300px";
+    canvas.style.margin = "0 auto";
+    canvas.style.display = "block";
+  
+    container.appendChild(canvas);
+  
+    const ctx = canvas.getContext("2d");
+  
+    new Chart(ctx, {
+      type: "pie",
+      data: {
+        labels: data.map(e => e.title),
+        datasets: [{
+          label: "Heures",
+          data: data.map(e => e.total.toFixed(2)),
+          backgroundColor: data.map((_, i) =>
+            `hsl(${(i * 50) % 360}, 70%, 60%)`
+          )
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: { position: "right" },
+          title: {
+            display: true,
+            text: `Répartition – ${groupId.toUpperCase()}`
+          }
+        }
+      }
+    });
+  }
+  
+
+  renderTable("esgt");
+
+  tabESGT.onclick = () => renderTable("esgt");
+  tabUNIV.onclick = () => renderTable("univ");
+}
