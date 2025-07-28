@@ -59,7 +59,7 @@ function generateWeekOptions() {
 
     const option = document.createElement("option");
     option.value = `${year}-${String(week).padStart(2, "0")}`;
-    option.textContent = `Semaine ${week} (${year})`;
+    option.textContent = `${week} (${year})`;
     select.appendChild(option);
 
     currentDate.setDate(currentDate.getDate() + 7);
