@@ -2,8 +2,8 @@ name: Générer tous les événements M1 et M2
 
 on:
   workflow_dispatch:
-  schedule:
-  - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
+  #schedule:
+  #- cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
 
 jobs:
   generate-events:
@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: 🧪 Vérifier la version de Python
+      - name: 🧪 Vérifier la version de Python#
         run: python --version
 
       - name: 📦 Installer les dépendances
