@@ -10,7 +10,7 @@ from datetime import datetime
 CALENDARS = [
     {
         "name": "MOSAE1",
-        "url": "https://dioufousmane.github.io/calendriermosae/MOSAE1.ics",
+        "url": "https://dioufousmane.github.io/calendriermosae/m1_MOSAE1.ics",
         "output": "esgt_events.json"
     },
     {
