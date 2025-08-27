@@ -1,83 +1,13 @@
 [
   {
-    "day": "Mardi",
-    "date": "16/09/2025",
-    "start": "08:30",
-    "end": "09:00",
-    "title": "RENTREE",
-    "salle": "Salle C04",
-    "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
-    "day": "Mardi",
-    "date": "16/09/2025",
-    "start": "09:00",
-    "end": "17:30",
-    "title": "SOUTENANCES",
-    "salle": "Salle C04",
-    "enseignant": "DIOUF",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
-    "day": "Vendredi",
-    "date": "17/10/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "GéoBIM",
-    "salle": "non renseignée",
-    "enseignant": "ROBERT",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
     "day": "Lundi",
-    "date": "17/11/2025",
-    "start": "08:30",
-    "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
-    "day": "Lundi",
-    "date": "24/11/2025",
-    "start": "08:30",
-    "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
-    "day": "Vendredi",
-    "date": "03/10/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "GéoBIM",
-    "salle": "Salle 102",
-    "enseignant": "ROBERT",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
-    "day": "Mardi",
-    "date": "11/11/2025",
-    "start": "01:00",
-    "end": "01:00",
+    "date": "25/05/2026",
+    "start": "02:00",
+    "end": "02:00",
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
-  },
-  {
-    "day": "Lundi",
-    "date": "08/09/2025",
-    "start": "09:00",
-    "end": "18:15",
-    "title": "SOUTENANCES",
-    "salle": "Salle C05",
-    "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
   },
   {
     "day": "Mercredi",
@@ -87,7 +17,7 @@
     "title": "SOUTENANCES",
     "salle": "Amphi 2",
     "enseignant": "DIOUF",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
   },
   {
     "day": "Lundi",
@@ -97,27 +27,57 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
   },
   {
     "day": "Lundi",
-    "date": "27/10/2025",
+    "date": "08/09/2025",
+    "start": "09:00",
+    "end": "18:15",
+    "title": "SOUTENANCES",
+    "salle": "Salle C05",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Lundi",
+    "date": "24/11/2025",
     "start": "08:30",
     "end": "17:30",
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
   },
   {
     "day": "Vendredi",
-    "date": "26/09/2025",
+    "date": "17/10/2025",
     "start": "08:30",
     "end": "12:45",
     "title": "GéoBIM",
-    "salle": "Salle 102",
+    "salle": "non renseignée",
     "enseignant": "ROBERT",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Vendredi",
+    "date": "01/05/2026",
+    "start": "02:00",
+    "end": "02:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Mardi",
+    "date": "16/09/2025",
+    "start": "09:00",
+    "end": "17:30",
+    "title": "SOUTENANCES",
+    "salle": "Salle C04",
+    "enseignant": "DIOUF",
+    "maj": "27-08-2025 12:55:57"
   },
   {
     "day": "Lundi",
@@ -127,7 +87,27 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Vendredi",
+    "date": "08/05/2026",
+    "start": "02:00",
+    "end": "02:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Lundi",
+    "date": "22/12/2025",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
   },
   {
     "day": "Lundi",
@@ -137,6 +117,96 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "27-08-2025 12:51:54"
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Lundi",
+    "date": "17/11/2025",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Lundi",
+    "date": "06/04/2026",
+    "start": "02:00",
+    "end": "02:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Lundi",
+    "date": "27/10/2025",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Vendredi",
+    "date": "26/09/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "GéoBIM",
+    "salle": "Salle 102",
+    "enseignant": "ROBERT",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Jeudi",
+    "date": "14/05/2026",
+    "start": "02:00",
+    "end": "02:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Vendredi",
+    "date": "03/10/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "GéoBIM",
+    "salle": "Salle 102",
+    "enseignant": "ROBERT",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Mardi",
+    "date": "16/09/2025",
+    "start": "08:30",
+    "end": "09:00",
+    "title": "RENTREE",
+    "salle": "Salle C04",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Lundi",
+    "date": "29/12/2025",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
+  },
+  {
+    "day": "Mardi",
+    "date": "11/11/2025",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "27-08-2025 12:55:57"
   }
 ]
