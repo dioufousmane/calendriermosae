@@ -659,23 +659,3 @@ body.dark-mode #weekSelectionList {
 .fc-header-toolbar .fc-toolbar-title {
   white-space: nowrap;
 }
-
-
-ul {
-  padding-left: 20px;
-}
-li {
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-button {
-  padding: 4px 8px;
-  border: none;
-  background: #80cbc4;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
-button:hover {
-  background: #4db6ac;
-}
