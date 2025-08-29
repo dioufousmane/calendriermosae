@@ -1154,3 +1154,107 @@ closeBtn.onclick = () => {
   tabESGT.onclick = () => renderTable("esgt");
   tabUNIV.onclick = () => renderTable("univ");
 }
+
+
+let previousEvents = []; // Stockage des anciens événements
+let currentEvents = [];  // Nouveaux événements
+
+// Comparer deux listes d'événements
+function detectChanges(oldEvents, newEvents) {
+  let changes = [];
+
+  newEvents.forEach(ev => {
+    const old = oldEvents.find(o => o.id === ev.id);
+
+    if (!old) {
+      // Cas 1 : nouvel évènement
+      changes.push({
+        type: "new",
+        message: `Nouvel événement ajouté : ${ev.title} (${ev.start} - ${ev.end})`,
+        week: getWeekNumber(new Date(ev.start))
+      });
+    } else if (old.start !== ev.start || old.end !== ev.end) {
+      // Cas 2 : horaire modifié
+      changes.push({
+        type: "update",
+        message: `Horaire modifié : ${ev.title} (${old.start} → ${ev.start})`,
+        week: getWeekNumber(new Date(ev.start))
+      });
+    }
+    // Cas 3 : si seule la date de maj change => on ignore
+  });
+
+  return changes;
+}
+
+// Affichage du popup
+function showChangesPopup(changes) {
+  if (changes.length === 0) return;
+
+  // Conteneur overlay
+  const overlay = document.createElement("div");
+  overlay.style.position = "fixed";
+  overlay.style.top = 0;
+  overlay.style.left = 0;
+  overlay.style.width = "100%";
+  overlay.style.height = "100%";
+  overlay.style.background = "rgba(0,0,0,0.6)";
+  overlay.style.display = "flex";
+  overlay.style.justifyContent = "center";
+  overlay.style.alignItems = "center";
+  overlay.style.zIndex = 2000;
+
+  // Box centrale
+  const box = document.createElement("div");
+  box.style.background = "#fff";
+  box.style.padding = "20px";
+  box.style.borderRadius = "10px";
+  box.style.width = "400px";
+  box.style.maxHeight = "70%";
+  box.style.overflowY = "auto";
+  box.style.boxShadow = "0 6px 15px rgba(0,0,0,0.3)";
+  box.innerHTML = `<h3>🔔 Modifications détectées</h3>`;
+
+  // Liste des changements
+  const list = document.createElement("ul");
+  changes.forEach(change => {
+    const li = document.createElement("li");
+    li.style.marginBottom = "8px";
+    li.innerHTML = `${change.message} 
+      <button style="margin-left:10px" onclick="goToWeek(${change.week})">
+        Aller à la semaine ${change.week}
+      </button>`;
+    list.appendChild(li);
+  });
+  box.appendChild(list);
+
+  // Bouton fermer
+  const closeBtn = document.createElement("button");
+  closeBtn.textContent = "Fermer";
+  closeBtn.style.marginTop = "15px";
+  closeBtn.onclick = () => overlay.remove();
+  box.appendChild(closeBtn);
+
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+}
+
+// Simulation du rafraîchissement
+function refreshEvents(newData) {
+  currentEvents = newData;
+  const changes = detectChanges(previousEvents, currentEvents);
+
+  if (changes.length > 0) {
+    showChangesPopup(changes);
+  }
+
+  // Mise à jour de la version précédente
+  previousEvents = [...currentEvents];
+}
+
+// ---- Exemple de fonction pour aller à la bonne semaine ----
+function goToWeek(weekNumber) {
+  console.log("Navigation vers semaine", weekNumber);
+  // Ici tu relies à ta fonction de navigation de semaine :
+  // selectWeek(weekNumber);
+}
