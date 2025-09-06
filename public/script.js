@@ -123,7 +123,7 @@ async function initCalendar() {
         listDay: "Liste journée",
         listMonth: "Liste mois"
       },
-      initialDate: initialDate,
+      initialDate:  new Date(),       // semaine en cours
       events: [...allEvents.esgt, ...allEvents.univ],
       eventDidMount: info => {
         const { enseignant, salle, maj } = info.event.extendedProps;
