@@ -7,7 +7,7 @@
     "title": "EXAMEN",
     "salle": "T2",
     "enseignant": "CHAUVIN",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -17,7 +17,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -27,7 +27,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -37,17 +37,17 @@
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
     "date": "23/09/2025",
-    "start": "09:00",
-    "end": "12:00",
+    "start": "08:30",
+    "end": "12:45",
     "title": "Droit administratif (public1)",
     "salle": "Salle C04",
     "enseignant": "CHAUVIN",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -57,7 +57,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -67,7 +67,7 @@
     "title": "EXAMEN",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -77,7 +77,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -87,7 +87,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -97,7 +97,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Salle C03",
     "enseignant": "BOTREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -107,7 +107,7 @@
     "title": "Géodésie",
     "salle": "Salle C04",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -117,7 +117,7 @@
     "title": "Géodésie",
     "salle": "Salle C04",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -127,7 +127,7 @@
     "title": "Topographie 1",
     "salle": "Salle 110",
     "enseignant": "FERRE",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -137,7 +137,7 @@
     "title": "Géodésie",
     "salle": "Salle C04",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -147,7 +147,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -157,7 +157,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle 102",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -167,7 +167,7 @@
     "title": "Topographie 1",
     "salle": "Salle 107",
     "enseignant": "FERRE",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -177,17 +177,17 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Amphi 1",
     "enseignant": "BOTREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
     "date": "07/10/2025",
     "start": "08:30",
-    "end": "12:30",
+    "end": "12:45",
     "title": "Droit administratif (public1)",
     "salle": "Salle C04",
     "enseignant": "CHAUVIN",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -197,7 +197,7 @@
     "title": "Topographie 1",
     "salle": "Salle 107",
     "enseignant": "FERRE",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -207,7 +207,7 @@
     "title": "EXAMEN",
     "salle": "non renseignée",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -217,27 +217,37 @@
     "title": "SIG et bases de données",
     "salle": "Salle 102",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
-    "day": "Mardi",
-    "date": "02/12/2025",
+    "day": "Jeudi",
+    "date": "04/12/2025",
     "start": "08:30",
-    "end": "18:15",
+    "end": "12:45",
     "title": "Photogrammétrie",
     "salle": "Salle 134",
     "enseignant": "LEROUX",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
+  },
+  {
+    "day": "Jeudi",
+    "date": "04/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Photogrammétrie",
+    "salle": "Salle 134",
+    "enseignant": "LEROUX",
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
     "date": "03/12/2025",
     "start": "08:30",
-    "end": "18:15",
+    "end": "12:45",
     "title": "Photogrammétrie",
     "salle": "Salle 134",
     "enseignant": "LEROUX",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -247,27 +257,27 @@
     "title": "Topographie 1",
     "salle": "Salle 107",
     "enseignant": "FERRE",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
     "date": "16/10/2025",
-    "start": "14:00",
-    "end": "17:00",
+    "start": "09:30",
+    "end": "12:30",
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
     "date": "30/09/2025",
-    "start": "09:00",
-    "end": "12:00",
+    "start": "08:30",
+    "end": "11:15",
     "title": "Droit administratif (public1)",
     "salle": "Salle C04",
     "enseignant": "CHAUVIN",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -277,7 +287,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Salle C10",
     "enseignant": "BOTREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -287,7 +297,7 @@
     "title": "SOUTENANCES",
     "salle": "Salle C12",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -297,7 +307,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Salle C04",
     "enseignant": "GOUSSOUTOU",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -307,7 +317,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Amphi 1",
     "enseignant": "GOUSSOUTOU",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -317,7 +327,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -327,7 +337,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Salle C03",
     "enseignant": "BRUNEAU",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -337,7 +347,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Amphi 1",
     "enseignant": "BOTREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -347,17 +357,37 @@
     "title": "SOUTENANCES",
     "salle": "Salle C12",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
+  },
+  {
+    "day": "Jeudi",
+    "date": "16/10/2025",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "17-09-2025 15:18:32"
+  },
+  {
+    "day": "Mercredi",
+    "date": "03/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Photogrammétrie",
+    "salle": "Salle 134",
+    "enseignant": "LEROUX",
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
     "date": "25/09/2025",
     "start": "14:00",
-    "end": "17:00",
+    "end": "16:45",
     "title": "Droit administratif (public1)",
     "salle": "Salle C04",
     "enseignant": "CHAUVIN",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -367,7 +397,7 @@
     "title": "Topographie 1",
     "salle": "Salle 107",
     "enseignant": "FERRE",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -377,7 +407,7 @@
     "title": "RENTREE",
     "salle": "Amphi 1",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -387,7 +417,17 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Amphi 1",
     "enseignant": "GOUSSOUTOU",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
+  },
+  {
+    "day": "Jeudi",
+    "date": "09/10/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -397,7 +437,7 @@
     "title": "SIG et 3 D",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -407,7 +447,7 @@
     "title": "Topographie 1",
     "salle": "Salle C03",
     "enseignant": "FERRE",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -417,7 +457,7 @@
     "title": "Référentiel Jurid & Foncier",
     "salle": "Amphi 1",
     "enseignant": "BOTREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -427,7 +467,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Lundi",
@@ -437,7 +477,7 @@
     "title": "Géodésie",
     "salle": "Salle C04",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -447,7 +487,7 @@
     "title": "Géodésie",
     "salle": "Salle 110",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -457,7 +497,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle C03",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -467,7 +507,7 @@
     "title": "SIG et 3 D",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -477,7 +517,7 @@
     "title": "Géodésie",
     "salle": "Salle 110",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -487,7 +527,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Vendredi",
@@ -497,7 +537,7 @@
     "title": "SIG et 3 D",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Jeudi",
@@ -507,7 +547,7 @@
     "title": "SIG et bases de données",
     "salle": "Salle 100",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mercredi",
@@ -517,7 +557,7 @@
     "title": "Géodésie",
     "salle": "Salle C03",
     "enseignant": "MOREL",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -527,7 +567,7 @@
     "title": "SOUTENANCES",
     "salle": "Salle C12",
     "enseignant": "DIOUF",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   },
   {
     "day": "Mardi",
@@ -537,6 +577,6 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "17-09-2025 14:13:06"
+    "maj": "17-09-2025 15:18:32"
   }
 ]
