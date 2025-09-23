@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calendrier MOSAE 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- html2canvas pour capturer le DOM en image -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<!-- jsPDF pour générer un PDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Pour Font Awesome 6 (version gratuite) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="icon.png" type="image/png">
+
+</head>
+
+<body>
+
+  <!-- ✅ NAVIGATION EN PREMIER -->
+  <nav style="background-color: #2c3e50; padding: 10px; display: flex; align-items: center; justify-content: space-between; position: relative;">
+    <!-- 🌙 Bouton dark mode à droite -->
+    <button id="themeToggleBtn" style="
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 5px 10px;
+    " title="Basculer le thème">
+      🌙
+    </button>
+  
+    <!-- 🔗 Liens centrés -->
+    <div style="margin: 0 auto; display: flex; gap: 20px;">
+      <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">
+        <i class="fa-solid fa-graduation-cap"></i> MOSAE 1
+      </a>
+      <a href="mosae2.html" style="color: white; text-decoration: none; font-weight: bold;">
+        <i class="fa-solid fa-graduation-cap"></i> MOSAE 2
+      </a>
+    </div>
+  </nav>
+  
+
+  <!-- ✅ TITRE -->
+  <h2><i class="fa-solid fa-calendar-days"></i> Calendrier du MOSAE 1 –
+    <span class="badge-esgt">ESGT</span> & <span class="badge-univ">UNIV</span>
+  </h2>
+
+  <!-- ✅ Filtres ESGT / UNIV -->
+
+  <div class="calendar-controls"
+    style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; padding: 1rem 0;">
+
+    <!-- 🔄 Génération des événements -->
+    <div id="workflowWrapper" style="position: relative; width: 300px;">
+      <button id="triggerWorkflowBtn">🔄 Re-générer les EDT</button>
+      <div id="progressBar" style="
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 12px;
+  width: 0%;
+  background: linear-gradient(to right, #005fa3, #2e7d32); /* 🔵➡️🟢 */
+  border-radius: 4px;
+  margin-top: 4px;
+  z-index: 2;
+  transition: width 1s linear;
+"></div>
+
+    </div>
+
+    <p id="workflowStatus"></p>
+
+
+    <!-- ✅ Filtres -->
+    <label>
+      <input type="checkbox" id="toggle-esgt" checked onchange="toggleCalendar('esgt')"> ESGT
+    </label>
+    <label>
+      <input type="checkbox" id="toggle-univ" checked onchange="toggleCalendar('univ')"> UNIV
+    </label>
+
+    <!-- 📅 Semaine -->
+    <label for="weekSelect" style="display: flex; align-items: center;">
+      📅 Semaine :
+      <select id="weekSelect" style="margin-left: 0.5rem; max-width: 130px; padding: 0.3rem;"></select>
+    </label>
+    <!-- ♻️ Rechargement sans cache -->
+    <div style="text-align: center;">
+      <button id="forceReloadBtn">♻️ Recharger la page</button>
+    </div>
+
+
+  </div>
+
+
+
+  <div id="calendar"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+  <script src="./public/script.js"></script>
+
+  <!-- ✅ Modal popup -->
+  <div id="eventModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span id="modalClose" class="modal-close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalTime"></p>
+      <p id="modalEnseignant"></p>
+      <p id="modalSalle"></p>
+      <p id="modalMaj"></p>
+    </div>
+  </div>
+</body>
+
+</html>
