@@ -1,215 +1,5 @@
 [
   {
-    "day": "Mercredi",
-    "date": "19/11/2025",
-    "start": "10:00",
-    "end": "11:00",
-    "title": "1Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "06/10/2025",
-    "start": "08:30",
-    "end": "11:15",
-    "title": "CM GEODESIE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "02/10/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "TD SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "22/10/2025",
-    "start": "08:30",
-    "end": "12:30",
-    "title": "CM SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "30/09/2025",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "TD SEMIOLOGIE GRAPHIQUE",
-    "salle": "non renseignée",
-    "enseignant": "PAYSANT GUILLAUME",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "06/11/2025",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "CM SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "19/11/2025",
-    "start": "11:00",
-    "end": "12:00",
-    "title": "TD Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "15/10/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CM SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Vendredi",
-    "date": "07/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "TD SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "23/10/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "TD SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "17/11/2025",
-    "start": "09:00",
-    "end": "13:00",
-    "title": "1Insertion professionelle",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "14/10/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "CM SEMIOLOGIE GRAPHIQUE",
-    "salle": "non renseignée",
-    "enseignant": "PAYSANT GUILLAUME",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "21/10/2025",
-    "start": "13:00",
-    "end": "15:00",
-    "title": "CM Ville durable et changements climatiques",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "04/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Vendredi",
-    "date": "24/10/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "30/09/2025",
-    "start": "16:00",
-    "end": "18:00",
-    "title": "TD  LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Vendredi",
-    "date": "21/11/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "TD SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "09/10/2025",
-    "start": "09:30",
-    "end": "11:30",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "18:00",
-    "end": "18:30",
-    "title": "CM Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "LEPETIT GAETAN",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "01/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "CM Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "VERGUIN SOPHIA",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
     "day": "Mardi",
     "date": "04/11/2025",
     "start": "14:00",
@@ -217,357 +7,7 @@
     "title": "TD SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "20/11/2025",
-    "start": "18:30",
-    "end": "19:30",
-    "title": "TD Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "LEPETIT GAETAN",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "10/11/2025",
-    "start": "11:00",
-    "end": "12:00",
-    "title": "TD Ville durable et histoire de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "GASNIER ARNAUD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "09/10/2025",
-    "start": "11:30",
-    "end": "12:30",
-    "title": "TD Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "20/11/2025",
-    "start": "18:00",
-    "end": "18:30",
-    "title": "CM Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "LEPETIT GAETAN",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "13/01/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BERTRAND LIONEL",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "02/10/2025",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "Réunion Chantier Ecole",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "09/10/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "CM Droit Administratif (Salle ESGT)",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "21/10/2025",
-    "start": "08:30",
-    "end": "11:15",
-    "title": "Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "02/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "09/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "15/10/2025",
-    "start": "15:30",
-    "end": "17:30",
-    "title": "CM Ville durable et histoire de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "21/10/2025",
-    "start": "15:00",
-    "end": "16:00",
-    "title": "CM Ville durable et histoire de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "07/10/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "CM Droit Administratif (Salle ESGT)",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "18:30",
-    "end": "19:30",
-    "title": "TD Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "LEPETIT GAETAN",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "20/10/2025",
-    "start": "10:00",
-    "end": "12:00",
-    "title": "CM Ville durable et changements climatiques",
-    "salle": "non renseignée",
-    "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "27/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "1Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "02/12/2025",
-    "start": "15:30",
-    "end": "17:00",
-    "title": "TD Concevoir un observatoire de Territoires S.C.",
-    "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "09/12/2025",
-    "start": "15:30",
-    "end": "17:00",
-    "title": "TD Concevoir un observatoire de Territoires S.C.",
-    "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "08/12/2025",
-    "start": "09:30",
-    "end": "12:30",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "GASNIER ARNAUD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "03/12/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1Photogrammétrie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "03/12/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1Photogrammétrie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "04/12/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1Photogrammétrie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "06/10/2025",
-    "start": "13:30",
-    "end": "16:30",
-    "title": "TD Ville durable et changements climatiques",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "04/12/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1Photogrammétrie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "01/12/2025",
-    "start": "15:30",
-    "end": "16:30",
-    "title": "TD Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "VERGUIN SOPHIA",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "21/10/2025",
-    "start": "09:30",
-    "end": "11:30",
-    "title": "CM Ville durable et changements climatiques",
-    "salle": "non renseignée",
-    "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "30/09/2025",
-    "start": "08:30",
-    "end": "11:15",
-    "title": "CM Droit Administratif (Salle ESGT)",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "13/01/2026",
-    "start": "15:30",
-    "end": "16:30",
-    "title": "TD Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BERTRAND LIONEL",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Jeudi",
-    "date": "16/10/2025",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "CM Droit Administratif (Salle ESGT)",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Vendredi",
-    "date": "28/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "1Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mardi",
-    "date": "07/10/2025",
-    "start": "17:00",
-    "end": "18:15",
-    "title": "CM GEODESIE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Mercredi",
-    "date": "15/10/2025",
-    "start": "17:00",
-    "end": "18:30",
-    "title": "Réunion d'information sur les programmes de mobilité aux USA, Canada et Australie",
-    "salle": "non renseignée",
-    "enseignant": "LAMOTHE ELISABETH",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "17/11/2025",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "1Insertion professionnelle Asso EGEE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Vendredi",
-    "date": "03/10/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "CM GEODESIE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
-  },
-  {
-    "day": "Lundi",
-    "date": "15/12/2025",
-    "start": "10:00",
-    "end": "12:00",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "GASNIER ARNAUD",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mercredi",
@@ -577,7 +17,7 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mardi",
@@ -587,7 +27,7 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mardi",
@@ -597,7 +37,27 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "20/11/2025",
+    "start": "18:30",
+    "end": "19:30",
+    "title": "TD Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "06/10/2025",
+    "start": "08:30",
+    "end": "11:15",
+    "title": "CM GEODESIE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Lundi",
@@ -607,7 +67,77 @@
     "title": "TD Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "10/11/2025",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "TD Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "02/10/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mercredi",
+    "date": "22/10/2025",
+    "start": "08:30",
+    "end": "12:30",
+    "title": "CM SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "30/09/2025",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "TD SEMIOLOGIE GRAPHIQUE",
+    "salle": "non renseignée",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "06/11/2025",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "CM SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "20/10/2025",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "CM Ville durable et changements climatiques",
+    "salle": "non renseignée",
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "27/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mardi",
@@ -617,7 +147,57 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/12/2025",
+    "start": "15:30",
+    "end": "17:00",
+    "title": "TD Concevoir un observatoire de Territoires S.C.",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/12/2025",
+    "start": "15:30",
+    "end": "17:00",
+    "title": "TD Concevoir un observatoire de Territoires S.C.",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mercredi",
+    "date": "15/10/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Vendredi",
+    "date": "07/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "08/12/2025",
+    "start": "09:30",
+    "end": "12:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Lundi",
@@ -627,7 +207,7 @@
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mercredi",
@@ -637,7 +217,127 @@
     "title": "EXAMEN- Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mercredi",
+    "date": "03/12/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1Photogrammétrie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mercredi",
+    "date": "03/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Photogrammétrie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "04/12/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1Photogrammétrie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "06/10/2025",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Ville durable et changements climatiques",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "TD SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "23/10/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "04/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Photogrammétrie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "17/11/2025",
+    "start": "09:00",
+    "end": "13:00",
+    "title": "1Insertion professionelle",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "21/10/2025",
+    "start": "08:30",
+    "end": "11:15",
+    "title": "Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "14/10/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM SEMIOLOGIE GRAPHIQUE",
+    "salle": "non renseignée",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "21/10/2025",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "CM Ville durable et changements climatiques",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/12/2025",
+    "start": "15:30",
+    "end": "16:30",
+    "title": "TD Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mardi",
@@ -647,7 +347,7 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Jeudi",
@@ -657,7 +357,17 @@
     "title": "TD SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "21/10/2025",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Ville durable et changements climatiques",
+    "salle": "non renseignée",
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Jeudi",
@@ -667,7 +377,7 @@
     "title": "TD SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Lundi",
@@ -677,27 +387,117 @@
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
-    "day": "Lundi",
-    "date": "20/10/2025",
+    "day": "Mardi",
+    "date": "04/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Vendredi",
+    "date": "24/10/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "30/09/2025",
+    "start": "08:30",
+    "end": "11:15",
+    "title": "CM Droit Administratif (Salle ESGT)",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/01/2026",
     "start": "15:30",
     "end": "16:30",
-    "title": "CM Concevoir un observatoire de Territoires",
+    "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
+    "enseignant": "BERTRAND LIONEL",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "20/11/2025",
+    "start": "18:00",
+    "end": "18:30",
+    "title": "CM Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Lundi",
     "date": "20/10/2025",
     "start": "13:30",
     "end": "15:30",
-    "title": "CM Concevoir un observatoire de Territoires",
+    "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "16/10/2025",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "CM Droit Administratif (Salle ESGT)",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Vendredi",
+    "date": "28/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "30/09/2025",
+    "start": "16:00",
+    "end": "18:00",
+    "title": "TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/01/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "BERTRAND LIONEL",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Vendredi",
+    "date": "21/11/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "TD SIG et Base de données",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Lundi",
@@ -707,7 +507,57 @@
     "title": "TD Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "02/10/2025",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "Réunion Chantier Ecole",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "09/10/2025",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "07/10/2025",
+    "start": "17:00",
+    "end": "18:15",
+    "title": "CM GEODESIE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mercredi",
+    "date": "15/10/2025",
+    "start": "17:00",
+    "end": "18:30",
+    "title": "Réunion d'information sur les programmes de mobilité aux USA, Canada et Australie",
+    "salle": "non renseignée",
+    "enseignant": "LAMOTHE ELISABETH",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "17/11/2025",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "1Insertion professionnelle Asso EGEE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Jeudi",
@@ -717,7 +567,7 @@
     "title": "CM SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Jeudi",
@@ -727,7 +577,57 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "18:00",
+    "end": "18:30",
+    "title": "CM Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Vendredi",
+    "date": "03/10/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CM GEODESIE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mercredi",
+    "date": "15/10/2025",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "CM Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Lundi",
@@ -737,7 +637,7 @@
     "title": "TD  LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mercredi",
@@ -747,7 +647,7 @@
     "title": "TD  LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mercredi",
@@ -757,7 +657,37 @@
     "title": "TD  LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "21/10/2025",
+    "start": "15:00",
+    "end": "16:00",
+    "title": "CM Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "09/10/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "CM Droit Administratif (Salle ESGT)",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "VERGUIN SOPHIA",
+    "maj": "30-09-2025 16:08:00"
   },
   {
     "day": "Mercredi",
@@ -767,6 +697,36 @@
     "title": "TD  LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "30-09-2025 14:13:30"
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Mardi",
+    "date": "07/10/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CM Droit Administratif (Salle ESGT)",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "18:30",
+    "end": "19:30",
+    "title": "TD Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "30-09-2025 16:08:00"
+  },
+  {
+    "day": "Lundi",
+    "date": "15/12/2025",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "GASNIER ARNAUD",
+    "maj": "30-09-2025 16:08:00"
   }
 ]
