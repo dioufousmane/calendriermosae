@@ -92,11 +92,23 @@ async function initCalendar() {
     const calendarEl = document.getElementById("calendar");
 
     generateWeekOptions();
+    
 
     const weekSelect = document.getElementById("weekSelect");
     let [defaultYear, defaultWeek] = weekSelect.value.split("-").map(Number);
+    // 🔁 Charger la semaine précédemment affichée, si dispo
+const savedWeek = localStorage.getItem("lastDisplayedWeek");
+if (savedWeek && /^\d{4}-\d{2}$/.test(savedWeek)) {
+  const [savedYear, savedW] = savedWeek.split("-").map(Number);
+  defaultYear = savedYear;
+  defaultWeek = savedW;
+  // Met à jour la sélection visuelle du <select>
+  if ([...weekSelect.options].some(o => o.value === savedWeek)) {
+    weekSelect.value = savedWeek;
+  }
+}
     let initialDate = getDateOfISOWeek(defaultWeek, defaultYear);
-
+    
     calendar = new FullCalendar.Calendar(calendarEl, {
       locale: "fr",
       allDaySlot: false, // 👈 Empêche l’affichage du slot "toute la journée"
@@ -123,7 +135,7 @@ async function initCalendar() {
         listDay: "Liste journée",
         listMonth: "Liste mois"
       },
-      initialDate:  new Date(),       // semaine en cours
+      initialDate:  initialDate,       // semaine en cours
       events: [...allEvents.esgt, ...allEvents.univ],
       eventDidMount: info => {
         const { enseignant, salle, maj } = info.event.extendedProps;
@@ -136,11 +148,14 @@ async function initCalendar() {
         const week = getISOWeekNumber(date);
         const year = date.getFullYear();
         const val = `${year}-${String(week).padStart(2, "0")}`;
-        if (weekSelect.value !== val) {
-          if ([...weekSelect.options].some(o => o.value === val)) {
-            weekSelect.value = val;
-          }
+      
+        // 🧭 Mise à jour du <select>
+        if (weekSelect.value !== val && [...weekSelect.options].some(o => o.value === val)) {
+          weekSelect.value = val;
         }
+      
+        // 💾 Sauvegarde dans le localStorage
+        localStorage.setItem("lastDisplayedWeek", val);
       }
     });
 
