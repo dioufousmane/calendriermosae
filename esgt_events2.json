@@ -7,7 +7,17 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/12/2025",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle C04",
+    "enseignant": "LAVESSIERE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mercredi",
@@ -17,7 +27,7 @@
     "title": "SOUTENANCES",
     "salle": "Salle C12",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -27,7 +37,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -37,7 +47,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -47,7 +57,17 @@
     "title": "GéoBIM",
     "salle": "Salle 111",
     "enseignant": "ROBERT",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Mardi",
+    "date": "04/11/2025",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "Chantier école",
+    "salle": "Salle 102",
+    "enseignant": "AUTONOMIE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -57,7 +77,7 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 102",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mercredi",
@@ -67,7 +87,7 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "Salle 110",
     "enseignant": "GRANGER",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -77,7 +97,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -87,7 +107,7 @@
     "title": "SOUTENANCES",
     "salle": "Salle C05",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -97,7 +117,17 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "07/11/2025",
+    "start": "13:30",
+    "end": "17:00",
+    "title": "Chantier école",
+    "salle": "Salle 102",
+    "enseignant": "non renseigné",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -107,7 +137,7 @@
     "title": "GéoBIM",
     "salle": "Salle 110",
     "enseignant": "ROBERT",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -117,7 +147,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -127,7 +157,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -137,7 +167,7 @@
     "title": "SOUTENANCES",
     "salle": "Salle C12",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -147,7 +177,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -157,7 +187,17 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 110",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/01/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle C04",
+    "enseignant": "LAVESSIERE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -167,7 +207,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -177,7 +217,17 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "07/11/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "Chantier école",
+    "salle": "Salle 102",
+    "enseignant": "AUTONOMIE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -187,7 +237,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -197,7 +247,7 @@
     "title": "CAO/DAO",
     "salle": "Salle 110",
     "enseignant": "CHARLET",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -207,7 +257,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -217,7 +267,27 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 110",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/12/2025",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle C04",
+    "enseignant": "LAVESSIERE",
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "14/11/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "Chantier école",
+    "salle": "Salle 102",
+    "enseignant": "AUTONOMIE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -227,7 +297,7 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "Salle 100",
     "enseignant": "GRANGER",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -237,7 +307,17 @@
     "title": "CAO/DAO",
     "salle": "Salle 111",
     "enseignant": "CHARLET",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/01/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "EXAMEN",
+    "salle": "Salle C02",
+    "enseignant": "CHAUVIN",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -247,7 +327,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -257,7 +337,7 @@
     "title": "CAO/DAO",
     "salle": "Salle 111",
     "enseignant": "CHARLET",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -267,7 +347,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -277,7 +357,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -287,7 +367,7 @@
     "title": "CAO/DAO",
     "salle": "Salle 111",
     "enseignant": "CHARLET",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -297,7 +377,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -307,7 +387,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -317,7 +397,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -327,7 +407,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -337,7 +417,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -347,7 +427,7 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 110",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Vendredi",
@@ -357,7 +437,27 @@
     "title": "GéoBIM",
     "salle": "Salle 102",
     "enseignant": "ROBERT",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/01/2026",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle C04",
+    "enseignant": "LAVESSIERE",
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "14/11/2025",
+    "start": "13:30",
+    "end": "17:00",
+    "title": "Chantier école",
+    "salle": "Salle 102",
+    "enseignant": "AUTONOMIE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Jeudi",
@@ -367,7 +467,17 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/01/2026",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle C04",
+    "enseignant": "LAVESSIERE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -377,7 +487,7 @@
     "title": "RENTREE",
     "salle": "Salle C12",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -387,7 +497,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Salle C03",
     "enseignant": "CHAUVIN",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mercredi",
@@ -397,7 +507,7 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "Salle 110",
     "enseignant": "GRANGER",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -407,7 +517,17 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 102",
     "enseignant": "DIOUF",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/01/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle C04",
+    "enseignant": "LAVESSIERE",
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Lundi",
@@ -417,7 +537,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mercredi",
@@ -427,7 +547,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   },
   {
     "day": "Mardi",
@@ -437,6 +557,6 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-10-2025 00:07:40"
+    "maj": "19-10-2025 18:07:54"
   }
 ]
