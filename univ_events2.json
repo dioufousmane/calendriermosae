@@ -2,52 +2,22 @@
   {
     "day": "Mardi",
     "date": "09/12/2025",
-    "start": "09:00",
-    "end": "11:00",
-    "title": "TD Acteurs, Enjeux et Politiques",
-    "salle": "non renseignée",
-    "enseignant": "LOUCHE THOMAS",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "09/12/2025",
     "start": "14:30",
     "end": "16:30",
     "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
     "enseignant": "LOUCHE THOMAS",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mardi",
-    "date": "28/10/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "date": "09/12/2025",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "21/10/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "22/10/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "enseignant": "LOUCHE THOMAS",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Vendredi",
@@ -57,7 +27,37 @@
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "22/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "28/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "21/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
@@ -67,17 +67,7 @@
     "title": "TD Anglais technique et scientifique",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/02/2026",
-    "start": "13:30",
-    "end": "16:30",
-    "title": "TD Retours d'expérience opérationnels",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER HUGUES",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
@@ -87,7 +77,27 @@
     "title": "TD Retours d'expérience opérationnels",
     "salle": "non renseignée",
     "enseignant": "GRANGER HUGUES",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/02/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/02/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -97,27 +107,7 @@
     "title": "TD Retours d'expérience opérationnels",
     "salle": "non renseignée",
     "enseignant": "GRANGER HUGUES",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/02/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "TD Retours d'expérience opérationnels",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER HUGUES",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CM Construction d'un observatoire  PREPARATION",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -127,37 +117,7 @@
     "title": "CM Construction d'un observatoire  PREPARATION",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "04/12/2025",
-    "start": "09:00",
-    "end": "12:30",
-    "title": "CM Construction d'un observatoire  PREPARATION",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "05/12/2025",
-    "start": "09:00",
-    "end": "12:30",
-    "title": "CM Construction d'un observatoire  PREPARATION",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "13/01/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "COURS à l'ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
@@ -167,617 +127,47 @@
     "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
     "enseignant": "POTTIER MAXIME",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Construction d'un observatoire  PREPARATION",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/01/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "COURS à l'ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
     "date": "04/12/2025",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "DROIT AMENAGEMENT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "02/12/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "DROIT AMENAGEMENT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/01/2026",
-    "start": "10:00",
-    "end": "13:00",
-    "title": "SIG WEB SIG SQL- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/01/2026",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "SIG WEB SIG SQL- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/01/2026",
     "start": "09:00",
-    "end": "12:00",
-    "title": "SIG WEB SIG SQL- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "12/12/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "SIG WEB SIG SQL- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "12/12/2025",
-    "start": "10:00",
-    "end": "13:00",
-    "title": "SIG WEB SIG SQL- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "05/01/2026",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "CM Réalisation - Construction",
-    "salle": "non renseignée",
-    "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "09/02/2026",
-    "start": "13:30",
-    "end": "16:30",
-    "title": "CM Réalisation - Construction",
-    "salle": "non renseignée",
-    "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/01/2026",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "SIG WEB SIG SQL- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "09/12/2025",
-    "start": "13:30",
-    "end": "14:30",
-    "title": "TD Acteurs, Enjeux et Politiques",
-    "salle": "non renseignée",
-    "enseignant": "LOUCHE THOMAS",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "09/12/2025",
-    "start": "11:00",
-    "end": "12:00",
-    "title": "TD Acteurs, Enjeux et Politiques",
-    "salle": "non renseignée",
-    "enseignant": "LOUCHE THOMAS",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "27/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "29/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "23/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "26/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "25/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "24/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "10/11/2025",
-    "start": "12:30",
-    "end": "15:30",
-    "title": "CM Valorisation construire un obs",
-    "salle": "non renseignée",
-    "enseignant": "PESLIER MARINE",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "27/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "12/01/2026",
-    "start": "10:00",
-    "end": "12:00",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "10/11/2025",
-    "start": "15:30",
-    "end": "17:30",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "05/01/2026",
-    "start": "10:00",
-    "end": "12:00",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "01/12/2025",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "14/01/2026",
-    "start": "08:30",
-    "end": "10:30",
-    "title": "1Management/Asso Egée M2 VEU",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "14/01/2026",
-    "start": "10:30",
     "end": "12:30",
-    "title": "1Management/Asso Egée M2 VEU",
+    "title": "CM Construction d'un observatoire  PREPARATION",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
-    "day": "Mercredi",
-    "date": "12/11/2025",
-    "start": "09:30",
+    "day": "Vendredi",
+    "date": "05/12/2025",
+    "start": "09:00",
     "end": "12:30",
-    "title": "CM Acteurs, Enjeux et Politiques",
-    "salle": "non renseignée",
-    "enseignant": "FAUCONNIER YANN",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "07/11/2025",
-    "start": "13:30",
-    "end": "17:00",
-    "title": "CHANTIER ECOLE",
+    "title": "CM Construction d'un observatoire  PREPARATION",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "25/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "31/10/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "17/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "21/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "30/10/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "18/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "26/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "20/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "19/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "24/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "07/01/2026",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "08/12/2025",
-    "start": "08:00",
-    "end": "10:00",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "02/12/2025",
-    "start": "15:30",
-    "end": "17:30",
-    "title": "TD Anglais technique et scientifique",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "30/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "21/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "15/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "19/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "23/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "26/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "17/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "22/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "02/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "26/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "24/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "29/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "23/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "22/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "16/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "19/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "18/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "16/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "30/01/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mardi",
@@ -787,207 +177,447 @@
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
-    "date": "19/02/2026",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "date": "04/12/2025",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "DROIT AMENAGEMENT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
-    "day": "Mercredi",
-    "date": "05/11/2025",
-    "start": "08:00",
-    "end": "10:00",
-    "title": "CM Gestion de projets et de budget",
-    "salle": "non renseignée",
-    "enseignant": "HERMAN AUDREY",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "10/12/2025",
+    "day": "Mardi",
+    "date": "02/12/2025",
     "start": "08:30",
     "end": "12:45",
-    "title": "1PAO ILLUSTRATOR GRANGER- ESGT",
+    "title": "DROIT AMENAGEMENT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/01/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG WEB SIG SQL- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/01/2026",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG WEB SIG SQL- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "09/02/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/01/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG WEB SIG SQL- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "SIG WEB SIG SQL- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/01/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CM Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/12/2025",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG WEB SIG SQL- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/01/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "SIG WEB SIG SQL- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/12/2025",
+    "start": "13:30",
+    "end": "14:30",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "LOUCHE THOMAS",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/12/2025",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "LOUCHE THOMAS",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
-    "date": "10/12/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1PAO ILLUSTRATOR GRANGER- ESGT",
+    "date": "18/02/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
-    "date": "23/10/2025",
+    "date": "29/01/2026",
     "start": "08:30",
     "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "27/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
-    "date": "20/10/2025",
+    "date": "23/02/2026",
     "start": "08:30",
     "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
-    "date": "29/10/2025",
+    "date": "25/02/2026",
     "start": "08:30",
     "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "27/10/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Vendredi",
-    "date": "20/02/2026",
+    "date": "27/02/2026",
     "start": "08:30",
     "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
-    "day": "Lundi",
-    "date": "23/03/2026",
-    "start": "09:00",
-    "end": "21:00",
+    "day": "Jeudi",
+    "date": "26/02/2026",
+    "start": "08:30",
+    "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
-    "date": "02/02/2026",
-    "start": "09:00",
+    "date": "10/11/2025",
+    "start": "12:30",
+    "end": "15:30",
+    "title": "CM Valorisation construire un obs",
+    "salle": "non renseignée",
+    "enseignant": "PESLIER MARINE",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "24/02/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/01/2026",
+    "start": "10:00",
     "end": "12:00",
-    "title": "TD Retours d'expérience opérationnels",
+    "title": "TD Anglais technique et scientifique",
     "salle": "non renseignée",
-    "enseignant": "GRANGER HUGUES",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "24/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
-    "date": "02/02/2026",
+    "date": "10/11/2025",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "12/01/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/12/2025",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/01/2026",
+    "start": "10:30",
+    "end": "12:30",
+    "title": "1Management/Asso Egée M2 VEU",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/01/2026",
+    "start": "08:30",
+    "end": "10:30",
+    "title": "1Management/Asso Egée M2 VEU",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "12/11/2025",
+    "start": "09:30",
+    "end": "12:30",
+    "title": "CM Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "FAUCONNIER YANN",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "07/11/2025",
     "start": "13:30",
-    "end": "16:30",
-    "title": "TD Retours d'expérience opérationnels",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER HUGUES",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "25/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "17/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "20/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "19/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "23/12/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
-    "date": "16/03/2026",
-    "start": "09:00",
-    "end": "21:00",
+    "date": "29/12/2025",
+    "start": "08:30",
+    "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "24/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "31/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "25/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "30/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "19/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "26/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "21/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "20/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "17/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "18/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/12/2025",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/01/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "08/12/2025",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "21/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
@@ -997,37 +627,167 @@
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
-    "date": "19/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "07/01/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "TD Acteurs, Enjeux et Politiques",
-    "salle": "non renseignée",
-    "enseignant": "DENDIEVEL JOACHIM",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "28/01/2026",
+    "date": "22/01/2026",
     "start": "08:30",
     "end": "20:30",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "26/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "19/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "30/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "26/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "23/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "15/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "18/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "16/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/02/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/02/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "22/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "24/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "19/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
@@ -1037,7 +797,257 @@
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "05/11/2025",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "CM Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "30/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "10/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1PAO ILLUSTRATOR GRANGER- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "10/12/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1PAO ILLUSTRATOR GRANGER- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "27/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "29/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "20/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/02/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "23/10/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "25/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "23/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "02/02/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "24/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "02/02/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "23/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "19/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "17/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "17/12/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/01/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "DENDIEVEL JOACHIM",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "28/01/2026",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "14/11/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Vendredi",
@@ -1047,17 +1057,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "14/11/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mardi",
@@ -1067,7 +1067,17 @@
     "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
     "enseignant": "DENDIEVEL JOACHIM",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Jeudi",
+    "date": "11/12/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1DROIT AMENAGEMENT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -1077,27 +1087,7 @@
     "title": "1DROIT AMENAGEMENT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Jeudi",
-    "date": "11/12/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1DROIT AMENAGEMENT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "04/11/2025",
-    "start": "14:00",
-    "end": "18:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Vendredi",
@@ -1107,27 +1097,17 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
-    "day": "Mercredi",
-    "date": "04/02/2026",
-    "start": "08:00",
-    "end": "09:00",
-    "title": "TD Gestion de projets et de budget",
+    "day": "Mardi",
+    "date": "04/11/2025",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
-    "enseignant": "HERMAN AUDREY",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mercredi",
-    "date": "04/02/2026",
-    "start": "09:00",
-    "end": "11:00",
-    "title": "TD Gestion de projets et de budget",
-    "salle": "non renseignée",
-    "enseignant": "HERMAN AUDREY",
-    "maj": "20-10-2025 02:33:53"
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
@@ -1137,7 +1117,27 @@
     "title": "TD Gestion de projets et de budget",
     "salle": "non renseignée",
     "enseignant": "HERMAN AUDREY",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/02/2026",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "TD Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/02/2026",
+    "start": "08:00",
+    "end": "09:00",
+    "title": "TD Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mercredi",
@@ -1147,17 +1147,7 @@
     "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
     "enseignant": "FAUCONNIER YANN",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Mardi",
-    "date": "04/11/2025",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "CAO/DAO- ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -1167,7 +1157,17 @@
     "title": "CAO/DAO- ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Mardi",
+    "date": "04/11/2025",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO- ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mardi",
@@ -1177,7 +1177,7 @@
     "title": "CM Réalisation - Construction",
     "salle": "non renseignée",
     "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
@@ -1187,7 +1187,7 @@
     "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
     "enseignant": "POTTIER MAXIME",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -1197,7 +1197,7 @@
     "title": "1DROIT AMENAGEMENT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -1207,17 +1207,7 @@
     "title": "1DROIT AMENAGEMENT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Vendredi",
-    "date": "28/11/2025",
-    "start": "08:30",
-    "end": "20:30",
-    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mardi",
@@ -1227,7 +1217,7 @@
     "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Jeudi",
@@ -1237,7 +1227,17 @@
     "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Vendredi",
+    "date": "28/11/2025",
+    "start": "08:30",
+    "end": "20:30",
+    "title": "Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Mardi",
@@ -1247,7 +1247,7 @@
     "title": "TD Acteurs, Enjeux et Politiques",
     "salle": "non renseignée",
     "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
@@ -1257,17 +1257,7 @@
     "title": "TD Réalisation - Construction",
     "salle": "non renseignée",
     "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
-  },
-  {
-    "day": "Lundi",
-    "date": "01/12/2025",
-    "start": "10:00",
-    "end": "13:00",
-    "title": "TD Réalisation - Construction",
-    "salle": "non renseignée",
-    "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
   },
   {
     "day": "Lundi",
@@ -1277,6 +1267,16 @@
     "title": "TD Réalisation - Construction",
     "salle": "non renseignée",
     "enseignant": "BAILLY GUILLAUME",
-    "maj": "20-10-2025 02:33:53"
+    "maj": "20-10-2025 04:39:40"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/12/2025",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "TD Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "20-10-2025 04:39:40"
   }
 ]
