@@ -1,53 +1,13 @@
 [
   {
     "day": "Lundi",
-    "date": "15/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Mercredi",
-    "date": "19/11/2025",
-    "start": "15:30",
-    "end": "17:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Lundi",
     "date": "01/12/2025",
     "start": "10:00",
     "end": "12:00",
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "20/11/2025",
-    "start": "18:30",
-    "end": "19:30",
-    "title": "TD Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "LEPETIT GAETAN",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Mardi",
-    "date": "16/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -57,7 +17,47 @@
     "title": "CONFERENCE COP - Territoire Durable et Neutralité Carbone",
     "salle": "AMPHI MERSENNE ET FORBONNAIS M1 MOSAE GEOGRAPHIE, AMENAGEMENT, ENVIRONNEMENT ET DEVELOPPEMENT",
     "enseignant": "MERSENNE ET FORBONNAIS",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Mardi",
+    "date": "16/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Jeudi",
+    "date": "20/11/2025",
+    "start": "18:30",
+    "end": "19:30",
+    "title": "TD Mise en application professionnelle",
+    "salle": "non renseignée",
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Mercredi",
+    "date": "19/11/2025",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Lundi",
+    "date": "15/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -67,7 +67,7 @@
     "title": "TD Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -77,7 +77,7 @@
     "title": "TD Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -87,7 +87,7 @@
     "title": "CM SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -97,17 +97,7 @@
     "title": "1Topographie",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Mardi",
-    "date": "02/12/2025",
-    "start": "15:30",
-    "end": "17:00",
-    "title": "TD Concevoir un observatoire de Territoires S.C.",
-    "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -117,7 +107,17 @@
     "title": "TD Concevoir un observatoire de Territoires S.C.",
     "salle": "non renseignée",
     "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/12/2025",
+    "start": "15:30",
+    "end": "17:00",
+    "title": "TD Concevoir un observatoire de Territoires S.C.",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
@@ -127,17 +127,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Vendredi",
-    "date": "07/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Topographie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -147,7 +137,17 @@
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Vendredi",
+    "date": "07/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Topographie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -157,7 +157,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
@@ -167,17 +167,7 @@
     "title": "EXAMEN- Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "04/12/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1Photogrammétrie",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -187,7 +177,17 @@
     "title": "1Photogrammétrie",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Jeudi",
+    "date": "04/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Photogrammétrie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -197,7 +197,7 @@
     "title": "TD SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -207,7 +207,7 @@
     "title": "1Insertion professionelle",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -217,17 +217,7 @@
     "title": "TD Mise en application professionnelle",
     "salle": "non renseignée",
     "enseignant": "VERGUIN SOPHIA",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "TD SIG et Base de données",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -237,17 +227,17 @@
     "title": "TD SIG et Base de données",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
-    "day": "Mardi",
-    "date": "25/11/2025",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD SIG et Base de données",
+    "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
@@ -257,7 +247,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -267,7 +257,17 @@
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Mardi",
+    "date": "25/11/2025",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
@@ -277,7 +277,7 @@
     "title": "CM Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -287,7 +287,7 @@
     "title": "CM Mise en application professionnelle",
     "salle": "non renseignée",
     "enseignant": "LEPETIT GAETAN",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -297,7 +297,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Vendredi",
@@ -307,7 +307,7 @@
     "title": "1Topographie",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -317,7 +317,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -327,7 +327,7 @@
     "title": "TD Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -337,7 +337,7 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -347,7 +347,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Vendredi",
@@ -357,7 +357,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
@@ -367,7 +367,17 @@
     "title": "1Photogrammétrie",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Jeudi",
+    "date": "06/11/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1Télédétection",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Vendredi",
@@ -377,27 +387,7 @@
     "title": "1Télédétection",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "06/11/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "1Télédétection",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Lundi",
-    "date": "17/11/2025",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "1Insertion professionnelle Asso EGEE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Vendredi",
@@ -407,37 +397,7 @@
     "title": "1Télédétection",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Lundi",
-    "date": "12/01/2026",
-    "start": "13:30",
-    "end": "16:30",
-    "title": "CM Transition énergetique urbaine et nature en ville",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "13/11/2025",
-    "start": "18:00",
-    "end": "18:30",
-    "title": "CM Mise en application professionnelle",
-    "salle": "non renseignée",
-    "enseignant": "LEPETIT GAETAN",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Vendredi",
-    "date": "07/11/2025",
-    "start": "13:30",
-    "end": "17:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "BAILLY GUILLAUME",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -447,17 +407,17 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
-    "day": "Mercredi",
-    "date": "03/12/2025",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1Photogrammétrie",
-    "salle": "Salle ESGT",
+    "day": "Lundi",
+    "date": "12/01/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Transition énergetique urbaine et nature en ville",
+    "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Vendredi",
@@ -467,37 +427,47 @@
     "title": "1Télédétection",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
-    "day": "Mardi",
-    "date": "09/12/2025",
+    "day": "Vendredi",
+    "date": "07/11/2025",
     "start": "13:30",
-    "end": "15:30",
-    "title": "CM Concevoir un observatoire de Territoires",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Lundi",
-    "date": "08/12/2025",
-    "start": "10:00",
-    "end": "12:00",
-    "title": "TD  LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
-    "date": "12/11/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD  LANGUE",
+    "date": "03/12/2025",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Photogrammétrie",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Jeudi",
+    "date": "13/11/2025",
+    "start": "18:00",
+    "end": "18:30",
+    "title": "CM Mise en application professionnelle",
     "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
+    "enseignant": "LEPETIT GAETAN",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Lundi",
+    "date": "17/11/2025",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "1Insertion professionnelle Asso EGEE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mardi",
@@ -507,17 +477,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "05-11-2025 03:38:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "06/11/2025",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "EXAMEN - SIG BASE DE DONNEES",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Mercredi",
@@ -527,7 +487,47 @@
     "title": "TD  LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Lundi",
+    "date": "08/12/2025",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Jeudi",
+    "date": "06/11/2025",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN - SIG BASE DE DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "05-11-2025 05:09:53"
+  },
+  {
+    "day": "Mercredi",
+    "date": "12/11/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -537,7 +537,7 @@
     "title": "CM Mise en application professionnelle",
     "salle": "non renseignée",
     "enseignant": "VERGUIN SOPHIA",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -547,7 +547,7 @@
     "title": "EXAMEN",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Jeudi",
@@ -557,7 +557,7 @@
     "title": "TD Mise en application professionnelle",
     "salle": "non renseignée",
     "enseignant": "LEPETIT GAETAN",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   },
   {
     "day": "Lundi",
@@ -567,6 +567,6 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "05-11-2025 03:38:25"
+    "maj": "05-11-2025 05:09:53"
   }
 ]
