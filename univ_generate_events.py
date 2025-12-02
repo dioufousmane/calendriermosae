@@ -56,9 +56,72 @@ def extract_enseignant(text, title):
     match = re.search(r"([A-ZÉÈÊÛÎ\-]{2,}(?:\s+[A-ZÉÈÊÛÎ\-]{2,}){1,2})\s*$", text.strip())
     return match.group(1).strip() if match else "non renseigné"
 
+# ---------------------------------------------------------------------
+#  🔥 Nouvelle version robuste : Salle / Amphi / Bâtiment / Salle informatique
+# ---------------------------------------------------------------------
+
 def extract_salle(description):
-    match = re.search(r"(Salle|Amphi|Bâtiment|Salle informatique)\s*[^\n()]*", description, re.IGNORECASE)
-    return match.group(0).strip() if match else "non renseignée"
+    """
+    Extrait un nom de salle concis à partir d'une description, pour tous les labels :
+    Salle, Amphi, Amphithéâtre, Bâtiment, Salle informatique.
+    Forme de sortie garantie : "<Label> <Code court>".
+    """
+
+    if not description:
+        return "non renseignée"
+
+    desc = description.strip()
+
+    # Labels supportés
+    labels = [
+        "Salle",
+        "Amphi",
+        "Amphithéâtre",
+        "Bâtiment",
+        "Salle informatique"
+    ]
+
+    label_regex = "|".join([re.escape(l) for l in labels])
+
+    # 1) Extraction propre : Label + code court
+    m = re.search(
+        rf"\b(?P<label>{label_regex})\b\s*(?P<code>[A-Za-z0-9][A-Za-z0-9\-./_]{{0,8}})",
+        desc,
+        flags=re.IGNORECASE
+    )
+
+    if m:
+        label = m.group("label").strip()
+        code = m.group("code").strip().upper()
+
+        # Normaliser la casse du label
+        if label.lower() == "salle informatique":
+            label = "Salle informatique"
+        else:
+            label = label[0].upper() + label[1:]
+
+        return f"{label} {code}"
+
+    # 2) Extraction large (fallback) puis nettoyage
+    m2 = re.search(
+        rf"\b({label_regex})\b\s*([^\n,();—-]{{1,80}})",
+        desc,
+        flags=re.IGNORECASE
+    )
+
+    if m2:
+        segment = m2.group(0).strip()
+        # Tronquer après virgule, parenthèse, etc.
+        segment = re.split(r"[,(;—]|  {2,}", segment)[0].strip()
+        # Supprimer les blocs de formations
+        segment = re.sub(r"\b([A-ZÉÈÊÛÎ]{2,}(?:\s+[A-ZÉÈÊÛÎ]{2,})*)", "", segment).strip()
+        segment = segment[:40].rstrip()
+        return segment if segment else "non renseignée"
+
+    return "non renseignée"
+
+
+# ---------------------------------------------------------------------
 
 def format_event(event, maj_str):
     dtstart_utc = event.begin.datetime.replace(tzinfo=pytz.UTC)
@@ -79,7 +142,6 @@ def format_event(event, maj_str):
     title = extract_title(raw_title)
     enseignant = extract_enseignant(description or raw_title, title)
 
-    # Salle depuis description, sinon vérifier si LOCATION contient "Salle ESGT"
     salle = extract_salle(description)
     if salle == "non renseignée" and "salle esgt" in location.lower():
         salle = "Salle ESGT"
@@ -109,7 +171,7 @@ def process_calendar(name, url, output_file):
     for event in calendar.events:
         if event.begin and event.end:
             dtstart = event.begin.datetime.astimezone(TIMEZONE)
-            if dtstart.weekday() < 5:  # Ignore samedi/dimanche
+            if dtstart.weekday() < 5:
                 evt = format_event(event, maj_str)
                 events.append(evt)
                 print(f"✔️ {name} : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
