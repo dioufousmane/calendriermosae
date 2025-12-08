@@ -1,15 +1,5 @@
 [
   {
-    "day": "Lundi",
-    "date": "15/12/2025",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
     "day": "Mardi",
     "date": "16/12/2025",
     "start": "13:30",
@@ -17,7 +7,7 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -27,47 +17,17 @@
     "title": "CONFERENCE COP - Territoire Durable et Neutralité Carbone",
     "salle": "AMPHI MERSENNE",
     "enseignant": "AMPHI MERSENNE",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
-    "day": "Vendredi",
-    "date": "23/01/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1 Jumeau numérique des territoires",
+    "day": "Lundi",
+    "date": "15/12/2025",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
     "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "11/02/2026",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "1EXAMEN",
-    "salle": "SALLE C01",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Vendredi",
-    "date": "30/01/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1 Jumeau numérique des territoires",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "14/01/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1 Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -77,7 +37,47 @@
     "title": "1EXAMEN",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/01/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1 Jumeau numérique des territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "30/01/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1 Jumeau numérique des territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mercredi",
+    "date": "11/02/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "1EXAMEN",
+    "salle": "SALLE C01",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/02/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1 Initiation au Drone",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -87,17 +87,17 @@
     "title": "CM Droits de la donnée - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
-    "day": "Mardi",
-    "date": "03/02/2026",
+    "day": "Jeudi",
+    "date": "29/01/2026",
     "start": "10:00",
-    "end": "12:45",
+    "end": "11:15",
     "title": "CM Droits de la donnée - ESGT",
-    "salle": "SALLE 113",
+    "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -107,17 +107,37 @@
     "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Vendredi",
+    "date": "06/02/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1 Initiation au Drone",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mercredi",
-    "date": "04/02/2026",
+    "date": "14/01/2026",
     "start": "08:30",
     "end": "12:45",
-    "title": "1EXAMEN  - ESGT",
+    "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Jeudi",
+    "date": "29/01/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "CM Droits de la donnée - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mercredi",
@@ -127,7 +147,17 @@
     "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/02/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1EXAMEN  - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -137,7 +167,7 @@
     "title": "TD Concevoir un observatoire de Territoires S.C.",
     "salle": "non renseignée",
     "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
@@ -147,37 +177,7 @@
     "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Jeudi",
-    "date": "29/01/2026",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "CM Droits de la donnée - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/02/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1 Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/02/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1 Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
@@ -187,7 +187,7 @@
     "title": "CM SIG et Base de données",
     "salle": "SALLE 101",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
@@ -197,7 +197,7 @@
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -207,7 +207,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mercredi",
@@ -217,17 +217,67 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "SALLE C04",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/02/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM Droits de la donnée - ESGT",
+    "salle": "SALLE 113",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/02/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "1Droit de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mardi",
+    "date": "27/01/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1Droit de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
     "date": "29/01/2026",
-    "start": "10:00",
-    "end": "11:15",
-    "title": "CM Droits de la donnée - ESGT",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1Droit de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/01/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Droit de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mercredi",
+    "date": "21/01/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Transition énergetique urbaine et nature en ville",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -237,57 +287,7 @@
     "title": "1Droit de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Jeudi",
-    "date": "22/01/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1Droit de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mardi",
-    "date": "27/01/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1Droit de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mardi",
-    "date": "03/02/2026",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "1Droit de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "21/01/2026",
-    "start": "13:30",
-    "end": "16:30",
-    "title": "CM Transition énergetique urbaine et nature en ville",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Jeudi",
-    "date": "29/01/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1Droit de l'urbanisme",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -297,7 +297,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -307,7 +307,7 @@
     "title": "Atelier Futur Apprenti S. CHOLLET Formasup",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -317,17 +317,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mardi",
-    "date": "03/02/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD Transition énergetique urbaine et nature en ville",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
@@ -337,7 +327,17 @@
     "title": "1EXAMEN",
     "salle": "SALLE C01",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/02/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Transition énergetique urbaine et nature en ville",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -347,7 +347,7 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mercredi",
@@ -357,17 +357,7 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mardi",
-    "date": "13/01/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "1Droit de l'environnement",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -377,27 +367,17 @@
     "title": "1Droit de l'environnement",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
-    "day": "Mercredi",
-    "date": "21/01/2026",
-    "start": "08:30",
-    "end": "11:15",
-    "title": "BIM",
-    "salle": "SALLE INFO",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Jeudi",
-    "date": "22/01/2026",
-    "start": "08:30",
+    "day": "Mardi",
+    "date": "13/01/2026",
+    "start": "10:00",
     "end": "12:45",
-    "title": "BIM",
-    "salle": "SALLE INFO",
+    "title": "1Droit de l'environnement",
+    "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
@@ -407,17 +387,37 @@
     "title": "BIM",
     "salle": "SALLE 101",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/01/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "BIM",
+    "salle": "SALLE INFO",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mercredi",
+    "date": "21/01/2026",
+    "start": "08:30",
+    "end": "11:15",
+    "title": "BIM",
+    "salle": "SALLE INFO",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mercredi",
     "date": "07/01/2026",
-    "start": "14:00",
-    "end": "18:15",
+    "start": "08:30",
+    "end": "12:45",
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -427,7 +427,7 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -437,17 +437,7 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "07/01/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -457,7 +447,7 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -467,7 +457,17 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/01/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -477,7 +477,7 @@
     "title": "CM Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -487,17 +487,7 @@
     "title": "1 Jumeau numérique des territoires",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "10/12/2025",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "CM SIG et Base de données",
-    "salle": "SALLE 101",
-    "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Jeudi",
@@ -507,7 +497,17 @@
     "title": "CM SIG et Base de données",
     "salle": "SALLE 101",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
+  },
+  {
+    "day": "Mercredi",
+    "date": "10/12/2025",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM SIG et Base de données",
+    "salle": "SALLE 101",
+    "enseignant": "non renseigné",
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Mardi",
@@ -517,7 +517,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Vendredi",
@@ -527,7 +527,7 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   },
   {
     "day": "Lundi",
@@ -537,6 +537,6 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "08-12-2025 03:41:27"
+    "maj": "08-12-2025 05:16:54"
   }
 ]
