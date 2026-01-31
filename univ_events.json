@@ -7,7 +7,7 @@
     "title": "1EXAMEN",
     "salle": "SALLE C01",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -17,7 +17,7 @@
     "title": "CM Droits de la donnée - ESGT",
     "salle": "SALLE 113",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Vendredi",
@@ -27,37 +27,7 @@
     "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/02/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1 Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/02/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1 Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/02/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1 Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mercredi",
@@ -67,57 +37,37 @@
     "title": "1EXAMEN  - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/02/2026",
-    "start": "08:30",
-    "end": "12:30",
-    "title": "CM Géographie Rurales - ESGT",
-    "salle": "SALLE C10",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Mercredi",
-    "date": "11/02/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "CM Géographie Rurales - ESGT",
-    "salle": "SALLE C10",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Jeudi",
-    "date": "12/02/2026",
+    "date": "05/02/2026",
     "start": "08:30",
     "end": "12:45",
-    "title": "CM Géographie Rurales - ESGT",
+    "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
-    "day": "Mercredi",
-    "date": "04/03/2026",
-    "start": "08:30",
-    "end": "18:00",
-    "title": "CM Géographie Rurales - ESGT",
+    "day": "Jeudi",
+    "date": "05/02/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1 Initiation au Drone",
     "salle": "non renseignée",
-    "enseignant": "SORTIE TERRAIN",
-    "maj": "31-01-2026 07:16:25"
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
   },
   {
-    "day": "Mardi",
-    "date": "03/03/2026",
+    "day": "Vendredi",
+    "date": "06/02/2026",
     "start": "08:30",
     "end": "12:45",
-    "title": "CM Géographie Rurales - ESGT",
+    "title": "1 Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mercredi",
@@ -127,7 +77,77 @@
     "title": "CM Géographie Rurales - ESGT",
     "salle": "SALLE C2",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "17/02/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "SALLE C10",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/02/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/03/2026",
+    "start": "08:30",
+    "end": "18:00",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "SORTIE TERRAIN",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/02/2026",
+    "start": "08:30",
+    "end": "12:30",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "SALLE C10",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Lundi",
+    "date": "02/02/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "1CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/03/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mercredi",
+    "date": "11/02/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "SALLE C10",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Vendredi",
@@ -137,27 +157,7 @@
     "title": "1CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Mardi",
-    "date": "17/02/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "CM Géographie Rurales - ESGT",
-    "salle": "SALLE C10",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Lundi",
-    "date": "02/02/2026",
-    "start": "14:00",
-    "end": "18:00",
-    "title": "1CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -167,7 +167,7 @@
     "title": "1Droit de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -177,7 +177,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Lundi",
@@ -187,7 +187,7 @@
     "title": "Atelier Futur Apprenti S. CHOLLET Formasup",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -197,7 +197,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Jeudi",
@@ -207,7 +207,7 @@
     "title": "1EXAMEN",
     "salle": "SALLE C01",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -217,27 +217,7 @@
     "title": "TD Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "BARRETO ASCENCIO MELISA",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Mardi",
-    "date": "03/02/2026",
-    "start": "15:30",
-    "end": "16:30",
-    "title": "TD  Transition énergetique urbaine et nature en ville",
-    "salle": "non renseignée",
-    "enseignant": "BARRETO ASCENCIO MELISA",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Mercredi",
-    "date": "04/02/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1EXAMEN  - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -247,7 +227,27 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "BARRETO ASCENCIO MELISA",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/02/2026",
+    "start": "15:30",
+    "end": "16:30",
+    "title": "TD  Transition énergetique urbaine et nature en ville",
+    "salle": "non renseignée",
+    "enseignant": "BARRETO ASCENCIO MELISA",
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/02/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1EXAMEN  - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mercredi",
@@ -257,7 +257,7 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -267,17 +267,7 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "BARRETO ASCENCIO MELISA",
-    "maj": "31-01-2026 07:16:25"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/03/2026",
-    "start": "09:00",
-    "end": "12:30",
-    "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Vendredi",
@@ -287,7 +277,17 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
+  },
+  {
+    "day": "Vendredi",
+    "date": "06/03/2026",
+    "start": "09:00",
+    "end": "12:30",
+    "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "31-01-2026 09:11:22"
   },
   {
     "day": "Mardi",
@@ -297,6 +297,6 @@
     "title": "CM Géographie Rurales - ESGT",
     "salle": "SALLE C10",
     "enseignant": "non renseigné",
-    "maj": "31-01-2026 07:16:25"
+    "maj": "31-01-2026 09:11:22"
   }
 ]
