@@ -7,7 +7,7 @@
     "title": "1EXAMEN",
     "salle": "SALLE C01",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
@@ -17,7 +17,27 @@
     "title": "CM Droits de la donnée - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/02/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-02-2026 04:11:12"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/03/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "CM Géographie Rurales - ESGT",
+    "salle": "SALLE C10",
+    "enseignant": "non renseigné",
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mercredi",
@@ -27,17 +47,17 @@
     "title": "CM Géographie Rurales - ESGT",
     "salle": "SALLE C10",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mercredi",
     "date": "18/02/2026",
-    "start": "14:00",
-    "end": "18:30",
+    "start": "08:30",
+    "end": "12:30",
     "title": "CM Géographie Rurales - ESGT",
-    "salle": "SALLE C2",
+    "salle": "SALLE C10",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mercredi",
@@ -47,37 +67,17 @@
     "title": "CM Géographie Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "SORTIE TERRAIN",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
-    "date": "03/03/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "CM Géographie Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/02/2026",
-    "start": "08:30",
-    "end": "12:30",
+    "date": "17/02/2026",
+    "start": "14:00",
+    "end": "18:15",
     "title": "CM Géographie Rurales - ESGT",
     "salle": "SALLE C10",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/02/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "CM Géographie Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Vendredi",
@@ -87,17 +87,17 @@
     "title": "1CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
-    "day": "Mardi",
-    "date": "03/03/2026",
+    "day": "Mercredi",
+    "date": "18/02/2026",
     "start": "14:00",
-    "end": "18:15",
+    "end": "18:30",
     "title": "CM Géographie Rurales - ESGT",
-    "salle": "SALLE C10",
+    "salle": "SALLE C2",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Vendredi",
@@ -107,7 +107,7 @@
     "title": "EXAMEN",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
@@ -117,7 +117,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Jeudi",
@@ -127,7 +127,7 @@
     "title": "CM Géographie Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
@@ -137,17 +137,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "10-02-2026 01:49:34"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/02/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "1EXAMEN",
-    "salle": "SALLE C01",
-    "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Jeudi",
@@ -157,7 +147,17 @@
     "title": "1EXAMEN",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/02/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "1EXAMEN",
+    "salle": "SALLE C01",
+    "enseignant": "non renseigné",
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
@@ -167,7 +167,7 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "BARRETO ASCENCIO MELISA",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mercredi",
@@ -177,7 +177,7 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
@@ -187,7 +187,7 @@
     "title": "TD  Transition énergetique urbaine et nature en ville",
     "salle": "non renseignée",
     "enseignant": "BARRETO ASCENCIO MELISA",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Vendredi",
@@ -197,7 +197,7 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Vendredi",
@@ -207,16 +207,16 @@
     "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   },
   {
     "day": "Mardi",
-    "date": "17/02/2026",
-    "start": "14:00",
-    "end": "18:15",
+    "date": "03/03/2026",
+    "start": "08:30",
+    "end": "12:45",
     "title": "CM Géographie Rurales - ESGT",
-    "salle": "SALLE C10",
+    "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "10-02-2026 01:49:34"
+    "maj": "10-02-2026 04:11:12"
   }
 ]
