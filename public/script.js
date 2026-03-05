@@ -373,7 +373,7 @@ document.head.appendChild(recapStyles);
   }
 });
 
-const token = "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"; // 👉 Ton token GitHub personnel ici
+const token = "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"; // 👉 Ton token GitHub personnel ici
 const owner = "dioufousmane";
 const repo = "calendriermosae";
 const workflowId = "all_events.yml";
