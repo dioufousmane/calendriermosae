@@ -1,53 +1,33 @@
 [
   {
-    "day": "Vendredi",
-    "date": "13/03/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1Initiation au Drone",
+    "day": "Jeudi",
+    "date": "26/03/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Jeudi",
-    "date": "12/03/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "1Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
-  },
-  {
-    "day": "Vendredi",
-    "date": "13/03/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/03/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/03/2026",
+    "date": "26/03/2026",
     "start": "14:00",
     "end": "17:00",
     "title": "CHANTIER ECOLE - ESGT",
-    "salle": "Salle ESGT",
+    "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/03/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1Initiation au Drone",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Jeudi",
@@ -57,7 +37,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mercredi",
@@ -67,7 +47,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mardi",
@@ -77,7 +57,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mercredi",
@@ -87,7 +67,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mardi",
@@ -97,7 +77,17 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/03/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mercredi",
@@ -107,27 +97,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/03/2026",
-    "start": "14:00",
-    "end": "17:30",
-    "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/03/2026",
-    "start": "09:00",
-    "end": "12:30",
-    "title": "CM Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Lundi",
@@ -137,7 +107,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mardi",
@@ -147,17 +117,17 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
-    "day": "Mardi",
-    "date": "24/03/2026",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "CHANTIER ECOLE - ESGT",
+    "day": "Vendredi",
+    "date": "13/03/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Mercredi",
@@ -167,26 +137,36 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
-    "day": "Jeudi",
-    "date": "26/03/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CHANTIER ECOLE - ESGT",
+    "day": "Vendredi",
+    "date": "13/03/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   },
   {
     "day": "Jeudi",
-    "date": "26/03/2026",
+    "date": "12/03/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1Initiation au Drone",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "07-03-2026 01:40:49"
+  },
+  {
+    "day": "Mardi",
+    "date": "24/03/2026",
     "start": "14:00",
     "end": "17:00",
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "06-03-2026 23:10:38"
+    "maj": "07-03-2026 01:40:49"
   }
 ]
