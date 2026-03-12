@@ -7,7 +7,7 @@
     "title": "Réunion avec les responsables de formation",
     "salle": "Salle C12",
     "enseignant": "BAILLY GUILLAUME",
-    "maj": "12-03-2026 01:37:25"
+    "maj": "12-03-2026 04:06:56"
   },
   {
     "day": "Vendredi",
@@ -17,27 +17,7 @@
     "title": "COURS à l'ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
-  },
-  {
-    "day": "Lundi",
-    "date": "23/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
-  },
-  {
-    "day": "Mercredi",
-    "date": "25/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
+    "maj": "12-03-2026 04:06:56"
   },
   {
     "day": "Mardi",
@@ -47,57 +27,27 @@
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
+    "maj": "12-03-2026 04:06:56"
   },
   {
     "day": "Lundi",
-    "date": "16/03/2026",
+    "date": "23/03/2026",
     "start": "09:00",
     "end": "21:00",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
+    "maj": "12-03-2026 04:06:56"
   },
   {
     "day": "Mercredi",
-    "date": "18/03/2026",
+    "date": "25/03/2026",
     "start": "09:00",
     "end": "21:00",
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/03/2026",
-    "start": "14:00",
-    "end": "18:00",
-    "title": "1 EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
-  },
-  {
-    "day": "Vendredi",
-    "date": "20/03/2026",
-    "start": "09:00",
-    "end": "21:00",
-    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
+    "maj": "12-03-2026 04:06:56"
   },
   {
     "day": "Mardi",
@@ -107,6 +57,56 @@
     "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "12-03-2026 01:37:25"
+    "maj": "12-03-2026 04:06:56"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-03-2026 04:06:56"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-03-2026 04:06:56"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-03-2026 04:06:56"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/03/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "1 EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-03-2026 04:06:56"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/03/2026",
+    "start": "09:00",
+    "end": "21:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-03-2026 04:06:56"
   }
 ]
