@@ -7,7 +7,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
+    "maj": "13-03-2026 04:05:14"
   },
   {
     "day": "Mercredi",
@@ -17,27 +17,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/03/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/03/2026",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
+    "maj": "13-03-2026 04:05:14"
   },
   {
     "day": "Jeudi",
@@ -47,27 +27,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
-  },
-  {
-    "day": "Lundi",
-    "date": "23/03/2026",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
-  },
-  {
-    "day": "Mardi",
-    "date": "24/03/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
+    "maj": "13-03-2026 04:05:14"
   },
   {
     "day": "Vendredi",
@@ -77,37 +37,47 @@
     "title": "1Initiation au Drone",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
-  },
-  {
-    "day": "Mercredi",
-    "date": "25/03/2026",
-    "start": "09:00",
-    "end": "12:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
+    "maj": "13-03-2026 04:05:14"
   },
   {
     "day": "Jeudi",
-    "date": "26/03/2026",
+    "date": "19/03/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "13-03-2026 04:05:14"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/03/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "13-03-2026 04:05:14"
+  },
+  {
+    "day": "Lundi",
+    "date": "23/03/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "13-03-2026 04:05:14"
+  },
+  {
+    "day": "Mardi",
+    "date": "24/03/2026",
     "start": "09:00",
     "end": "12:00",
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
-  },
-  {
-    "day": "Vendredi",
-    "date": "13/03/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "1Initiation au Drone",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
+    "maj": "13-03-2026 04:05:14"
   },
   {
     "day": "Mardi",
@@ -117,6 +87,36 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "13-03-2026 01:42:27"
+    "maj": "13-03-2026 04:05:14"
+  },
+  {
+    "day": "Mercredi",
+    "date": "25/03/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "13-03-2026 04:05:14"
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/03/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "13-03-2026 04:05:14"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/03/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "1Initiation au Drone",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "13-03-2026 04:05:14"
   }
 ]
