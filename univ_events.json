@@ -1,15 +1,5 @@
 [
   {
-    "day": "Mercredi",
-    "date": "18/03/2026",
-    "start": "14:00",
-    "end": "17:00",
-    "title": "CHANTIER ECOLE - ESGT",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
-  },
-  {
     "day": "Jeudi",
     "date": "19/03/2026",
     "start": "09:00",
@@ -17,7 +7,17 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/03/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Jeudi",
@@ -27,7 +27,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Mercredi",
@@ -37,7 +37,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Lundi",
@@ -47,7 +47,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Mardi",
@@ -57,7 +57,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Mardi",
@@ -67,7 +67,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Mercredi",
@@ -77,7 +77,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Jeudi",
@@ -87,7 +87,7 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   },
   {
     "day": "Jeudi",
@@ -97,6 +97,6 @@
     "title": "CHANTIER ECOLE - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "15-03-2026 01:49:14"
+    "maj": "15-03-2026 04:11:53"
   }
 ]
