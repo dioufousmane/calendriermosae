@@ -10,12 +10,12 @@ import re
 CALENDARS = [
     {
         "name": "UNIV",
-        "url": "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=7209&projectId=08&calType=ical&nbWeeks=52",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=862&projectId=9&calType=vcal&nbWeeks=42",
         "output": "univ_events.json"
     },
     {
         "name": "UNIV2",
-        "url": "http://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=809&projectId=08&calType=ical&nbWeeks=52",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=2015&projectId=9&calType=vcal&nbWeeks=44",
         "output": "univ_events2.json"
     }
 ]
