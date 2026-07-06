@@ -11,12 +11,12 @@ CALENDARS = [
     {
         "name": "UNIV",
         "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=862&projectId=9&calType=ical&nbWeeks=44",
-        "output": "univ_events.json"
+        "output": "_univ_events.json"
     },
     {
         "name": "UNIV2",
         "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=2015&projectId=9&calType=ical&nbWeeks=44",
-        "output": "univ_events2.json"
+        "output": "_univ_events2.json"
     }
 ]
 
