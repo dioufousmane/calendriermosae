@@ -10,7 +10,7 @@ import re
 CALENDARS = [
     {
         "name": "UNIV",
-        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=862&projectId=9&calType=vcal&nbWeeks=42",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=862&projectId=9&calType=ical&nbWeeks=44",
         "output": "univ_events.json"
     },
     {
