@@ -52,7 +52,7 @@ function generateWeekOptions() {
   const select = document.getElementById("weekSelect");
   if (!select) return;
 
-  let currentDate = new Date(2025, 8, 1); // 1 sept 2025 (mois=8)
+  let currentDate = new Date(2026, 7, 1); // 1 sept 2025 (mois=8)
   for (let i = 0; i < 52; i++) {
     const week = getISOWeekNumber(currentDate);
     const year = currentDate.getFullYear();
