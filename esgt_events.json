@@ -1,752 +1,512 @@
 [
   {
-    "day": "Mercredi",
-    "date": "25/11/2026",
-    "start": "14:00",
-    "end": "18:30",
-    "title": "EXAMEN",
-    "salle": "T2",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/11/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Télédétection",
-    "salle": "Salle 100",
-    "enseignant": "SIMONETTO",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/10/2026",
-    "start": "14:00",
-    "end": "16:30",
-    "title": "SIG et bases de données",
-    "salle": "Salle 100",
-    "enseignant": "GRANGER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "10/09/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "SIG et bases de données",
-    "salle": "Salle 102",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/11/2026",
-    "start": "14:00",
-    "end": "18:00",
-    "title": "EXAMEN",
-    "salle": "Salle C09",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/12/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Chantier école",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "AUTONOMIE",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "13/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Télédétection",
-    "salle": "Salle 100",
-    "enseignant": "SIMONETTO",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "02/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "DUHAMEL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/09/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "SIG et bases de données",
-    "salle": "Salle 100",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/11/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/11/2026",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "16/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "17/12/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Photogrammétrie",
-    "salle": "Salle 134",
-    "enseignant": "LEROUX",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "20/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "SIG et 3 D",
-    "salle": "Salle 100",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "20/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Télédétection",
-    "salle": "Salle 100",
-    "enseignant": "SIMONETTO",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "Salle 110",
-    "enseignant": "FERRE",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "23/09/2026",
+    "day": "Mardi",
+    "date": "01/12/2026",
     "start": "15:30",
-    "end": "18:15",
-    "title": "SIG et bases de données",
+    "end": "17:00",
+    "title": "TD Concevoir un observatoire de Territoires S.C.",
     "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Lundi",
-    "date": "28/12/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Vacances",
+    "date": "21/09/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1CM Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
+    "maj": "08-07-2026 23:15:55"
   },
   {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Lundi",
-    "date": "14/09/2026",
-    "start": "14:00",
-    "end": "17:45",
-    "title": "SOUTENANCES",
-    "salle": "Amphi 2",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "24/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "03/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "SIG et 3 D",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "BIM",
-    "salle": "non renseignée",
-    "enseignant": "ROBERT",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/10/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "Salle 110",
-    "enseignant": "MOREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "27/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "BIM",
-    "salle": "Salle 102",
-    "enseignant": "ROBERT",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "15/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "17/12/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Photogrammétrie",
-    "salle": "Salle 134",
-    "enseignant": "LEROUX",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Analyse des paysages",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/12/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Chantier école",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "AUTONOMIE",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "08:30",
-    "end": "11:15",
-    "title": "SIG et bases de données",
-    "salle": "Salle 100",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "Salle C03",
-    "enseignant": "BOTREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "01/10/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Photogrammétrie",
-    "salle": "Salle 111",
-    "enseignant": "LEROUX",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "25/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "Salle 110",
-    "enseignant": "MOREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "27/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "SIG et 3 D",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Lundi",
-    "date": "21/12/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Vacances",
+    "day": "Mardi",
+    "date": "08/12/2026",
+    "start": "11:30",
+    "end": "13:00",
+    "title": "TD Concevoir un observatoire de Territoires S.C.",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
+    "maj": "08-07-2026 23:15:55"
   },
   {
-    "day": "Jeudi",
-    "date": "03/09/2026",
-    "start": "08:30",
-    "end": "09:30",
-    "title": "RENTREE",
+    "day": "Mardi",
+    "date": "06/10/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "1CM Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "02/10/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "non renseignée",
-    "enseignant": "FERRE",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "23/09/2026",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "BRUNEAU",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "22/10/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "13/11/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "BIM",
-    "salle": "Salle 102",
-    "enseignant": "ROBERT",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "03/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "23/10/2026",
-    "start": "14:00",
-    "end": "16:30",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "25/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "10/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "Salle C10",
-    "enseignant": "BOTREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "04/11/2026",
-    "start": "08:45",
-    "end": "19:00",
-    "title": "Analyse des paysages",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "26/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "Salle 107",
-    "enseignant": "FERRE",
-    "maj": "08-07-2026 23:05:59"
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Jeudi",
     "date": "17/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "22/10/2026",
-    "start": "10:00",
-    "end": "11:15",
-    "title": "EXAMEN",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "CM SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Lundi",
-    "date": "14/09/2026",
+    "date": "09/11/2026",
+    "start": "14:30",
+    "end": "16:30",
+    "title": "1TD  ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
     "start": "10:00",
+    "end": "12:00",
+    "title": "1TD  ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "1CM Diagnostic Territorial",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/12/2026",
+    "start": "09:30",
     "end": "12:30",
-    "title": "SOUTENANCES",
-    "salle": "Amphi 1",
-    "enseignant": "DIOUF",
-    "maj": "08-07-2026 23:05:59"
+    "title": "1CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "CM SEMIOLOGIE GRAPHIQUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "1CM Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "02/11/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "1TD Diagnostic Territorial",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/10/2026",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "Session d'information mobilité internationale",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "12/10/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "1TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
+    "start": "13:30",
+    "end": "14:30",
+    "title": "1CM ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "1CM ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "04/01/2027",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "1TD Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "12/10/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "1TD Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "23/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "1TD Diagnostic Territorial",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "04/01/2027",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/09/2026",
+    "start": "15:30",
+    "end": "16:30",
+    "title": "1CM Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "08:30",
+    "end": "10:30",
+    "title": "1CM Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "02/11/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "1TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/11/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/09/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "TD SEMIOLOGIE GRAPHIQUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "06/10/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/09/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "22/09/2026",
+    "start": "12:30",
+    "end": "22:00",
+    "title": "CAMPUS EN FETE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "01/12/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/10/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "08/12/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "11:00",
+    "end": "13:00",
+    "title": "1CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Jeudi",
     "date": "08/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/10/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "SIG et bases de données",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "1TD  LANGUE",
     "salle": "non renseignée",
-    "enseignant": "GRANGER",
-    "maj": "08-07-2026 23:05:59"
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Mercredi",
-    "date": "11/11/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Férié",
+    "date": "07/10/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "1CM Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "10/12/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Initiation au drône",
-    "salle": "Salle C04",
-    "enseignant": "PERON",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mardi",
-    "date": "10/11/2026",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "non renseignée",
-    "enseignant": "FERRE",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/12/2026",
-    "start": "10:00",
-    "end": "11:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "23/10/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER",
-    "maj": "08-07-2026 23:05:59"
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Mercredi",
-    "date": "16/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Analyse des paysages",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "01/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Droit administratif (public1)",
-    "salle": "non renseignée",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Jeudi",
-    "date": "15/10/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "21/10/2026",
+    "date": "16/12/2026",
     "start": "14:00",
     "end": "16:00",
-    "title": "EXAMEN",
-    "salle": "Salle C10",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/10/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
+    "title": "1TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "08-07-2026 23:05:59"
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Lundi",
     "date": "26/10/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Vacances",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/11/2026",
-    "start": "13:45",
+    "start": "09:30",
     "end": "16:30",
-    "title": "Télédétection",
-    "salle": "non renseignée",
-    "enseignant": "SIMONETTO",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "DUHAMEL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/11/2026",
-    "start": "16:00",
-    "end": "17:15",
-    "title": "EXAMEN",
+    "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
+    "maj": "08-07-2026 23:15:55"
   },
   {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "11:30",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "DUHAMEL",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Mercredi",
-    "date": "02/12/2026",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "EXAMEN",
-    "salle": "Salle C01",
-    "enseignant": "non renseigné",
-    "maj": "08-07-2026 23:05:59"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/12/2026",
-    "start": "13:45",
+    "day": "Mardi",
+    "date": "27/10/2026",
+    "start": "09:30",
     "end": "16:30",
-    "title": "Chantier école",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "AUTONOMIE",
-    "maj": "08-07-2026 23:05:59"
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
   },
   {
     "day": "Jeudi",
-    "date": "10/12/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Initiation au drône",
-    "salle": "Salle C04",
-    "enseignant": "PERON",
-    "maj": "08-07-2026 23:05:59"
+    "date": "29/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "28/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "30/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/10/2026",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "1TD Ville durable et changements climatiques",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mardi",
+    "date": "22/12/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "1TD Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/12/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/10/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "1TD Ville durable et changements climatiques",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "1TD Diagnostic Territorial",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/12/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "08-07-2026 23:15:55"
   }
 ]
