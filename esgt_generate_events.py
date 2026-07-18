@@ -15,7 +15,7 @@ CALENDARS = [
     },
     {
         "name": "MOSAE2",
-        "url": "https://dioufousmane.github.io/calendriermosae/ESGT_MOSAE_1.ics",
+        "url": "https://dioufousmane.github.io/calendriermosae/ESGT_MOSAE_2.ics",
         "output": "esgt_events2.json"
     }
 ]

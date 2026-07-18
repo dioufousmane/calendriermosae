@@ -1,673 +1,163 @@
 [
   {
-    "day": "Mercredi",
-    "date": "25/11/2026",
-    "start": "14:00",
-    "end": "18:30",
-    "title": "EXAMEN",
-    "salle": "T2",
-    "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/11/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Télédétection",
-    "salle": "Salle 100",
-    "enseignant": "SIMONETTO",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/10/2026",
-    "start": "14:00",
-    "end": "16:30",
-    "title": "SIG et bases de données",
-    "salle": "Salle 100",
-    "enseignant": "GRANGER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "10/09/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "SIG et bases de données",
-    "salle": "Salle 102",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/11/2026",
-    "start": "14:00",
-    "end": "18:00",
-    "title": "EXAMEN",
-    "salle": "Salle C09",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/12/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Chantier école",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "AUTONOMIE",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "13/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Télédétection",
-    "salle": "Salle 100",
-    "enseignant": "SIMONETTO",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "02/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "DUHAMEL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/09/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "SIG et bases de données",
-    "salle": "Salle 100",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/11/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/11/2026",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "16/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "17/12/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Photogrammétrie",
-    "salle": "Salle 134",
-    "enseignant": "LEROUX",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "20/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "SIG et 3 D",
-    "salle": "Salle 100",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "20/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Télédétection",
-    "salle": "Salle 100",
-    "enseignant": "SIMONETTO",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "12/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "Salle 110",
-    "enseignant": "FERRE",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "23/09/2026",
-    "start": "15:30",
-    "end": "18:15",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Lundi",
-    "date": "28/12/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Vacances",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Lundi",
-    "date": "14/09/2026",
-    "start": "14:00",
-    "end": "17:45",
-    "title": "SOUTENANCES",
-    "salle": "Amphi 2",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "24/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "03/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "SIG et 3 D",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "BIM",
-    "salle": "non renseignée",
-    "enseignant": "ROBERT",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/10/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "Salle 110",
-    "enseignant": "MOREL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "27/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "BIM",
-    "salle": "Salle 102",
-    "enseignant": "ROBERT",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "15/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "17/12/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Photogrammétrie",
-    "salle": "Salle 134",
-    "enseignant": "LEROUX",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Analyse des paysages",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/12/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Chantier école",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "AUTONOMIE",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "08:30",
-    "end": "11:15",
-    "title": "SIG et bases de données",
-    "salle": "Salle 100",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "Salle C03",
-    "enseignant": "BOTREL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "01/10/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Photogrammétrie",
-    "salle": "Salle 111",
-    "enseignant": "LEROUX",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
     "day": "Vendredi",
     "date": "25/09/2026",
     "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "Salle 110",
-    "enseignant": "MOREL",
-    "maj": "18-07-2026 20:21:42"
+    "end": "16:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "Salle 102",
+    "enseignant": "DIOUF",
+    "maj": "18-07-2026 20:26:55"
   },
   {
-    "day": "Vendredi",
-    "date": "27/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "SIG et 3 D",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
+    "day": "Jeudi",
+    "date": "18/02/2027",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de la commande publique",
+    "salle": "Salle C10",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Lundi",
-    "date": "21/12/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Vacances",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "03/09/2026",
+    "date": "16/11/2026",
     "start": "08:30",
-    "end": "09:30",
-    "title": "RENTREE",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Vendredi",
-    "date": "02/10/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "05/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "non renseignée",
-    "enseignant": "FERRE",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "23/09/2026",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "BRUNEAU",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "22/10/2026",
+    "date": "12/02/2027",
     "start": "14:00",
     "end": "16:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
+    "title": "Droit de la commande publique",
+    "salle": "non renseignée",
     "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "13/11/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "BIM",
-    "salle": "Salle 102",
-    "enseignant": "ROBERT",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "03/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Vendredi",
     "date": "23/10/2026",
-    "start": "14:00",
-    "end": "16:30",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER",
-    "maj": "18-07-2026 20:21:42"
+    "start": "10:00",
+    "end": "12:45",
+    "title": "GéoBIM",
+    "salle": "Salle 111",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Vendredi",
-    "date": "25/09/2026",
+    "date": "20/11/2026",
     "start": "10:00",
     "end": "12:45",
-    "title": "SIG et bases de données",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "10/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "Salle C10",
-    "enseignant": "BOTREL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "04/11/2026",
-    "start": "08:45",
-    "end": "19:00",
-    "title": "Analyse des paysages",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "26/11/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
-    "salle": "Salle 107",
-    "enseignant": "FERRE",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "17/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des paysages",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "18-07-2026 20:21:42"
+    "enseignant": "GRANGER",
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Jeudi",
     "date": "22/10/2026",
-    "start": "10:00",
-    "end": "11:15",
-    "title": "EXAMEN",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO",
+    "salle": "Salle 111",
+    "enseignant": "CHARLET",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
     "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
+    "enseignant": "DUHAMEL",
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Lundi",
-    "date": "14/09/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "SOUTENANCES",
-    "salle": "Amphi 1",
-    "enseignant": "DIOUF",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "08/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/10/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "11/11/2026",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Férié",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "10/12/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Initiation au drône",
-    "salle": "Salle C04",
-    "enseignant": "PERON",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mardi",
-    "date": "10/11/2026",
-    "start": "14:00",
-    "end": "15:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "06/11/2026",
+    "date": "23/11/2026",
     "start": "08:30",
-    "end": "12:45",
-    "title": "Topographie 1",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
-    "enseignant": "FERRE",
-    "maj": "18-07-2026 20:21:42"
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
   },
   {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Géodésie",
-    "salle": "non renseignée",
-    "enseignant": "MOREL",
-    "maj": "18-07-2026 20:21:42"
+    "day": "Jeudi",
+    "date": "21/01/2027",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Web conception",
+    "salle": "Salle 111",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Vendredi",
     "date": "11/12/2026",
-    "start": "10:00",
-    "end": "11:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "23/10/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "SIG et bases de données",
-    "salle": "non renseignée",
-    "enseignant": "GRANGER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "16/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Analyse des paysages",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "01/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Droit administratif (public1)",
-    "salle": "non renseignée",
-    "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Jeudi",
-    "date": "15/10/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit administratif (public1)",
-    "salle": "Salle C04",
-    "enseignant": "CHAUVIN",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "21/10/2026",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "EXAMEN",
-    "salle": "Salle C10",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/10/2026",
     "start": "08:30",
     "end": "12:45",
-    "title": "Analyse des paysages",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "non renseignée",
-    "enseignant": "COLLIN-BELLIER",
-    "maj": "18-07-2026 20:21:42"
+    "enseignant": "GRANGER",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "25/01/2027",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "GéoBIM",
+    "salle": "non renseignée",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Lundi",
@@ -677,76 +167,566 @@
     "title": "Vacances",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Vendredi",
-    "date": "06/11/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Télédétection",
-    "salle": "non renseignée",
-    "enseignant": "SIMONETTO",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "DUHAMEL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "18/11/2026",
-    "start": "16:00",
-    "end": "17:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "11:30",
-    "end": "12:45",
-    "title": "Référentiel Jurid & Foncier",
-    "salle": "non renseignée",
-    "enseignant": "DUHAMEL",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Mercredi",
-    "date": "02/12/2026",
+    "date": "22/01/2027",
     "start": "14:00",
     "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "non renseignée",
+    "enseignant": "LAVESSIERE",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "08:30",
+    "end": "09:00",
+    "title": "RENTREE",
+    "salle": "Salle C12",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO",
+    "salle": "non renseignée",
+    "enseignant": "CHARLET",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "08:30",
+    "end": "09:45",
     "title": "EXAMEN",
     "salle": "Salle C01",
     "enseignant": "non renseigné",
-    "maj": "18-07-2026 20:21:42"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/12/2026",
-    "start": "13:45",
-    "end": "16:30",
-    "title": "Chantier école",
-    "salle": "Salle 113 -Carto",
-    "enseignant": "AUTONOMIE",
-    "maj": "18-07-2026 20:21:42"
+    "maj": "18-07-2026 20:26:55"
   },
   {
     "day": "Jeudi",
     "date": "10/12/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "19/02/2027",
     "start": "10:00",
     "end": "12:45",
-    "title": "Initiation au drône",
-    "salle": "Salle C04",
-    "enseignant": "PERON",
-    "maj": "18-07-2026 20:21:42"
+    "title": "Droit de la commande publique",
+    "salle": "Salle C10",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "11/02/2027",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Modélisation 3D",
+    "salle": "non renseignée",
+    "enseignant": "BESLIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "07/09/2026",
+    "start": "09:00",
+    "end": "18:15",
+    "title": "SOUTENANCES",
+    "salle": "Salle C05",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/02/2027",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Droit de la commande publique",
+    "salle": "Salle C10",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/12/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Modélisation 3D",
+    "salle": "Salle 111",
+    "enseignant": "BESLIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Droit aménagement (public4)",
+    "salle": "non renseignée",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "26/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/03/2027",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "22/01/2027",
+    "start": "09:45",
+    "end": "12:45",
+    "title": "SIG et WebSIG SQL",
+    "salle": "non renseignée",
+    "enseignant": "LAVESSIERE",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "15/01/2027",
+    "start": "09:45",
+    "end": "12:45",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle 100",
+    "enseignant": "LAVESSIERE",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
+    "salle": "Salle 100",
+    "enseignant": "GRANGER",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "14:00",
+    "end": "17:45",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 2",
+    "enseignant": "DIOUF",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/12/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/12/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/12/2026",
+    "start": "09:45",
+    "end": "12:45",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "14/01/2027",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Web conception",
+    "salle": "Salle 107",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "09/12/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Droit aménagement (public4)",
+    "salle": "non renseignée",
+    "enseignant": "CHAUVIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "21/01/2027",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Web conception",
+    "salle": "non renseignée",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/12/2026",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "non renseignée",
+    "enseignant": "LAVESSIERE",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/03/2027",
+    "start": "09:00",
+    "end": "10:15",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "GéoBIM",
+    "salle": "non renseignée",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/12/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "GéoBIM",
+    "salle": "non renseignée",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "10:00",
+    "end": "19:00",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/02/2027",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/12/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "11/03/2027",
+    "start": "08:45",
+    "end": "12:45",
+    "title": "EXAMEN",
+    "salle": "Salle C06",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "03/12/2026",
+    "start": "10:00",
+    "end": "19:00",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "Salle 110",
+    "enseignant": "DIOUF",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "non renseignée",
+    "enseignant": "DUHAMEL",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "non renseignée",
+    "enseignant": "DUHAMEL",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "15/01/2027",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle 100",
+    "enseignant": "LAVESSIERE",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/12/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle 100",
+    "enseignant": "LAVESSIERE",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "11/02/2027",
+    "start": "08:15",
+    "end": "12:30",
+    "title": "Modélisation 3D",
+    "salle": "non renseignée",
+    "enseignant": "BESLIN",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 1",
+    "enseignant": "DIOUF",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO",
+    "salle": "non renseignée",
+    "enseignant": "CHARLET",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "non renseignée",
+    "enseignant": "DUHAMEL",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Jeudi",
+    "date": "14/01/2027",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Web conception",
+    "salle": "Salle 107",
+    "enseignant": "XX",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Mercredi",
+    "date": "11/11/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/09/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
+  },
+  {
+    "day": "Vendredi",
+    "date": "12/02/2027",
+    "start": "08:15",
+    "end": "09:30",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "18-07-2026 20:26:55"
   }
 ]
