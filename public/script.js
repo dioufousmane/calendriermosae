@@ -94,10 +94,37 @@ async function initCalendar() {
     generateWeekOptions();
     
 
-    const weekSelect = document.getElementById("weekSelect");
-    let [defaultYear, defaultWeek] = weekSelect.value.split("-").map(Number);
+    //const weekSelect = document.getElementById("weekSelect");
+    //let [defaultYear, defaultWeek] = weekSelect.value.split("-").map(Number);
     // 🔁 Charger la semaine précédemment affichée, si dispo
-const savedWeek = localStorage.getItem("lastDisplayedWeek");
+
+const weekSelect = document.getElementById("weekSelect");
+
+if (!weekSelect) {
+  throw new Error("L'élément #weekSelect est introuvable");
+}
+
+let defaultYear;
+let defaultWeek;
+
+if (
+  weekSelect.value &&
+  /^\d{4}-\d{2}$/.test(weekSelect.value)
+) {
+  [defaultYear, defaultWeek] =
+    weekSelect.value.split("-").map(Number);
+} else {
+  const today = new Date();
+  defaultYear = today.getFullYear();
+  defaultWeek = getISOWeekNumber(today);
+
+  weekSelect.value =
+    `${defaultYear}-${String(defaultWeek).padStart(2, "0")}`;
+}
+
+
+
+    const savedWeek = localStorage.getItem("lastDisplayedWeek");
 if (savedWeek && /^\d{4}-\d{2}$/.test(savedWeek)) {
   const [savedYear, savedW] = savedWeek.split("-").map(Number);
   defaultYear = savedYear;
@@ -107,8 +134,19 @@ if (savedWeek && /^\d{4}-\d{2}$/.test(savedWeek)) {
     weekSelect.value = savedWeek;
   }
 }
-    let initialDate = getDateOfISOWeek(defaultWeek, defaultYear);
-    
+    //let initialDate = getDateOfISOWeek(defaultWeek, defaultYear);
+let initialDate = getDateOfISOWeek(
+  defaultWeek,
+  defaultYear
+);
+
+if (!(initialDate instanceof Date) || isNaN(initialDate)) {
+  console.error(
+    "Date invalide générée pour FullCalendar"
+  );
+
+  initialDate = new Date();
+}
     calendar = new FullCalendar.Calendar(calendarEl, {
       locale: "fr",
       allDaySlot: false, // 👈 Empêche l’affichage du slot "toute la journée"
