@@ -26,9 +26,21 @@ jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanc
 def clean_text(text):
     if not text:
         return ""
-    text = unicodedata.normalize("NFKC", text)
-    return text.replace("\n", " ").replace("\r", "").strip()
 
+    # tentative de réparation UTF8/Latin1
+    try:
+        repaired = text.encode("latin1").decode("utf-8")
+        if "Ã" not in repaired:
+            text = repaired
+    except Exception:
+        pass
+
+    text = unicodedata.normalize("NFC", text)
+
+    # espaces multiples
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
 def extract_with_regex(label, text):
     pattern = rf"{label}\s*:\s*(.*?)(?=\s*\w+\s*:|$)"
     match = re.search(pattern, text)
