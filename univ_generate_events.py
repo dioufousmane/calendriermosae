@@ -10,12 +10,12 @@ import re
 CALENDARS = [
     {
         "name": "UNIV",
-        "url": "https://dioufousmane.github.io/calendriermosae/MOSAE_1.ics",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=1002&projectId=9&calType=ical&nbWeeks=52",
         "output": "univ_events.json"
     },
     {
         "name": "UNIV2",
-        "url": "https://dioufousmane.github.io/calendriermosae/MOSAE_2.ics",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=2015&projectId=9&calType=ical&nbWeeks=44",
         "output": "univ_events2.json"
     }
 ]
