@@ -7,17 +7,7 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 102",
     "enseignant": "DIOUF",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "18/02/2027",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit de la commande publique",
-    "salle": "Salle C10",
-    "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -27,17 +17,17 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
-    "date": "12/02/2027",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Droit de la commande publique",
-    "salle": "non renseignée",
+    "date": "11/12/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
     "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -47,7 +37,7 @@
     "title": "GéoBIM",
     "salle": "Salle 111",
     "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -57,7 +47,7 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "non renseignée",
     "enseignant": "GRANGER",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -67,7 +57,7 @@
     "title": "CAO/DAO",
     "salle": "Salle 111",
     "enseignant": "CHARLET",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -77,7 +67,7 @@
     "title": "Droit de l'environnement",
     "salle": "non renseignée",
     "enseignant": "DUHAMEL",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -87,27 +77,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "21/01/2027",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Web conception",
-    "salle": "Salle 111",
-    "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/12/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Droit aménagement (public4)",
-    "salle": "Amphi 2",
-    "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -117,7 +87,7 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "non renseignée",
     "enseignant": "GRANGER",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -127,7 +97,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -137,17 +107,7 @@
     "title": "EXAMEN",
     "salle": "Salle C01",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Lundi",
-    "date": "25/01/2027",
-    "start": "08:30",
-    "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -157,7 +117,7 @@
     "title": "GéoBIM",
     "salle": "non renseignée",
     "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -167,17 +127,7 @@
     "title": "Vacances",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "22/01/2027",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "SIG et WebSIG SQL",
-    "salle": "non renseignée",
-    "enseignant": "LAVESSIERE",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -187,7 +137,7 @@
     "title": "RENTREE",
     "salle": "Salle C12",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -197,7 +147,7 @@
     "title": "CAO/DAO",
     "salle": "non renseignée",
     "enseignant": "CHARLET",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -207,7 +157,7 @@
     "title": "EXAMEN",
     "salle": "Salle C01",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -217,27 +167,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "Amphi 2",
     "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "19/02/2027",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Droit de la commande publique",
-    "salle": "Salle C10",
-    "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "11/02/2027",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Modélisation 3D",
-    "salle": "non renseignée",
-    "enseignant": "BESLIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -247,17 +177,7 @@
     "title": "SOUTENANCES",
     "salle": "Salle C05",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "12/02/2027",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Droit de la commande publique",
-    "salle": "Salle C10",
-    "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -267,17 +187,7 @@
     "title": "Modélisation 3D",
     "salle": "Salle 111",
     "enseignant": "BESLIN",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/11/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Droit aménagement (public4)",
-    "salle": "non renseignée",
-    "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -287,37 +197,17 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
-    "day": "Lundi",
-    "date": "01/03/2027",
-    "start": "01:00",
-    "end": "01:00",
-    "title": "Vacances",
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Droit aménagement (public4)",
     "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "22/01/2027",
-    "start": "09:45",
-    "end": "12:45",
-    "title": "SIG et WebSIG SQL",
-    "salle": "non renseignée",
-    "enseignant": "LAVESSIERE",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Modélisation programmation SIG",
-    "salle": "non renseignée",
-    "enseignant": "DIOUF",
-    "maj": "20-08-2026 14:58:51"
+    "enseignant": "CHAUVIN",
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -327,17 +217,17 @@
     "title": "Droit aménagement (public4)",
     "salle": "Amphi 2",
     "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
-    "date": "15/01/2027",
-    "start": "09:45",
+    "date": "16/10/2026",
+    "start": "10:00",
     "end": "12:45",
-    "title": "SIG et WebSIG SQL",
-    "salle": "Salle 100",
-    "enseignant": "LAVESSIERE",
-    "maj": "20-08-2026 14:58:51"
+    "title": "Modélisation programmation SIG",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF",
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -347,17 +237,17 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "Salle 100",
     "enseignant": "GRANGER",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
     "date": "14/09/2026",
     "start": "14:00",
-    "end": "17:45",
+    "end": "18:00",
     "title": "SOUTENANCES",
     "salle": "Amphi 2",
     "enseignant": "DIOUF",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -367,7 +257,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -377,7 +267,7 @@
     "title": "Vacances",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -387,7 +277,7 @@
     "title": "EXAMEN",
     "salle": "Salle C01",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -397,17 +287,7 @@
     "title": "EXAMEN",
     "salle": "non renseignée",
     "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "14/01/2027",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Web conception",
-    "salle": "Salle 107",
-    "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Mercredi",
@@ -417,17 +297,7 @@
     "title": "Droit aménagement (public4)",
     "salle": "non renseignée",
     "enseignant": "CHAUVIN",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "21/01/2027",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "Web conception",
-    "salle": "non renseignée",
-    "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -437,7 +307,7 @@
     "title": "EXAMEN",
     "salle": "Salle C01",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -447,17 +317,7 @@
     "title": "SIG et WebSIG SQL",
     "salle": "non renseignée",
     "enseignant": "LAVESSIERE",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "12/03/2027",
-    "start": "09:00",
-    "end": "10:15",
-    "title": "EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -467,7 +327,7 @@
     "title": "GéoBIM",
     "salle": "non renseignée",
     "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -477,7 +337,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -487,7 +347,7 @@
     "title": "GéoBIM",
     "salle": "non renseignée",
     "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -497,7 +357,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -507,17 +367,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Lundi",
-    "date": "01/02/2027",
-    "start": "08:30",
-    "end": "17:30",
-    "title": "SEMAINE en ENTREPRISE",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -527,17 +377,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "11/03/2027",
-    "start": "08:45",
-    "end": "12:45",
-    "title": "EXAMEN",
-    "salle": "Salle C06",
-    "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -547,7 +387,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -557,7 +397,7 @@
     "title": "Vacances",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -567,7 +407,7 @@
     "title": "Modélisation programmation SIG",
     "salle": "Salle 110",
     "enseignant": "DIOUF",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -577,7 +417,7 @@
     "title": "Droit de l'environnement",
     "salle": "non renseignée",
     "enseignant": "DUHAMEL",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -587,7 +427,7 @@
     "title": "Droit de l'environnement",
     "salle": "non renseignée",
     "enseignant": "DUHAMEL",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -597,17 +437,7 @@
     "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
     "salle": "non renseignée",
     "enseignant": "GRANGER",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "15/01/2027",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "SIG et WebSIG SQL",
-    "salle": "Salle 100",
-    "enseignant": "LAVESSIERE",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -617,17 +447,7 @@
     "title": "SIG et WebSIG SQL",
     "salle": "Salle 100",
     "enseignant": "LAVESSIERE",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "11/02/2027",
-    "start": "08:15",
-    "end": "12:30",
-    "title": "Modélisation 3D",
-    "salle": "non renseignée",
-    "enseignant": "BESLIN",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -637,7 +457,7 @@
     "title": "Modélisation programmation SIG",
     "salle": "non renseignée",
     "enseignant": "DIOUF",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -647,7 +467,7 @@
     "title": "SOUTENANCES",
     "salle": "Amphi 1",
     "enseignant": "DIOUF",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -657,7 +477,7 @@
     "title": "EXAMEN",
     "salle": "Salle C01",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -667,7 +487,7 @@
     "title": "CAO/DAO",
     "salle": "non renseignée",
     "enseignant": "CHARLET",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Jeudi",
@@ -677,17 +497,7 @@
     "title": "Droit de l'environnement",
     "salle": "non renseignée",
     "enseignant": "DUHAMEL",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Jeudi",
-    "date": "14/01/2027",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "Web conception",
-    "salle": "Salle 107",
-    "enseignant": "XX",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Vendredi",
@@ -697,7 +507,7 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Mercredi",
@@ -707,7 +517,7 @@
     "title": "Férié",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   },
   {
     "day": "Lundi",
@@ -717,16 +527,6 @@
     "title": "SEMAINE en ENTREPRISE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
-  },
-  {
-    "day": "Vendredi",
-    "date": "12/02/2027",
-    "start": "08:15",
-    "end": "09:30",
-    "title": "EXAMEN",
-    "salle": "Salle C01",
-    "enseignant": "non renseigné",
-    "maj": "20-08-2026 14:58:51"
+    "maj": "20-08-2026 15:46:21"
   }
 ]
