@@ -10,12 +10,12 @@ from datetime import datetime
 CALENDARS = [
     {
         "name": "MOSAE1",
-        "url": "https://dioufousmane.github.io/calendriermosae/ESGT_MOSAE_1.ics",
+        "url": "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_chombier.ics?version=2022.0.5.0&idICal=9B6122FFB29242C4F003C03EA1CD45F1&param=643d5b312e2e36325d2666683d3126663d31",
         "output": "esgt_events.json"
     },
     {
         "name": "MOSAE2",
-        "url": "https://dioufousmane.github.io/calendriermosae/ESGT_MOSAE_2.ics",
+        "url": "https://hpesgt.cnam.fr/hp/Telechargements/ical/Edt_chombier2.ics?version=2022.0.5.0&idICal=E81D062B7FA148EF5912CA517E732AF1&param=643d5b312e2e36325d2666683d3126663d31",
         "output": "esgt_events2.json"
     }
 ]
