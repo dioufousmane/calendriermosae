@@ -7,7 +7,7 @@
     "title": "CM Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -17,7 +17,7 @@
     "title": "TD ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
     "salle": "non renseignée",
     "enseignant": "DUCHEMIN STEPHANIE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -27,7 +27,7 @@
     "title": "TD ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
     "salle": "non renseignée",
     "enseignant": "DUCHEMIN STEPHANIE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -37,7 +37,7 @@
     "title": "TD SIG ET 3 D",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -47,7 +47,7 @@
     "title": "TD SIG ET 3 D",
     "salle": "SALLE 102",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -57,7 +57,7 @@
     "title": "TD SIG ET 3 D",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -67,7 +67,7 @@
     "title": "CM SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
     "enseignant": "PAYSANT GUILLAUME",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -77,7 +77,7 @@
     "title": "TD Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -87,7 +87,7 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -97,7 +97,7 @@
     "title": "TD SIG ET 3 D",
     "salle": "SALLE 102",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -107,27 +107,17 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
-    "day": "Vendredi",
-    "date": "02/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "1Référentiel Juridique et Foncier - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
+    "day": "Mercredi",
+    "date": "14/10/2026",
     "start": "14:00",
     "end": "18:15",
     "title": "TD GEODESIE",
-    "salle": "Salle ESGT",
+    "salle": "SALLE 110",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -137,7 +127,7 @@
     "title": "1Référentiel Juridique et Foncier - ESGT",
     "salle": "SALLE C10",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -147,7 +137,17 @@
     "title": "1Référentiel Juridique et Foncier - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1Référentiel Juridique et Foncier - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -157,27 +157,17 @@
     "title": "1Référentiel Juridique et Foncier - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
-    "day": "Mercredi",
-    "date": "14/10/2026",
+    "day": "Vendredi",
+    "date": "11/09/2026",
     "start": "14:00",
     "end": "18:15",
     "title": "TD GEODESIE",
-    "salle": "SALLE 110",
+    "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Lundi",
-    "date": "07/09/2026",
-    "start": "09:00",
-    "end": "18:00",
-    "title": "1Soutenances",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -187,7 +177,17 @@
     "title": "1Soutenances",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Lundi",
+    "date": "07/09/2026",
+    "start": "09:00",
+    "end": "18:00",
+    "title": "1Soutenances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -197,7 +197,7 @@
     "title": "TD Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -207,17 +207,7 @@
     "title": "CM Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mercredi",
-    "date": "21/10/2026",
-    "start": "14:00",
-    "end": "16:00",
-    "title": "1EXAMEN",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -227,7 +217,17 @@
     "title": "1EXAMEN",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mercredi",
+    "date": "21/10/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -237,17 +237,7 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Lundi",
-    "date": "09/11/2026",
-    "start": "13:30",
-    "end": "14:30",
-    "title": "CM ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
-    "salle": "non renseignée",
-    "enseignant": "DUCHEMIN STEPHANIE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -257,7 +247,17 @@
     "title": "CM ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
     "salle": "non renseignée",
     "enseignant": "DUCHEMIN STEPHANIE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
+    "start": "13:30",
+    "end": "14:30",
+    "title": "CM ENQUETES ET ENTRETIENS + COLLECTE DES DONNEES",
+    "salle": "non renseignée",
+    "enseignant": "DUCHEMIN STEPHANIE",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -267,17 +267,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "01/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "1Droit administratif",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -287,17 +277,27 @@
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/09/2026",
+    "start": "15:30",
+    "end": "16:30",
+    "title": "CM Ville durable et histoire de l'urbanisme",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
-    "date": "08/10/2026",
+    "date": "01/10/2026",
     "start": "10:00",
     "end": "12:45",
     "title": "1Droit administratif",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -307,37 +307,7 @@
     "title": "1Droit administratif",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "01/10/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "1Droit administratif",
-    "salle": "SALLE C04",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "08:30",
-    "end": "10:30",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN BELLIER",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "10:45",
-    "end": "12:45",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN BELLIER",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -347,27 +317,47 @@
     "title": "1Droit administratif",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
-    "day": "Lundi",
-    "date": "21/09/2026",
-    "start": "15:30",
-    "end": "16:30",
-    "title": "CM Ville durable et histoire de l'urbanisme",
+    "day": "Mercredi",
+    "date": "30/09/2026",
+    "start": "10:45",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "04-09-2026 10:47:13"
+    "enseignant": "COLLIN BELLIER",
+    "maj": "04-09-2026 16:06:51"
   },
   {
-    "day": "Mardi",
-    "date": "08/12/2026",
-    "start": "09:30",
-    "end": "11:30",
-    "title": "CM Concevoir un observatoire de Territoires",
+    "day": "Mercredi",
+    "date": "30/09/2026",
+    "start": "08:30",
+    "end": "10:30",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "04-09-2026 10:47:13"
+    "enseignant": "COLLIN BELLIER",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "08/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1Droit administratif",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "01/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Droit administratif",
+    "salle": "SALLE C04",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -377,7 +367,17 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mardi",
+    "date": "08/12/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -387,7 +387,7 @@
     "title": "CM Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -397,7 +397,7 @@
     "title": "TD SIG ET 3 D",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -407,7 +407,7 @@
     "title": "TD SIG ET 3 D",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -417,7 +417,7 @@
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -427,7 +427,7 @@
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -437,7 +437,7 @@
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -447,27 +447,7 @@
     "title": "CM GEODESIE",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "30/10/2026",
-    "start": "09:30",
-    "end": "16:30",
-    "title": "1VACANCES UNIVERSITAIRES",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Lundi",
-    "date": "21/12/2026",
-    "start": "09:30",
-    "end": "16:30",
-    "title": "1VACANCES UNIVERSITAIRES",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -477,17 +457,17 @@
     "title": "CM GEODESIE",
     "salle": "SALLE 110",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
-    "day": "Mercredi",
-    "date": "23/12/2026",
+    "day": "Vendredi",
+    "date": "30/10/2026",
     "start": "09:30",
     "end": "16:30",
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -497,7 +477,27 @@
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/12/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -507,7 +507,7 @@
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -517,7 +517,7 @@
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -527,17 +527,7 @@
     "title": "1VACANCES UNIVERSITAIRES",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mardi",
-    "date": "01/12/2026",
-    "start": "15:30",
-    "end": "17:00",
-    "title": "TD Concevoir un observatoire de Territoires S.C.",
-    "salle": "non renseignée",
-    "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -547,7 +537,17 @@
     "title": "TD Concevoir un observatoire de Territoires S.C.",
     "salle": "non renseignée",
     "enseignant": "CHARPENTIER STANISLAS",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mardi",
+    "date": "01/12/2026",
+    "start": "15:30",
+    "end": "17:00",
+    "title": "TD Concevoir un observatoire de Territoires S.C.",
+    "salle": "non renseignée",
+    "enseignant": "CHARPENTIER STANISLAS",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -557,7 +557,7 @@
     "title": "CM Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -567,7 +567,7 @@
     "title": "CM Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -577,47 +577,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BERTRAND LIONEL",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "16/10/2026",
-    "start": "10:00",
-    "end": "12:30",
-    "title": "TD SIG ET 3 D",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "15/10/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "TD SIG ET 3 D",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "25/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "TD SIG ET 3 D",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "18/09/2026",
-    "start": "14:00",
-    "end": "16:45",
-    "title": "TD SIG ET 3 D",
-    "salle": "SALLE 100",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -627,7 +587,47 @@
     "title": "TD SIG ET 3 D",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "SALLE 100",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -637,27 +637,7 @@
     "title": "CM Droit Administratif",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mardi",
-    "date": "03/11/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "19/11/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -667,7 +647,27 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/11/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -677,7 +677,7 @@
     "title": "CAMPUS EN FETE",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -687,7 +687,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -697,7 +697,7 @@
     "title": "1TOPOGRAPHIE - CM",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -707,7 +707,7 @@
     "title": "1TOPOGRAPHIE - CM",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -717,7 +717,7 @@
     "title": "TD Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -727,7 +727,7 @@
     "title": "TD Ville durable et changements climatiques",
     "salle": "non renseignée",
     "enseignant": "TSAYEM DEMAZE MOISE",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -737,7 +737,7 @@
     "title": "CM GEODESIE",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -747,7 +747,7 @@
     "title": "CM SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
     "enseignant": "PAYSANT GUILLAUME",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -757,57 +757,7 @@
     "title": "CM GEODESIE",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "09/10/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN BELLIER",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "17/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "COLLIN BELLIER",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mercredi",
-    "date": "30/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "SALLE 113",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "24/09/2026",
-    "start": "08:30",
-    "end": "12:45",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "SALLE 113",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mercredi",
-    "date": "04/11/2026",
-    "start": "08:45",
-    "end": "18:00",
-    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
-    "salle": "non renseignée",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -817,7 +767,57 @@
     "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
     "salle": "SALLE 113",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "COLLIN BELLIER",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/10/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "COLLIN BELLIER",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mercredi",
+    "date": "30/09/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "SALLE 113",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "SALLE 113",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/11/2026",
+    "start": "08:45",
+    "end": "18:00",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mercredi",
@@ -827,7 +827,7 @@
     "title": "CM Ville durable et histoire de l'urbanisme",
     "salle": "non renseignée",
     "enseignant": "GASNIER ARNAUD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Mardi",
@@ -837,7 +837,7 @@
     "title": "Session d'information mobilité internationale",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Jeudi",
@@ -847,17 +847,7 @@
     "title": "1Référentiel Juridique et Foncier - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Vendredi",
-    "date": "04/09/2026",
-    "start": "08:30",
-    "end": "09:45",
-    "title": "1Référentiel Juridique et Foncier - ESGT",
-    "salle": "Salle C03",
-    "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -867,7 +857,17 @@
     "title": "1Référentiel Juridique et Foncier - ESGT",
     "salle": "non renseignée",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/09/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "1Référentiel Juridique et Foncier - ESGT",
+    "salle": "Salle C03",
+    "enseignant": "non renseigné",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -877,7 +877,7 @@
     "title": "TD Concevoir un observatoire de Territoires",
     "salle": "non renseignée",
     "enseignant": "BILLARD GERALD",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -887,47 +887,7 @@
     "title": "TD Diagnostic Territorial",
     "salle": "non renseignée",
     "enseignant": "PESLIER MARINE",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mardi",
-    "date": "29/09/2026",
-    "start": "11:00",
-    "end": "13:00",
-    "title": "CM Concevoir un observatoire de Territoires",
-    "salle": "non renseignée",
-    "enseignant": "BILLARD GERALD",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mardi",
-    "date": "06/10/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Jeudi",
-    "date": "08/10/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
-  },
-  {
-    "day": "Mardi",
-    "date": "13/10/2026",
-    "start": "13:30",
-    "end": "15:30",
-    "title": "TD LANGUE",
-    "salle": "non renseignée",
-    "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -937,7 +897,47 @@
     "title": "TD LANGUE",
     "salle": "non renseignée",
     "enseignant": "GOURRI ABDRAHIM",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mardi",
+    "date": "06/10/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/10/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Jeudi",
+    "date": "08/10/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "04-09-2026 16:06:51"
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "11:00",
+    "end": "13:00",
+    "title": "CM Concevoir un observatoire de Territoires",
+    "salle": "non renseignée",
+    "enseignant": "BILLARD GERALD",
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Vendredi",
@@ -947,7 +947,7 @@
     "title": "1TELEDETECTION",
     "salle": "Salle ESGT",
     "enseignant": "non renseigné",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   },
   {
     "day": "Lundi",
@@ -957,6 +957,6 @@
     "title": "TD SEMIOLOGIE GRAPHIQUE",
     "salle": "non renseignée",
     "enseignant": "PAYSANT GUILLAUME",
-    "maj": "04-09-2026 10:47:13"
+    "maj": "04-09-2026 16:06:51"
   }
 ]
