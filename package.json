@@ -1,0 +1,1 @@
+{"name":"mosae-planning","private":true,"scripts":{"test":"node --test tests/*.test.mjs","feeds":"node scripts/generate-feeds.mjs"}}

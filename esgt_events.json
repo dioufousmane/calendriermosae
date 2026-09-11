@@ -1,0 +1,1436 @@
+[
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4804-5-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C10",
+    "enseignant": "BOTREL",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Photogrammétrie",
+    "salle": "Salle 134",
+    "enseignant": "LEROUX",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4888-13-MOSAE1-Index-Education",
+    "raw_title": "Photogrammétrie - LEROUX - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5515-12-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/09/2026",
+    "start": "13:30",
+    "end": "17:00",
+    "title": "Géodésie",
+    "salle": "Salle C04",
+    "enseignant": "MOREL",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Jeudi",
+    "date": "03/09/2026",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "RENTREE",
+    "salle": "Amphi 2",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4709-2-MOSAE1-Index-Education",
+    "raw_title": "RENTREE - DIOUF, DURAND - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/09/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C05",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6457-3-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - DUHAMEL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-6457-3"
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4746-11-MOSAE1-Index-Education",
+    "raw_title": "Droit administratif (public1) - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/12/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Initiation au drône",
+    "salle": "Salle C04",
+    "enseignant": "PERON",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5345-16-MOSAE1-Index-Education",
+    "raw_title": "Initiation au drône - PERON - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C02",
+    "enseignant": "BOTREL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5093-4-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - BOTREL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-5093-4"
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/09/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Analyse des paysages",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "COLLIN-BELLIER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6433-4-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "07/01/2027",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Initiation au drône",
+    "salle": "Salle C04",
+    "enseignant": "PERON",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4745-9-MOSAE1-Index-Education",
+    "raw_title": "Droit administratif (public1) - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "30/09/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Analyse des paysages",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "COLLIN-BELLIER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-2742-6-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5257-8-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - GRANGER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "30/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des paysages",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "COLLIN-BELLIER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6440-6-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Topographie 1",
+    "salle": "Salle 110",
+    "enseignant": "FERRE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4848-12-MOSAE1-Index-Education",
+    "raw_title": "Topographie 1 - FERRE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/09/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C10",
+    "enseignant": "BRUNEAU",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4672-5-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - BRUNEAU - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des paysages",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "COLLIN-BELLIER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-2741-5-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 2",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4532-4-MOSAE1-Index-Education",
+    "raw_title": "SOUTENANCES - DIOUF - ESGT, MOSAE1, MOSAE2",
+    "promotions": [
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-4532-4"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/11/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6444-13-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/12/2026",
+    "start": "13:45",
+    "end": "16:30",
+    "title": "Chantier école",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "AUTONOMIE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5076-16-MOSAE1-Index-Education",
+    "raw_title": "Chantier école - AUTONOMIE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "06/11/2026",
+    "start": "13:45",
+    "end": "16:30",
+    "title": "Télédétection",
+    "salle": "non renseignée",
+    "enseignant": "SIMONETTO",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-2372-11-MOSAE1-Index-Education",
+    "raw_title": "Télédétection - SIMONETTO - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "13:45",
+    "end": "16:30",
+    "title": "Télédétection",
+    "salle": "Salle 100",
+    "enseignant": "SIMONETTO",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5383-12-MOSAE1-Index-Education",
+    "raw_title": "Télédétection - SIMONETTO - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-1364-8-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "07/09/2026",
+    "start": "09:00",
+    "end": "18:30",
+    "title": "SOUTENANCES",
+    "salle": "Salle C05",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Mercredi",
+    "date": "11/11/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Mardi",
+    "date": "08/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Géodésie",
+    "salle": "Salle C02",
+    "enseignant": "MOREL",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/12/2026",
+    "start": "13:45",
+    "end": "16:30",
+    "title": "Chantier école",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "AUTONOMIE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5518-17-MOSAE1-Index-Education",
+    "raw_title": "Chantier école - AUTONOMIE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C05",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4677-6-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - DUHAMEL - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Géodésie",
+    "salle": "Salle C02",
+    "enseignant": "MOREL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-205-4-MOSAE1-Index-Education",
+    "raw_title": "Géodésie - MOREL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-205-4"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/12/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "SIG et 3 D",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6442-17-MOSAE1-Index-Education",
+    "raw_title": "SIG et 3 D - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5259-9-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - GRANGER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "25/11/2026",
+    "start": "14:00",
+    "end": "18:30",
+    "title": "EXAMEN",
+    "salle": "T2",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4748-14-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "EXAMEN",
+    "salle": "Salle C09",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6020-12-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "06/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Topographie 1",
+    "salle": "non renseignée",
+    "enseignant": "FERRE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4845-11-MOSAE1-Index-Education",
+    "raw_title": "Topographie 1 - FERRE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "27/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "BIM",
+    "salle": "Salle 102",
+    "enseignant": "ROBERT",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5881-14-MOSAE1-Index-Education",
+    "raw_title": "BIM - ROBERT - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "BIM",
+    "salle": "Salle 102",
+    "enseignant": "ROBERT",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5880-12-MOSAE1-Index-Education",
+    "raw_title": "BIM - ROBERT - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/12/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "BIM",
+    "salle": "non renseignée",
+    "enseignant": "ROBERT",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5878-15-MOSAE1-Index-Education",
+    "raw_title": "BIM - ROBERT - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C10",
+    "enseignant": "BOTREL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4535-3-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - BOTREL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-4535-3"
+  },
+  {
+    "day": "Vendredi",
+    "date": "08/01/2027",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Initiation au drône",
+    "salle": "Salle C04",
+    "enseignant": "PERON",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/11/2026",
+    "start": "16:00",
+    "end": "17:15",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6443-13-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 1",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4533-4-MOSAE1-Index-Education",
+    "raw_title": "SOUTENANCES - DIOUF - MOSAE1, MOSAE2",
+    "promotions": [
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-4533-4"
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5183-8-MOSAE1-Index-Education",
+    "raw_title": "Droit administratif (public1) - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "03/09/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "RENTREE",
+    "salle": "Salle C02",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Photogrammétrie",
+    "salle": "non renseignée",
+    "enseignant": "LEROUX",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4849-13-MOSAE1-Index-Education",
+    "raw_title": "Photogrammétrie - LEROUX - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "22/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Géodésie",
+    "salle": "non renseignée",
+    "enseignant": "MOREL",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Jeudi",
+    "date": "08/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5182-7-MOSAE1-Index-Education",
+    "raw_title": "Droit administratif (public1) - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/09/2026",
+    "start": "15:30",
+    "end": "18:15",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4806-5-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "01/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4743-6-MOSAE1-Index-Education",
+    "raw_title": "Droit administratif (public1) - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des paysages",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "COLLIN-BELLIER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6438-4-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "SIG et 3 D",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5711-14-MOSAE1-Index-Education",
+    "raw_title": "SIG et 3 D - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/12/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Mardi",
+    "date": "15/09/2026",
+    "start": "09:45",
+    "end": "12:30",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/09/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C03",
+    "enseignant": "BOTREL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4670-2-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - BOTREL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-4670-2"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/09/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Géodésie",
+    "salle": "Salle 102",
+    "enseignant": "MOREL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-206-3-MOSAE1-Index-Education",
+    "raw_title": "Géodésie - MOREL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-206-3"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/10/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des paysages",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "COLLIN-BELLIER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6435-7-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "EXAMEN",
+    "salle": "Salle C10",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Jeudi",
+    "date": "03/12/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "SIG et 3 D",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5713-15-MOSAE1-Index-Education",
+    "raw_title": "SIG et 3 D - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "26/10/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5507-4-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "08/01/2027",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Initiation au drône",
+    "salle": "non renseignée",
+    "enseignant": "PERON",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-1361-4-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Topographie 1",
+    "salle": "non renseignée",
+    "enseignant": "FERRE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4844-11-MOSAE1-Index-Education",
+    "raw_title": "Topographie 1 - FERRE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/12/2026",
+    "start": "13:45",
+    "end": "16:30",
+    "title": "Chantier école",
+    "salle": "Salle 113 -Carto",
+    "enseignant": "AUTONOMIE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5519-15-MOSAE1-Index-Education",
+    "raw_title": "Chantier école - AUTONOMIE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "06/01/2027",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "27/11/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Télédétection",
+    "salle": "Salle 100",
+    "enseignant": "SIMONETTO",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-2370-14-MOSAE1-Index-Education",
+    "raw_title": "Télédétection - SIMONETTO - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "09/12/2026",
+    "start": "14:00",
+    "end": "15:30",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6474-16-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/11/2026",
+    "start": "08:45",
+    "end": "19:00",
+    "title": "Analyse des paysages",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6436-11-MOSAE1-Index-Education",
+    "raw_title": "Analyse des paysages - COLLIN-BELLIER, DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/12/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Initiation au drône",
+    "salle": "Salle C04",
+    "enseignant": "PERON",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5346-16-MOSAE1-Index-Education",
+    "raw_title": "Initiation au drône - PERON - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Topographie 1",
+    "salle": "Salle 107",
+    "enseignant": "FERRE",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4847-14-MOSAE1-Index-Education",
+    "raw_title": "Topographie 1 - FERRE - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "07/01/2027",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Initiation au drône",
+    "salle": "Salle C04",
+    "enseignant": "PERON",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Référentiel Jurid & Foncier",
+    "salle": "Salle C05",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5121-2-MOSAE1-Index-Education",
+    "raw_title": "Référentiel Jurid & Foncier - DUHAMEL - MF1, MOSAE1",
+    "promotions": [
+      "MF1",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-5121-2"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "13:45",
+    "end": "16:30",
+    "title": "Télédétection",
+    "salle": "Salle 100",
+    "enseignant": "SIMONETTO",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-2371-13-MOSAE1-Index-Education",
+    "raw_title": "Télédétection - SIMONETTO - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/12/2026",
+    "start": "10:00",
+    "end": "11:15",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-6445-16-MOSAE1-Index-Education",
+    "raw_title": "EXAMEN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5256-8-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - GRANGER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "01/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Droit administratif (public1)",
+    "salle": "Salle C04",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4744-6-MOSAE1-Index-Education",
+    "raw_title": "Droit administratif (public1) - CHAUVIN - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4808-3-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - DIOUF - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Photogrammétrie",
+    "salle": "Salle 134",
+    "enseignant": "LEROUX",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-5191-13-MOSAE1-Index-Education",
+    "raw_title": "Photogrammétrie - LEROUX - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "08/10/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN",
+    "salle": "Salle C02",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Mardi",
+    "date": "15/09/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Géodésie",
+    "salle": "Salle 102",
+    "enseignant": "MOREL",
+    "maj": "10-09-2026 13:00:18"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "SIG et bases de données",
+    "salle": "Salle 100",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:18",
+    "uid": "Cours-4891-9-MOSAE1-Index-Education",
+    "raw_title": "SIG et bases de données - GRANGER - MOSAE1",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_1.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  }
+]

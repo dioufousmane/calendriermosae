@@ -1,0 +1,209 @@
+from university_history import save_with_history
+from event_metadata import extract_metadata
+import unicodedata
+import pytz
+import requests
+from ics import Calendar
+from datetime import datetime
+import json
+import re
+
+# 🔗 Liens ICS et fichiers de sortie
+CALENDARS = [
+    {
+        "name": "UNIV",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=1002&projectId=9&calType=ical&nbWeeks=52",
+        "output": "univ_events.json"
+    },
+    {
+        "name": "UNIV2",
+        "url": "https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?resources=2015&projectId=9&calType=ical&nbWeeks=44",
+        "output": "univ_events2.json"
+    }
+]
+
+TIMEZONE = pytz.timezone("Europe/Paris")
+jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+
+formations_regex = r"""
+    (?:M\d?\s+)?                  
+    (MOSAE|URBANISTIC|MATTERRE|MIDEC|
+     VILLE\s+ET\s+ENVIRONNEMENT[S]*\s*URBAIN[S]*|
+     GEOGRAPHIE.*?DEVELOPPEMENT|
+     HISTOIRE.*?PATRIMOINE|
+     DDL.*?|LEA.*?|MEEF.*?|
+     LP.*?|UEO.*?)
+"""
+
+def clean_text(text):
+    if not text:
+        return ""
+
+    # tentative de réparation UTF8/Latin1
+    try:
+        repaired = text.encode("latin1").decode("utf-8")
+        if "Ã" not in repaired:
+            text = repaired
+    except Exception:
+        pass
+
+    text = unicodedata.normalize("NFC", text)
+
+    # espaces multiples
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
+def extract_title(raw_title):
+    line = raw_title.split("\\n")[0].strip()
+    line = re.sub(r"^\s*\d+(?=\s*(TD|TP|CM)\b)", "", line, flags=re.IGNORECASE)
+    line = re.sub(r"^\s*G\d+\s+", "", line, flags=re.IGNORECASE)
+    line = re.sub(formations_regex, "", line, flags=re.IGNORECASE | re.VERBOSE).strip()
+    return line
+
+def extract_enseignant(text, title):
+    keywords = ["CAMPUS EN FETE", "soutenance", "alternance"]
+    if any(k in title.lower() for k in keywords):
+        return "non renseigné"
+
+    text = re.sub(r"\(Exported.*?\)", "", text)
+    text = re.sub(formations_regex, "", text, flags=re.IGNORECASE | re.VERBOSE)
+    match = re.search(r"([A-ZÉÈÊÛÎ\-]{2,}(?:\s+[A-ZÉÈÊÛÎ\-]{2,}){1,2})\s*$", text.strip())
+    return match.group(1).strip() if match else "non renseigné"
+
+# ---------------------------------------------------------------------
+#  🔥 Nouvelle version robuste : Salle / Amphi / Bâtiment / Salle informatique
+# ---------------------------------------------------------------------
+
+def extract_salle(description):
+    """
+    Extrait un nom de salle concis à partir d'une description, pour tous les labels :
+    Salle, Amphi, Amphithéâtre, Bâtiment, Salle informatique.
+    Forme de sortie garantie : "<Label> <Code court>".
+    """
+
+    if not description:
+        return "non renseignée"
+
+    desc = description.strip()
+
+    # Labels supportés
+    labels = [
+        "Salle",
+        "Amphi",
+        "Amphithéâtre",
+        "Bâtiment",
+        "Salle informatique"
+    ]
+
+    label_regex = "|".join([re.escape(l) for l in labels])
+
+    # 1) Extraction propre : Label + code court
+    m = re.search(
+        rf"\b(?P<label>{label_regex})\b\s*(?P<code>[A-Za-z0-9][A-Za-z0-9\-./_]{{0,8}})",
+        desc,
+        flags=re.IGNORECASE
+    )
+
+    if m:
+        label = m.group("label").strip()
+        code = m.group("code").strip().upper()
+
+        # Normaliser la casse du label
+        if label.lower() == "salle informatique":
+            label = "Salle informatique"
+        else:
+            label = label[0].upper() + label[1:]
+
+        return f"{label} {code}"
+
+    # 2) Extraction large (fallback) puis nettoyage
+    m2 = re.search(
+        rf"\b({label_regex})\b\s*([^\n,();—-]{{1,80}})",
+        desc,
+        flags=re.IGNORECASE
+    )
+
+    if m2:
+        segment = m2.group(0).strip()
+        # Tronquer après virgule, parenthèse, etc.
+        segment = re.split(r"[,(;—]|  {2,}", segment)[0].strip()
+        # Supprimer les blocs de formations
+        segment = re.sub(r"\b([A-ZÉÈÊÛÎ]{2,}(?:\s+[A-ZÉÈÊÛÎ]{2,})*)", "", segment).strip()
+        segment = segment[:40].rstrip()
+        return segment if segment else "non renseignée"
+
+    return "non renseignée"
+
+
+# ---------------------------------------------------------------------
+
+def format_event(event, maj_str):
+    dtstart_utc = event.begin.datetime
+    dtend_utc = event.end.datetime
+
+    dtstart = dtstart_utc.astimezone(TIMEZONE)
+    dtend = dtend_utc.astimezone(TIMEZONE)
+
+    day = jours_fr[dtstart.weekday()]
+    date_str = dtstart.strftime("%d/%m/%Y")
+    start_str = dtstart.strftime("%H:%M")
+    end_str = dtend.strftime("%H:%M")
+
+    raw_title = clean_text(event.name or "Sans titre")
+    description = clean_text(event.description or "")
+    location = clean_text(event.location or "")
+
+    title = extract_title(raw_title)
+    enseignant = extract_enseignant(description or raw_title, title)
+
+    salle = location or extract_salle(description)
+    if salle == "non renseignée" and "salle esgt" in location.lower():
+        salle = "Salle ESGT"
+
+    return {
+        "day": day,
+        "date": date_str,
+        "start": start_str,
+        "end": end_str,
+        "title": title,
+        "salle": salle,
+        "enseignant": enseignant,
+        "maj": maj_str,
+        "endDate": dtend.strftime("%Y-%m-%d"),
+        "allDay": bool(event.all_day),
+        **extract_metadata(event)
+    }
+
+def process_calendar(name, url, output_file):
+    print(f"📡 Téléchargement du calendrier {name}...")
+    save_with_history(output_file, None)
+    response = requests.get(url, timeout=45)
+    if response.status_code != 200:
+        print(f"❌ Erreur {response.status_code} pour {name}")
+        raise RuntimeError(f"Téléchargement impossible : {name}")
+
+    calendar = Calendar(response.text)
+    events = []
+    maj_str = datetime.now(TIMEZONE).strftime("%d-%m-%Y %H:%M:%S")
+
+    for event in calendar.events:
+        if event.begin and event.end:
+            dtstart = event.begin.datetime.astimezone(TIMEZONE)
+            if dtstart.weekday() < 5:
+                evt = format_event(event, maj_str)
+                events.append(evt)
+                print(f"✔️ {name} : {evt['title']} ({evt['date']} {evt['start']}-{evt['end']})")
+            else:
+                print(f"⏭️ {name} : Ignoré (weekend) : {event.name}")
+
+    events = save_with_history(output_file, events)
+
+    print(f"✅ {len(events)} événements extraits pour {name}.")
+    print(f"📄 Fichier généré : {output_file}\n")
+
+def main():
+    for cal in CALENDARS:
+        process_calendar(cal["name"], cal["url"], cal["output"])
+
+if __name__ == "__main__":
+    main()

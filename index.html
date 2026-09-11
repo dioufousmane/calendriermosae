@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Accueil – MOSAE</title>
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      color: #2c3e50;
+    }
+
+    .menu {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .menu a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background: #2c3e50;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 1rem;
+      padding: 2rem;
+      width: 180px;
+      height: 180px;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .menu a:hover {
+      background: #34495e;
+      transform: translateY(-5px);
+    }
+
+    .menu i {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="modeles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1><i class="fa-solid fa-house"></i> Bienvenue sur MOSAE</h1>
+    <aside class="modele-annonce" aria-label="Nouveau modèle disponible"><div><strong>Découvrez le nouveau planning MOSAE</strong><p>Une nouvelle interface est disponible : recherche, filtres et vues enrichies. Essayez-la ; vous pourrez revenir à ce modèle à tout moment.</p></div><a href="nouveau/index.html">Essayer le nouveau modèle →</a></aside>
+<div class="menu">
+      <a href="mosae1.html">
+        <i class="fa-solid fa-graduation-cap"></i>
+        MOSAE 1
+      </a>
+      <a href="mosae2.html">
+        <i class="fa-solid fa-graduation-cap"></i>
+        MOSAE 2
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

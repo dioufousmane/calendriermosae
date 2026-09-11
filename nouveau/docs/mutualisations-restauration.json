@@ -1,0 +1,22 @@
+[
+  {
+    "file": "esgt_events.json",
+    "metadata_restored": 64,
+    "snapshot": "ESGT_MOSAE_1.ics"
+  },
+  {
+    "file": "esgt_events2.json",
+    "metadata_restored": 44,
+    "snapshot": "ESGT_MOSAE_2.ics"
+  },
+  {
+    "file": "univ_events.json",
+    "metadata_restored": 51,
+    "snapshot": "MOSAE_1.ics"
+  },
+  {
+    "file": "univ_events2.json",
+    "metadata_restored": 117,
+    "snapshot": "MOSAE_2.ics"
+  }
+]

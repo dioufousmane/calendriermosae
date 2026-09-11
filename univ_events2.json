@@ -1,0 +1,2516 @@
+[
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "08:30",
+    "end": "10:00",
+    "title": "1 REUNION DE RENTREE",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "10:00",
+    "end": "19:00",
+    "title": "1Soutenances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "15/09/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/09/2026",
+    "start": "09:30",
+    "end": "12:00",
+    "title": "REUNION CFA APPRENTIS",
+    "salle": "non renseignée",
+    "enseignant": "DU COMMERCE INTERNATIONAL",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d3232302d302d30",
+    "raw_title": "REUNION CFA APPRENTIS",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM Modélisation 3D",
+    "salle": "SALLE C10",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "CM Modélisation 3D",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "TD DAO/PAO: illustrator, indesign",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "22/09/2026",
+    "start": "08:30",
+    "end": "10:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "22/09/2026",
+    "start": "12:30",
+    "end": "22:00",
+    "title": "CAMPUS EN FETE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343639392d302d30",
+    "raw_title": "CAMPUS EN FETE",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 DDL",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 MEEF PIF (IFUNO)",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 DDL PARCOURS RECHERCHE",
+      "M2 DDL PRÉSENTIEL",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 LEA",
+      "M2 MEEF PIF (IFUNO)",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2",
+      "UEO LETTRES ET LANGUES",
+      "UEO SCIENCES HUMAINES ET SOCIALES"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "TD DAO/PAO: illustrator, indesign",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "CM Modélisation et programmation SIG",
+    "salle": "SALLE 102",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/09/2026",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d31",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d32",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "30/09/2026",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d33",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "01/10/2026",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d35",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d34",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d37",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "06/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d39",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d38",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "08/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3132",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3131",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "12/10/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/10/2026",
+    "start": "08:00",
+    "end": "11:00",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "13/10/2026",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "Session d'information mobilité internationale",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637382d302d30",
+    "raw_title": "Session d'information mobilité internationale",
+    "promotions": [
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "CM Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353034332d302d30",
+    "raw_title": "CM Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "14:30",
+    "end": "16:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM Modélisation et programmation SIG",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "20/10/2026",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343131392d302d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "21/10/2026",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "CM Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323032342d302d30",
+    "raw_title": "CM Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "26/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d31302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "27/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d31312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "28/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d31322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "29/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d302d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "30/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d312d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "02/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d322d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "03/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d332d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "04/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d342d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d352d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "06/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343735372d362d30",
+    "raw_title": "Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393231352d302d30",
+    "raw_title": "1CM Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "09:30",
+    "end": "12:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323536362d322d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/11/2026",
+    "start": "10:30",
+    "end": "12:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33373436372d302d30",
+    "raw_title": "1TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/11/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Construction d'un observatoire",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "17/11/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333037342d322d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/11/2026",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "CM Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353034322d302d30",
+    "raw_title": "CM Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "23/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "24/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "25/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d332d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "27/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d342d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "30/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d352d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "01/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d362d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "02/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d372d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "03/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d382d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "04/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373133342d392d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "07/12/2026",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "POTTIER MAXIME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31383534322d302d30",
+    "raw_title": "TD Acteurs, Enjeux et Politiques",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "07/12/2026",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "POTTIER MAXIME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31383535302d302d30",
+    "raw_title": "TD Acteurs, Enjeux et Politiques",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "08/12/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "DENDIEVEL JOACHIM",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Mardi",
+    "date": "08/12/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333037342d312d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "09/12/2026",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "TD Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32353033362d302d30",
+    "raw_title": "TD Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "09/12/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Acteurs, Enjeux et Politiques",
+    "salle": "non renseignée",
+    "enseignant": "DENDIEVEL JOACHIM",
+    "maj": "10-09-2026 13:00:22"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/12/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393430312d302d30",
+    "raw_title": "1CM Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/12/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "CM Construction d'un observatoire PREPARATION",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF OUSMANE",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303833392d312d30",
+    "raw_title": "CM Construction d'un observatoire  PREPARATION",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "15/12/2026",
+    "start": "14:30",
+    "end": "16:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333037342d302d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/12/2026",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "TD Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323131392d302d30",
+    "raw_title": "TD Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/12/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "TD Gestion de projets et de budget",
+    "salle": "non renseignée",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323131392d312d30",
+    "raw_title": "TD Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/12/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Construction d'un observatoire PREPARATION",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF OUSMANE",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303833392d302d30",
+    "raw_title": "CM Construction d'un observatoire  PREPARATION",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "22/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "29/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "30/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d332d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "31/12/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d332d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "04/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d342d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "05/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d342d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "06/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d352d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "07/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d352d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "08/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d362d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "11/01/2027",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323536362d302d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "11/01/2027",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393430312d312d30",
+    "raw_title": "1CM Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "12/01/2027",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "CM Construction d'un observatoire PREPARATION",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF OUSMANE",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303833392d322d30",
+    "raw_title": "CM Construction d'un observatoire  PREPARATION",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "12/01/2027",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323536362d332d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "18/01/2027",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d35323136352d302d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "18/01/2027",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Construction d'un observatoire PREPARATION",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF OUSMANE",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303833392d332d30",
+    "raw_title": "CM Construction d'un observatoire  PREPARATION",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "18/01/2027",
+    "start": "15:30",
+    "end": "18:30",
+    "title": "TD Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333031372d302d30",
+    "raw_title": "TD Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "19/01/2027",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Construction d'un observatoire PREPARATION",
+    "salle": "non renseignée",
+    "enseignant": "DIOUF OUSMANE",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303833392d342d30",
+    "raw_title": "CM Construction d'un observatoire  PREPARATION",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "19/01/2027",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323536362d312d30",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "20/01/2027",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Valorisation",
+    "salle": "non renseignée",
+    "enseignant": "PESLIER MARINE",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36323137392d302d30",
+    "raw_title": "1CM Valorisation",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "25/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d362d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "26/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d372d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "27/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d372d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "28/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d382d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "29/01/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d382d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d392d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d392d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "03/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d31302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "04/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d31302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "05/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d31312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "08/02/2027",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "1EXAMEN Anglais technique et scientifique",
+    "salle": "non renseignée",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d34323735352d302d30",
+    "raw_title": "1EXAMEN Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "08/02/2027",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33343733392d302d30",
+    "raw_title": "TD Retours d'expérience opérationnels",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/02/2027",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393839382d302d30",
+    "raw_title": "TD Retours d'expérience opérationnels",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/02/2027",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393839382d312d30",
+    "raw_title": "TD Retours d'expérience opérationnels",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/02/2027",
+    "start": "15:30",
+    "end": "16:30",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33343733392d322d30",
+    "raw_title": "TD Retours d'expérience opérationnels",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "10/02/2027",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33343733392d312d30",
+    "raw_title": "TD Retours d'expérience opérationnels",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "10/02/2027",
+    "start": "11:00",
+    "end": "12:00",
+    "title": "TD Retours d'expérience opérationnels",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER HUGUES",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393839382d322d30",
+    "raw_title": "TD Retours d'expérience opérationnels",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "15/02/2027",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333031372d312d30",
+    "raw_title": "TD Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "16/02/2027",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333031372d322d30",
+    "raw_title": "TD Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "16/02/2027",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333031372d332d30",
+    "raw_title": "TD Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "22/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "23/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d302d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "24/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d31322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "25/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393637352d31322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "26/02/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303032342d31312d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "01/03/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d322d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "02/03/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d332d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "03/03/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d342d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "04/03/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d352d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "05/03/2027",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32303033312d362d30",
+    "raw_title": "1Banalisé  Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "08/03/2027",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Réalisation - Construction",
+    "salle": "non renseignée",
+    "enseignant": "SALHI SALIMA",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31373236362d302d30",
+    "raw_title": "1CM Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "09/03/2027",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Valorisation",
+    "salle": "non renseignée",
+    "enseignant": "SALIMA BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313231332d302d30",
+    "raw_title": "1CM Valorisation",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "10/03/2027",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "CM Valorisation",
+    "salle": "non renseignée",
+    "enseignant": "SALIMA BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313231332d322d30",
+    "raw_title": "1CM Valorisation",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "11/03/2027",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Valorisation",
+    "salle": "non renseignée",
+    "enseignant": "SALIMA BAILLY GUILLAUME",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313231332d312d30",
+    "raw_title": "1CM Valorisation",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "22/03/2027",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d36",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "23/03/2027",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3135",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "24/03/2027",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3133",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "25/03/2027",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3134",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "26/03/2027",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3136",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mardi",
+    "date": "30/03/2027",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3130",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "31/03/2027",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3138",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "01/04/2027",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3139",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/04/2027",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:22",
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d3137",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "MOSAE_2.ics",
+    "metadata_snapshot_date": "20260706T173709Z"
+  }
+]

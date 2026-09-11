@@ -1,0 +1,950 @@
+[
+  {
+    "day": "Lundi",
+    "date": "14/12/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1646-17-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/12/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "Salle 111",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5064-8-MOSAE2-Index-Education",
+    "raw_title": "Modélisation programmation SIG - DIOUF - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
+    "salle": "Salle 100",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "GéoBIM",
+    "salle": "Salle 111",
+    "enseignant": "XX",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-2086-9-MOSAE2-Index-Education",
+    "raw_title": "GéoBIM - XX - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "Salle C10",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-3609-5-MOSAE2-Index-Education",
+    "raw_title": "Droit de l'environnement - DUHAMEL - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "GéoBIM",
+    "salle": "non renseignée",
+    "enseignant": "XX",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-2087-12-MOSAE2-Index-Education",
+    "raw_title": "GéoBIM - XX - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "10:00",
+    "end": "19:00",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5060-14-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "26/10/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Lundi",
+    "date": "26/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1643-10-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "Salle C10",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-3608-8-MOSAE2-Index-Education",
+    "raw_title": "Droit de l'environnement - DUHAMEL - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-6392-13-MOSAE2-Index-Education",
+    "raw_title": "EXAMEN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "16/11/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1644-13-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/09/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1641-6-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "23/11/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1645-14-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/12/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-118-16-MOSAE2-Index-Education",
+    "raw_title": "Droit aménagement (public4) - CHAUVIN - IG5, MF2, MOSAE2",
+    "promotions": [
+      "IG5",
+      "MF2",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-118-16"
+  },
+  {
+    "day": "Mercredi",
+    "date": "09/12/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Droit aménagement (public4)",
+    "salle": "non renseignée",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-6471-16-MOSAE2-Index-Education",
+    "raw_title": "Droit aménagement (public4) - CHAUVIN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "Salle 102",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5261-5-MOSAE2-Index-Education",
+    "raw_title": "Modélisation programmation SIG - DIOUF - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 1",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/12/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-6455-16-MOSAE2-Index-Education",
+    "raw_title": "EXAMEN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Vacances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "GéoBIM",
+    "salle": "Salle 111",
+    "enseignant": "XX",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-6448-9-MOSAE2-Index-Education",
+    "raw_title": "GéoBIM - XX - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "07/09/2026",
+    "start": "09:00",
+    "end": "18:30",
+    "title": "SOUTENANCES",
+    "salle": "Salle C05",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO",
+    "salle": "Salle 111",
+    "enseignant": "CHARLET",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5075-4-MOSAE2-Index-Education",
+    "raw_title": "CAO/DAO - CHARLET - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "08:30",
+    "end": "09:00",
+    "title": "RENTREE",
+    "salle": "Salle C12",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-4534-4-MOSAE2-Index-Education",
+    "raw_title": "RENTREE - BAILLY, DIOUF - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "PAO : illustrator, indesign - GRANGER - MOSAE2",
+    "salle": "non renseignée",
+    "enseignant": "GRANGER",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "Salle C10",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-3610-9-MOSAE2-Index-Education",
+    "raw_title": "Droit de l'environnement - DUHAMEL - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-6453-12-MOSAE2-Index-Education",
+    "raw_title": "EXAMEN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "Salle C10",
+    "enseignant": "DUHAMEL",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-3606-8-MOSAE2-Index-Education",
+    "raw_title": "Droit de l'environnement - DUHAMEL - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-113-13-MOSAE2-Index-Education",
+    "raw_title": "Droit aménagement (public4) - CHAUVIN - IG5, MOSAE2",
+    "promotions": [
+      "IG5",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-113-13"
+  },
+  {
+    "day": "Lundi",
+    "date": "28/12/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1648-19-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/12/2026",
+    "start": "10:00",
+    "end": "13:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "non renseignée",
+    "enseignant": "LAVESSIERE",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5493-17-MOSAE2-Index-Education",
+    "raw_title": "SIG et WebSIG SQL - LAVESSIERE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/12/2026",
+    "start": "09:45",
+    "end": "12:45",
+    "title": "EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5392-17-MOSAE2-Index-Education",
+    "raw_title": "EXAMEN - CHAUVIN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "11/12/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Modélisation 3D",
+    "salle": "Salle 111",
+    "enseignant": "BESLIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5874-16-MOSAE2-Index-Education",
+    "raw_title": "Modélisation 3D - BESLIN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO",
+    "salle": "Salle 111",
+    "enseignant": "CHARLET",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5070-9-MOSAE2-Index-Education",
+    "raw_title": "CAO/DAO - CHARLET - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1642-7-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "10:00",
+    "end": "12:30",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 1",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-4533-4-MOSAE2-Index-Education",
+    "raw_title": "SOUTENANCES - DIOUF - MOSAE1, MOSAE2",
+    "promotions": [
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-4533-4"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-6454-12-MOSAE2-Index-Education",
+    "raw_title": "EXAMEN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/12/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "SIG et WebSIG SQL",
+    "salle": "Salle 100",
+    "enseignant": "LAVESSIERE",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5494-17-MOSAE2-Index-Education",
+    "raw_title": "SIG et WebSIG SQL - LAVESSIERE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "Salle 110",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5068-4-MOSAE2-Index-Education",
+    "raw_title": "Modélisation programmation SIG - DIOUF - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Mercredi",
+    "date": "11/11/2026",
+    "start": "01:00",
+    "end": "01:00",
+    "title": "Férié",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19"
+  },
+  {
+    "day": "Jeudi",
+    "date": "10/12/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit aménagement (public4)",
+    "salle": "Amphi 2",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-115-16-MOSAE2-Index-Education",
+    "raw_title": "Droit aménagement (public4) - CHAUVIN - IG5, MF2, MOSAE2",
+    "promotions": [
+      "IG5",
+      "MF2",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-115-16"
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "GéoBIM",
+    "salle": "non renseignée",
+    "enseignant": "XX",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-2085-12-MOSAE2-Index-Education",
+    "raw_title": "GéoBIM - XX - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "21/12/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-1647-18-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5062-7-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Modélisation programmation SIG",
+    "salle": "Salle 110",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5260-4-MOSAE2-Index-Education",
+    "raw_title": "Modélisation programmation SIG - DIOUF - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "SOUTENANCES",
+    "salle": "Amphi 2",
+    "enseignant": "DIOUF",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-4532-4-MOSAE2-Index-Education",
+    "raw_title": "SOUTENANCES - DIOUF - ESGT, MOSAE1, MOSAE2",
+    "promotions": [
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z",
+    "session_id": "HYPERPLANNING:Cours-4532-4"
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Droit aménagement (public4)",
+    "salle": "non renseignée",
+    "enseignant": "CHAUVIN",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5187-13-MOSAE2-Index-Education",
+    "raw_title": "Droit aménagement (public4) - CHAUVIN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "CAO/DAO",
+    "salle": "Salle 111",
+    "enseignant": "CHARLET",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5071-5-MOSAE2-Index-Education",
+    "raw_title": "CAO/DAO - CHARLET - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Jeudi",
+    "date": "03/12/2026",
+    "start": "10:00",
+    "end": "19:00",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5061-15-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "23/10/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN",
+    "salle": "Salle C01",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5372-9-MOSAE2-Index-Education",
+    "raw_title": "EXAMEN - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "08:30",
+    "end": "17:30",
+    "title": "SEMAINE en ENTREPRISE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-09-2026 13:00:19",
+    "uid": "Cours-5063-6-MOSAE2-Index-Education",
+    "raw_title": "SEMAINE en ENTREPRISE - MOSAE2",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": [],
+    "metadata_source": "ESGT_MOSAE_2.ics",
+    "metadata_snapshot_date": "20260820T100010Z"
+  }
+]
