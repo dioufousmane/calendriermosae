@@ -9,16 +9,27 @@ on:
 permissions:
   contents: write
 
+# Évite que deux exécutions du workflow écrivent en même temps
+concurrency:
+  group: generate-events-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate-events:
     runs-on: ubuntu-latest
 
     steps:
+      # ============================================================
+      # 1. Récupération du dépôt
+      # ============================================================
       - name: 📥 Cloner le dépôt
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # ============================================================
+      # 2. Python
+      # ============================================================
       - name: 🐍 Configurer Python
         uses: actions/setup-python@v5
         with:
@@ -32,11 +43,17 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install ics pytz requests
 
+      # ============================================================
+      # 3. Génération des événements
+      # ============================================================
       - name: ⚙️ Générer les fichiers JSON M1 et M2
         run: |
           python esgt_generate_events.py
           python univ_generate_events.py
 
+      # ============================================================
+      # 4. Node.js
+      # ============================================================
       - name: 🟢 Configurer Node.js
         uses: actions/setup-node@v4
         with:
@@ -46,6 +63,9 @@ jobs:
         run: |
           node scripts/generate-feeds.mjs
 
+      # ============================================================
+      # 5. Vérification
+      # ============================================================
       - name: 🔎 Vérifier les fichiers générés
         run: |
           for f in \
@@ -62,11 +82,24 @@ jobs:
             echo "✅ $f présent."
           done
 
-      - name: 📤 Commit et push si des fichiers ont changé
+      # ============================================================
+      # 6. Commit et synchronisation GitHub
+      # ============================================================
+      - name: 📤 Commit & push si des fichiers ont changé
+        shell: bash
         run: |
+          set -e
+
+          BRANCH="${GITHUB_REF_NAME}"
+
+          echo "🌿 Branche : $BRANCH"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # ----------------------------------------------------------
+          # Ajouter les fichiers générés
+          # ----------------------------------------------------------
           git add \
             esgt_events.json \
             esgt_events2.json \
@@ -81,12 +114,42 @@ jobs:
             git add history/
           fi
 
+          # ----------------------------------------------------------
+          # Rien à enregistrer
+          # ----------------------------------------------------------
           if git diff --cached --quiet; then
             echo "✅ Aucun changement détecté."
             exit 0
           fi
 
+          # ----------------------------------------------------------
+          # Créer le commit local
+          # ----------------------------------------------------------
           git commit -m "🔄 Mise à jour automatique des événements M1 et M2"
 
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # ----------------------------------------------------------
+          # Récupérer les éventuels changements arrivés entre-temps
+          # ----------------------------------------------------------
+          echo "🔄 Synchronisation avec origin/$BRANCH..."
+
+          git fetch origin "$BRANCH"
+          git rebase "origin/$BRANCH"
+
+          # ----------------------------------------------------------
+          # Push
+          # ----------------------------------------------------------
+          echo "📤 Envoi vers GitHub..."
+
+          if git push origin "HEAD:$BRANCH"; then
+            echo "✅ Mise à jour envoyée avec succès."
+          else
+            echo "⚠️ La branche distante a encore changé."
+            echo "🔄 Nouvelle tentative de synchronisation..."
+
+            git fetch origin "$BRANCH"
+            git rebase "origin/$BRANCH"
+
+            git push origin "HEAD:$BRANCH"
+
+            echo "✅ Mise à jour envoyée après resynchronisation."
+          fi
