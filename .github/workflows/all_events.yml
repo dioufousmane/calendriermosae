@@ -2,154 +2,57 @@ name: Générer tous les événements M1 et M2
 
 on:
   workflow_dispatch:
-
   schedule:
-    - cron: "0 */2 * * *" # Toutes les 2 heures (UTC)
+  - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
 
 permissions:
   contents: write
-
-# Évite que deux exécutions du workflow écrivent en même temps
-concurrency:
-  group: generate-events-${{ github.ref }}
-  cancel-in-progress: false
 
 jobs:
   generate-events:
     runs-on: ubuntu-latest
 
     steps:
-      # ============================================================
-      # 1. Récupération du dépôt
-      # ============================================================
       - name: 📥 Cloner le dépôt
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v3
 
-      # ============================================================
-      # 2. Python
-      # ============================================================
-      - name: 🐍 Configurer Python
-        uses: actions/setup-python@v5
+      - name: 🐍 Configurer Python 3.9
+        uses: actions/setup-python@v4
         with:
           python-version: "3.9"
 
-      - name: 🧪 Vérifier la version de Python
+      - name: 🧪 Vérifier la version de Python#
         run: python --version
 
-      - name: 📦 Installer les dépendances Python
+      - name: 📦 Installer les dépendances
         run: |
           python -m pip install --upgrade pip
-          python -m pip install ics pytz requests
-
-      # ============================================================
-      # 3. Génération des événements
-      # ============================================================
-      - name: ⚙️ Générer les fichiers JSON M1 et M2
+          pip install ics pytz requests
+      - name: ⚙️ Générer tous les fichiers JSON
         run: |
           python esgt_generate_events.py
           python univ_generate_events.py
+      - name: Générer les abonnements enrichis
+        run: node scripts/generate-feeds.mjs
 
-      # ============================================================
-      # 4. Node.js
-      # ============================================================
-      - name: 🟢 Configurer Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: 📅 Générer les abonnements enrichis
+      - name: 📤 Commit & push si des fichiers ont changé
         run: |
-          node scripts/generate-feeds.mjs
-
-      # ============================================================
-      # 5. Vérification
-      # ============================================================
-      - name: 🔎 Vérifier les fichiers générés
-        run: |
-          for f in \
-            esgt_events.json \
-            esgt_events2.json \
-            univ_events.json \
-            univ_events2.json
-          do
-            if [ ! -f "$f" ]; then
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          CHANGED=0
+          for f in esgt_events.json esgt_events2.json univ_events.json univ_events2.json; do
+            if [ -f "$f" ]; then
+              git add "$f"
+              CHANGED=1
+            else
               echo "❌ Fichier $f non généré."
               exit 1
             fi
-
-            echo "✅ $f présent."
           done
-
-      # ============================================================
-      # 6. Commit et synchronisation GitHub
-      # ============================================================
-      - name: 📤 Commit & push si des fichiers ont changé
-        shell: bash
-        run: |
-          set -e
-
-          BRANCH="${GITHUB_REF_NAME}"
-
-          echo "🌿 Branche : $BRANCH"
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # ----------------------------------------------------------
-          # Ajouter les fichiers générés
-          # ----------------------------------------------------------
-          git add \
-            esgt_events.json \
-            esgt_events2.json \
-            univ_events.json \
-            univ_events2.json
-
-          if [ -d "feeds" ]; then
-            git add feeds/
-          fi
-
-          if [ -d "history" ]; then
-            git add history/
-          fi
-
-          # ----------------------------------------------------------
-          # Rien à enregistrer
-          # ----------------------------------------------------------
+          git add feeds/ history/
           if git diff --cached --quiet; then
-            echo "✅ Aucun changement détecté."
-            exit 0
-          fi
-
-          # ----------------------------------------------------------
-          # Créer le commit local
-          # ----------------------------------------------------------
-          git commit -m "🔄 Mise à jour automatique des événements M1 et M2"
-
-          # ----------------------------------------------------------
-          # Récupérer les éventuels changements arrivés entre-temps
-          # ----------------------------------------------------------
-          echo "🔄 Synchronisation avec origin/$BRANCH..."
-
-          git fetch origin "$BRANCH"
-          git rebase "origin/$BRANCH"
-
-          # ----------------------------------------------------------
-          # Push
-          # ----------------------------------------------------------
-          echo "📤 Envoi vers GitHub..."
-
-          if git push origin "HEAD:$BRANCH"; then
-            echo "✅ Mise à jour envoyée avec succès."
+            echo "✅ Aucun changement détecté dans les fichiers JSON."
           else
-            echo "⚠️ La branche distante a encore changé."
-            echo "🔄 Nouvelle tentative de synchronisation..."
-
-            git fetch origin "$BRANCH"
-            git rebase "origin/$BRANCH"
-
-            git push origin "HEAD:$BRANCH"
-
-            echo "✅ Mise à jour envoyée après resynchronisation."
+            git commit -m "🔄 Mise à jour automatique des fichiers événements"
+            git push
           fi
