@@ -2,8 +2,9 @@ name: Générer tous les événements M1 et M2
 
 on:
   workflow_dispatch:
+
   schedule:
-  - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
+    - cron: "0 */2 * * *" # Toutes les 2 heures (UTC)
 
 permissions:
   contents: write
@@ -14,50 +15,78 @@ jobs:
 
     steps:
       - name: 📥 Cloner le dépôt
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: 🐍 Configurer Python 3.9
-        uses: actions/setup-python@v4
+      - name: 🐍 Configurer Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
-      - name: 🧪 Vérifier la version de Python#
+      - name: 🧪 Vérifier la version de Python
         run: python --version
 
-      - name: 📦 Installer les dépendances
+      - name: 📦 Installer les dépendances Python
         run: |
           python -m pip install --upgrade pip
-          pip install ics pytz requests
+          python -m pip install ics pytz requests
 
-      - name: ⚙️ Générer tous les fichiers JSON
+      - name: ⚙️ Générer les fichiers JSON M1 et M2
         run: |
           python esgt_generate_events.py
           python univ_generate_events.py
-      - name: Générer les abonnements enrichis
-        run: node scripts/generate-feeds.mjs
 
-      - name: 📤 Commit & push si des fichiers ont changé
+      - name: 🟢 Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 📅 Générer les abonnements enrichis
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          node scripts/generate-feeds.mjs
 
-          CHANGED=0
-
-          for f in esgt_events.json esgt_events2.json univ_events.json univ_events2.json; do
-            if [ -f "$f" ]; then
-              git add "$f"
-              CHANGED=1
-            else
+      - name: 🔎 Vérifier les fichiers générés
+        run: |
+          for f in \
+            esgt_events.json \
+            esgt_events2.json \
+            univ_events.json \
+            univ_events2.json
+          do
+            if [ ! -f "$f" ]; then
               echo "❌ Fichier $f non généré."
               exit 1
             fi
+
+            echo "✅ $f présent."
           done
 
-          git add feeds/ history/
+      - name: 📤 Commit et push si des fichiers ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            esgt_events.json \
+            esgt_events2.json \
+            univ_events.json \
+            univ_events2.json
+
+          if [ -d "feeds" ]; then
+            git add feeds/
+          fi
+
+          if [ -d "history" ]; then
+            git add history/
+          fi
 
           if git diff --cached --quiet; then
-            echo "✅ Aucun changement détecté dans les fichiers JSON."
-          else
-            git commit -m "🔄 Mise à jour automatique des fichiers événements"
-            git push
+            echo "✅ Aucun changement détecté."
+            exit 0
           fi
+
+          git commit -m "🔄 Mise à jour automatique des événements M1 et M2"
+
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
