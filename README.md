@@ -78,3 +78,7 @@ Le cumul ESGT et les charges par matière/enseignant déduisent 15 minutes entre
 Références : 373,2 h ESGT et 248,8 h Université, soit 622 h. Le bloc global ignore les filtres, mais suit la date de fin consultée. Il additionne spécifique et mutualisé sans doubler les séances communes ni les reports. Chaque établissement affiche sa progression sur son volume, sa contribution au total de 622 h et sa part du cumul. Les références sont réparties exactement à 60 % pour l’ESGT et 40 % pour l’Université. Il s’agit d’heures planifiées, pas de présences validées.
 
 La progression globale est accessible uniquement dans l’onglet « Progression globale » du nouveau calendrier (desktop et mobile). Les quatre compteurs filtrés restent sur le planning ; le suivi global de 622 h est affiché dans sa page dédiée.
+
+
+### Sélection de semaine et chantier école
+Le bandeau horizontal présente les numéros de semaine de l’année universitaire ; les dates sont accessibles au survol et via les libellés pour lecteurs d’écran. La semaine sélectionnée est mise en évidence. Défilement horizontal sur mobile ; navigation clavier par Tab, flèches, Début/Fin et validation par Entrée. Le choix d’une semaine actualise le planning et les cumuls ; depuis la vue mensuelle, il active la vue semaine. Les événements « Chantier école » sont exclus des volumes uniquement lorsque l’enseignant est AUTONOMIE (casse et espaces ignorés). Les séances encadrées sont comptées avec déduction des pauses ESGT. Le total de référence reste fixé à 622 h.

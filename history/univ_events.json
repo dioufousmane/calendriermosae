@@ -18,45 +18,5 @@
     "salle": "non renseignée",
     "enseignant": "non renseigné",
     "maj": "10-09-2026 13:00:20"
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "10:00",
-    "end": "12:45",
-    "title": "TD SIG ET 3 D",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "11-09-2026 22:47:52",
-    "endDate": "2026-09-11",
-    "allDay": false,
-    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31363832322d322d30",
-    "session_id": "",
-    "raw_title": "1TD SIG ET 3 D",
-    "promotions": [
-      "MOSAE 1"
-    ],
-    "groups": [],
-    "formations": []
-  },
-  {
-    "day": "Vendredi",
-    "date": "11/09/2026",
-    "start": "14:00",
-    "end": "18:15",
-    "title": "TD GEODESIE",
-    "salle": "Salle ESGT",
-    "enseignant": "non renseigné",
-    "maj": "11-09-2026 22:47:52",
-    "endDate": "2026-09-11",
-    "allDay": false,
-    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32373635332d302d30",
-    "session_id": "",
-    "raw_title": "1TD GEODESIE",
-    "promotions": [
-      "MOSAE 1"
-    ],
-    "groups": [],
-    "formations": []
   }
 ]

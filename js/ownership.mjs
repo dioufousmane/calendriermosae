@@ -16,7 +16,7 @@ const catalogue=[
 ];
 const aliases=new Map(catalogue.flatMap(([id,...names])=>names.map(n=>[norm(n),id])));
 export const courseKey=e=>aliases.get(norm(e.title))||'';
-export const excludedFromHours=e=>/\b(examens?\b|semaine\w*.*(?:entreprise|alternance)|feries?\b|soutenance\w*|manifestation\w*|campus en fete|rentree|reunion|session d information)\b/.test(norm(e.title));
+export const excludedFromHours=e=>(/\bchantiers? ecoles?\b/.test(norm(e.title))&&norm(e.teacher)==='autonomie')||/\b(examens?\b|semaine\w*.*(?:entreprise|alternance)|feries?\b|soutenance\w*|manifestation\w*|campus en fete|rentree|reunion|session d information)\b/.test(norm(e.title));
 export function reconcileOwnership(events){
  const native=events.filter(e=>e.sources.includes('ESGT'));
  const result=events.filter(e=>!e.sources.includes('UNIV')||e.sources.includes('ESGT')).map(e=>({...e,accountingSource:'ESGT',reportedSources:e.sources}));

@@ -19,3 +19,10 @@ test('les trois pages proposent la navigation dédiée',()=>{
   assert.equal(html.split('data-page="progress"').length-1,1);
  }
 });
+
+test('chantier école : seule AUTONOMIE est exclue',()=>{
+ for(const [teacher,expected] of [['AUTONOMIE',0],[' autonomie ',0],['DIOUF',2.5]]){
+  const events=mergeEvents(normalize([{title:'Chantier école',enseignant:teacher,date:'2026-09-10',start:'08:30',end:'11:15'}],{source:'ESGT',promotion:'MOSAE 1',file:'test.json'}));
+  assert.equal(cumulativeVolumes(events,'2026-09-14').volumes.ESGT.specific,expected);
+ }
+});
