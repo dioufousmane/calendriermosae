@@ -57,3 +57,24 @@ Le bundle FullCalendar fourni est partagé localement. Les autres bibliothèques
 ## Vérifications
 
 Contrôles de syntaxe des scripts et vérification des chemins locaux après déplacement, des six points d’entrée, des boutons de bascule et du chargement des données communes. Tests métier exécutés et flux ICS régénérés. Aucun test navigateur ni exécution du workflow sur le dépôt distant n’a été effectué ; vérifier le rendu et les bascules après publication.
+
+
+## Volumes cumulés du nouveau calendrier
+Les quatre compteurs distinguent ESGT / Université et cours spécifiques / mutualisés. Le cumul commence au 1er septembre de l’année universitaire correspondant à la fin de la période consultée et va jusqu’à son dernier jour inclus (fin de semaine dans les vues semaine, agenda et cartes ; fin du mois dans la vue mensuelle). Il suit les filtres actifs. Les séances futures de la période consultée sont incluses : il s’agit d’heures planifiées, pas d’un relevé de présence. Les périodes sans horaire et les durées invalides sont exclues. Un report universitaire identifié comme cours ESGT est attribué uniquement à l’ESGT. Les volumes par matière, salle et enseignant utilisent aussi ce cumul. Une source en échec de chargement est signalée comme indisponible.
+
+
+### Reports ESGT et événements hors enseignement
+Le référentiel d’alias `js/ownership.mjs` est fondé sur la maquette MOSAE ESGT fournie. Les mentions ESGT dans le titre ou la salle permettent aussi de reconnaître un report. Une correspondance unique de matière, promotion, date et heure de début relie les deux événements tout en les laissant visibles, avec priorité aux horaires ESGT pour les volumes, même si la fin diffère. Les reports isolés restent visibles et sont attribués à l’ESGT. Pas de fusion approximative globale : les intitulés ambigus doivent être ajoutés au référentiel après vérification. Les enseignements partagés tels que la préparation d’un observatoire ne sont pas attribués entièrement à l’ESGT sur leur seul intitulé générique.
+Les soutenances, manifestations, campus en fête, rentrées, réunions et sessions d’information restent visibles mais comptent zéro heure. Les examens, semaines en entreprise et jours fériés sont exclus des volumes, tout en restant visibles dans le planning. Les badges de mutualisation utilisent les publics des séances, pas les volumes théoriques de la maquette.
+
+Les reports universitaires restent affichés avec leur couleur et leur filtre de source UNIV. Le badge « Report ESGT · hors volume Univ. » distingue leur origine de leur attribution comptable. Un report lié à une séance ESGT ne rajoute aucune heure et ne déclenche pas de vigilance contre cette séance.
+
+
+### Pauses ESGT
+Le cumul ESGT et les charges par matière/enseignant déduisent 15 minutes entre chaque séance de 75 minutes : 1h15 → 1h15 ; 2h45 → 2h30 ; 4h15 → 3h45 ; 5h45 → 5h. Les horaires, la durée du créneau et l’occupation des salles restent inchangés. Les cours universitaires ne sont pas corrigés, sauf ceux attribués à l’ESGT. Une durée atypique reste inchangée et est signalée dans la fiche du cours, faute de pauses connues. Les rapports liés ne sont toujours pas ajoutés au cumul.
+
+
+### Progression globale M1 + M2
+Références : 373,2 h ESGT et 248,8 h Université, soit 622 h. Le bloc global ignore les filtres, mais suit la date de fin consultée. Il additionne spécifique et mutualisé sans doubler les séances communes ni les reports. Chaque établissement affiche sa progression sur son volume, sa contribution au total de 622 h et sa part du cumul. Les références sont réparties exactement à 60 % pour l’ESGT et 40 % pour l’Université. Il s’agit d’heures planifiées, pas de présences validées.
+
+La progression globale est accessible uniquement dans l’onglet « Progression globale » du nouveau calendrier (desktop et mobile). Les quatre compteurs filtrés restent sur le planning ; le suivi global de 622 h est affiché dans sa page dédiée.
