@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "08:30",
+    "end": "10:00",
+    "title": "1 REUNION DE RENTREE",
+    "salle": "ESGT",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "15-09-2026 01:01:51",
+    "endDate": "2026-09-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333931362d302d30",
+    "session_id": "",
+    "raw_title": "1 REUNION DE RENTREE",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "14/09/2026",
+    "start": "10:00",
+    "end": "19:00",
+    "title": "1Soutenances",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "15-09-2026 01:01:51",
+    "endDate": "2026-09-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353437392d302d30",
+    "session_id": "",
+    "raw_title": "1Soutenances",
+    "promotions": [
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  }
+]
