@@ -39,5 +39,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "15/09/2026",
+    "start": "13:30",
+    "end": "16:00",
+    "title": "CM Construction d'un observatoire",
+    "salle": "E109 (20pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "15-09-2026 23:06:18",
+    "endDate": "2026-09-15",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d34393139392d312d30",
+    "session_id": "",
+    "raw_title": "CM Construction d'un observatoire",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
