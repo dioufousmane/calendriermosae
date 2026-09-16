@@ -59,5 +59,28 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/09/2026",
+    "start": "09:30",
+    "end": "12:00",
+    "title": "REUNION CFA APPRENTIS",
+    "salle": "COURTHARDY (49pl) M1 VEU,RACAN (47pl) M2 MIDEC",
+    "enseignant": "DU COMMERCE INTERNATIONAL",
+    "maj": "17-09-2026 00:48:03",
+    "endDate": "2026-09-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d3232302d302d30",
+    "session_id": "",
+    "raw_title": "REUNION CFA APPRENTIS",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

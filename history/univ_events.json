@@ -139,5 +139,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "17-09-2026 00:48:02",
+    "endDate": "2026-09-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31363832322d332d30",
+    "session_id": "",
+    "raw_title": "1TD SIG ET 3 D",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "16/09/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "17-09-2026 00:48:02",
+    "endDate": "2026-09-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353630312d302d30",
+    "session_id": "",
+    "raw_title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
