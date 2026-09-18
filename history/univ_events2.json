@@ -82,5 +82,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM Modélisation 3D",
+    "salle": "SALLE C10",
+    "enseignant": "non renseigné",
+    "maj": "17-09-2026 23:10:32",
+    "endDate": "2026-09-17",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303038332d302d30",
+    "session_id": "",
+    "raw_title": "CM Modélisation 3D",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "CM Modélisation 3D",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "17-09-2026 23:10:32",
+    "endDate": "2026-09-17",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33303038332d312d30",
+    "session_id": "",
+    "raw_title": "CM Modélisation 3D",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

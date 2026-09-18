@@ -179,5 +179,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "ESGT",
+    "enseignant": "COLLIN BELLIER",
+    "maj": "17-09-2026 23:10:31",
+    "endDate": "2026-09-17",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353630312d322d30",
+    "session_id": "",
+    "raw_title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "17/09/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "CM SEMIOLOGIE GRAPHIQUE",
+    "salle": "E316 (25pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "17-09-2026 23:10:31",
+    "endDate": "2026-09-17",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31363436342d302d30",
+    "session_id": "",
+    "raw_title": "CM SEMIOLOGIE GRAPHIQUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
