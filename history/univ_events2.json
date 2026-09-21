@@ -122,5 +122,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "18/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "TD DAO/PAO: illustrator, indesign",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-09-2026 22:43:12",
+    "endDate": "2026-09-18",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333036332d302d30",
+    "session_id": "",
+    "raw_title": "TD DAO/PAO: illustrator, indesign",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
