@@ -259,5 +259,71 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "21/09/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "TD SEMIOLOGIE GRAPHIQUE",
+    "salle": "E316 (25pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "22-09-2026 01:06:14",
+    "endDate": "2026-09-21",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31303737322d302d30",
+    "session_id": "",
+    "raw_title": "TD SEMIOLOGIE GRAPHIQUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "21/09/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "CM Ville durable et changements climatiques",
+    "salle": "COURTHARDY (49pl) M1 VEU",
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-09-2026 01:06:14",
+    "endDate": "2026-09-21",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313432322d302d30",
+    "session_id": "",
+    "raw_title": "1CM Ville durable et changements climatiques",
+    "promotions": [
+      "M1 MATTERRE",
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "21/09/2026",
+    "start": "15:30",
+    "end": "16:30",
+    "title": "CM Ville durable et histoire de l'urbanisme",
+    "salle": "COURTHARDY (49pl) M1 VEU",
+    "enseignant": "BILLARD GERALD",
+    "maj": "22-09-2026 01:06:14",
+    "endDate": "2026-09-21",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313433362d312d30",
+    "session_id": "",
+    "raw_title": "1CM Ville durable et histoire de l'urbanisme",
+    "promotions": [
+      "M1 MATTERRE",
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
