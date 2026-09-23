@@ -325,5 +325,62 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "22/09/2026",
+    "start": "08:30",
+    "end": "12:00",
+    "title": "CM GEODESIE",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "22-09-2026 23:07:03",
+    "endDate": "2026-09-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313238302d312d30",
+    "session_id": "",
+    "raw_title": "1CM GEODESIE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "22/09/2026",
+    "start": "12:30",
+    "end": "22:00",
+    "title": "CAMPUS EN FETE",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "22-09-2026 23:07:03",
+    "endDate": "2026-09-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d343639392d302d30",
+    "session_id": "",
+    "raw_title": "CAMPUS EN FETE",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 DDL",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 MEEF PIF (IFUNO)",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 DDL PARCOURS RECHERCHE",
+      "M2 DDL PRÉSENTIEL",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 LEA",
+      "M2 MEEF PIF (IFUNO)",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2",
+      "UEO LETTRES ET LANGUES",
+      "UEO SCIENCES HUMAINES ET SOCIALES"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
