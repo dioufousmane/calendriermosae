@@ -382,5 +382,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/09/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "1Référentiel Juridique et Foncier - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "24-09-2026 00:51:11",
+    "endDate": "2026-09-23",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313235342d312d30",
+    "session_id": "",
+    "raw_title": "1Référentiel Juridique et Foncier - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "23/09/2026",
+    "start": "15:30",
+    "end": "18:15",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "24-09-2026 00:51:11",
+    "endDate": "2026-09-23",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313237332d332d30",
+    "session_id": "",
+    "raw_title": "1TD SIG ET 3 D",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
