@@ -462,5 +462,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "26-09-2026 01:12:18",
+    "endDate": "2026-09-25",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313237332d342d30",
+    "session_id": "",
+    "raw_title": "1TD SIG ET 3 D",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

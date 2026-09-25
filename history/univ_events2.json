@@ -259,5 +259,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "25/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "CM Modélisation et programmation SIG",
+    "salle": "SALLE 102",
+    "enseignant": "non renseigné",
+    "maj": "26-09-2026 01:12:19",
+    "endDate": "2026-09-25",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32373434302d302d30",
+    "session_id": "",
+    "raw_title": "CM Modélisation et programmation SIG",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
