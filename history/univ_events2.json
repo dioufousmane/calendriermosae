@@ -219,5 +219,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "TD DAO/PAO: illustrator, indesign",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "24-09-2026 23:22:31",
+    "endDate": "2026-09-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333036332d312d30",
+    "session_id": "",
+    "raw_title": "TD DAO/PAO: illustrator, indesign",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "24-09-2026 23:22:31",
+    "endDate": "2026-09-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32393337322d302d30",
+    "session_id": "",
+    "raw_title": "Droit de l'environnement",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

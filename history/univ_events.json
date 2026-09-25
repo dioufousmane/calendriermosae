@@ -422,5 +422,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "24-09-2026 23:22:30",
+    "endDate": "2026-09-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353630312d342d30",
+    "session_id": "",
+    "raw_title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "24/09/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "E309 (36pl visio) hp",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "24-09-2026 23:22:30",
+    "endDate": "2026-09-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33373436362d302d30",
+    "session_id": "",
+    "raw_title": "1TD  LANGUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
