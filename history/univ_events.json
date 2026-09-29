@@ -502,5 +502,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "E314 (28pl) M2 URBA hp",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "30-09-2026 00:05:38",
+    "endDate": "2026-09-29",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32343434302d302d30",
+    "session_id": "",
+    "raw_title": "1TD  LANGUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "29/09/2026",
+    "start": "15:30",
+    "end": "17:30",
+    "title": "CM SEMIOLOGIE GRAPHIQUE",
+    "salle": "E316 (25pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "30-09-2026 00:05:38",
+    "endDate": "2026-09-29",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31303737342d302d30",
+    "session_id": "",
+    "raw_title": "CM SEMIOLOGIE GRAPHIQUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
