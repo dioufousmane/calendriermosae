@@ -482,5 +482,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "28/09/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "Référentiel Juridique et Foncier - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "28-09-2026 22:27:31",
+    "endDate": "2026-09-28",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313038362d302d30",
+    "session_id": "",
+    "raw_title": "Référentiel Juridique et Foncier - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

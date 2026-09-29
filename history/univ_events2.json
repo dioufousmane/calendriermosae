@@ -279,5 +279,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "28/09/2026",
+    "start": "09:00",
+    "end": "16:00",
+    "title": "1semaine alternance/projet",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "28-09-2026 22:27:33",
+    "endDate": "2026-09-28",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313137322d302d31",
+    "session_id": "",
+    "raw_title": "1semaine alternance/projet",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
