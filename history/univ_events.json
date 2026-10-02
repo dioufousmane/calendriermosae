@@ -642,5 +642,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1Référentiel Juridique et Foncier - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "03-10-2026 01:39:01",
+    "endDate": "2026-10-02",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313235342d332d30",
+    "session_id": "",
+    "raw_title": "1Référentiel Juridique et Foncier - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "02/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1CHANTIER ECOLE - ESGT",
+    "salle": "SALLE C2",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "03-10-2026 01:39:01",
+    "endDate": "2026-10-02",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33353934342d302d30",
+    "session_id": "",
+    "raw_title": "1CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
