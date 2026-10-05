@@ -682,5 +682,48 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "08:30",
+    "end": "10:30",
+    "title": "CM Ville durable et histoire de l'urbanisme",
+    "salle": "COURTHARDY (49pl) M1 VEU",
+    "enseignant": "BILLARD GERALD",
+    "maj": "06-10-2026 00:26:39",
+    "endDate": "2026-10-05",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313433362d302d30",
+    "session_id": "",
+    "raw_title": "1CM Ville durable et histoire de l'urbanisme",
+    "promotions": [
+      "M1 MATTERRE",
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "05/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "06-10-2026 00:26:39",
+    "endDate": "2026-10-05",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313937372d332d30",
+    "session_id": "",
+    "raw_title": "1TD SIG ET 3 D",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
