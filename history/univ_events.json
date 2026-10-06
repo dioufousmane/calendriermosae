@@ -725,5 +725,48 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "06/10/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Ville durable et changements climatiques",
+    "salle": "COURTHARDY (49pl) M1 VEU",
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "07-10-2026 01:41:31",
+    "endDate": "2026-10-06",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313434322d302d30",
+    "session_id": "",
+    "raw_title": "1CM Ville durable et changements climatiques",
+    "promotions": [
+      "M1 MATTERRE",
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "06/10/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD LANGUE",
+    "salle": "E314 (28pl) M2 URBA hp",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "07-10-2026 01:41:31",
+    "endDate": "2026-10-06",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31363531372d322d30",
+    "session_id": "",
+    "raw_title": "1TD  LANGUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
