@@ -814,5 +814,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "08/10/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "09-10-2026 01:09:55",
+    "endDate": "2026-10-08",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313930362d302d30",
+    "session_id": "",
+    "raw_title": "1EXAMEN",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
