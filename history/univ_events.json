@@ -768,5 +768,51 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/10/2026",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "CM Ville durable et changements climatiques",
+    "salle": "COURTHARDY (49pl) M1 VEU",
+    "enseignant": "TSAYEM DEMAZE MOISE",
+    "maj": "07-10-2026 21:50:26",
+    "endDate": "2026-10-07",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313434302d302d30",
+    "session_id": "",
+    "raw_title": "1CM Ville durable et changements climatiques",
+    "promotions": [
+      "M1 MATTERRE",
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "07/10/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "TD Ville durable et changements climatiques",
+    "salle": "COURTHARDY (49pl) M1 VEU",
+    "enseignant": "BILLARD GERALD",
+    "maj": "07-10-2026 21:50:26",
+    "endDate": "2026-10-07",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313433392d302d30",
+    "session_id": "",
+    "raw_title": "1TD Ville durable et changements climatiques",
+    "promotions": [
+      "M1 MATTERRE",
+      "M1 MIDEC",
+      "M1 URBANISTIC",
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
