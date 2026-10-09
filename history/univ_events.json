@@ -834,5 +834,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "09/10/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "salle": "ESGT",
+    "enseignant": "COLLIN BELLIER",
+    "maj": "10-10-2026 01:55:09",
+    "endDate": "2026-10-09",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353630312d372d30",
+    "session_id": "",
+    "raw_title": "Analyse des Paysages et des Dynamiques Rurales - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
