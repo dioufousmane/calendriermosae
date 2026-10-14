@@ -479,5 +479,64 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "08:00",
+    "end": "10:00",
+    "title": "CM Gestion de projets et de budget",
+    "salle": "Amphi Véron de Forbonnais (360pl)",
+    "enseignant": "HERMAN AUDREY",
+    "maj": "15-10-2026 01:05:05",
+    "endDate": "2026-10-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d353034332d302d30",
+    "session_id": "",
+    "raw_title": "CM Gestion de projets et de budget",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "14:30",
+    "end": "17:00",
+    "title": "CM Construction d'un observatoire",
+    "salle": "E109 (20pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "15-10-2026 01:05:05",
+    "endDate": "2026-10-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d34393139392d302d30",
+    "session_id": "",
+    "raw_title": "CM Construction d'un observatoire",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "17:00",
+    "end": "18:30",
+    "title": "Réunion échanges bilatéraux",
+    "salle": "Amphi Mersenne (291pl)",
+    "enseignant": "LETTRES LAMOTHE ELISABETH",
+    "maj": "15-10-2026 01:05:05",
+    "endDate": "2026-10-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333339332d302d30",
+    "session_id": "",
+    "raw_title": "Réunion échanges bilatéraux",
+    "promotions": [],
+    "groups": [],
+    "formations": []
   }
 ]

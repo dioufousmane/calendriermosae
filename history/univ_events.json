@@ -854,5 +854,43 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "TD GEODESIE",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "15-10-2026 01:05:03",
+    "endDate": "2026-10-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32373635332d312d30",
+    "session_id": "",
+    "raw_title": "1TD GEODESIE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "14/10/2026",
+    "start": "17:00",
+    "end": "18:30",
+    "title": "Réunion échanges bilatéraux",
+    "salle": "Amphi Mersenne (291pl)",
+    "enseignant": "LETTRES LAMOTHE ELISABETH",
+    "maj": "15-10-2026 01:05:03",
+    "endDate": "2026-10-14",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333339332d302d30",
+    "session_id": "",
+    "raw_title": "Réunion échanges bilatéraux",
+    "promotions": [],
+    "groups": [],
+    "formations": []
   }
 ]
