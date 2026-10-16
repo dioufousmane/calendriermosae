@@ -538,5 +538,25 @@
     "promotions": [],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "15-10-2026 23:10:33",
+    "endDate": "2026-10-15",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32393337322d312d30",
+    "session_id": "",
+    "raw_title": "Droit de l'environnement",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

@@ -892,5 +892,45 @@
     "promotions": [],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD SIG ET 3 D",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "15-10-2026 23:10:32",
+    "endDate": "2026-10-15",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313237332d312d30",
+    "session_id": "",
+    "raw_title": "1TD SIG ET 3 D",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "15/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Droit administratif",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "15-10-2026 23:10:32",
+    "endDate": "2026-10-15",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313331322d302d33",
+    "session_id": "",
+    "raw_title": "1Droit administratif",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
