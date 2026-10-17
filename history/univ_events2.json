@@ -558,5 +558,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "CM Modélisation et programmation SIG",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "16-10-2026 22:47:59",
+    "endDate": "2026-10-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32373434302d312d30",
+    "session_id": "",
+    "raw_title": "CM Modélisation et programmation SIG",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "16/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "16-10-2026 22:47:59",
+    "endDate": "2026-10-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32393337322d322d30",
+    "session_id": "",
+    "raw_title": "Droit de l'environnement",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
