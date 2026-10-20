@@ -1032,5 +1032,101 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "20/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Annulation des cours en présentiel suite au blocage",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "21-10-2026 01:04:02",
+    "endDate": "2026-10-20",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d35333830312d302d30",
+    "session_id": "",
+    "raw_title": "Annulation des cours en présentiel suite au blocage",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP GDSM",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "LP METIERS DU NUMERIQUE",
+      "LP PARCOURS CONCEPTION ET MISE EN OEUVRE DE PROJETS CULTURELS",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 ARCHEOLOGIE PREVENTIVE",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 ARCHEOLOGIE PREVENTIVE",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 LEA",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "20/10/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "21-10-2026 01:04:02",
+    "endDate": "2026-10-20",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36323536322d332d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "20/10/2026",
+    "start": "12:00",
+    "end": "13:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "21-10-2026 01:04:02",
+    "endDate": "2026-10-20",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36323536322d362d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "20/10/2026",
+    "start": "14:00",
+    "end": "15:30",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "21-10-2026 01:04:02",
+    "endDate": "2026-10-20",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313930362d312d30",
+    "session_id": "",
+    "raw_title": "1EXAMEN",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
