@@ -598,5 +598,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "Droit de l'aménagement",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "19-10-2026 22:56:19",
+    "endDate": "2026-10-19",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735352d312d30",
+    "session_id": "",
+    "raw_title": "Droit de l'aménagement",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "E112 (17pl)",
+    "enseignant": "non renseigné",
+    "maj": "19-10-2026 22:56:19",
+    "endDate": "2026-10-19",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313532332d322d30",
+    "session_id": "",
+    "raw_title": "CM Construction d'un observatoire",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

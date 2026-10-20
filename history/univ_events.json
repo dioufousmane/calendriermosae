@@ -972,5 +972,65 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Diagnostic Territorial",
+    "salle": "E316 (25pl)",
+    "enseignant": "PESLIER MARINE",
+    "maj": "19-10-2026 22:56:18",
+    "endDate": "2026-10-19",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33333139382d302d30",
+    "session_id": "",
+    "raw_title": "1CM Diagnostic Territorial",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "19-10-2026 22:56:18",
+    "endDate": "2026-10-19",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36323536322d302d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "19/10/2026",
+    "start": "17:00",
+    "end": "18:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "19-10-2026 22:56:18",
+    "endDate": "2026-10-19",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36323536322d342d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
