@@ -735,5 +735,101 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Annulation des cours en présentiel suite au blocage",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "23-10-2026 01:08:04",
+    "endDate": "2026-10-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33353839342d302d30",
+    "session_id": "",
+    "raw_title": "Annulation des cours en présentiel suite au blocage",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP GDSM",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "LP METIERS DU NUMERIQUE",
+      "LP PARCOURS CONCEPTION ET MISE EN OEUVRE DE PROJETS CULTURELS",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 ARCHEOLOGIE PREVENTIVE",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 ARCHEOLOGIE PREVENTIVE",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 LEA",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "08:30",
+    "end": "11:30",
+    "title": "TD CAO : Autocad COCADIS",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "23-10-2026 01:08:04",
+    "endDate": "2026-10-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323839342d302d30",
+    "session_id": "",
+    "raw_title": "TD CAO : Autocad COCADIS",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "11:30",
+    "end": "12:45",
+    "title": "TD CAO : Autocad COCADIS",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "23-10-2026 01:08:04",
+    "endDate": "2026-10-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735362d302d30",
+    "session_id": "",
+    "raw_title": "1TD CAO : Autocad COCADIS",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "Droit de l'environnement",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "23-10-2026 01:08:04",
+    "endDate": "2026-10-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32393337322d332d30",
+    "session_id": "",
+    "raw_title": "Droit de l'environnement",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

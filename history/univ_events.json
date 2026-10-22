@@ -1128,5 +1128,61 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Annulation des cours en présentiel suite au blocage",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "23-10-2026 01:08:03",
+    "endDate": "2026-10-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33353839342d302d30",
+    "session_id": "",
+    "raw_title": "Annulation des cours en présentiel suite au blocage",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP GDSM",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "LP METIERS DU NUMERIQUE",
+      "LP PARCOURS CONCEPTION ET MISE EN OEUVRE DE PROJETS CULTURELS",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 ARCHEOLOGIE PREVENTIVE",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 ARCHEOLOGIE PREVENTIVE",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 LEA",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "22/10/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1Droit administratif",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "23-10-2026 01:08:03",
+    "endDate": "2026-10-22",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313331322d302d34",
+    "session_id": "",
+    "raw_title": "1Droit administratif",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
