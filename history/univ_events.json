@@ -1346,5 +1346,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "28/10/2026",
+    "start": "09:30",
+    "end": "16:30",
+    "title": "1VACANCES UNIVERSITAIRES",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "28-10-2026 23:25:05",
+    "endDate": "2026-10-28",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313139332d302d33",
+    "session_id": "",
+    "raw_title": "1VACANCES UNIVERSITAIRES",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
