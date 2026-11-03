@@ -1406,5 +1406,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "02/11/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "TD LANGUE",
+    "salle": "E304 (24pl)",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "02-11-2026 21:07:41",
+    "endDate": "2026-11-02",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313533342d312d30",
+    "session_id": "",
+    "raw_title": "1TD LANGUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "02/11/2026",
+    "start": "13:30",
+    "end": "16:30",
+    "title": "TD Diagnostic Territorial",
+    "salle": "E316 (25pl)",
+    "enseignant": "PESLIER MARINE",
+    "maj": "02-11-2026 21:07:41",
+    "endDate": "2026-11-02",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33333139322d302d30",
+    "session_id": "",
+    "raw_title": "1TD Diagnostic Territorial",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
