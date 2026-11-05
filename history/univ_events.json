@@ -1501,5 +1501,80 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Annulation des cours en présentiel suite à la décision de la Présidence",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "06-11-2026 00:29:26",
+    "endDate": "2026-11-05",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333234312d302d30",
+    "session_id": "",
+    "raw_title": "Annulation des cours en présentiel suite à la décision de la Présidence",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP GDSM",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "LP METIERS DU NUMERIQUE",
+      "LP PARCOURS CONCEPTION ET MISE EN OEUVRE DE PROJETS CULTURELS",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 ARCHEOLOGIE PREVENTIVE",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 ARCHEOLOGIE PREVENTIVE",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1TOPOGRAPHIE - CM",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "06-11-2026 00:29:26",
+    "endDate": "2026-11-05",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32383930382d302d30",
+    "session_id": "",
+    "raw_title": "1TOPOGRAPHIE - CM",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "05/11/2026",
+    "start": "14:00",
+    "end": "18:15",
+    "title": "CM Droit Administratif",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "06-11-2026 00:29:26",
+    "endDate": "2026-11-05",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33323435392d302d30",
+    "session_id": "",
+    "raw_title": "CM Droit Administratif",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
