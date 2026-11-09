@@ -3,56 +3,68 @@ name: Générer tous les événements M1 et M2
 on:
   workflow_dispatch:
   schedule:
-  - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
+    - cron: "0 */2 * * *"  # Toutes les 2 heures (UTC)
 
 permissions:
   contents: write
 
+concurrency:
+  group: generate-events-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate-events:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: 📥 Cloner le dépôt
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 🐍 Configurer Python 3.9
         uses: actions/setup-python@v4
         with:
           python-version: "3.9"
 
-      - name: 🧪 Vérifier la version de Python#
+      - name: 🧪 Vérifier la version de Python
         run: python --version
 
-      - name: 📦 Installer les dépendances
+      - name: 📦 Installer les dépendances Python
         run: |
           python -m pip install --upgrade pip
-          pip install ics pytz requests
+          python -m pip install ics pytz requests
+
       - name: ⚙️ Générer tous les fichiers JSON
         run: |
           python esgt_generate_events.py
           python univ_generate_events.py
-      - name: Générer les abonnements enrichis
+
+      - name: 🟢 Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: 📅 Générer les abonnements enrichis
         run: node scripts/generate-feeds.mjs
 
-      - name: 📤 Commit & push si des fichiers ont changé
+      - name: 📤 Commit et push si des fichiers ont changé
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          CHANGED=0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           for f in esgt_events.json esgt_events2.json univ_events.json univ_events2.json; do
             if [ -f "$f" ]; then
               git add "$f"
-              CHANGED=1
             else
               echo "❌ Fichier $f non généré."
               exit 1
             fi
           done
+
           git add feeds/ history/
+
           if git diff --cached --quiet; then
-            echo "✅ Aucun changement détecté dans les fichiers JSON."
+            echo "✅ Aucun changement détecté."
           else
-            git commit -m "🔄 Mise à jour automatique des fichiers événements"
+            git commit -m "🔄 Mise à jour automatique des événements et abonnements"
             git push
           fi
