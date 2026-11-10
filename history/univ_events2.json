@@ -1230,5 +1230,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CM Réalisation - Construction",
+    "salle": "E115 (21pl)",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "09-11-2026 21:33:54",
+    "endDate": "2026-11-09",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31393231352d302d30",
+    "session_id": "",
+    "raw_title": "1CM Réalisation - Construction",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "09/11/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "09-11-2026 21:33:54",
+    "endDate": "2026-11-09",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31303739352d312d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
