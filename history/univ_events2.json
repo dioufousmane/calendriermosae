@@ -1270,5 +1270,140 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Annulation des cours en présentiel suite au blocage",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:33",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d35343030332d302d30",
+    "session_id": "",
+    "raw_title": "Annulation des cours en présentiel suite au blocage",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP GDSM",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "LP METIERS DU NUMERIQUE",
+      "LP PARCOURS CONCEPTION ET MISE EN OEUVRE DE PROJETS CULTURELS",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 ARCHEOLOGIE PREVENTIVE",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 ARCHEOLOGIE PREVENTIVE",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "09:30",
+    "end": "12:30",
+    "title": "CM Construction d'un observatoire",
+    "salle": "E112 (17pl)",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:33",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313532332d302d30",
+    "session_id": "",
+    "raw_title": "CM Construction d'un observatoire",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "E203 (42pl) hp",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "10-11-2026 21:44:33",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d323536362d322d30",
+    "session_id": "",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "15:15",
+    "end": "16:30",
+    "title": "EXAMEN ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:33",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735372d302d34",
+    "session_id": "",
+    "raw_title": "EXAMEN ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "16:30",
+    "end": "17:45",
+    "title": "EXAMEN ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:33",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735372d302d33",
+    "session_id": "",
+    "raw_title": "EXAMEN ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "17:45",
+    "end": "19:00",
+    "title": "EXAMEN ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:33",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735372d302d35",
+    "session_id": "",
+    "raw_title": "EXAMEN ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

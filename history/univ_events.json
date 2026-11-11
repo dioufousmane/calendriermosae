@@ -1616,5 +1616,80 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "08:00",
+    "end": "20:00",
+    "title": "Annulation des cours en présentiel suite au blocage",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:31",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d35343030332d302d30",
+    "session_id": "",
+    "raw_title": "Annulation des cours en présentiel suite au blocage",
+    "promotions": [
+      "LP ANALYSE DES TERRITOIRES PAR L'INFORMATION ET LA GÉOGRAPHIE (999)",
+      "LP GDSM",
+      "LP METIERS DU COMMERCE INTERNATIONAL",
+      "LP METIERS DU NUMERIQUE",
+      "LP PARCOURS CONCEPTION ET MISE EN OEUVRE DE PROJETS CULTURELS",
+      "LP PARCOURS DEVELOPPEMENT ET PROTECTION DU PATRIMOINE CULTUREL",
+      "M1 ARCHEOLOGIE PREVENTIVE",
+      "M1 HISTOIRE CIVILISATIONS ET PATRIMOINE",
+      "M1 LEA",
+      "M1 VILLE ET ENVIRONNEMENTS URBAINS",
+      "M2 ARCHEOLOGIE PREVENTIVE",
+      "M2 HISTOIRE - MÉTIERS DE L'HISTOIRE",
+      "M2 HISTOIRE - PATRIMOINE",
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 1",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "1TOPOGRAPHIE - CM",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:31",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32383930382d312d30",
+    "session_id": "",
+    "raw_title": "1TOPOGRAPHIE - CM",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "10/11/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "10-11-2026 21:44:31",
+    "endDate": "2026-11-10",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313930362d322d30",
+    "session_id": "",
+    "raw_title": "1EXAMEN",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
