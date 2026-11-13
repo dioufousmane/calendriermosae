@@ -1691,5 +1691,65 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "08:30",
+    "end": "10:30",
+    "title": "1TOPOGRAPHIE - TD",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "12-11-2026 19:01:10",
+    "endDate": "2026-11-12",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33383739352d302d30",
+    "session_id": "",
+    "raw_title": "1TOPOGRAPHIE - TD",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "10:30",
+    "end": "12:45",
+    "title": "1TOPOGRAPHIE - TD",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "12-11-2026 19:01:10",
+    "endDate": "2026-11-12",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33383739352d312d30",
+    "session_id": "",
+    "raw_title": "1TOPOGRAPHIE - TD",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-11-2026 19:01:10",
+    "endDate": "2026-11-12",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33313930362d332d30",
+    "session_id": "",
+    "raw_title": "1EXAMEN",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

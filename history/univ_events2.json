@@ -1405,5 +1405,65 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-11-2026 19:01:11",
+    "endDate": "2026-11-12",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735372d302d32",
+    "session_id": "",
+    "raw_title": "EXAMEN ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "12-11-2026 19:01:11",
+    "endDate": "2026-11-12",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31303739352d302d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "12/11/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CM Construction d'un observatoire",
+    "salle": "E109 (20pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "12-11-2026 19:01:11",
+    "endDate": "2026-11-12",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d34393139392d332d30",
+    "session_id": "",
+    "raw_title": "CM Construction d'un observatoire",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
