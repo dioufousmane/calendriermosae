@@ -1751,5 +1751,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "1TELEDETECTION",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "14-11-2026 00:25:44",
+    "endDate": "2026-11-13",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32393033342d302d31",
+    "session_id": "",
+    "raw_title": "1TELEDETECTION",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

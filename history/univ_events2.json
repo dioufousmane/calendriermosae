@@ -1465,5 +1465,65 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "14-11-2026 00:25:46",
+    "endDate": "2026-11-13",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d33383130342d302d30",
+    "session_id": "",
+    "raw_title": "EXAMEN ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "TD DAO/PAO: illustrator, indesign",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "14-11-2026 00:25:46",
+    "endDate": "2026-11-13",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333036332d322d30",
+    "session_id": "",
+    "raw_title": "TD DAO/PAO: illustrator, indesign",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "13/11/2026",
+    "start": "14:00",
+    "end": "16:30",
+    "title": "TD DAO/PAO: illustrator, indesign",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "14-11-2026 00:25:46",
+    "endDate": "2026-11-13",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333036332d332d30",
+    "session_id": "",
+    "raw_title": "TD DAO/PAO: illustrator, indesign",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
