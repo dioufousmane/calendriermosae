@@ -1771,5 +1771,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "16/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "TD Diagnostic Territorial",
+    "salle": "E107/108 (46pl)",
+    "enseignant": "PESLIER MARINE",
+    "maj": "16-11-2026 16:24:27",
+    "endDate": "2026-11-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32313539302d302d30",
+    "session_id": "",
+    "raw_title": "1TD Diagnostic Territorial",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Lundi",
+    "date": "16/11/2026",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "16-11-2026 16:24:27",
+    "endDate": "2026-11-16",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735322d322d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
