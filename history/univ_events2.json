@@ -1565,5 +1565,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "17/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "17-11-2026 21:41:23",
+    "endDate": "2026-11-17",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31303739352d342d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "17/11/2026",
+    "start": "13:30",
+    "end": "15:30",
+    "title": "TD Anglais technique et scientifique",
+    "salle": "E306 (42pl)",
+    "enseignant": "GOURRI ABDRAHIM",
+    "maj": "17-11-2026 21:41:23",
+    "endDate": "2026-11-17",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d333037342d322d30",
+    "session_id": "",
+    "raw_title": "TD Anglais technique et scientifique ",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
