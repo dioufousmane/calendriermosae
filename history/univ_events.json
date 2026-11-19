@@ -1851,5 +1851,65 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "18-11-2026 22:45:26",
+    "endDate": "2026-11-18",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735322d342d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/11/2026",
+    "start": "14:00",
+    "end": "15:15",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-11-2026 22:45:26",
+    "endDate": "2026-11-18",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333734372d302d30",
+    "session_id": "",
+    "raw_title": "1EXAMEN",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "18/11/2026",
+    "start": "16:00",
+    "end": "17:15",
+    "title": "1EXAMEN",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "18-11-2026 22:45:26",
+    "endDate": "2026-11-18",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333734372d312d30",
+    "session_id": "",
+    "raw_title": "1EXAMEN",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
