@@ -1911,5 +1911,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "19/11/2026",
+    "start": "10:00",
+    "end": "12:45",
+    "title": "PHOTOGRAMETRIE- LASERGRAMETRIE",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "19-11-2026 23:01:31",
+    "endDate": "2026-11-19",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d373131302d302d30",
+    "session_id": "",
+    "raw_title": "PHOTOGRAMETRIE- LASERGRAMETRIE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
