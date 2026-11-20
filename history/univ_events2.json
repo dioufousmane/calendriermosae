@@ -1706,5 +1706,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "20/11/2026",
+    "start": "08:30",
+    "end": "09:45",
+    "title": "EXAMEN ESGT",
+    "salle": "non renseignée",
+    "enseignant": "non renseigné",
+    "maj": "21-11-2026 00:52:13",
+    "endDate": "2026-11-20",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36333735372d302d31",
+    "session_id": "",
+    "raw_title": "EXAMEN ESGT",
+    "promotions": [
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
