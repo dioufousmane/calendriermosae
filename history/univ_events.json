@@ -2011,5 +2011,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "24/11/2026",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "CM SEMIOLOGIE GRAPHIQUE",
+    "salle": "E316 (25pl)",
+    "enseignant": "PAYSANT GUILLAUME",
+    "maj": "24-11-2026 18:20:54",
+    "endDate": "2026-11-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d31303737342d302d30",
+    "session_id": "",
+    "raw_title": "1CM SEMIOLOGIE GRAPHIQUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "24/11/2026",
+    "start": "14:00",
+    "end": "17:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "BAILLY GUILLAUME",
+    "maj": "24-11-2026 18:20:54",
+    "endDate": "2026-11-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36363330352d302d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]

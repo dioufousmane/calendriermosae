@@ -1747,5 +1747,26 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mardi",
+    "date": "24/11/2026",
+    "start": "12:00",
+    "end": "17:00",
+    "title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "salle": "RACAN (47pl) M2 MIDEC",
+    "enseignant": "non renseigné",
+    "maj": "24-11-2026 18:20:55",
+    "endDate": "2026-11-24",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36313633382d302d31",
+    "session_id": "",
+    "raw_title": "1Banalisé Altern. / Projets tutorés/ Stage annualisé",
+    "promotions": [
+      "M2 VILLE ET ENVIRONNEMENT URBAIN",
+      "MOSAE 2"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
