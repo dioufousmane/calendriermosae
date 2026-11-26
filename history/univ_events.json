@@ -2051,5 +2051,25 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Mercredi",
+    "date": "25/11/2026",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "TD LANGUE",
+    "salle": "E314 (28pl) M2 URBA hp",
+    "enseignant": "STAPS   GOURRI ABDRAHIM",
+    "maj": "25-11-2026 15:03:05",
+    "endDate": "2026-11-25",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d313533342d322d30",
+    "session_id": "",
+    "raw_title": "1TD LANGUE",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
