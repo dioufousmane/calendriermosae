@@ -2071,5 +2071,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "CHANTIER ECOLE - ESGT",
+    "salle": "ESGT",
+    "enseignant": "non renseigné",
+    "maj": "26-11-2026 22:15:09",
+    "endDate": "2026-11-26",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d36343930352d302d30",
+    "session_id": "",
+    "raw_title": "CHANTIER ECOLE - ESGT",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Jeudi",
+    "date": "26/11/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1BIM/CIM",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "26-11-2026 22:15:09",
+    "endDate": "2026-11-26",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d35373637352d302d30",
+    "session_id": "",
+    "raw_title": "1BIM/CIM",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
