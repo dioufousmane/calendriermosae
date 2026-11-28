@@ -2111,5 +2111,45 @@
     ],
     "groups": [],
     "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "27/11/2026",
+    "start": "08:30",
+    "end": "12:45",
+    "title": "BIM/CIM",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "27-11-2026 23:34:58",
+    "endDate": "2026-11-27",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d35373637362d302d30",
+    "session_id": "",
+    "raw_title": "BIM/CIM",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
+  },
+  {
+    "day": "Vendredi",
+    "date": "27/11/2026",
+    "start": "14:00",
+    "end": "16:45",
+    "title": "1TELEDETECTION",
+    "salle": "Salle ESGT",
+    "enseignant": "non renseigné",
+    "maj": "27-11-2026 23:34:58",
+    "endDate": "2026-11-27",
+    "allDay": false,
+    "uid": "ADE6070726f6a6574756e6976323032362d323032372d32393033342d302d33",
+    "session_id": "",
+    "raw_title": "1TELEDETECTION",
+    "promotions": [
+      "MOSAE 1"
+    ],
+    "groups": [],
+    "formations": []
   }
 ]
